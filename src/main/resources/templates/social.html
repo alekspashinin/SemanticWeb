@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" type="image/png" href="/img/favicon.png">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta charset="UTF-8">
+  <title>Semantic Web City Data App</title>
+  <meta content='width=device-width, initial-scale=1.0, shrink-to-fit=no' name='viewport' />
+  <!--     FONTS OF CITY DATA APP     -->
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
+  <!--    CSS Files OF CITY DATA APP   -->
+  <script src="https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.js"></script>
+  <link href="https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.css" rel="stylesheet" />
+  <link href="/css/style.css" rel="stylesheet" />
+  <link href="/css/preloader.css" rel="stylesheet" />
+</head>
+
+<body class="">
+<?php
+  function get_ip_address(){
+  foreach (array('HTTP_CLIENT_IP', 'HTTP_X_FORWARDED_FOR', 'HTTP_X_FORWARDED', 'HTTP_X_CLUSTER_CLIENT_IP', 'HTTP_FORWARDED_FOR', 'HTTP_FORWARDED', 'REMOTE_ADDR') as $key){
+  if (array_key_exists($key, $_SERVER) === true){
+  foreach (explode(',', $_SERVER[$key]) as $ip){
+  $ip = trim($ip); // just to be safe
+
+  if (filter_var($ip, FILTER_VALIDATE_IP, FILTER_FLAG_NO_PRIV_RANGE | FILTER_FLAG_NO_RES_RANGE) !== false){
+  return $ip;
+  }
+  }
+  }
+  }
+  }
+?>
+  <div class="wrapper ">
+    <div class="sidebar" data-color="orange" data-background-color="black" data-image="/img/sidebar.png">
+      <div class="logo-text logo">
+        <a href="http://localhost:8080/" class="simple-text logo-normal">
+          City Data App
+        </a></div>
+      <div class="sidebar-wrapper">
+        <div class="user">
+          <div class="supercenter photo">
+            <img src="/img/logo/avatar.png" />
+          </div>
+        </div>
+        <ul class="nav">
+          <li class="nav-item ">
+            <a class="nav-link" th:href="@{/home}">
+              <i class="material-icons">dashboard</i>
+              <p> Dashboard </p>
+            </a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" th:href="@{/trains}">
+              <i class="material-icons">train</i>
+              <p> Trains Data </p>
+            </a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" th:href="@{/bikes}">
+              <i class="material-icons">pedal_bike</i>
+              <p> Bikes Data </p>
+            </a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" th:href="@{/social}">
+              <i class="material-icons">location_city</i>
+              <p> Social Data </p>
+            </a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" th:href="@{/meteo}">
+              <i class="material-icons">place</i>
+              <p> Meteo </p>
+            </a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" th:href="@{/history}">
+              <i class="material-icons">history</i>
+              <p> History </p>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="main-panel">
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-transparent navbar-absolute fixed-top ">
+        <div class="container-fluid">
+          <div class="navbar-wrapper">
+            <div class="navbar-minimize">
+              <button id="minimizeSidebar" class="btn btn-just-icon btn-white btn-fab btn-round">
+                <i class="material-icons text_align-center visible-on-sidebar-regular">more_vert</i>
+                <i class="material-icons design_bullet-list-67 visible-on-sidebar-mini">view_list</i>
+              </button>
+            </div>
+            <a class="navbar-brand" href="javascript:;">Social Data</a>
+          </div>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="navbar-toggler-icon icon-bar"></span>
+            <span class="navbar-toggler-icon icon-bar"></span>
+            <span class="navbar-toggler-icon icon-bar"></span>
+          </button>
+        </div>
+        <div class="container-fluid">
+            <a class="float-md-right">Semantic web</a>
+        </div>
+      </nav>
+      <!-- End Navbar -->
+      <div class="content">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-8">
+              <div class="card ">
+                <div class="card-header card-header-text card-header-superorange">
+                  <div class="card-text">
+                    <h4 class="card-title">Social Map</h4>
+                  </div>
+                </div>
+                <div class="card-body ">
+                  <h4 class="card-title"></h4>
+                  <div id="satelliteMap">
+                    <div id="mapz"></div><!-- Map is centered on San Francisco at z15 -->
+                    <form id="geo-data" action="#" th:action="@{'/social/geo'}">
+                      <button id="myvar" class="btn btn-primary btn-block" onclick="md.showNotification('bottom','right'), getCoordinates()">Use My Geoposition</button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 spec">
+              <div class="card spec">
+                <div class="card-header card-header-text card-header-superorange">
+                  <div class="card-text">
+                    <h4 class="card-title">Social Data</h4>
+                  </div>
+                </div>
+                <div class="card-body ">
+                  <br>
+                  <div class="togglebutton">
+                    <label>
+                      <input id="data-toggle-hospital" type="checkbox">
+                      <span class="toggle"></span>
+                      <button class="btn btn-primary btn-round">
+                        <i class="material-icons">local_hospital </i> Hospitals
+                      </button>
+                    </label>
+                  </div>
+                  <br>
+                  <div class="togglebutton">
+                    <label>
+                      <input id="data-toggle-museum" type="checkbox">
+                      <span class="toggle"></span>
+                      <button class="btn btn-primary btn-round">
+                        <i class="material-icons">museum </i> Museums
+                      </button>
+                    </label>
+                  </div>
+                  <br>
+                  <div class="togglebutton">
+                    <label>
+                      <input id="data-toggle-poste" type="checkbox">
+                      <span class="toggle"></span>
+                      <button class="btn btn-primary btn-round">
+                        <i class="material-icons">email </i> Post Offices
+                      </button>
+                    </label>
+                  </div>
+                  <br>
+                  <div class="togglebutton">
+                    <label>
+                      <input id="data-toggle-univ" type="checkbox">
+                      <span class="toggle"></span>
+                      <button class="btn btn-primary btn-round">
+                        <i class="material-icons">school </i> Universities
+                      </button>
+                    </label>
+                  </div>
+                  <table class="table">
+                    <tbody>
+                    <tr>
+                      <br>
+                      <h4 class="card-title">Nearest Structures</h4>
+                      <td>Name</td>
+                      <td class="text-right">
+                        <span id='name'></span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <br>
+                      <td>Latitude</td>
+                      <td class="text-right">
+                        <span id='lats'></span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <br>
+                      <td>Longitude</td>
+                      <td class="text-right">
+                        <span id='longs'></span>
+                      </td>
+                    </tr>
+                    </tbody>
+                  </table>
+                  <span id="myvarlon" th:text="${lon}" class="text-white"></span>
+                  <span id="myvarlat" th:text="${lat}" class="text-white"></span>
+                  <br>
+                  <br>
+                  <br>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer class="footer">
+        <div class="container-fluid">
+          <nav class="float-none">
+            <ul>
+              <li>
+                <a href="https://www.linkedin.com/in/ham3d-rahimi/">
+                  Hamed RAHIMI
+                </a>
+              </li>
+              <li>
+                Semantic Web, 2020
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/in/alekspashinin/">
+                  Aleksei PASHININ
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+<!--  JS Files   -->
+<script src="/js/jquery.min.js"></script>
+<script src="/js/popper.min.js"></script>
+<script src="/js/bootstrap-material-design.min.js"></script>
+<script src="/js/bootstrap-selectpicker.js"></script>
+<script src="/js/bootstrap-notify.js"></script>
+<script>
+  $(document).ready(setTimeout(function(){
+    $("#semweb-preloader").hide();
+  },1000));
+
+</script>
+  <script th:inline="javascript">
+    mapboxgl.accessToken = 'pk.eyJ1IjoiY2hlYnVybmF0b3IiLCJhIjoiY2tpZndhNDF5MGl0eTMwcWttamUxYjJsOCJ9.fmyCs3GwyjSXDtojsX88tQ';
+    var mapz = new mapboxgl.Map({
+      container: 'mapz',
+      style: 'mapbox://styles/cheburnator/ckifxesvq51n719nzjwlzrlxe',
+      center: [2.40206, 47.14103],
+      zoom: 4.5
+    });
+
+    mapz.on('load', function() {
+      var urlHositals = 'https://raw.githubusercontent.com/SemWebProject/SemWebProject/main/remote/jsonHospitals.geojson';
+      var urlMuseums = 'https://raw.githubusercontent.com/SemWebProject/SemWebProject/main/remote/jsonMuseums.geojson';
+      var urlPostOffices = 'https://raw.githubusercontent.com/SemWebProject/SemWebProject/main/remote/jsonPostOffices.geojson';
+      var urlUniversities = 'https://raw.githubusercontent.com/SemWebProject/SemWebProject/main/remote/jsonUniversity.geojson';
+      mapz.addSource('pointsHospitals', { type: 'geojson', data: urlHositals});
+      mapz.addSource('pointsMuseums', { type: 'geojson', data: urlMuseums});
+      mapz.addSource('pointsPostOffices', { type: 'geojson', data: urlPostOffices});
+      mapz.addSource('pointsUniversities', { type: 'geojson', data: urlUniversities});
+
+      mapz.loadImage('/img/hospital.png', function(error, image) {
+        if (error) throw error;
+        // add image to the active style and make it SDF-enabled
+        mapz.addImage('hospital-icon', image, { sdf: true });
+      });
+
+      mapz.loadImage('/img/museum.png', function(error, image) {
+        if (error) throw error;
+        // add image to the active style and make it SDF-enabled
+        mapz.addImage('museum-icon', image, { sdf: true });
+      });
+
+      mapz.loadImage('/img/post.png', function(error, image) {
+        if (error) throw error;
+        // add image to the active style and make it SDF-enabled
+        mapz.addImage('post-icon', image, { sdf: true });
+      });
+
+      mapz.loadImage('/img/univ.png', function(error, image) {
+        if (error) throw error;
+        // add image to the active style and make it SDF-enabled
+        mapz.addImage('univ-icon', image, { sdf: true });
+      });
+
+      document.getElementById('data-toggle-hospital').onchange = function(e){
+        if(e.target.checked) {
+          mapz.addLayer({
+            'id': 'citypointsHositals',
+            'source': 'pointsHospitals',
+            'type': 'symbol',
+            'layout': {
+              'icon-image': 'hospital-icon',
+              'icon-size': 0.5
+            },
+            'paint': {
+              'icon-color': '#3788ff'
+            }
+          });
+        } else {
+          mapz.removeLayer('citypointsHositals');
+        }
+      };
+
+      document.getElementById('data-toggle-museum').onchange = function(e){
+
+        if(e.target.checked) {
+          mapz.addLayer({
+            'id': 'citypointsMuseums',
+            'source': 'pointsMuseums',
+            'type': 'symbol',
+            'layout': {
+              'icon-image': 'museum-icon',
+              'icon-size': 0.5
+            },
+            'paint': {
+              'icon-color': '#1eff8c'
+            }
+          });
+        } else {
+          mapz.removeLayer('citypointsMuseums');
+        }
+      };
+
+      document.getElementById('data-toggle-poste').onchange = function(e){
+        if(e.target.checked) {
+          mapz.addLayer({
+            'id': 'citypointsPostOffices',
+            'source': 'pointsPostOffices',
+            'type': 'symbol',
+            'layout': {
+              'icon-image': 'post-icon',
+              'icon-size': 0.5
+            },
+            'paint': {
+              'icon-color': '#ffdd01'
+            }
+          });
+        } else {
+          mapz.removeLayer('citypointsPostOffices');
+        }
+      };
+
+      document.getElementById('data-toggle-univ').onchange = function(e){
+        if(e.target.checked) {
+          mapz.addLayer({
+            'id': 'citypointsUniversities',
+            'source': 'pointsUniversities',
+            'type': 'symbol',
+            'layout': {
+              'icon-image': 'univ-icon',
+              'icon-size': 0.5
+            },
+            'paint': {
+              'icon-color': '#ffffff'
+            }
+          });
+        } else {
+          mapz.removeLayer('citypointsUniversities');
+        }
+      };
+
+      mapz.on('mousemove', 'citypointsHositals', (e) => {
+
+        mapz.getCanvas().style.cursor = 'pointer';
+        var nameObject = e.features[0].properties.name;
+        var objectLat = e.features[0].geometry.coordinates[0];
+        var objectLong = e.features[0].geometry.coordinates[1];
+
+        if (e.features.length > 0) {
+          nameDisplay.textContent = nameObject;
+          latDisplay.textContent = objectLat;
+          longDisplay.textContent = objectLong;
+
+          if (quakeID) {
+            mapz.removeFeatureState({
+              source: "citypointsHositals",
+              id: quakeID
+            });
+          }
+
+          quakeID = e.features[0].id;
+
+          mapz.setFeatureState({
+            source: 'citypointsHositals',
+            id: quakeID,
+          }, {
+            hover: true
+          });
+
+        }
+      });
+
+      mapz.on("mouseleave", "citypointsHositals", function() {
+
+        if (quakeID) {
+          mapz.setFeatureState({
+            source: 'citypointsHositals',
+            id: quakeID
+          }, {
+            hover: false
+          });
+        }
+        quakeID = null;
+        nameDisplay.textContent = '';
+        locDisplay.textContent = '';
+        tempDisplay.textContent = '';
+        mapz.getCanvas().style.cursor = '';
+      });
+
+      mapz.on('mousemove', 'citypointsMuseums', (e) => {
+
+        mapz.getCanvas().style.cursor = 'pointer';
+        var nameObject = e.features[0].properties.name;
+        var objectLat = e.features[0].geometry.coordinates[0];
+        var objectLong = e.features[0].geometry.coordinates[1];
+
+        if (e.features.length > 0) {
+          nameDisplay.textContent = nameObject;
+          latDisplay.textContent = objectLat;
+          longDisplay.textContent = objectLong;
+
+          if (quakeID) {
+            mapz.removeFeatureState({
+              source: "citypointsMuseums",
+              id: quakeID
+            });
+          }
+
+          quakeID = e.features[0].id;
+
+          mapz.setFeatureState({
+            source: 'citypointsMuseums',
+            id: quakeID,
+          }, {
+            hover: true
+          });
+
+        }
+      });
+
+      mapz.on("mouseleave", "citypointsMuseums", function() {
+
+        if (quakeID) {
+          mapz.setFeatureState({
+            source: 'citypointsMuseums',
+            id: quakeID
+          }, {
+            hover: false
+          });
+        }
+        quakeID = null;
+        nameDisplay.textContent = '';
+        locDisplay.textContent = '';
+        tempDisplay.textContent = '';
+        mapz.getCanvas().style.cursor = '';
+      });
+
+      mapz.on('mousemove', 'citypointsPostOffices', (e) => {
+
+        mapz.getCanvas().style.cursor = 'pointer';
+        var nameObject = e.features[0].properties.name;
+        var objectLat = e.features[0].geometry.coordinates[0];
+        var objectLong = e.features[0].geometry.coordinates[1];
+
+        if (e.features.length > 0) {
+          nameDisplay.textContent = nameObject;
+          latDisplay.textContent = objectLat;
+          longDisplay.textContent = objectLong;
+
+          if (quakeID) {
+            mapz.removeFeatureState({
+              source: "citypointsPostOffices",
+              id: quakeID
+            });
+          }
+
+          quakeID = e.features[0].id;
+
+          mapz.setFeatureState({
+            source: 'citypointsPostOffices',
+            id: quakeID,
+          }, {
+            hover: true
+          });
+
+        }
+      });
+
+      mapz.on("mouseleave", "citypointsPostOffices", function() {
+
+        if (quakeID) {
+          mapz.setFeatureState({
+            source: 'citypointsPostOffices',
+            id: quakeID
+          }, {
+            hover: false
+          });
+        }
+        quakeID = null;
+        nameDisplay.textContent = '';
+        locDisplay.textContent = '';
+        tempDisplay.textContent = '';
+        mapz.getCanvas().style.cursor = '';
+      });
+
+      mapz.on('mousemove', 'citypointsUniversities', (e) => {
+
+        mapz.getCanvas().style.cursor = 'pointer';
+        var nameObject = e.features[0].properties.name;
+        var objectLat = e.features[0].geometry.coordinates[0];
+        var objectLong = e.features[0].geometry.coordinates[1];
+
+        if (e.features.length > 0) {
+          nameDisplay.textContent = nameObject;
+          latDisplay.textContent = objectLat;
+          longDisplay.textContent = objectLong;
+
+          if (quakeID) {
+            mapz.removeFeatureState({
+              source: "citypointsUniversities",
+              id: quakeID
+            });
+          }
+
+          quakeID = e.features[0].id;
+
+          mapz.setFeatureState({
+            source: 'citypointsUniversities',
+            id: quakeID,
+          }, {
+            hover: true
+          });
+
+        }
+      });
+
+      mapz.on("mouseleave", "citypointsUniversities", function() {
+
+        if (quakeID) {
+          mapz.setFeatureState({
+            source: 'citypointsUniversities',
+            id: quakeID
+          }, {
+            hover: false
+          });
+        }
+        quakeID = null;
+        nameDisplay.textContent = '';
+        locDisplay.textContent = '';
+        tempDisplay.textContent = '';
+        mapz.getCanvas().style.cursor = '';
+      });
+
+      var lon = document.getElementById('myvarlon').innerHTML;
+      var lat = document.getElementById('myvarlat').innerHTML;
+      var marker = new mapboxgl.Marker()
+              .setLngLat([lon,lat])
+              .addTo(mapz);
+    });
+
+
+    var quakeID = null;
+  </script>
+  <script>
+    $(document).ready(function() {
+      main.showSwal();
+    });
+  </script>
+  <script>
+    function getIP(json) {
+      document.write("My public IP address is: ", json.ip);
+    }
+  </script>
+  <script>
+    $(document).ready(function() {
+      // Javascript method's body can be found in assets/js/demos.js
+      md.initDashboardPageCharts();
+
+      md.initVectorMap();
+
+    });
+  </script>
+</body>
+
+</html>

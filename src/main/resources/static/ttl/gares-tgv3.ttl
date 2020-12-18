@@ -1,0 +1,1099 @@
+<ID172>  <a>               "geo:SpatialThing" ;
+        <geo:lat>          "\"Pays de la Loire\"" ;
+        <geo:long>         "85" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"La Roche-sur-Yon\"" .
+
+<ID151>  <a>               "geo:SpatialThing" ;
+        <geo:lat>          "\"Auvergne-Rh�ne-Alpes\"" ;
+        <geo:long>         "74" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Annecy\"" .
+
+<ID79>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          "\"Pays de la Loire\"" ;
+        <geo:long>         "44" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Le Pouliguen\"" .
+
+<ID130>  <a>               "geo:SpatialThing" ;
+        <geo:lat>          "\"Auvergne-Rh�ne-Alpes\"" ;
+        <geo:long>         "69" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Lyon-Part-Dieu\"" .
+
+<ID58>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          "\"Occitanie\"" ;
+        <geo:long>         "34" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"TGV Haute-Picardie\"" .
+
+<ID109>  <a>               "geo:SpatialThing" ;
+        <geo:lat>          "\"Hauts-de-France\"" ;
+        <geo:long>         "62" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"B�thune\"" .
+
+<ID37>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          "\"Auvergne-Rh�ne-Alpes\"" ;
+        <geo:long>         "26" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Valence-Ville\"" .
+
+<ID16>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          "\"Occitanie\"" ;
+        <geo:long>         "11" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Narbonne\"" .
+
+<ID180>  <a>               "geo:SpatialThing" ;
+        <geo:lat>          "\"Grand Est\"" ;
+        <geo:long>         "88" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Saint-Michel - Valloire\"" .
+
+<ID159>  <a>               "geo:SpatialThing" ;
+        <geo:lat>          "\"�le-de-France\"" ;
+        <geo:long>         "75" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Paris-Nord\"" .
+
+<ID87>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          "\"Pays de la Loire\"" ;
+        <geo:long>         "53" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Laval\"" .
+
+<ID138>  <a>               "geo:SpatialThing" ;
+        <geo:lat>          "\"Bourgogne-Franche-Comt�\"" ;
+        <geo:long>         "71" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"M�con-Loch� TGV\"" .
+
+<ID66>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          "\"Centre-Val de Loire\"" ;
+        <geo:long>         "37" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Saint-Pierre-des-Corps\"" .
+
+<ID117>  <a>               "geo:SpatialThing" ;
+        <geo:lat>          "\"Nouvelle-Aquitaine\"" ;
+        <geo:long>         "64" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Hendaye\"" .
+
+<ID45>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          "\"Occitanie\"" ;
+        <geo:long>         "30" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"N�mes-Pont-du-Gard\"" .
+
+<ID24>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          "\"Nouvelle-Aquitaine\"" ;
+        <geo:long>         "17" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Rouen-Rive-Droite\"" .
+
+<ID1>   <a>                "geo:SpatialThing" ;
+        <geo:lat>          "\"NOM_REG\"" ;
+        <geo:long>         "\"INSEE_DEP\"" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Nom_Gare\"" .
+
+<ID167>  <a>               "geo:SpatialThing" ;
+        <geo:lat>          "\"Provence-Alpes-C�te d'Azur\"" ;
+        <geo:long>         "83" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Hy�res\"" .
+
+<ID95>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          "\"Grand Est\"" ;
+        <geo:long>         "57" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Metz-Ville\"" .
+
+<ID146>  <a>               "geo:SpatialThing" ;
+        <geo:lat>          "\"Auvergne-Rh�ne-Alpes\"" ;
+        <geo:long>         "73" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Landry\"" .
+
+<ID74>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          "\"Pays de la Loire\"" ;
+        <geo:long>         "44" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Ancenis\"" .
+
+<ID125>  <a>               "geo:SpatialThing" ;
+        <geo:lat>          "\"Grand Est\"" ;
+        <geo:long>         "67" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"S�lestat\"" .
+
+<ID53>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          "\"Occitanie\"" ;
+        <geo:long>         "34" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Agde\"" .
+
+<ID104>  <a>               "geo:SpatialThing" ;
+        <geo:lat>          "\"Hauts-de-France\"" ;
+        <geo:long>         "59" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Roubaix\"" .
+
+<ID32>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          "\"Bretagne\"" ;
+        <geo:long>         "22" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Saint-Brieuc\"" .
+
+<ID11>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          "\"Grand Est\"" ;
+        <geo:long>         "8" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Charleville-M�zi�res\"" .
+
+<ID9>   <a>                "geo:SpatialThing" ;
+        <geo:lat>          "\"Provence-Alpes-C�te d'Azur\"" ;
+        <geo:long>         "6" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Menton\"" .
+
+<ID175>  <a>               "geo:SpatialThing" ;
+        <geo:lat>          "\"Nouvelle-Aquitaine\"" ;
+        <geo:long>         "86" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Futuroscope\"" .
+
+<ID154>  <a>               "geo:SpatialThing" ;
+        <geo:lat>          "\"Auvergne-Rh�ne-Alpes\"" ;
+        <geo:long>         "74" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Saint-Gervais-les-Bains-Le Fayet\"" .
+
+<ID82>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          "\"Pays de la Loire\"" ;
+        <geo:long>         "49" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Angers-Saint-Laud\"" .
+
+<ID133>  <a>               "geo:SpatialThing" ;
+        <geo:lat>          "\"Auvergne-Rh�ne-Alpes\"" ;
+        <geo:long>         "69" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Marne-la-Vall�e - Chessy\"" .
+
+<ID61>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          "\"Bretagne\"" ;
+        <geo:long>         "35" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Redon\"" .
+
+<ID112>  <a>               "geo:SpatialThing" ;
+        <geo:lat>          "\"Hauts-de-France\"" ;
+        <geo:long>         "62" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"�taples - Le Touquet\"" .
+
+<ID40>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          "\"Bretagne\"" ;
+        <geo:long>         "29" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Quimper\"" .
+
+<ID19>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          "\"Provence-Alpes-C�te d'Azur\"" ;
+        <geo:long>         "13" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Marseille-Saint-Charles\"" .
+
+<ID183>  <a>               "geo:SpatialThing" ;
+        <geo:lat>          "\"�le-de-France\"" ;
+        <geo:long>         "91" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Massy TGV\"" .
+
+<ID162>  <a>               "geo:SpatialThing" ;
+        <geo:lat>          "\"�le-de-France\"" ;
+        <geo:long>         "78" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Versailles-Chantiers\"" .
+
+<ID90>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          "\"Grand Est\"" ;
+        <geo:long>         "55" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Bar-le-Duc\"" .
+
+<ID141>  <a>               "geo:SpatialThing" ;
+        <geo:lat>          "\"Auvergne-Rh�ne-Alpes\"" ;
+        <geo:long>         "73" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Aime-La Plagne\"" .
+
+<ID120>  <a>               "geo:SpatialThing" ;
+        <geo:lat>          "\"Nouvelle-Aquitaine\"" ;
+        <geo:long>         "64" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Saint-Jean-de-Luz - Ciboure\"" .
+
+<ID69>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          "\"Bourgogne-Franche-Comt�\"" ;
+        <geo:long>         "39" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Mouchard\"" .
+
+<ID48>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          "\"Nouvelle-Aquitaine\"" ;
+        <geo:long>         "33" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Arcachon\"" .
+
+<ID27>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          "\"Bourgogne-Franche-Comt�\"" ;
+        <geo:long>         "21" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Montbard\"" .
+
+<ID4>   <a>                "geo:SpatialThing" ;
+        <geo:lat>          "\"Auvergne-Rh�ne-Alpes\"" ;
+        <geo:long>         "1" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Bourg-en-Bresse\"" .
+
+<ID170>  <a>               "geo:SpatialThing" ;
+        <geo:lat>          "\"Provence-Alpes-C�te d'Azur\"" ;
+        <geo:long>         "84" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Avignon-Centre\"" .
+
+<ID98>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          "\"Hauts-de-France\"" ;
+        <geo:long>         "59" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Croix - Wasquehal\"" .
+
+<ID149>  <a>               "geo:SpatialThing" ;
+        <geo:lat>          "\"Auvergne-Rh�ne-Alpes\"" ;
+        <geo:long>         "73" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Saint-Avre - La Chambre\"" .
+
+<ID77>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          "\"Pays de la Loire\"" ;
+        <geo:long>         "44" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Nantes\"" .
+
+<ID128>  <a>               "geo:SpatialThing" ;
+        <geo:lat>          "\"Grand Est\"" ;
+        <geo:long>         "68" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Mulhouse-Ville\"" .
+
+<ID56>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          "\"Occitanie\"" ;
+        <geo:long>         "34" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Montpellier-Sud-de-France\"" .
+
+<ID107>  <a>               "geo:SpatialThing" ;
+        <geo:lat>          "\"Hauts-de-France\"" ;
+        <geo:long>         "60" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Boulogne-Ville\"" .
+
+<ID35>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          "\"Auvergne-Rh�ne-Alpes\"" ;
+        <geo:long>         "26" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Mont�limar\"" .
+
+<ID14>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          "\"Grand Est\"" ;
+        <geo:long>         "10" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Dijon-Ville\"" .
+
+<ID178>  <a>               "geo:SpatialThing" ;
+        <geo:lat>          "\"Grand Est\"" ;
+        <geo:long>         "88" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Remiremont\"" .
+
+<ID157>  <a>               "geo:SpatialThing" ;
+        <geo:lat>          "\"�le-de-France\"" ;
+        <geo:long>         "75" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Paris-Est\"" .
+
+<ID85>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          "\"Grand Est\"" ;
+        <geo:long>         "51" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Reims\"" .
+
+<ID136>  <a>               "geo:SpatialThing" ;
+        <geo:lat>          "\"Bourgogne-Franche-Comt�\"" ;
+        <geo:long>         "71" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Chalon-sur-Sa�ne\"" .
+
+<ID64>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          "\"Bretagne\"" ;
+        <geo:long>         "35" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Vitr�\"" .
+
+<ID115>  <a>               "geo:SpatialThing" ;
+        <geo:lat>          "\"Nouvelle-Aquitaine\"" ;
+        <geo:long>         "64" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Bayonne\"" .
+
+<ID43>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          "\"Bretagne\"" ;
+        <geo:long>         "29" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Morlaix\"" .
+
+<ID22>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          "\"Nouvelle-Aquitaine\"" ;
+        <geo:long>         "16" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Champagne-Ardenne TGV\"" .
+
+<wd:Q13646>  <rdfs:SubClassOf>  "wd:Q870" .
+
+<ID165>  <a>               "geo:SpatialThing" ;
+        <geo:lat>          "\"Hauts-de-France\"" ;
+        <geo:long>         "80" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Amiens\"" .
+
+<ID93>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          "\"Bretagne\"" ;
+        <geo:long>         "56" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Vannes\"" .
+
+<ID144>  <a>               "geo:SpatialThing" ;
+        <geo:lat>          "\"Auvergne-Rh�ne-Alpes\"" ;
+        <geo:long>         "73" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Bourg-Saint-Maurice\"" .
+
+<ID72>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          "\"Auvergne-Rh�ne-Alpes\"" ;
+        <geo:long>         "42" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Montauban-Ville-Bourbon\"" .
+
+<ID123>  <a>               "geo:SpatialThing" ;
+        <geo:lat>          "\"Occitanie\"" ;
+        <geo:long>         "66" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Perpignan\"" .
+
+<ID51>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          "\"Nouvelle-Aquitaine\"" ;
+        <geo:long>         "33" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Libourne\"" .
+
+<ID102>  <a>               "geo:SpatialThing" ;
+        <geo:lat>          "\"Hauts-de-France\"" ;
+        <geo:long>         "59" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Lille-Europe\"" .
+
+<ID30>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          "\"Bretagne\"" ;
+        <geo:long>         "22" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Lannion\"" .
+
+<ID7>   <a>                "geo:SpatialThing" ;
+        <geo:lat>          "\"Provence-Alpes-C�te d'Azur\"" ;
+        <geo:long>         "6" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Antibes\"" .
+
+<ID173>  <a>               "geo:SpatialThing" ;
+        <geo:lat>          "\"Pays de la Loire\"" ;
+        <geo:long>         "85" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Les Sables-d'Olonne\"" .
+
+<ID152>  <a>               "geo:SpatialThing" ;
+        <geo:lat>          "\"Auvergne-Rh�ne-Alpes\"" ;
+        <geo:long>         "74" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Annemasse\"" .
+
+<ID80>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          "\"Pays de la Loire\"" ;
+        <geo:long>         "44" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Saint-Nazaire\"" .
+
+<ID131>  <a>               "geo:SpatialThing" ;
+        <geo:lat>          "\"Auvergne-Rh�ne-Alpes\"" ;
+        <geo:long>         "69" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Lyon-Perrache\"" .
+
+<ID59>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          "\"Bretagne\"" ;
+        <geo:long>         "35" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Dol-de-Bretagne\"" .
+
+<ID110>  <a>               "geo:SpatialThing" ;
+        <geo:lat>          "\"Hauts-de-France\"" ;
+        <geo:long>         "62" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Calais - Fr�thun\"" .
+
+<ID38>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          "\"Bretagne\"" ;
+        <geo:long>         "29" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Brest\"" .
+
+<ID17>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          "\"Provence-Alpes-C�te d'Azur\"" ;
+        <geo:long>         "13" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Arles\"" .
+
+<ID181>  <a>               "geo:SpatialThing" ;
+        <geo:lat>          "\"Bourgogne-Franche-Comt�\"" ;
+        <geo:long>         "90" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Belfort - Montb�liard TGV\"" .
+
+<ID160>  <a>               "geo:SpatialThing" ;
+        <geo:lat>          "\"Normandie\"" ;
+        <geo:long>         "76" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Le Havre\"" .
+
+<ID88>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          "\"Grand Est\"" ;
+        <geo:long>         "54" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Lun�ville\"" .
+
+<ID139>  <a>               "geo:SpatialThing" ;
+        <geo:lat>          "\"Pays de la Loire\"" ;
+        <geo:long>         "72" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Le Mans\"" .
+
+<ID67>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          "\"Centre-Val de Loire\"" ;
+        <geo:long>         "37" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Tours\"" .
+
+<ID118>  <a>               "geo:SpatialThing" ;
+        <geo:lat>          "\"Nouvelle-Aquitaine\"" ;
+        <geo:long>         "64" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Orthez\"" .
+
+<ID46>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          "\"Occitanie\"" ;
+        <geo:long>         "31" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Meuse TGV\"" .
+
+<ID25>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          "\"Nouvelle-Aquitaine\"" ;
+        <geo:long>         "17" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Surg�res\"" .
+
+<ID2>   <a>                "geo:SpatialThing" ;
+        <geo:lat>          "\"Auvergne-Rh�ne-Alpes\"" ;
+        <geo:long>         "1" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Aix-en-Provence TGV\"" .
+
+<ID168>  <a>               "geo:SpatialThing" ;
+        <geo:lat>          "\"Provence-Alpes-C�te d'Azur\"" ;
+        <geo:long>         "83" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Saint-Rapha�l-Valescure\"" .
+
+<ID96>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          "\"Grand Est\"" ;
+        <geo:long>         "57" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Sarrebourg\"" .
+
+<ID147>  <a>               "geo:SpatialThing" ;
+        <geo:lat>          "\"Auvergne-Rh�ne-Alpes\"" ;
+        <geo:long>         "73" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Modane\"" .
+
+<ID75>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          "\"Pays de la Loire\"" ;
+        <geo:long>         "44" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"La Baule-Escoublac\"" .
+
+<ID126>  <a>               "geo:SpatialThing" ;
+        <geo:lat>          "\"Grand Est\"" ;
+        <geo:long>         "67" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Strasbourg-Ville\"" .
+
+<ID54>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          "\"Occitanie\"" ;
+        <geo:long>         "34" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"B�ziers\"" .
+
+<ID105>  <a>               "geo:SpatialThing" ;
+        <geo:lat>          "\"Hauts-de-France\"" ;
+        <geo:long>         "59" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Tourcoing\"" .
+
+<ID33>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          "\"Bourgogne-Franche-Comt�\"" ;
+        <geo:long>         "25" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Besan�on-Viotte\"" .
+
+<ID12>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          "\"Grand Est\"" ;
+        <geo:long>         "8" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Rethel\"" .
+
+<ID176>  <a>               "geo:SpatialThing" ;
+        <geo:lat>          "\"Nouvelle-Aquitaine\"" ;
+        <geo:long>         "86" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Poitiers\"" .
+
+<ID155>  <a>               "geo:SpatialThing" ;
+        <geo:lat>          "\"Auvergne-Rh�ne-Alpes\"" ;
+        <geo:long>         "74" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Sallanches - Combloux - Meg�ve\"" .
+
+<ID83>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          "\"Pays de la Loire\"" ;
+        <geo:long>         "49" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Saumur\"" .
+
+<ID134>  <a>               "geo:SpatialThing" ;
+        <geo:lat>          "\"Auvergne-Rh�ne-Alpes\"" ;
+        <geo:long>         "69" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Paris-Gare-de-Lyon\"" .
+
+<ID62>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          "\"Bretagne\"" ;
+        <geo:long>         "35" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Rennes\"" .
+
+<ID113>  <a>               "geo:SpatialThing" ;
+        <geo:lat>          "\"Hauts-de-France\"" ;
+        <geo:long>         "62" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Lens\"" .
+
+<ID41>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          "\"Bretagne\"" ;
+        <geo:long>         "29" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Quimperl�\"" .
+
+<ID20>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          "\"Provence-Alpes-C�te d'Azur\"" ;
+        <geo:long>         "13" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Miramas\"" .
+
+<ID163>  <a>               "geo:SpatialThing" ;
+        <geo:lat>          "\"Nouvelle-Aquitaine\"" ;
+        <geo:long>         "79" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Niort\"" .
+
+<ID91>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          "\"Bretagne\"" ;
+        <geo:long>         "56" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Auray\"" .
+
+<ID142>  <a>               "geo:SpatialThing" ;
+        <geo:lat>          "\"Auvergne-Rh�ne-Alpes\"" ;
+        <geo:long>         "73" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Aix-les-Bains-Le Revard\"" .
+
+<ID70>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          "\"Nouvelle-Aquitaine\"" ;
+        <geo:long>         "40" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Dax\"" .
+
+<ID121>  <a>               "geo:SpatialThing" ;
+        <geo:lat>          "\"Occitanie\"" ;
+        <geo:long>         "65" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Lourdes\"" .
+
+<ID49>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          "\"Nouvelle-Aquitaine\"" ;
+        <geo:long>         "33" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Bordeaux-Saint-Jean\"" .
+
+<ID100>  <a>               "geo:SpatialThing" ;
+        <geo:lat>          "\"Hauts-de-France\"" ;
+        <geo:long>         "59" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Dunkerque\"" .
+
+<ID28>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          "\"Bretagne\"" ;
+        <geo:long>         "22" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Guingamp\"" .
+
+<ID5>   <a>                "geo:SpatialThing" ;
+        <geo:lat>          "\"Auvergne-Rh�ne-Alpes\"" ;
+        <geo:long>         "1" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Cluses\"" .
+
+<ID171>  <a>               "geo:SpatialThing" ;
+        <geo:lat>          "\"Provence-Alpes-C�te d'Azur\"" ;
+        <geo:long>         "84" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Orange\"" .
+
+<ID99>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          "\"Hauts-de-France\"" ;
+        <geo:long>         "59" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Douai\"" .
+
+<ID150>  <a>               "geo:SpatialThing" ;
+        <geo:lat>          "\"Auvergne-Rh�ne-Alpes\"" ;
+        <geo:long>         "73" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Saint-Jean-de-Maurienne - Vall�e de l'Arvan\"" .
+
+<ID78>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          "\"Pays de la Loire\"" ;
+        <geo:long>         "44" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Pornichet\"" .
+
+<ID129>  <a>               "geo:SpatialThing" ;
+        <geo:lat>          "\"Auvergne-Rh�ne-Alpes\"" ;
+        <geo:long>         "69" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Besan�on Franche-Comt� TGV\"" .
+
+<ID57>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          "\"Occitanie\"" ;
+        <geo:long>         "34" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"S�te\"" .
+
+<ID108>  <a>               "geo:SpatialThing" ;
+        <geo:lat>          "\"Hauts-de-France\"" ;
+        <geo:long>         "62" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Arras\"" .
+
+<ID36>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          "\"Auvergne-Rh�ne-Alpes\"" ;
+        <geo:long>         "26" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Valence TGV\"" .
+
+<ID15>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          "\"Occitanie\"" ;
+        <geo:long>         "11" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Carcassonne\"" .
+
+<ID179>  <a>               "geo:SpatialThing" ;
+        <geo:lat>          "\"Grand Est\"" ;
+        <geo:long>         "88" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Saint-Di�-des-Vosges\"" .
+
+<ID158>  <a>               "geo:SpatialThing" ;
+        <geo:lat>          "\"�le-de-France\"" ;
+        <geo:long>         "75" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Paris-Montparnasse\"" .
+
+<ID86>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          "\"Grand Est\"" ;
+        <geo:long>         "51" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Vitry-le-Fran�ois\"" .
+
+<ID137>  <a>               "geo:SpatialThing" ;
+        <geo:lat>          "\"Bourgogne-Franche-Comt�\"" ;
+        <geo:long>         "71" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Le Creusot - Montceau - Montchanin\"" .
+
+<ID65>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          "\"Centre-Val de Loire\"" ;
+        <geo:long>         "37" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Lorraine TGV\"" .
+
+<ID116>  <a>               "geo:SpatialThing" ;
+        <geo:lat>          "\"Nouvelle-Aquitaine\"" ;
+        <geo:long>         "64" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Biarritz\"" .
+
+<ID44>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          "\"Occitanie\"" ;
+        <geo:long>         "30" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"N�mes\"" .
+
+<ID23>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          "\"Nouvelle-Aquitaine\"" ;
+        <geo:long>         "17" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"La Rochelle-Ville\"" .
+
+<ID166>  <a>               "geo:SpatialThing" ;
+        <geo:lat>          "\"Provence-Alpes-C�te d'Azur\"" ;
+        <geo:long>         "83" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Les Arcs - Draguignan\"" .
+
+<ID94>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          "\"Grand Est\"" ;
+        <geo:long>         "57" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Forbach\"" .
+
+<ID145>  <a>               "geo:SpatialThing" ;
+        <geo:lat>          "\"Auvergne-Rh�ne-Alpes\"" ;
+        <geo:long>         "73" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Chamb�ry - Challes-les-Eaux\"" .
+
+<ID73>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          "\"Auvergne-Rh�ne-Alpes\"" ;
+        <geo:long>         "42" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Saint-�tienne-Ch�teaucreux\"" .
+
+<ID124>  <a>               "geo:SpatialThing" ;
+        <geo:lat>          "\"Grand Est\"" ;
+        <geo:long>         "67" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Saverne\"" .
+
+<ID52>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          "\"Nouvelle-Aquitaine\"" ;
+        <geo:long>         "33" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"La Teste\"" .
+
+<ID103>  <a>               "geo:SpatialThing" ;
+        <geo:lat>          "\"Hauts-de-France\"" ;
+        <geo:long>         "59" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Lille-Flandres\"" .
+
+<ID31>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          "\"Bretagne\"" ;
+        <geo:long>         "22" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"M�con-Ville\"" .
+
+<ID10>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          "\"Provence-Alpes-C�te d'Azur\"" ;
+        <geo:long>         "6" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Nice-Ville\"" .
+
+<ID8>   <a>                "geo:SpatialThing" ;
+        <geo:lat>          "\"Provence-Alpes-C�te d'Azur\"" ;
+        <geo:long>         "6" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Cannes\"" .
+
+<ID174>  <a>               "geo:SpatialThing" ;
+        <geo:lat>          "\"Nouvelle-Aquitaine\"" ;
+        <geo:long>         "86" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Ch�tellerault\"" .
+
+<ID153>  <a>               "geo:SpatialThing" ;
+        <geo:lat>          "\"Auvergne-Rh�ne-Alpes\"" ;
+        <geo:long>         "74" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"�vian-les-Bains\"" .
+
+<ID81>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          "\"Nouvelle-Aquitaine\"" ;
+        <geo:long>         "47" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Agen\"" .
+
+<ID132>  <a>               "geo:SpatialThing" ;
+        <geo:lat>          "\"Auvergne-Rh�ne-Alpes\"" ;
+        <geo:long>         "69" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Lyon-Saint-Exup�ry TGV\"" .
+
+<ID60>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          "\"Bretagne\"" ;
+        <geo:long>         "35" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Plouaret-Tr�gor\"" .
+
+<ID111>  <a>               "geo:SpatialThing" ;
+        <geo:lat>          "\"Hauts-de-France\"" ;
+        <geo:long>         "62" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Calais-Ville\"" .
+
+<ID39>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          "\"Bretagne\"" ;
+        <geo:long>         "29" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Landerneau\"" .
+
+<ID18>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          "\"Provence-Alpes-C�te d'Azur\"" ;
+        <geo:long>         "13" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Avignon TGV\"" .
+
+<ID182>  <a>               "geo:SpatialThing" ;
+        <geo:lat>          "\"�le-de-France\"" ;
+        <geo:long>         "91" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Massy - Palaiseau\"" .
+
+<ID161>  <a>               "geo:SpatialThing" ;
+        <geo:lat>          "\"�le-de-France\"" ;
+        <geo:long>         "78" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Mantes-la-Jolie\"" .
+
+<ID140>  <a>               "geo:SpatialThing" ;
+        <geo:lat>          "\"Pays de la Loire\"" ;
+        <geo:long>         "72" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Sabl�-sur-Sarthe\"" .
+
+<ID89>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          "\"Grand Est\"" ;
+        <geo:long>         "54" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Nancy-Ville\"" .
+
+<ID68>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          "\"Auvergne-Rh�ne-Alpes\"" ;
+        <geo:long>         "38" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Grenoble\"" .
+
+<ID119>  <a>               "geo:SpatialThing" ;
+        <geo:lat>          "\"Nouvelle-Aquitaine\"" ;
+        <geo:long>         "64" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Pau\"" .
+
+<ID47>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          "\"Occitanie\"" ;
+        <geo:long>         "31" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Toulouse-Matabiau\"" .
+
+<ID26>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          "\"Bourgogne-Franche-Comt�\"" ;
+        <geo:long>         "21" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Beaune\"" .
+
+<ID3>   <a>                "geo:SpatialThing" ;
+        <geo:lat>          "\"Auvergne-Rh�ne-Alpes\"" ;
+        <geo:long>         "1" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Bellegarde\"" .
+
+<ID169>  <a>               "geo:SpatialThing" ;
+        <geo:lat>          "\"Provence-Alpes-C�te d'Azur\"" ;
+        <geo:long>         "83" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Toulon\"" .
+
+<ID97>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          "\"Grand Est\"" ;
+        <geo:long>         "57" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Thionville\"" .
+
+<ID148>  <a>               "geo:SpatialThing" ;
+        <geo:lat>          "\"Auvergne-Rh�ne-Alpes\"" ;
+        <geo:long>         "73" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Mo�tiers - Salins - Brides-les-Bains\"" .
+
+<ID76>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          "\"Pays de la Loire\"" ;
+        <geo:long>         "44" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Le Croisic\"" .
+
+<ID127>  <a>               "geo:SpatialThing" ;
+        <geo:lat>          "\"Grand Est\"" ;
+        <geo:long>         "68" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Colmar\"" .
+
+<ID55>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          "\"Occitanie\"" ;
+        <geo:long>         "34" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Montpellier-Saint-Roch\"" .
+
+<ID106>  <a>               "geo:SpatialThing" ;
+        <geo:lat>          "\"Hauts-de-France\"" ;
+        <geo:long>         "59" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Valenciennes\"" .
+
+<ID34>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          "\"Bourgogne-Franche-Comt�\"" ;
+        <geo:long>         "25" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Frasne\"" .
+
+<ID13>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          "\"Grand Est\"" ;
+        <geo:long>         "8" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Sedan\"" .
+
+<ID177>  <a>               "geo:SpatialThing" ;
+        <geo:lat>          "\"Grand Est\"" ;
+        <geo:long>         "88" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"�pinal\"" .
+
+<ID156>  <a>               "geo:SpatialThing" ;
+        <geo:lat>          "\"Auvergne-Rh�ne-Alpes\"" ;
+        <geo:long>         "74" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Thonon-les-Bains\"" .
+
+<ID84>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          "\"Grand Est\"" ;
+        <geo:long>         "51" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Ch�lons-en-Champagne\"" .
+
+<ID135>  <a>               "geo:SpatialThing" ;
+        <geo:lat>          "\"Bourgogne-Franche-Comt�\"" ;
+        <geo:long>         "70" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Dole-Ville\"" .
+
+<ID63>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          "\"Bretagne\"" ;
+        <geo:long>         "35" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Saint-Malo\"" .
+
+<ID114>  <a>               "geo:SpatialThing" ;
+        <geo:lat>          "\"Hauts-de-France\"" ;
+        <geo:long>         "62" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Rang-du-Fliers - Verton\"" .
+
+<ID42>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          "\"Bretagne\"" ;
+        <geo:long>         "29" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Rosporden\"" .
+
+<ID21>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          "\"Nouvelle-Aquitaine\"" ;
+        <geo:long>         "16" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Angoul�me\"" .
+
+<ID164>  <a>               "geo:SpatialThing" ;
+        <geo:lat>          "\"Nouvelle-Aquitaine\"" ;
+        <geo:long>         "79" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Saint-Maixent (Deux-S�vres)\"" .
+
+<ID92>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          "\"Bretagne\"" ;
+        <geo:long>         "56" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Lorient\"" .
+
+<ID143>  <a>               "geo:SpatialThing" ;
+        <geo:lat>          "\"Auvergne-Rh�ne-Alpes\"" ;
+        <geo:long>         "73" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Albertville\"" .
+
+<ID71>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          "\"Centre-Val de Loire\"" ;
+        <geo:long>         "41" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Vend�me - Villiers-sur-Loir\"" .
+
+<ID122>  <a>               "geo:SpatialThing" ;
+        <geo:lat>          "\"Occitanie\"" ;
+        <geo:long>         "65" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Tarbes\"" .
+
+<ID50>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          "\"Nouvelle-Aquitaine\"" ;
+        <geo:long>         "33" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Facture-Biganos\"" .
+
+<ID101>  <a>               "geo:SpatialThing" ;
+        <geo:lat>          "\"Hauts-de-France\"" ;
+        <geo:long>         "59" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Hazebrouck\"" .
+
+<ID29>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          "\"Bretagne\"" ;
+        <geo:long>         "22" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Lamballe\"" .
+
+<ID6>   <a>                "geo:SpatialThing" ;
+        <geo:lat>          "\"Auvergne-Rh�ne-Alpes\"" ;
+        <geo:long>         "1" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "\"Nurieux\"" .
