@@ -103,14 +103,6 @@
             <artifactId>graphdb-free-runtime</artifactId>
             <version>8.5.0</version>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/org.geotools/gt-main -->
-        <dependency>
-            <groupId>org.geotools</groupId>
-            <artifactId>gt-main</artifactId>
-            <version>22-RC</version>
-        </dependency>
-
-
         <dependency>
             <groupId>org.apache.jena</groupId>
             <artifactId>apache-jena-libs</artifactId>
