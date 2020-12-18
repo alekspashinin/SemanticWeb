@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" type="image/png" href="/img/favicon.png">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta charset="UTF-8">
+  <title>Semantic Web City Data App</title>
+  <meta content='width=device-width, initial-scale=1.0, shrink-to-fit=no' name='viewport' />
+  <!--     FONTS OF CITY DATA APP     -->
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
+  <!--    CSS Files OF CITY DATA APP   -->
+  <script src="https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.js"></script>
+  <link href="https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.css" rel="stylesheet" />
+  <link href="/css/style.css" rel="stylesheet" />
+  <link href="/css/preloader.css" rel="stylesheet" />
+</head>
+
+<body class="">
+  <div class="wrapper ">
+    <div class="sidebar" data-color="orange" data-background-color="black" data-image="/img/sidebar.png">
+      <div class="logo-text logo">
+        <a href="http://localhost:8080/" class="simple-text logo-normal">
+          City Data App
+        </a></div>
+      <div class="sidebar-wrapper">
+        <div class="user">
+          <div class="supercenter photo">
+            <img src="/img/logo/avatar.png" />
+          </div>
+        </div>
+        <ul class="nav">
+          <li class="nav-item">
+            <a class="nav-link" th:href="@{/home}">
+              <i class="material-icons">dashboard</i>
+              <p> Dashboard </p>
+            </a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" th:href="@{/trains}">
+              <i class="material-icons">train</i>
+              <p> Trains Data </p>
+            </a>
+          </li>
+          <li class="nav-item active ">
+            <a class="nav-link" th:href="@{/bikes}">
+              <i class="material-icons">pedal_bike</i>
+              <p> Bikes Data </p>
+            </a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" th:href="@{/social}">
+              <i class="material-icons">location_city</i>
+              <p> Social Data </p>
+            </a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" th:href="@{/meteo}">
+              <i class="material-icons">place</i>
+              <p> Meteo </p>
+            </a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" th:href="@{/history}">
+              <i class="material-icons">history</i>
+              <p> History </p>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="main-panel">
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-transparent navbar-absolute fixed-top ">
+        <div class="container-fluid">
+          <div class="navbar-wrapper">
+            <div class="navbar-minimize">
+              <button id="minimizeSidebar" class="btn btn-just-icon btn-white btn-fab btn-round">
+                <i class="material-icons text_align-center visible-on-sidebar-regular">more_vert</i>
+                <i class="material-icons design_bullet-list-67 visible-on-sidebar-mini">view_list</i>
+              </button>
+            </div>
+            <a class="navbar-brand" href="javascript:;">Bike Data</a>
+          </div>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="navbar-toggler-icon icon-bar"></span>
+            <span class="navbar-toggler-icon icon-bar"></span>
+            <span class="navbar-toggler-icon icon-bar"></span>
+          </button>
+        </div>
+        <div class="container-fluid">
+            <a class="float-md-right">Semantic web</a>
+        </div>
+      </nav>
+      <!-- End Navbar -->
+      <div class="content">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-8">
+              <div class="card ">
+                <div class="card-header card-header-text card-header-superorange">
+                  <div class="card-text">
+                    <h4 class="card-title">Bike Map</h4>
+                  </div>
+                </div>
+                <div class="card-body ">
+                  <h4 class="card-title"></h4>
+                  <div id="satelliteMap">
+                    <div id="mapz"></div><!-- Map is centered on San Francisco at z15 -->
+                    <form id="geo-data" action="#" th:action="@{'/bikes/geo'}">
+                      <button id="myvar" class="btn btn-primary btn-block" onclick="md.showNotification('bottom','right')">Use My Geoposition</button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 spec">
+              <div class="card spec">
+                <div class="card-header card-header-text card-header-superorange">
+                  <div class="card-text">
+                    <h4 class="card-title">Data Section</h4>
+                  </div>
+                </div>
+                <div class="card-body ">
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <div class="col-lg-5 col-md-6 col-sm-3">
+                    <select id="chooseCity" class="selectpicker" onChange="changePosition(this);" data-style="select-with-transition" title="Choose City" data-size="7" >
+                      <option disabled> Multiple Options</option>
+                      <option value="2">Lyon</option>
+                      <option value="3">Montpellier</option>
+                      <option value="4">Rennes</option>
+                      <option value="5">Saint-Etienne</option>
+                      <option value="6">Strasbourg </option>
+                    </select>
+                    <br>
+                    <br>
+                  </div>
+                  <table class="table">
+                    <tbody>
+                    <tr>
+                      <br>
+                      <h4 class="card-title">Nearest Stations</h4>
+                      <td>Name</td>
+                      <td class="text-right">
+                        <span id='name'></span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <br>
+                      <td>Latitude</td>
+                      <td class="text-right">
+                        <span id='lats'></span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <br>
+                      <td>Longitude</td>
+                      <td class="text-right">
+                        <span id='longs'></span>
+                      </td>
+                    </tr>
+                    </tbody>
+                  </table>
+                  <br>
+                  <span id="myvarlon" th:text="${lon}" class="text-white"></span>
+                  <span id="myvarlat" th:text="${lat}" class="text-white"></span>
+                  <br>
+                  <br>
+                  <br>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer class="footer">
+        <div class="container-fluid">
+          <nav class="float-none">
+            <ul>
+              <li>
+                <a href="https://www.linkedin.com/in/ham3d-rahimi/">
+                  Hamed RAHIMI
+                </a>
+              </li>
+              <li>
+                Semantic Web, 2020
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/in/alekspashinin/">
+                  Aleksei PASHININ
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+  <!--  JS Files   -->
+  <script src="/js/jquery.min.js"></script>
+  <script src="/js/popper.min.js"></script>
+  <script src="/js/bootstrap-material-design.min.js"></script>
+  <script src="/js/bootstrap-selectpicker.js"></script>
+  <script src="/js/bootstrap-notify.js"></script>
+  <script>
+    $(document).ready(setTimeout(function(){
+      $("#semweb-preloader").hide();
+    },1000));
+
+  </script>
+  <script th:inline="javascript">
+    mapboxgl.accessToken = 'pk.eyJ1IjoiY2hlYnVybmF0b3IiLCJhIjoiY2tpZndhNDF5MGl0eTMwcWttamUxYjJsOCJ9.fmyCs3GwyjSXDtojsX88tQ';
+    var mapz = new mapboxgl.Map({
+      container: 'mapz',
+      style: 'mapbox://styles/cheburnator/ckifxesvq51n719nzjwlzrlxe',
+      center: [4.378009, 45.439565],
+      zoom: 11
+    });
+
+    mapz.on('load', function() {
+      var urlVelo = 'https://raw.githubusercontent.com/SemWebProject/SemWebProject/main/remote/jsonVeloLyon.json';;
+      mapz.addSource('bikeFrance', { type: 'geojson', data: urlVelo});
+
+      mapz.loadImage('/img/bike.png', function(error, image) {
+        if (error) throw error;
+        // add image to the active style and make it SDF-enabled
+        mapz.addImage('bike-icon', image, { sdf: true });
+      });
+
+          mapz.addLayer({
+            'id': 'bikeFranceStations',
+            'source': 'bikeFrance',
+            'type': 'symbol',
+            'layout': {
+              'icon-image': 'bike-icon',
+              'icon-size': 0.5
+            },
+            'paint': {
+              'icon-color': '#3788ff'
+            }
+          });
+
+      document.getElementById('chooseCity').addEventListener('change', function() {
+        var res = this.value;
+        if(res == 2) {
+          mapz = new mapboxgl.Map({
+            container: 'mapz',
+            style: 'mapbox://styles/cheburnator/ckifxesvq51n719nzjwlzrlxe',
+            center: [4.838552, 45.7562337], //LYON
+            zoom: 11
+          });
+
+          var urlVelo = 'https://raw.githubusercontent.com/SemWebProject/SemWebProject/main/remote/jsonVeloLyon.json';;
+          mapz.addSource('bikeFrance', { type: 'geojson', data: urlVelo});
+
+          mapz.loadImage('/img/bike.png', function(error, image) {
+            if (error) throw error;
+            // add image to the active style and make it SDF-enabled
+            mapz.addImage('bike-icon', image, { sdf: true });
+          });
+
+
+          mapz.addLayer({
+            'id': 'bikeFranceStations',
+            'source': 'bikeFrance',
+            'type': 'symbol',
+            'layout': {
+              'icon-image': 'bike-icon',
+              'icon-size': 0.5
+            },
+            'paint': {
+              'icon-color': '#3788ff'
+            }
+          });
+        }
+        if(res == 3) {
+          mapz = new mapboxgl.Map({
+            container: 'mapz',
+            style: 'mapbox://styles/cheburnator/ckifxesvq51n719nzjwlzrlxe',
+            center: [3.873477, 43.61196], //MONTPELLIER
+            zoom: 11
+          });
+
+          mapz.addLayer({
+            'id': 'bikeFranceStations',
+            'source': 'bikeFrance',
+            'type': 'symbol',
+            'layout': {
+              'icon-image': 'bike-icon',
+              'icon-size': 0.5
+            },
+            'paint': {
+              'icon-color': '#3788ff'
+            }
+          });
+        }
+        if(res == 4) {
+          mapz = new mapboxgl.Map({
+            container: 'mapz',
+            style: 'mapbox://styles/cheburnator/ckifxesvq51n719nzjwlzrlxe',
+            center: [-1.677814, 48.11166], //RENNES
+            zoom: 11
+          });
+
+          mapz.addLayer({
+            'id': 'bikeFranceStations',
+            'source': 'bikeFrance',
+            'type': 'symbol',
+            'layout': {
+              'icon-image': 'bike-icon',
+              'icon-size': 0.5
+            },
+            'paint': {
+              'icon-color': '#3788ff'
+            }
+          });
+        }
+        if(res == 5) {
+          mapz = new mapboxgl.Map({
+            container: 'mapz',
+            style: 'mapbox://styles/cheburnator/ckifxesvq51n719nzjwlzrlxe',
+            center: [4.378009, 45.439565], //SAINT-ETIENNE
+            zoom: 11
+          });
+
+          mapz.addLayer({
+            'id': 'bikeFranceStations',
+            'source': 'bikeFrance',
+            'type': 'symbol',
+            'layout': {
+              'icon-image': 'bike-icon',
+              'icon-size': 0.5
+            },
+            'paint': {
+              'icon-color': '#3788ff'
+            }
+          });
+        }
+        if(res == 6) {
+          mapz = new mapboxgl.Map({
+            container: 'mapz',
+            style: 'mapbox://styles/cheburnator/ckifxesvq51n719nzjwlzrlxe',
+            center: [7.744253, 48.5815], //STRASBOURG
+            zoom: 11
+          });
+
+          mapz.addLayer({
+            'id': 'bikeFranceStations',
+            'source': 'bikeFrance',
+            'type': 'symbol',
+            'layout': {
+              'icon-image': 'bike-icon',
+              'icon-size': 0.5
+            },
+            'paint': {
+              'icon-color': '#3788ff'
+            }
+          });
+        }
+      });
+
+
+      var lon = document.getElementById('myvarlon').innerHTML;
+      var lat = document.getElementById('myvarlat').innerHTML;
+      var marker = new mapboxgl.Marker()
+              .setLngLat([lon,lat])
+              .addTo(mapz);
+    });
+
+
+    var quakeID = null;
+
+
+  </script>
+  <script>
+    $(document).ready(function() {
+      main.showSwal();
+    });
+  </script>
+  <script>
+    $(document).ready(function() {
+      // Javascript method's body can be found in assets/js/demos.js
+      md.initDashboardPageCharts();
+
+      md.initVectorMap();
+
+    });
+  </script>
+</body>
+
+</html>

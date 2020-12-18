@@ -1,0 +1,70 @@
+@base <http://example/base/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+
+<88a8871cd455b991aae541e2d60ebdab34840e3e> a geo:SpatialThing;
+  rdfs:lable <Musée%20Beaux-Arts>;
+  rdfs:SubClassOf wd:Q11442;
+  geo:lat <48.109601>;
+  geo:long <-1.67408> .
+
+wd:Q11442 rdfs:SubClassOf wd:Q7590 .
+
+<b476b4248e499552a1449cb8afe72cc68c83c060> a geo:SpatialThing;
+  rdfs:lable <Champs%20Libres>;
+  rdfs:SubClassOf wd:Q11442;
+  geo:lat <48.105537>;
+  geo:long <-1.674328> .
+
+<bd0f83abcec2974fda4a9be7b78f4bfbb3af4b27> a geo:SpatialThing;
+  rdfs:lable <Brest%20-%20Verdun>;
+  rdfs:SubClassOf wd:Q11442;
+  geo:lat <48.113009>;
+  geo:long <-1.693264> .
+
+<bc23b982c96a853bb90665c1d574e7d9c204daed> a geo:SpatialThing;
+  rdfs:lable <Marbeuf>;
+  rdfs:SubClassOf wd:Q11442;
+  geo:lat <48.111749>;
+  geo:long <-1.702077> .
+
+<77cac0a1ecd7f2af56c8668b201afe2a20e1c6bb> a geo:SpatialThing;
+  rdfs:lable <Plaine%20de%20Baud>;
+  rdfs:SubClassOf wd:Q11442;
+  geo:lat <48.112461>;
+  geo:long <-1.643674> .
+
+<f31381b27f50bb4bc23672b3ea5cc7abfca309c3> a geo:SpatialThing;
+  rdfs:lable <Gros-Chêne>;
+  rdfs:SubClassOf wd:Q11442;
+  geo:lat <48.126795>;
+  geo:long <-1.665101> .
+
+<7612c409a64e0434defb0d56508363c591be8afe> a geo:SpatialThing;
+  rdfs:lable <Painlevé>;
+  rdfs:SubClassOf wd:Q11442;
+  geo:lat <48.122994>;
+  geo:long <-1.660547> .
+
+<0cedc710c25c3651e1d950725c9633a9065fd871> a geo:SpatialThing;
+  rdfs:lable <Turmel>;
+  rdfs:SubClassOf wd:Q11442;
+  geo:lat <48.122147>;
+  geo:long <-1.650808> .
+
+<1ee377102079bbe4ea444ded261fd2dcbfe8d3fb> a geo:SpatialThing;
+  rdfs:lable <La%20Poterie>;
+  rdfs:SubClassOf wd:Q11442;
+  geo:lat <48.087282>;
+  geo:long <-1.644121> .
+
+<a226d7f1b153bc8736f2e19a35456f03c3596a5d> a geo:SpatialThing;
+  rdfs:lable <Pont%20de%20Strasbourg>;
+  rdfs:SubClassOf wd:Q11442;
+  geo:lat <48.109859>;
+  geo:long <-1.656028> .

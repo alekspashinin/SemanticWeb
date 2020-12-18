@@ -1,0 +1,3 @@
+Angoulême,0.160000,45.650002
+Boulogne-sur-Mer,1.614700,50.726398
+Rosny-sous-Bois,2.483300,48.866699

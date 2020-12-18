@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" type="image/png" href="/img/favicon.png">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta charset="UTF-8">
+  <title>Semantic Web City Data App</title>
+  <meta content='width=device-width, initial-scale=1.0, shrink-to-fit=no' name='viewport' />
+  <!--     FONTS OF CITY DATA APP     -->
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
+  <!--    CSS Files OF CITY DATA APP   -->
+  <script src="https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.js"></script>
+  <link href="https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.css" rel="stylesheet" />
+  <link href="/css/style.css" rel="stylesheet" />
+  <link href="/css/preloader.css" rel="stylesheet" />
+</head>
+
+<body class="">
+  <div class="wrapper ">
+    <div class="sidebar" data-color="orange" data-background-color="black" data-image="/img/sidebar.png">
+      <div class="logo-text logo">
+        <a href="http://localhost:8080/" class="simple-text logo-normal">
+          City Data App
+        </a></div>
+      <div class="sidebar-wrapper">
+        <div class="user">
+          <div class="supercenter photo">
+            <img src="/img/logo/avatar.png" />
+          </div>
+        </div>
+        <ul class="nav">
+          <li class="nav-item ">
+            <a class="nav-link" th:href="@{/home}">
+              <i class="material-icons">dashboard</i>
+              <p> Dashboard </p>
+            </a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" th:href="@{/trains}">
+              <i class="material-icons">train</i>
+              <p> Trains Data </p>
+            </a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" th:href="@{/bikes}">
+              <i class="material-icons">pedal_bike</i>
+              <p> Bikes Data </p>
+            </a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" th:href="@{/social}">
+              <i class="material-icons">location_city</i>
+              <p> Social Data </p>
+            </a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" th:href="@{/meteo}">
+              <i class="material-icons">place</i>
+              <p> Meteo </p>
+            </a>
+          </li>
+          <li class="nav-item active ">
+            <a class="nav-link" th:href="@{/history}">
+              <i class="material-icons">history</i>
+              <p> History </p>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="main-panel">
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-transparent navbar-absolute fixed-top ">
+        <div class="container-fluid">
+          <div class="navbar-wrapper">
+            <div class="navbar-minimize">
+              <button id="minimizeSidebar" class="btn btn-just-icon btn-white btn-fab btn-round">
+                <i class="material-icons text_align-center visible-on-sidebar-regular">more_vert</i>
+                <i class="material-icons design_bullet-list-67 visible-on-sidebar-mini">view_list</i>
+              </button>
+            </div>
+            <a class="navbar-brand" href="javascript:;">History</a>
+          </div>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="navbar-toggler-icon icon-bar"></span>
+            <span class="navbar-toggler-icon icon-bar"></span>
+            <span class="navbar-toggler-icon icon-bar"></span>
+          </button>
+        </div>
+        <div class="container-fluid">
+            <a class="float-md-right">Semantic web</a>
+        </div>
+      </nav>
+      <!-- End Navbar -->
+      <div class="content">
+        <div class="content">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="card">
+                  <div class="card-header card-header-icon card-header-rose">
+                    <div class="card-icon">
+                      <i class="material-icons">assignment</i>
+                    </div>
+                    <h4 class="card-title ">History of SPARQL Queries</h4>
+                  </div>
+                  <div class="card-body">
+                    <div class="table-responsive">
+                      <table class="table">
+                        <thead class=" text-primary">
+                          <th th:each="header: ${headers}" class="column-title" th:text="${header}" />
+                        </thead>
+
+                        <tbody>
+                        <tr class="even pointer" th:each="row: ${rows}" id="tablerow">
+                          <td th:each="header: ${headers}" th:text="${row.get(header)}" />
+                        </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-12">
+                <form action="#" th:action="@{'/history/clear'}">
+              <button class="btn btn-danger">
+                <i class="material-icons">close</i> Clear History
+              </button>
+                </form>>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer class="footer">
+        <div class="container-fluid">
+          <nav class="float-none">
+            <ul>
+              <li>
+                <a href="https://www.linkedin.com/in/ham3d-rahimi/">
+                  Hamed RAHIMI
+                </a>
+              </li>
+              <li>
+                Semantic Web, 2020
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/in/alekspashinin/">
+                  Aleksei PASHININ
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+  <!--  JS Files   -->
+  <script src="/js/jquery.min.js"></script>
+  <script src="/js/popper.min.js"></script>
+  <script src="/js/bootstrap-material-design.min.js"></script>
+  <script src="/js/bootstrap-selectpicker.js"></script>
+  <script src="/js/bootstrap-notify.js"></script>
+  <script>
+    $(document).ready(setTimeout(function(){
+      $("#semweb-preloader").hide();
+    },1000));
+
+  </script>
+  <script>
+    $(document).ready(function() {
+      // Javascript method's body can be found in assets/js/demos.js
+      md.initDashboardPageCharts();
+
+      md.initVectorMap();
+
+    });
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,202 @@
+@base <http://example/base/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+
+<101> a geo:SpatialThing;
+  rdfs:lable <Ch%EF%BF%BDteaucreux>;
+  rdfs:SubClassOf wd:Q11442;
+  geo:lat <45.442972>;
+  geo:long <4.398855> .
+
+wd:Q11442 rdfs:SubClassOf wd:Q7590 .
+
+<102> a geo:SpatialThing;
+  rdfs:lable <Chal%EF%BF%BDassiere>;
+  rdfs:SubClassOf wd:Q11442;
+  geo:lat <45.453601>;
+  geo:long <4.383062> .
+
+<103> a geo:SpatialThing;
+  rdfs:lable <Carnot>;
+  rdfs:SubClassOf wd:Q11442;
+  geo:lat <45.447093>;
+  geo:long <4.385487> .
+
+<104> a geo:SpatialThing;
+  rdfs:lable <Jacquard>;
+  rdfs:SubClassOf wd:Q11442;
+  geo:lat <45.441888>;
+  geo:long <4.382492> .
+
+<105> a geo:SpatialThing;
+  rdfs:lable <Jaures>;
+  rdfs:SubClassOf wd:Q11442;
+  geo:lat <45.440725>;
+  geo:long <4.387295> .
+
+<106> a geo:SpatialThing;
+  rdfs:lable <Dorian>;
+  rdfs:SubClassOf wd:Q11442;
+  geo:lat <45.43836>;
+  geo:long <4.388435> .
+
+<107> a geo:SpatialThing;
+  rdfs:lable <Clapier>;
+  rdfs:SubClassOf wd:Q11442;
+  geo:lat <45.436903>;
+  geo:long <4.378789> .
+
+<108> a geo:SpatialThing;
+  rdfs:lable <Peuple>;
+  rdfs:SubClassOf wd:Q11442;
+  geo:lat <45.436265>;
+  geo:long <4.387539> .
+
+<109> a geo:SpatialThing;
+  rdfs:lable <A.%20Thomas>;
+  rdfs:SubClassOf wd:Q11442;
+  geo:lat <45.4328>;
+  geo:long <4.388035> .
+
+<110> a geo:SpatialThing;
+  rdfs:lable <A.%20France>;
+  rdfs:SubClassOf wd:Q11442;
+  geo:lat <45.43065>;
+  geo:long <4.389752> .
+
+<111> a geo:SpatialThing;
+  rdfs:lable <Tardy>;
+  rdfs:SubClassOf wd:Q11442;
+  geo:lat <45.427396>;
+  geo:long <4.386718> .
+
+<112> a geo:SpatialThing;
+  rdfs:lable <Tr%EF%BF%BDfilerie>;
+  rdfs:SubClassOf wd:Q11442;
+  geo:lat <45.427296>;
+  geo:long <4.390669> .
+
+<113> a geo:SpatialThing;
+  rdfs:lable <Centre%202>;
+  rdfs:SubClassOf wd:Q11442;
+  geo:lat <45.42342>;
+  geo:long <4.392292> .
+
+<114> a geo:SpatialThing;
+  rdfs:lable <Bellevue>;
+  rdfs:SubClassOf wd:Q11442;
+  geo:lat <45.415579>;
+  geo:long <4.393322> .
+
+<115> a geo:SpatialThing;
+  rdfs:lable <Congr%EF%BF%BDs>;
+  rdfs:SubClassOf wd:Q11442;
+  geo:lat <45.426972>;
+  geo:long <4.404048> .
+
+<116> a geo:SpatialThing;
+  rdfs:lable <Villeboeuf>;
+  rdfs:SubClassOf wd:Q11442;
+  geo:lat <45.431808>;
+  geo:long <4.395127> .
+
+<117> a geo:SpatialThing;
+  rdfs:lable <Chavanelle>;
+  rdfs:SubClassOf wd:Q11442;
+  geo:lat <45.435109>;
+  geo:long <4.391962> .
+
+<118> a geo:SpatialThing;
+  rdfs:lable <J.%20Moulin>;
+  rdfs:SubClassOf wd:Q11442;
+  geo:lat <45.437404>;
+  geo:long <4.392469> .
+
+<119> a geo:SpatialThing;
+  rdfs:lable <Fourneyron>;
+  rdfs:SubClassOf wd:Q11442;
+  geo:lat <45.4395>;
+  geo:long <4.395669> .
+
+<120> a geo:SpatialThing;
+  rdfs:lable <St%20Francois>;
+  rdfs:SubClassOf wd:Q11442;
+  geo:lat <45.439538>;
+  geo:long <4.403407> .
+
+<121> a geo:SpatialThing;
+  rdfs:lable <Bergson-Odde>;
+  rdfs:SubClassOf wd:Q11442;
+  geo:lat <45.45915>;
+  geo:long <4.382838> .
+
+<122> a geo:SpatialThing;
+  rdfs:lable <Terrasse>;
+  rdfs:SubClassOf wd:Q11442;
+  geo:lat <45.46502>;
+  geo:long <4.37874> .
+
+<123> a geo:SpatialThing;
+  rdfs:lable <Marx>;
+  rdfs:SubClassOf wd:Q11442;
+  geo:lat <45.422732>;
+  geo:long <4.409376> .
+
+<124> a geo:SpatialThing;
+  rdfs:lable <Janin>;
+  rdfs:SubClassOf wd:Q11442;
+  geo:lat <45.448458>;
+  geo:long <4.39492> .
+
+<125> a geo:SpatialThing;
+  rdfs:lable <Soleil>;
+  rdfs:SubClassOf wd:Q11442;
+  geo:lat <45.450015>;
+  geo:long <4.402351> .
+
+<126> a geo:SpatialThing;
+  rdfs:lable <H%EF%BF%BDp.%20Nord>;
+  rdfs:SubClassOf wd:Q11442;
+  geo:lat <45.479487>;
+  geo:long <4.362541> .
+
+<127> a geo:SpatialThing;
+  rdfs:lable <J.%20Marc>;
+  rdfs:SubClassOf wd:Q11442;
+  geo:lat <45.4732778>;
+  geo:long <4.3665277> .
+
+<128> a geo:SpatialThing;
+  rdfs:lable <Technopole>;
+  rdfs:SubClassOf wd:Q11442;
+  geo:lat <45.457>;
+  geo:long <4.39241> .
+
+<129> a geo:SpatialThing;
+  rdfs:lable <Roannelle>;
+  rdfs:SubClassOf wd:Q11442;
+  geo:lat <45.4357171>;
+  geo:long <4.3829931> .
+
+<130> a geo:SpatialThing;
+  rdfs:lable <Bicentenaire>;
+  rdfs:SubClassOf wd:Q11442;
+  geo:lat <45.420286>;
+  geo:long <4.392776> .
+
+<131> a geo:SpatialThing;
+  rdfs:lable <Technopole-Christian%20Cabal>;
+  rdfs:SubClassOf wd:Q11442;
+  geo:lat <45.459291>;
+  geo:long <4.395342> .
+
+<132> a geo:SpatialThing;
+  rdfs:lable <Manufacture%20-%20Le%20Fil>;
+  rdfs:SubClassOf wd:Q11442;
+  geo:lat <45.45168>;
+  geo:long <4.388004> .

@@ -1,0 +1,469 @@
+<ID15>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          " BTS (ELEC" ;
+        <geo:long>         " CPI" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       " le 07/02/2020 de 17h à 20h et le 08/02/2020 de 9h à 13h" .
+
+<ID56>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          " le 29/05/2021 de 08h00 à 15h00 " ;
+        <geo:long>         " le 28/06/2021 de 12h00 à 15h00\";www.onisep.fr/http/redirection/etablissement/slug/ENS.1623" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       " s'inscrire sur le site de l'école" .
+
+<ID28>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          " le 24/06/2020 de 14h à 17h30" ;
+        <geo:long>         " le 15/07/2020 de 14h à 17h30 et le 12/08/2020 de 14h à 17h30\";www.onisep.fr/http/redirection/etablissement/slug/ENS.2983" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       " le 11/03/2020 de 14h à 17h30" .
+
+<ID69>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          " le 05/03/2021" ;
+        <geo:long>         " le 25/03/2021" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       " Petite école de commerce\";\"ESCO Wesford Clermont-Ferrand\";;\"privé hors contrat\";;;;\"20 rue Barrière de Jaude\";63000;Clermont-Ferrand;63113;;\"04 63 30 11 30\";;\"63 - Puy-de-Dôme\";Clermont-Ferrand;Auvergne-Rhône-Alpes;84;3.08127;45.7741;28/01/2021;28/01/2021;\"" .
+
+<ID50>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          " le 09/03/2021" ;
+        <geo:long>         " le 16/04/2021" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       " Petite école de commerce\";\"AFTEC Vannes\";AFTEC;privé;;;;\"14 rue Anita Conti\";56000;Vannes;56260;;\"02 97 47 19 93\";;\"56 - Morbihan\";Rennes;Bretagne;53;-2.77984;47.6681;12/12/2020;12/12/2020;\"" .
+
+<ID22>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          " propreté et stérilisation sur une demi-journée" ;
+        <geo:long>         " les élèves sont accompagnés de leurs enseignants et d'un référent du lycée ou du collège qui présente les installations ( salle de classe" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       " le lycée est ouvert à tous" .
+
+<ID63>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          " le 05/05/2021 de 15h00 à 17h00 " ;
+        <geo:long>         " le 03/06/2021 de 15h00 à 17h00 " ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       " le 16/01/2021 de 13h00 à 16h00 " .
+
+<ID35>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          " 07/02/2020" ;
+        <geo:long>         " 14/03/2020" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       " 30/11/2019" .
+
+<ID6>   <a>                "geo:SpatialThing" ;
+        <geo:lat>          " des motocycles  et des ateliers de carrosserie" ;
+        <geo:long>         " entretiens avec des enseignants" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       " en apprentissage et en formation continue" .
+
+<ID76>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          " le 16/11/2020 de 13h00 à 15h00  (visite virtuelle)" ;
+        <geo:long>         " le 14/04/2021 de 12h00 à 14h00 " ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       " le 21/11/2020 de 09h00 à 11h00 " .
+
+<ID48>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          " le 13/03/2021 de 09h00 à 15h00 " ;
+        <geo:long>         " le 24/03/2021 de 15h00 à 19h00 " ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       " le 02/12/2020 de 13h00 à 16h00 " .
+
+<ID70>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          " le 20/04/2021" ;
+        <geo:long>         " le 18/05/2021\";www.onisep.fr/http/redirection/etablissement/slug/ENS.16623" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       " le 24/11/2020" .
+
+<ID42>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          " le 27/04/2021 de 12h00 à 15h00 " ;
+        <geo:long>         " le 20/05/2021 de 16h00 à 18h00 " ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       " le 21/11/2020 de 12h00 à 16h00 " .
+
+<ID14>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          " 31/03/2020" ;
+        <geo:long>         " 25/04/2020" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       " 14/01/2020" .
+
+<ID55>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          " le 28/04/2021 de 15h00 à 17h00 " ;
+        <geo:long>         " le 26/05/2021 de 15h00 à 17h00 " ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       " le 23/01/2021 de 09h00 à 12h00 " .
+
+<ID27>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          " 14/03/2020" ;
+        <geo:long>         " 28/03/2020" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       " 14/12/2019" .
+
+<ID68>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          " le 29/05/2021 de 07h00 à 14h00 " ;
+        <geo:long>         " le 12/06/2021 de 07h00 à 14h00 " ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       " le 12/12/2020 de 08h00 à 15h00 " .
+
+<ID21>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          " 01 et 15 juillet" ;
+        <geo:long>         " 19 août  de 14h à 16h30\";www.onisep.fr/http/redirection/etablissement/slug/ENS.12886" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       " Mercredis de la Formation les 19 février" .
+
+<ID62>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          " le 06/03/2021 de 09h00 à 16h00 " ;
+        <geo:long>         " le 14/03/2021 de 13h00 à 16h00\";www.onisep.fr/http/redirection/etablissement/slug/ENS.19185" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       " le 13/01/2021 de 13h00 à 16h00  (open day + atelier)" .
+
+<ID34>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          " Conseillers en voyages" ;
+        <geo:long>         " feront partager leur savoir-faire" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       " futurs Maîtres d’hôtels" .
+
+<ID5>   <a>                "geo:SpatialThing" ;
+        <geo:lat>          " 16/05/2020" ;
+        <geo:long>         " 24/06/2020\";www.onisep.fr/http/redirection/etablissement/slug/ENS.17323" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       " 14/12/2019" .
+
+<ID75>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          " le 07/03/2020 de 9h30 à 13h" ;
+        <geo:long>         " le 14/03/2020 de 9h30 à 13h" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       "  le 18/01/2020 de 9h30 à 13h" .
+
+<ID47>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          " futurs diplômés CAP et bac professionnel pour le CAP Esthétique en 1 an" ;
+        <geo:long>         " le 27/03/2021 de 07h30 à 11h00  (élèves de 4e" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       " 3e" .
+
+<ID19>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          " rencontre avec les enseignants et les étudiants" ;
+        <geo:long>         " ateliers de découverte animés par des étudiants" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       " présentation des enseignements et des spécialités" .
+
+<ID41>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          " le 23/01/2021 de 09h00 à 11h00  (JPO en présentiel" ;
+        <geo:long>         " JPO virtuelle à partir de 11h30)" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       " JPO virtuelle à partir de 15h" .
+
+<ID13>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          " 04/04/2020" ;
+        <geo:long>         " 16/05/2020" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       " 11/01/2020" .
+
+<ID54>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          " le 03/06/2021 de 15h00 à 17h00 " ;
+        <geo:long>         " le 23/06/2021 de 15h00 à 17h00 " ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       " le 16/01/2021 de 13h00 à 16h00 " .
+
+<ID26>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          " le 27/05/2020 de 14h à 16h30" ;
+        <geo:long>         " le 17/06/2020 de 14h à 16h30\";www.onisep.fr/http/redirection/etablissement/slug/ENS.2972" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       " le 28/03/2020 de 9h30 à 12h30" .
+
+<ID67>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          " le 19/05/2021 de 15h00 à 16h00 " ;
+        <geo:long>         " le 23/06/2021 de 15h00 à 16h00\";www.onisep.fr/http/redirection/etablissement/slug/ENS.6572" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       " le 16/01/2021 de 08h30 à 11h30 " .
+
+<ID39>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          " 20/03/2020" ;
+        <geo:long>         " 03/04/2020" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       " entre 16h et 18h les 13/12/2019" .
+
+<ID20>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          " conseils" ;
+        <geo:long>         " sections sportives\";www.onisep.fr/http/redirection/etablissement/slug/ENS.15849" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       " visites" .
+
+<ID61>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          " le 15/05/2021 de 08h00 à 10h30 " ;
+        <geo:long>         " le 12/06/2021 de 08h00 à 10h30 " ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       " le 12/12/2020 de 09h00 à 11h30 " .
+
+<ID33>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          " 22 avril à partir de 8h30" ;
+        <geo:long>         " 25 avril de 10h à 17h" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       " autres JPO le 29 février de 10h à 17h" .
+
+<ID4>   <a>                "geo:SpatialThing" ;
+        <geo:lat>          " le 13/05/2020 de 13h40 à 16h45" ;
+        <geo:long>         " le 03/06/2020 de 13h40 à 16h45\";www.onisep.fr/http/redirection/etablissement/slug/ENS.16339" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       " le 15/01/2020 de 13h40 à 16h45" .
+
+<ID74>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          " le 10/04/2021 de 07h00 à 14h00  (inscription préalable sur le site de l'école)" ;
+        <geo:long>         " le 15/05/2021 de 07h00 à 14h00  (inscription préalable sur le site de l'école)" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       " le 12/12/2020 de 08h00 à 15h00  (inscription préalable sur le site de l'école)" .
+
+<ID46>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          " conférence par Cécile Parent-Nutte" ;
+        <geo:long>         " Directrice de l’IRA de Lille" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       " conférence par Cécile Parent-Nutte" .
+
+<ID18>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          " le 02/06/2020 de 17h30 à 19h30" ;
+        <geo:long>         " le 21/07/2020 de 17h30 à 19h30\";www.onisep.fr/http/redirection/etablissement/slug/ENS.6960" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       " Grande école de commerce" .
+
+<ID59>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          " ateliers animés par les étudiants et les enseignants)" ;
+        <geo:long>         " le 20/03/2021 de 09h00 à 16h00  (réunion d'information" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       " le 23/01/2021 de 09h00 à 16h00  (réunion d'information" .
+
+<ID40>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          " le 20/03/2021 de 08h30 à 15h30 " ;
+        <geo:long>         " le 27/04/2021 de 12h00 à 15h00 " ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       " le 21/11/2020 de 12h00 à 16h00 " .
+
+<ID12>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          " ST2S" ;
+        <geo:long>         " STMG" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       " démonstrations" .
+
+<ID53>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          " 13/03/2020. Le 08/02/2020" ;
+        <geo:long>         " visites libres de 8h à 17h.\";www.onisep.fr/http/redirection/etablissement/slug/ENS.11390" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       " 31/01/2020" .
+
+<ID25>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          " le 02/09/2020 de 14h à 17h" ;
+        <geo:long>         " le 07/10/2020 de 14h à 17h" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       " le 19/02/2020 de 14h à 17h" .
+
+<ID66>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          " externat) - Biqualification bois-ski (pluriactivité) - Chalet-cafet'" ;
+        <geo:long>         " le 13/03/2021 de 08h00 à 11h30  (Présentation des formations (CAP" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       " baccalauréat" .
+
+<ID38>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          " le 04/03/2020 de 17h30 à 20h campus de Nantes" ;
+        <geo:long>         " le 07/03/2020 de 8h à 12h30 campus du Mans et Laval\";www.onisep.fr/http/redirection/etablissement/slug/ENS.18616" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       " Petite école de commerce\";\"Ecofac évolution\";;privé;;;;\"46 avenue François Mitterrand\";72000;\"Le Mans\";72181;;\"02 43 50 30 40\";;\"72 - Sarthe\";Nantes;\"Pays de la Loire\";52;0.214262;47.994;07/12/2019;07/12/2019;\"de 08h00 à 12h00 de 8h30 à 13h30 campus de Nantes" .
+
+<ID9>   <a>                "geo:SpatialThing" ;
+        <geo:lat>          " formations présentées : bacs généraux" ;
+        <geo:long>         " bacs technologiques (STI2D" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       " formations présentées : CPGE scientifiques et BTS (CIRA" .
+
+<wd:Q13646>  <rdfs:SubClassOf>  "wd:Q870" .
+
+<ID60>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          " le 09/03/2021 de 16h00 à 18h00 " ;
+        <geo:long>         " le 20/03/2021 de 13h00 à 16h00 " ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       " le 09/01/2021 de 09h00 à 16h00 " .
+
+<ID32>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          " 15h et 16h" ;
+        <geo:long>         " visites de l'école" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       " de 9h à 13h et de 14h à 17h : conférence sur les différentes formations à 9h" .
+
+<ID3>   <a>                "geo:SpatialThing" ;
+        <geo:lat>          " avenue Raymond CORTAT" ;
+        <geo:long>         " enseignement professionnel" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       " Site Marmontel" .
+
+<ID73>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          " information-communication" ;
+        <geo:long>         " droit-économie-gestion-science politique" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       " sciences de la vie" .
+
+<ID45>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          " physique" ;
+        <geo:long>         " biologie écologie et option équitation" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       " BAC PRO CGEH" .
+
+<ID17>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          " 01 et 15 juillet" ;
+        <geo:long>         " 19 août  de 14h à 16h30\";www.onisep.fr/http/redirection/etablissement/slug/ENS.15501" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       " mercredis de la formation les 19 février" .
+
+<ID58>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          " le 27/03/2021 de 09h00 à 13h00 " ;
+        <geo:long>         " le 10/04/2021 de 08h00 à 12h00\";www.onisep.fr/http/redirection/etablissement/slug/ENS.15515" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       " Finance et IT\";\"ENSUP - ENSITECH\";\"privé hors contrat\";;;;\"1 bis avenue du 8 mai 1945\";78280;Guyancourt;78297;;\"01 61 38 05 75\";;\"78 - Yvelines\";Versailles;Ile-de-France;11;2.05167;48.7863;12/12/2020;12/12/2020;\"de 09h00 à 15h00 " .
+
+<ID11>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          " 3 juin à partir de 18h30" ;
+        <geo:long>         " 6 juin de 10h à 17h\";www.onisep.fr/http/redirection/etablissement/slug/ENS.17018" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       " 1er avril à partir de 18h30" .
+
+<ID52>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          " le 06/02/2021 de 09h00 à 16h00 " ;
+        <geo:long>         " le 20/03/2021 de 09h00 à 16h00 " ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       " le 07/11/2020 de 09h00 à 16h00 " .
+
+<ID24>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          " bacs généraux" ;
+        <geo:long>         " BTS MS pour les 3e\";www.onisep.fr/http/redirection/etablissement/slug/ENS.13112" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       " bacs professionnels Restauration" .
+
+<ID65>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          " le 21/04/2021 de 12h30 à 15h00  (Pour assister à l’évènement" ;
+        <geo:long>         " veuillez vous inscrire par téléphone au 02 47 713 713.)\";www.onisep.fr/http/redirection/etablissement/slug/ENS.9495" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       " veuillez vous inscrire par téléphone au 02 47 713 713." .
+
+<ID37>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          " le 24/04/2021 de 07h00 à 11h00 " ;
+        <geo:long>         " le 22/05/2021 de 07h00 à 11h00 " ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       " le 28/11/2020 de 08h00 à 12h00 " .
+
+<ID8>   <a>                "geo:SpatialThing" ;
+        <geo:lat>          " le 17/04/2021 de 07h30 à 11h30 " ;
+        <geo:long>         " le 22/05/2021 de 07h30 à 11h30\";www.onisep.fr/http/redirection/etablissement/slug/ENS.18217" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       " Petite école de commerce\";\"Institut supérieur européen de formation par l'action\";\"ISEFAC BACHELOR\";privé;;;;\"28 rue Armand Brossard\";44000;Nantes;44109;;\"02 40 33 30 83\";;\"44 - Loire-Atlantique\";Nantes;\"Pays de la Loire\";52;-1.55615;47.2187;21/11/2020;21/11/2020;\"de 08h30 à 12h00 " .
+
+<ID78>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          " le 29/05/2021 de 07h00 à 14h00 " ;
+        <geo:long>         " le 12/06/2021 de 07h00 à 14h00 " ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       " le 12/12/2020 de 08h00 à 15h00 " .
+
+<ID31>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          " le 16/05/2020" ;
+        <geo:long>         " le 13/06/2020 ; de 10h à 13h\";www.onisep.fr/http/redirection/etablissement/slug/ENS.13642" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       " le 14/12/2019" .
+
+<ID2>   <a>                "geo:SpatialThing" ;
+        <geo:lat>          " 01 et 15 juillet" ;
+        <geo:long>         " 19 août  de 14h à 16h30\";www.onisep.fr/http/redirection/etablissement/slug/ENS.10520" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       " Mercredis de la Formation les 19 février" .
+
+<ID72>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          " le 20/04/2021" ;
+        <geo:long>         " le 18/05/2021\";www.onisep.fr/http/redirection/etablissement/slug/ENS.21691" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       " le 24/11/2020" .
+
+<ID44>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          " le 15/02/2020 de 10h à 12h" ;
+        <geo:long>         " le 14/03/2020 de 14h à 17h et le 4/04/2020 de 10h à 13h.\";www.onisep.fr/http/redirection/etablissement/slug/ENS.17127" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       " le 16/11/2019 de 14h à 17h" .
+
+<ID16>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          " professionnels (métiers de l¿électricité" ;
+        <geo:long>         " maintenance des véhicules et technicien d¿usinage) et technologique (STI2D) pour les élèves de 3ème et de seconde.\";www.onisep.fr/http/redirection/etablissement/slug/ENS.18269" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       " 27 Boulevard du Président BERTRAND au Puy en Velay. Le 15/02/2020 de 8h30 à 12h30" .
+
+<ID57>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          " le 19/03/2021" ;
+        <geo:long>         " le 20/04/2021" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       " le 17/11/2020" .
+
+<ID29>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          " 22 avril à partir de 8h30" ;
+        <geo:long>         " 25 avril de 10h à 17h" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       " autres JPO le 29 février de 10h à 17h" .
+
+<ID10>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          " Post-Bac : CPGE " ;
+        <geo:long>         " BTS MCO/SAM/GPME\";www.onisep.fr/http/redirection/etablissement/slug/ENS.8734" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       " formations présentées : CPGE et BTS MCO/SAM/GPME et le 08/02/2020 de 8h30 à 13h30" .
+
+<ID51>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          " Nîmes" ;
+        <geo:long>         " Rodez" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       " Nîmes" .
+
+<ID23>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          " EJE" ;
+        <geo:long>         " CAFERUIS" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       " pour les diplômes ME" .
+
+<ID64>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          " le 20/04/2021" ;
+        <geo:long>         " le 18/05/2021\";www.onisep.fr/http/redirection/etablissement/slug/ENS.19118" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       " le 24/11/2020" .
+
+<ID36>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          " le 06/06/2020" ;
+        <geo:long>         " de 9h30 à 12h à toutes les dates\";www.onisep.fr/http/redirection/etablissement/slug/ENS.18070" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       " le 25/01/2020" .
+
+<ID7>   <a>                "geo:SpatialThing" ;
+        <geo:lat>          " Tourisme ; CPGE ECE ; DCG ; DE CESF ; Bachelor GB" ;
+        <geo:long>         " IHTM" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       " Bac Techno STMG et ST2S ; BTS : CI" .
+
+<ID77>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          " le 11/04/2021" ;
+        <geo:long>         " le 21/05/2021" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       " le 13/11/2020" .
+
+<ID49>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          " TP)" ;
+        <geo:long>         " ferme entre 12h et 13h30)" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       " Bac" .
+
+<ID30>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          " histoire" ;
+        <geo:long>         " philosophie" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       " science politique au Centre Port Royal - le samedi 1 février en AES" .
+
+<ID1>   <a>                "geo:SpatialThing" ;
+        <geo:lat>          " 06/05" ;
+        <geo:long>         " 27/05" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       " 15/01" .
+
+<ID71>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          " le 20/04/2021" ;
+        <geo:long>         " le 18/05/2021\";www.onisep.fr/http/redirection/etablissement/slug/ENS.16109" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       " le 24/11/2020" .
+
+<ID43>  <a>                "geo:SpatialThing" ;
+        <geo:lat>          " rue du Doyen André Guiner" ;
+        <geo:long>         " 91 Orsay" ;
+        <rdfs:SubClassOf>  "wd:Q13646" ;
+        <rdfs:label>       " économie" .
