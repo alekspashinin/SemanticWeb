@@ -2980,7 +2980,9 @@ tbody.collapse.show {
     flex-wrap: wrap;
     padding-left: 0;
     margin-bottom: 0;
-    list-style: none; }
+    list-style: none;
+    justify-content: center;
+}
 
 .nav-link {
     display: block;

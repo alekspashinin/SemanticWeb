@@ -39,12 +39,7 @@ public class dashboardController {
 
     @GetMapping("/")
     public String index() {
-        return "home";
-    }
-
-    @GetMapping("/home")
-    public String home() {
-        return "home";
+        return "trains";
     }
 
     @GetMapping("/trains")
@@ -103,8 +98,30 @@ public class dashboardController {
         }
         modelMap.addAttribute("lon", res.getLongitude());
         modelMap.addAttribute("lat", res.getLatitude());
-        System.out.println("NEAREST STRUCTURES: ");
-        System.out.println("RESULT: " + res.getIpAddress() + " " + res.getCity() + " " + res.getLatitude() + " " + res.getLongitude());
+        getNearPos posHospital = new getNearPos();
+        posHospital.getNearPosResult("src/main/resources/static/json/Hospitals.txt");
+        getNearPos posMuseum = new getNearPos();
+        posMuseum.getNearPosResult("src/main/resources/static/json/Museums.txt");
+        getNearPos posPost = new getNearPos();
+        posPost.getNearPosResult("src/main/resources/static/json/PostOffices.txt");
+        getNearPos posUniv = new getNearPos();
+        posUniv.getNearPosResult("src/main/resources/static/json/University.txt");
+        modelMap.addAttribute("longsHospital", posHospital.getNearlong());
+        modelMap.addAttribute("latsHospital", posHospital.getNearlat());
+        modelMap.addAttribute("nameHospital", posHospital.getName());
+        modelMap.addAttribute("distHospital", posHospital.getDstns());
+        modelMap.addAttribute("longsMuseum", posMuseum.getNearlong());
+        modelMap.addAttribute("latsMuseum", posMuseum.getNearlat());
+        modelMap.addAttribute("nameMuseum", posMuseum.getName());
+        modelMap.addAttribute("distMuseum", posMuseum.getDstns());
+        modelMap.addAttribute("longsPost", posPost.getNearlong());
+        modelMap.addAttribute("latsPost", posPost.getNearlat());
+        modelMap.addAttribute("namePost", posPost.getName());
+        modelMap.addAttribute("distPost", posPost.getDstns());
+        modelMap.addAttribute("longsUniv", posUniv.getNearlong());
+        modelMap.addAttribute("latsUniv", posUniv.getNearlat());
+        modelMap.addAttribute("nameUniv", posUniv.getName());
+        modelMap.addAttribute("distUniv", posUniv.getDstns());
         return "social";
     }
 

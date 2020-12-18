@@ -100,10 +100,4 @@ public class CsvToTtl {
         }
     }
 
-    public static void main(String[] args) throws IOException {
-        String current = System.getProperty("user.dir");
-        System.out.println("Current working directory in Java : " + current);
-        CsvToTtl test = new CsvToTtl();
-        test.CsvToTtl("src/main/resources/static/csv/gares-tgv.csv", "src/main/resources/static/ttl/gares-tgv3.ttl", "gares-tgv3final.ttl");
-    }
 }

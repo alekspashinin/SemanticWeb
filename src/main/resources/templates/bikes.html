@@ -31,12 +31,6 @@
           </div>
         </div>
         <ul class="nav">
-          <li class="nav-item">
-            <a class="nav-link" th:href="@{/home}">
-              <i class="material-icons">dashboard</i>
-              <p> Dashboard </p>
-            </a>
-          </li>
           <li class="nav-item ">
             <a class="nav-link" th:href="@{/trains}">
               <i class="material-icons">train</i>
@@ -225,7 +219,7 @@
     });
 
     mapz.on('load', function() {
-      var urlVelo = 'https://raw.githubusercontent.com/SemWebProject/SemWebProject/main/remote/jsonVeloLyon.json';;
+      var urlVelo = 'https://raw.githubusercontent.com/SemWebProject/SemWebProject/main/remote/jsonVeloLyon.json';
       mapz.addSource('bikeFrance', { type: 'geojson', data: urlVelo});
 
       mapz.loadImage('/img/bike.png', function(error, image) {
@@ -247,6 +241,13 @@
             }
           });
 
+      var lon = document.getElementById('myvarlon').innerHTML;
+      var lat = document.getElementById('myvarlat').innerHTML;
+      var marker = new mapboxgl.Marker()
+              .setLngLat([lon,lat])
+              .addTo(mapz);
+    });
+
       document.getElementById('chooseCity').addEventListener('change', function() {
         var res = this.value;
         if(res == 2) {
@@ -257,27 +258,28 @@
             zoom: 11
           });
 
-          var urlVelo = 'https://raw.githubusercontent.com/SemWebProject/SemWebProject/main/remote/jsonVeloLyon.json';;
-          mapz.addSource('bikeFrance', { type: 'geojson', data: urlVelo});
+          mapz.on('load', function() {
+            var urlVelo = 'https://raw.githubusercontent.com/SemWebProject/SemWebProject/main/remote/jsonVeloLyon.json';
+            mapz.addSource('bikeFrance', {type: 'geojson', data: urlVelo});
 
-          mapz.loadImage('/img/bike.png', function(error, image) {
-            if (error) throw error;
-            // add image to the active style and make it SDF-enabled
-            mapz.addImage('bike-icon', image, { sdf: true });
-          });
+            mapz.loadImage('/img/bike.png', function (error, image) {
+              if (error) throw error;
+              // add image to the active style and make it SDF-enabled
+              mapz.addImage('bike-icon', image, {sdf: true});
+            });
 
-
-          mapz.addLayer({
-            'id': 'bikeFranceStations',
-            'source': 'bikeFrance',
-            'type': 'symbol',
-            'layout': {
-              'icon-image': 'bike-icon',
-              'icon-size': 0.5
-            },
-            'paint': {
-              'icon-color': '#3788ff'
-            }
+            mapz.addLayer({
+              'id': 'bikeFranceStations',
+              'source': 'bikeFrance',
+              'type': 'symbol',
+              'layout': {
+                'icon-image': 'bike-icon',
+                'icon-size': 0.5
+              },
+              'paint': {
+                'icon-color': '#3788ff'
+              }
+            });
           });
         }
         if(res == 3) {
@@ -288,17 +290,28 @@
             zoom: 11
           });
 
-          mapz.addLayer({
-            'id': 'bikeFranceStations',
-            'source': 'bikeFrance',
-            'type': 'symbol',
-            'layout': {
-              'icon-image': 'bike-icon',
-              'icon-size': 0.5
-            },
-            'paint': {
-              'icon-color': '#3788ff'
-            }
+          mapz.on('load', function() {
+            var urlVelo = 'https://raw.githubusercontent.com/SemWebProject/SemWebProject/main/remote/jsonVeloLyon.json';
+            mapz.addSource('bikeFrance', { type: 'geojson', data: urlVelo});
+
+            mapz.loadImage('/img/bike.png', function(error, image) {
+              if (error) throw error;
+              // add image to the active style and make it SDF-enabled
+              mapz.addImage('bike-icon', image, { sdf: true });
+            });
+
+            mapz.addLayer({
+              'id': 'bikeFranceStations',
+              'source': 'bikeFrance',
+              'type': 'symbol',
+              'layout': {
+                'icon-image': 'bike-icon',
+                'icon-size': 0.5
+              },
+              'paint': {
+                'icon-color': '#3788ff'
+              }
+            });
           });
         }
         if(res == 4) {
@@ -309,17 +322,28 @@
             zoom: 11
           });
 
-          mapz.addLayer({
-            'id': 'bikeFranceStations',
-            'source': 'bikeFrance',
-            'type': 'symbol',
-            'layout': {
-              'icon-image': 'bike-icon',
-              'icon-size': 0.5
-            },
-            'paint': {
-              'icon-color': '#3788ff'
-            }
+          mapz.on('load', function() {
+            var urlVelo = 'https://raw.githubusercontent.com/SemWebProject/SemWebProject/main/remote/jsonVeloLyon.json';
+            mapz.addSource('bikeFrance', { type: 'geojson', data: urlVelo});
+
+            mapz.loadImage('/img/bike.png', function(error, image) {
+              if (error) throw error;
+              // add image to the active style and make it SDF-enabled
+              mapz.addImage('bike-icon', image, { sdf: true });
+            });
+
+            mapz.addLayer({
+              'id': 'bikeFranceStations',
+              'source': 'bikeFrance',
+              'type': 'symbol',
+              'layout': {
+                'icon-image': 'bike-icon',
+                'icon-size': 0.5
+              },
+              'paint': {
+                'icon-color': '#3788ff'
+              }
+            });
           });
         }
         if(res == 5) {
@@ -330,17 +354,28 @@
             zoom: 11
           });
 
-          mapz.addLayer({
-            'id': 'bikeFranceStations',
-            'source': 'bikeFrance',
-            'type': 'symbol',
-            'layout': {
-              'icon-image': 'bike-icon',
-              'icon-size': 0.5
-            },
-            'paint': {
-              'icon-color': '#3788ff'
-            }
+          mapz.on('load', function() {
+            var urlVelo = 'https://raw.githubusercontent.com/SemWebProject/SemWebProject/main/remote/jsonVeloLyon.json';
+            mapz.addSource('bikeFrance', { type: 'geojson', data: urlVelo});
+
+            mapz.loadImage('/img/bike.png', function(error, image) {
+              if (error) throw error;
+              // add image to the active style and make it SDF-enabled
+              mapz.addImage('bike-icon', image, { sdf: true });
+            });
+
+            mapz.addLayer({
+              'id': 'bikeFranceStations',
+              'source': 'bikeFrance',
+              'type': 'symbol',
+              'layout': {
+                'icon-image': 'bike-icon',
+                'icon-size': 0.5
+              },
+              'paint': {
+                'icon-color': '#3788ff'
+              }
+            });
           });
         }
         if(res == 6) {
@@ -351,17 +386,28 @@
             zoom: 11
           });
 
-          mapz.addLayer({
-            'id': 'bikeFranceStations',
-            'source': 'bikeFrance',
-            'type': 'symbol',
-            'layout': {
-              'icon-image': 'bike-icon',
-              'icon-size': 0.5
-            },
-            'paint': {
-              'icon-color': '#3788ff'
-            }
+          mapz.on('load', function() {
+            var urlVelo = 'https://raw.githubusercontent.com/SemWebProject/SemWebProject/main/remote/jsonVeloLyon.json';
+            mapz.addSource('bikeFrance', { type: 'geojson', data: urlVelo});
+
+            mapz.loadImage('/img/bike.png', function(error, image) {
+              if (error) throw error;
+              // add image to the active style and make it SDF-enabled
+              mapz.addImage('bike-icon', image, { sdf: true });
+            });
+
+            mapz.addLayer({
+              'id': 'bikeFranceStations',
+              'source': 'bikeFrance',
+              'type': 'symbol',
+              'layout': {
+                'icon-image': 'bike-icon',
+                'icon-size': 0.5
+              },
+              'paint': {
+                'icon-color': '#3788ff'
+              }
+            });
           });
         }
       });
@@ -372,7 +418,6 @@
       var marker = new mapboxgl.Marker()
               .setLngLat([lon,lat])
               .addTo(mapz);
-    });
 
 
     var quakeID = null;

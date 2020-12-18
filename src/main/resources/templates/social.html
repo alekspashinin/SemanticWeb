@@ -18,21 +18,6 @@
 </head>
 
 <body class="">
-<?php
-  function get_ip_address(){
-  foreach (array('HTTP_CLIENT_IP', 'HTTP_X_FORWARDED_FOR', 'HTTP_X_FORWARDED', 'HTTP_X_CLUSTER_CLIENT_IP', 'HTTP_FORWARDED_FOR', 'HTTP_FORWARDED', 'REMOTE_ADDR') as $key){
-  if (array_key_exists($key, $_SERVER) === true){
-  foreach (explode(',', $_SERVER[$key]) as $ip){
-  $ip = trim($ip); // just to be safe
-
-  if (filter_var($ip, FILTER_VALIDATE_IP, FILTER_FLAG_NO_PRIV_RANGE | FILTER_FLAG_NO_RES_RANGE) !== false){
-  return $ip;
-  }
-  }
-  }
-  }
-  }
-?>
   <div class="wrapper ">
     <div class="sidebar" data-color="orange" data-background-color="black" data-image="/img/sidebar.png">
       <div class="logo-text logo">
@@ -46,12 +31,6 @@
           </div>
         </div>
         <ul class="nav">
-          <li class="nav-item ">
-            <a class="nav-link" th:href="@{/home}">
-              <i class="material-icons">dashboard</i>
-              <p> Dashboard </p>
-            </a>
-          </li>
           <li class="nav-item ">
             <a class="nav-link" th:href="@{/trains}">
               <i class="material-icons">train</i>
@@ -149,7 +128,6 @@
                       </button>
                     </label>
                   </div>
-                  <br>
                   <div class="togglebutton">
                     <label>
                       <input id="data-toggle-museum" type="checkbox">
@@ -159,7 +137,6 @@
                       </button>
                     </label>
                   </div>
-                  <br>
                   <div class="togglebutton">
                     <label>
                       <input id="data-toggle-poste" type="checkbox">
@@ -169,7 +146,6 @@
                       </button>
                     </label>
                   </div>
-                  <br>
                   <div class="togglebutton">
                     <label>
                       <input id="data-toggle-univ" type="checkbox">
@@ -179,32 +155,169 @@
                       </button>
                     </label>
                   </div>
-                  <table class="table">
-                    <tbody>
-                    <tr>
-                      <br>
-                      <h4 class="card-title">Nearest Structures</h4>
-                      <td>Name</td>
-                      <td class="text-right">
-                        <span id='name'></span>
-                      </td>
-                    </tr>
-                    <tr>
-                      <br>
-                      <td>Latitude</td>
-                      <td class="text-right">
-                        <span id='lats'></span>
-                      </td>
-                    </tr>
-                    <tr>
-                      <br>
-                      <td>Longitude</td>
-                      <td class="text-right">
-                        <span id='longs'></span>
-                      </td>
-                    </tr>
-                    </tbody>
-                  </table>
+                  <div class="card-body ">
+                  <ul class="nav nav-pills nav-pills-warning" role="tablist">
+                    <li class="nav-item">
+                      <a class="nav-link active" data-toggle="tab" href="#link1" role="tablist">
+                        Hospitals
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" data-toggle="tab" href="#link2" role="tablist">
+                        Museums
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" data-toggle="tab" href="#link3" role="tablist">
+                        Post Offices
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" data-toggle="tab" href="#link4" role="tablist">
+                        Universities
+                      </a>
+                    </li>
+                  </ul>
+                  <div class="tab-content tab-space">
+                    <div class="tab-pane active" id="link1">
+                      <table class="table">
+                        <tbody>
+                        <tr>
+                          <h4 class="card-title">Nearest Hospital</h4>
+                          <td>Name</td>
+                          <td class="text-left">
+                            <span id='nameHospital' th:text="${nameHospital}"></span>
+                          </td>
+                        </tr>
+                        <tr>
+                          <br>
+                          <td>Latitude</td>
+                          <td class="text-left">
+                            <span id='latsHospital' th:text="${latsHospital}"></span>
+                          </td>
+                        </tr>
+                        <tr>
+                          <br>
+                          <td>Longitude</td>
+                          <td class="text-left">
+                            <span id='longsHospital' th:text="${longsHospital}"></span>
+                          </td>
+                        </tr>
+                        <tr>
+                          <br>
+                          <td>Distance</td>
+                          <td class="text-left">
+                            <span id='distHospital' th:text="${distHospital}"></span>
+                          </td>
+                        </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                    <div class="tab-pane" id="link2">
+                      <table class="table">
+                        <tbody>
+                        <tr>
+                          <h4 class="card-title">Nearest Museum</h4>
+                          <td>Name</td>
+                          <td class="text-left">
+                            <span id='nameMuseum' th:text="${nameMuseum}"></span>
+                          </td>
+                        </tr>
+                        <tr>
+                          <br>
+                          <td>Latitude</td>
+                          <td class="text-left">
+                            <span id='latsMuseum' th:text="${latsMuseum}"></span>
+                          </td>
+                        </tr>
+                        <tr>
+                          <br>
+                          <td>Longitude</td>
+                          <td class="text-left">
+                            <span id='longsMuseum' th:text="${longsMuseum}"></span>
+                          </td>
+                        </tr>
+                        <tr>
+                          <br>
+                          <td>Distance</td>
+                          <td class="text-left">
+                            <span id='distMuseum' th:text="${distMuseum}"></span>
+                          </td>
+                        </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                    <div class="tab-pane" id="link3">
+                      <table class="table">
+                        <tbody>
+                        <tr>
+                          <h4 class="card-title">Nearest Post Office</h4>
+                          <td>Name</td>
+                          <td class="text-left">
+                            <span id='namePost' th:text="${namePost}"></span>
+                          </td>
+                        </tr>
+                        <tr>
+                          <br>
+                          <td>Latitude</td>
+                          <td class="text-left">
+                            <span id='latsPost' th:text="${latsPost}"></span>
+                          </td>
+                        </tr>
+                        <tr>
+                          <br>
+                          <td>Longitude</td>
+                          <td class="text-left">
+                            <span id='longsPost' th:text="${longsPost}"></span>
+                          </td>
+                        </tr>
+                        <tr>
+                          <br>
+                          <td>Distance</td>
+                          <td class="text-left">
+                            <span id='distPost' th:text="${distPost}"></span>
+                          </td>
+                        </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                    <div class="tab-pane" id="link4">
+                      <table class="table">
+                        <tbody>
+                        <tr>
+                          <h4 class="card-title">Nearest University</h4>
+                          <td>Name</td>
+                          <td class="text-left">
+                            <span id='nameUniv' th:text="${nameUniv}"></span>
+                          </td>
+                        </tr>
+                        <tr>
+                          <br>
+                          <td>Latitude</td>
+                          <td class="text-left">
+                            <span id='latsUniv' th:text="${latsUniv}"></span>
+                          </td>
+                        </tr>
+                        <tr>
+                          <br>
+                          <td>Longitude</td>
+                          <td class="text-left">
+                            <span id='longsUniv' th:text="${longsUniv}"></span>
+                          </td>
+                        </tr>
+                        <tr>
+                          <br>
+                          <td>Distance</td>
+                          <td class="text-left">
+                            <span id='distUniv' th:text="${distUniv}"></span>
+                          </td>
+                        </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+
                   <span id="myvarlon" th:text="${lon}" class="text-white"></span>
                   <span id="myvarlat" th:text="${lat}" class="text-white"></span>
                   <br>
