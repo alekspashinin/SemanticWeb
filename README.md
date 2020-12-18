@@ -35,3 +35,24 @@ Sub Classes for B | Stands for
 ------------ | -------------
 wd:Q870 | Transport Facilities
 wd:Q41176 | Public Building
+## SPARRQL Query
+### FOR TGV(for Instance):
+```
+@base <http://example/base/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+
+Select ?name ?lat ?long Where {    
+    ?all  a geo:SpatialThing;
+        rdfs:SubClassOf wd:Q129337;
+        rdfs:label ?name;
+        geo:long ?long;
+        geo:long ?lat.
+}
+
+```
