@@ -1,0 +1,5331 @@
+@base <http://example/base/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+
+<67140> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20la%20Folie%20Marco>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.410188>;
+  geo:long <7.45112> .
+
+wd:Q33506 rdfs:SubClassOf wd:Q41176 .
+
+<67660> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20la%20Poterie>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.900331>;
+  geo:long <7.914441> .
+
+<67330> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20Bouxwiller%20et%20du%20Pays%20de%20Hanau>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.824975>;
+  geo:long <7.482776> .
+
+<67500> a geo:SpatialThing;
+  rdfs:lable <Musée%20Alsacien>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.814611>;
+  geo:long <7.789527> .
+
+<67504> a geo:SpatialThing;
+  rdfs:lable <Musée%20Historique>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.812831>;
+  geo:long <7.791479> .
+
+<67120> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20la%20Chartreuse>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.54278>;
+  geo:long <7.49023> .
+
+<67110> a geo:SpatialThing;
+  rdfs:lable <Maison%20de%20l%27Archéologie%20des%20Vosges%20du%20Nord>, <Musée%20du%20Fer>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.947443>, <48.932379>;
+  geo:long <7.650429>, <7.665286> .
+
+<67350> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20l%27Image%20Populaire%20de%20Pfaffenhoffen>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.844809>;
+  geo:long <7.611262> .
+
+<67700> a geo:SpatialThing;
+  rdfs:lable <Musée%20du%20Château%20des%20Rohan>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.741895>;
+  geo:long <7.362216> .
+
+<67000> a geo:SpatialThing;
+  rdfs:lable <Musée%20des%20Arts%20Décoratifs>, <Musée%20Tomi%20Ungerer>, <Musée%20des%20Beaux-Arts>,
+    <Musée%20Historique>, <Musée%20Alsacien>, <Musée%20Archéologique>, <Musée%20de%20l%27Œuvre%20Notre-Dame>,
+    <Cabinet%20des%20Estampes%20et%20des%20Dessins>, <Musée%20d%27Art%20Moderne%20et%20Contemporain%20de%20Strasbourg>,
+    <Musée%20Zoologique%20de%20l%27Université%20Louis%20Pasteur%20et%20de%20la%20Ville%20de%20Strasbourg>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.581323>, <48.585556>, <48.580496>, <48.57862>, <48.580997>, <48.581108>,
+    <48.580058>, <48.582685>;
+  geo:long <7.751359>, <7.755619>, <7.74967>, <7.748812>, <7.751064>, <7.750893>, <7.736546>,
+    <7.764696> .
+
+<67130> a geo:SpatialThing;
+  rdfs:lable <Musée%20J.F.%20Oberlin>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.414761>;
+  geo:long <7.214894> .
+
+<67290> a geo:SpatialThing;
+  rdfs:lable <Musée%20Lalique>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.927033>;
+  geo:long <7.361922> .
+
+<67160> a geo:SpatialThing;
+  rdfs:lable <Musée%20Westercamp>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <49.038815>;
+  geo:long <7.944344> .
+
+<67360> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20la%20Bataille%20du%206%20Août%201870>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.938618>;
+  geo:long <7.747992> .
+
+<68130> a geo:SpatialThing;
+  rdfs:lable <Musée%20Sundgauvien%20d%27Altkirch>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <47.623494>;
+  geo:long <7.23739> .
+
+<68600> a geo:SpatialThing;
+  rdfs:lable <Musée%20Gallo-Romain>, <Musée%20Vauban>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.041378>, <48.016059>;
+  geo:long <7.547923>, <7.525831> .
+
+<68700> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20la%20Porte%20de%20Thann>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <47.809504>;
+  geo:long <7.174289> .
+
+<68000> a geo:SpatialThing;
+  rdfs:lable <Musée%20d%27Unterlinden>, <Musée%20Bartholdi>, <Musée%20d%27Histoire%20Naturelle%20et%20d%27Ethnographie%20de%20Colmar>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.079733>, <48.076747>, <48.073594>;
+  geo:long <7.354974>, <7.357746>, <7.35872> .
+
+<68500> a geo:SpatialThing;
+  rdfs:lable <Musée%20Théodore%20Deck%20et%20des%20Pays%20du%20Florival>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <47.905522>;
+  geo:long <7.214504> .
+
+<68330> a geo:SpatialThing;
+  rdfs:lable <Musée%20Historique%20et%20Militaire%20de%20Huningue>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <47.591513>;
+  geo:long <7.584985> .
+
+<68240> a geo:SpatialThing;
+  rdfs:lable <Musée%20d%27Histoire%20Local>, <Musée%20du%20Vignoble%20et%20des%20Vins%20d%27Alsace>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.139072>;
+  geo:long <7.261441> .
+
+<68200> a geo:SpatialThing;
+  rdfs:lable <Cité%20du%20Train>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <47.751091>;
+  geo:long <7.293676> .
+
+<68100> a geo:SpatialThing;
+  rdfs:lable <Musée%20Historique>, <Musée%20du%20Sapeur%20Pompier>, <Musée%20des%20Beaux-Arts>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <47.746535>, <47.757665>, <47.745774>;
+  geo:long <7.339544>, <7.335541>, <7.338271> .
+
+<68072> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20l%27Impression%20sur%20Etoffes>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <47.74415>;
+  geo:long <7.343298> .
+
+<68051> a geo:SpatialThing;
+  rdfs:lable <Musée%20National%20de%20l%27Automobile%20-%20Collection%20Schlumpf>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <47.760209>;
+  geo:long <7.327993> .
+
+<68057> a geo:SpatialThing;
+  rdfs:lable <Musée%20EDF%20Electropolis>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <47.749347>;
+  geo:long <7.295182> .
+
+<68093> a geo:SpatialThing;
+  rdfs:lable <Musée%20Minéralogique%20de%20la%20Société%20Industrielle%20de%20Mulhouse>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <47.732773>;
+  geo:long <7.312173> .
+
+<68480> a geo:SpatialThing;
+  rdfs:lable <Maison%20du%20Sundgau%20-%20Musée%20Paysan>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <47.492827>;
+  geo:long <7.391275> .
+
+<68340> a geo:SpatialThing;
+  rdfs:lable <Musée%20du%20Dolder>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.16694>;
+  geo:long <7.297357> .
+
+<68171> a geo:SpatialThing;
+  rdfs:lable <Musée%20du%20Papier%20Peint>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <47.74438>;
+  geo:long <7.397815> .
+
+<68800> a geo:SpatialThing;
+  rdfs:lable <Musée%20des%20Amis%20de%20Thann>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <47.812283>;
+  geo:long <7.101737> .
+
+<68190> a geo:SpatialThing;
+  rdfs:lable <Ecomusée%20d%27Alsace>;
+  rdfs:SubClassOf wd:Q33506 .
+
+<24100> a geo:SpatialThing;
+  rdfs:lable <Musée%20d%27Anthropologie%20du%20Tabac%20d%27Intérêt%20National>, <Musée-Aquarium>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <44.849787>, <44.854577>;
+  geo:long <0.483514>, <0.564797> .
+
+<24310> a geo:SpatialThing;
+  rdfs:lable <Château%20de%20Bourdeilles>, <Musée%20Fernand%20Desmoulin>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <45.316682>, <45.364629>;
+  geo:long <0.565763>, <0.647342> .
+
+<24250> a geo:SpatialThing;
+  rdfs:lable <Musée%20Paul%20Reclus>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <44.803002>;
+  geo:long <1.214222> .
+
+<24620> a geo:SpatialThing;
+  rdfs:lable <Musée%20National%20de%20la%20Préhistoire>;
+  rdfs:SubClassOf wd:Q33506 .
+
+<24290> a geo:SpatialThing;
+  rdfs:lable <Musée%20Eugène%20Le%20Roy%20et%20des%20Vieux%20Métiers>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <45.063871>;
+  geo:long <1.163492> .
+
+<24400> a geo:SpatialThing;
+  rdfs:lable <Musée%20des%20Arts%20et%20Traditions%20Populaires%20du%20Périgord>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <45.037552>;
+  geo:long <0.362147> .
+
+<24300> a geo:SpatialThing;
+  rdfs:lable <Musée%20Départemental%20de%20la%20Poupée%20et%20du%20Jouet>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <45.527035>;
+  geo:long <0.660711> .
+
+<24000> a geo:SpatialThing;
+  rdfs:lable <Musée%20d%27Art%20et%20d%27Archéologie%20du%20Périgord%20%28MAAP%29>,
+    <Musée%20Gallo-Romain%20de%20Vesunna>, <Musée%20Militaire%20-%20Souvenir%20du%20Périgord>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <45.186039>, <45.179999>, <45.183285>;
+  geo:long <0.72395>, <0.71269>, <0.720943> .
+
+<24440> a geo:SpatialThing;
+  rdfs:lable <Musée%20du%20Site%20Médiéval>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <44.756834>;
+  geo:long <0.842382> .
+
+<24205> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20Sarlat%20et%20du%20Périgord%20Noir>;
+  rdfs:SubClassOf wd:Q33506 .
+
+<24610> a geo:SpatialThing;
+  rdfs:lable <Musée%20d%27Art%20et%20Traditions%20Populaires>;
+  rdfs:SubClassOf wd:Q33506 .
+
+<33540> a geo:SpatialThing;
+  rdfs:lable <Musée%20Municipal%20de%20Blasimon>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <44.747676>;
+  geo:long <-0.092939> .
+
+<33390> a geo:SpatialThing;
+  rdfs:lable <Musée%20d%27Art%20et%20d%27Histoire%20du%20Pays%20Blayais>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <45.126379>;
+  geo:long <-0.663606> .
+
+<33000> a geo:SpatialThing;
+  rdfs:lable <Centre%20National%20Jean%20Moulin>, <CAPC%20Musée%20d%27Art%20Contemporain%20de%20Bordeaux>,
+    <Musée%20d%27Aquitaine>, <Musée%20des%20Beaux-Arts>, <Musée%20des%20Arts%20Décoratifs>,
+    <Muséum%20d%27Histoire%20Naturelle%20de%20Bordeaux>, <Musée%20Goupil>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <44.838651>, <44.848186>, <44.835543>, <44.838056>, <44.838956>, <44.848154>;
+  geo:long <-0.577869>, <-0.572137>, <-0.575205>, <-0.579413>, <-0.579686>, <-0.580085> .
+
+<33710> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20la%20Voiture%20à%20Cheval>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <45.039708>;
+  geo:long <-0.560791> .
+
+<33190> a geo:SpatialThing;
+  rdfs:lable <Musée%20Municipal>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <44.581128>;
+  geo:long <-0.041074> .
+
+<33500> a geo:SpatialThing;
+  rdfs:lable <Musée%20des%20Beaux-Arts%20et%20d%27Archéologie>, <Musée%20Historique%20ou%20du%20Vieux%20Libourne%20%28Robin%29>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <44.914487>, <44.91759>;
+  geo:long <-0.245068>, <-0.244124> .
+
+<33330> a geo:SpatialThing;
+  rdfs:lable <Musée%20d%27Histoire%20et%20d%27Archéologique>;
+  rdfs:SubClassOf wd:Q33506 .
+
+<33730> a geo:SpatialThing;
+  rdfs:lable <Musée%20Municipal>;
+  rdfs:SubClassOf wd:Q33506 .
+
+<40600> a geo:SpatialThing;
+  rdfs:lable <Musée%20Historique%20de%20l%27Hydravion>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <44.388887>;
+  geo:long <-1.182563> .
+
+<40107> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20Borda>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <43.708837>;
+  geo:long <-1.051437> .
+
+<40300> a geo:SpatialThing;
+  rdfs:lable <Musée%20Départemental%20de%20Préhistoire>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <43.524706>;
+  geo:long <-1.121479> .
+
+<40043> a geo:SpatialThing;
+  rdfs:lable <Atelier-Musée%20%20%28Ecomusée%20de%20la%20Grande%20Landes%29>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <44.263529>;
+  geo:long <-0.518812> .
+
+<40000> a geo:SpatialThing;
+  rdfs:lable <Musée%20Despiau-Wlérick>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <43.892599>;
+  geo:long <-0.498893> .
+
+<40380> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20la%20Chalosse>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <43.715749>;
+  geo:long <-0.833916> .
+
+<40630> a geo:SpatialThing;
+  rdfs:lable <Ecomusée%20de%20la%20Grande%20Lande>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <44.149054>;
+  geo:long <-0.750737> .
+
+<40500> a geo:SpatialThing;
+  rdfs:lable <Musée%20Municipal>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <43.758576>;
+  geo:long <-0.572238> .
+
+<40320> a geo:SpatialThing;
+  rdfs:lable <Musée%20Départemental%20de%20la%20Faïence%20et%20des%20Arts%20de%20la%20table>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <43.641006>;
+  geo:long <-0.510832> .
+
+<40460> a geo:SpatialThing;
+  rdfs:lable <Musée%20Municipal%20du%20Lac>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <44.483691>;
+  geo:long <-1.075968> .
+
+<47916> a geo:SpatialThing;
+  rdfs:lable <Musée%20des%20Beaux-Arts>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <44.202967>;
+  geo:long <0.615493> .
+
+<47200> a geo:SpatialThing;
+  rdfs:lable <Musée%20Municipal%20Albert%20Marzelles>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <44.498918>;
+  geo:long <0.166067> .
+
+<47170> a geo:SpatialThing;
+  rdfs:lable <Musée%20du%20Liège%20et%20du%20Bouchon>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <44.056911>;
+  geo:long <0.25639> .
+
+<47600> a geo:SpatialThing;
+  rdfs:lable <Musée%20du%20Château%20Henri%20IV>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <44.135138>;
+  geo:long <0.33973> .
+
+<47500> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20Préhistoire%20Mésolithique%20Laurent%20Coulonges>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <44.597508>;
+  geo:long <1.016896> .
+
+<47300> a geo:SpatialThing;
+  rdfs:lable <Musée%20Municipal%20%28Moulin%20de%20Gajac%29>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <44.405095>;
+  geo:long <0.707815> .
+
+<64260> a geo:SpatialThing;
+  rdfs:lable <Musée%20Municipal>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <43.105938>;
+  geo:long <-0.42719> .
+
+<64100> a geo:SpatialThing;
+  rdfs:lable <Musée%20Bonnat-Helleu%20-%20Musée%20des%20Beaux-Arts%20de%20Bayonne>,
+    <Musée%20Basque%20et%20de%20l%27Histoire%20de%20Bayonne>, <Muséum%20d%27Histoire%20Naturelle>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <43.49213>, <43.491074>, <43.493388>;
+  geo:long <-1.472317>, <-1.473873>, <-1.48047> .
+
+<64250> a geo:SpatialThing;
+  rdfs:lable <Musée%20Edmond%20Rostand>;
+  rdfs:SubClassOf wd:Q33506 .
+
+<64210> a geo:SpatialThing;
+  rdfs:lable <Musée%20Municipal%20de%20Guéthary>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <43.421516>;
+  geo:long <-1.607796> .
+
+<64000> a geo:SpatialThing;
+  rdfs:lable <Musée%20Municipal%20des%20Beaux-Arts>, <Musée%20National%20du%20Château>,
+    <Musée%20Béarnais>, <Musée%20Bernadotte>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <43.297273>, <43.301752>, <43.299954>, <43.297209>;
+  geo:long <-0.364361>, <-0.369218>, <-0.361253>, <-0.372526> .
+
+<03350> a geo:SpatialThing;
+  rdfs:lable <Musée%20Charles-Louis%20Philippe>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <46.617913>;
+  geo:long <2.823245> .
+
+<03800> a geo:SpatialThing;
+  rdfs:lable <Musée%20Municipal%20de%20Gannat>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <46.102147>;
+  geo:long <3.19633> .
+
+<03400> a geo:SpatialThing;
+  rdfs:lable <Musée%20Rural%20de%20la%20Sologne%20Bourbonnaise>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <46.57337>;
+  geo:long <3.359803> .
+
+<03100> a geo:SpatialThing;
+  rdfs:lable <Musée%20des%20Musiques%20Populaires%20-%20MuPop>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <46.34088>;
+  geo:long <2.605558> .
+
+<03000> a geo:SpatialThing;
+  rdfs:lable <Centre%20National%20du%20Costume%20de%20Scène%20et%20de%20la%20Scénographie>;
+  rdfs:SubClassOf wd:Q33506 .
+
+<03016> a geo:SpatialThing;
+  rdfs:lable <Musée%20Anne%20de%20Beaujeu>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <46.568527>;
+  geo:long <3.333844> .
+
+<03310> a geo:SpatialThing;
+  rdfs:lable <Musée%20Rieckotter>;
+  rdfs:SubClassOf wd:Q33506 .
+
+<03210> a geo:SpatialThing;
+  rdfs:lable <Musée%20Municipal%20de%20Souvigny>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <46.534768>;
+  geo:long <3.192475> .
+
+<03200> a geo:SpatialThing;
+  rdfs:lable <Musée%20des%20Arts%20D%27Afrique%20et%20D%27Asie>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <46.128546>;
+  geo:long <3.420555> .
+
+<15000> a geo:SpatialThing;
+  rdfs:lable <Musée%20des%20Sciences>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <44.933328>;
+  geo:long <2.444943> .
+
+<15012> a geo:SpatialThing;
+  rdfs:lable <Musée%20d%27Art%20et%20d%27Archéologie>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <44.925394>;
+  geo:long <2.441947> .
+
+<15320> a geo:SpatialThing;
+  rdfs:lable <Ecomusée%20de%20Margeride-Haute-Auvergne>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <45.000522>;
+  geo:long <3.224427> .
+
+<15100> a geo:SpatialThing;
+  rdfs:lable <Musée%20d%27art%20et%20d%27histoire%20Alfred%20Douët>, <Musée%20de%20la%20Haute%20Auvergne>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <45.034016>, <45.033137>;
+  geo:long <3.095067>, <3.094858> .
+
+<43380> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20Paléontologie>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <45.158926>;
+  geo:long <3.432601> .
+
+<43100> a geo:SpatialThing;
+  rdfs:lable <Musée%20des%20Arts%20et%20Traditions%20Populaires%20de%20Haute%20Loire>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <45.274699>;
+  geo:long <3.434854> .
+
+<43000> a geo:SpatialThing;
+  rdfs:lable <Musée%20Crozatier>;
+  rdfs:SubClassOf wd:Q33506 .
+
+<43130> a geo:SpatialThing;
+  rdfs:lable <Musée%20des%20Manufactures%20de%20Dentelles>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <45.202545>;
+  geo:long <4.035302> .
+
+<43300> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20la%20Ferblanterie>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <45.090036>;
+  geo:long <3.574618> .
+
+<63220> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20la%20Dentelle>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <45.414373>;
+  geo:long <3.724421> .
+
+<63000> a geo:SpatialThing;
+  rdfs:lable <Musée%20d%27Archéologie%20Bargoin>, <Muséum%20d%27Histoire%20Naturelle%20Henri-Lecoq>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <45.774229>, <45.774138>;
+  geo:long <3.0869>, <3.088299> .
+
+<63100> a geo:SpatialThing;
+  rdfs:lable <Musée%20d%27Art%20Roger-Quillot>;
+  rdfs:SubClassOf wd:Q33506 .
+
+<63190> a geo:SpatialThing;
+  rdfs:lable <Musée%20Départemental%20de%20la%20Céramique%20Gallo-Romaine>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <46.632156>;
+  geo:long <1.066913> .
+
+<63940> a geo:SpatialThing;
+  rdfs:lable <Musée%20des%20Pénitents%20Blancs>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <45.478841>;
+  geo:long <3.728706> .
+
+<63560> a geo:SpatialThing;
+  rdfs:lable <Musée%20Paléontologique>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <46.103787>;
+  geo:long <2.904038> .
+
+<63200> a geo:SpatialThing;
+  rdfs:lable <Musée%20Lapidaire>, <Musée%20Régional%20d%27Auvergne>, <Musée%20Francisque%20Mandet>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <45.89205>, <45.895037>, <45.893874>;
+  geo:long <3.094625>, <3.116254>, <3.116508> .
+
+<63790> a geo:SpatialThing;
+  rdfs:lable <Musée%20Municipal>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <45.574781>;
+  geo:long <2.943256> .
+
+<63300> a geo:SpatialThing;
+  rdfs:lable <Musée%20Municipal%20de%20la%20Coutellerie>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <45.852379>;
+  geo:long <3.548141> .
+
+<63530> a geo:SpatialThing;
+  rdfs:lable <Musée%20Municipal%20Marcel%20Sahut>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <45.860585>;
+  geo:long <3.024306> .
+
+<21150> a geo:SpatialThing;
+  rdfs:lable <Muséoparc%20-%20Alésia>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <47.536592>;
+  geo:long <4.469595> .
+
+<21130> a geo:SpatialThing;
+  rdfs:lable <Musée%20Bonaparte>;
+  rdfs:SubClassOf wd:Q33506 .
+
+<21200> a geo:SpatialThing;
+  rdfs:lable <Musée%20des%20Beaux-Arts>, <Musée%20E.J%20Marey>, <Musée%20du%20Vin%20de%20Bourgogne>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <47.02097>, <47.026213>, <47.023506>;
+  geo:long <4.839394>, <4.839367>, <4.836339> .
+
+<21500> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20la%20Sidérurgie%20Grande%20Forge>, <Musée%20des%20Beaux-Arts>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <47.649618>, <47.624475>;
+  geo:long <4.260887>, <4.336854> .
+
+<21400> a geo:SpatialThing;
+  rdfs:lable <Musée%20du%20Pays%20Châtillonnais%20-%20Trésor%20de%20Vix>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <47.863812>;
+  geo:long <4.574628> .
+
+<21000> a geo:SpatialThing;
+  rdfs:lable <Musée%20Magnin>, <Musée%20de%20la%20Vie%20Bourguignonne%2C%20Perrin%20de%20Puycousin>,
+    <Musée%20François%20Rude>, <Musée%20d%27Art%20Sacré>, <Muséum%20-%20Jardin%20des%20Sciences>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <47.320958>, <47.317415>, <47.321222>, <47.322449>;
+  geo:long <5.042188>, <5.037131>, <5.04395>, <5.015052> .
+
+<21033> a geo:SpatialThing;
+  rdfs:lable <Musée%20Archéologique>, <Musée%20des%20Beaux-Arts>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <47.32236>;
+  geo:long <5.034429> .
+
+<21220> a geo:SpatialThing;
+  rdfs:lable <Musée%20Noisot>, <Musée%20des%20Arts%20et%20Traditions%20des%20Hautes-Côtes>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <47.243639>;
+  geo:long <4.989806> .
+
+<21506> a geo:SpatialThing;
+  rdfs:lable <Musée%20Buffon>;
+  rdfs:SubClassOf wd:Q33506 .
+
+<21700> a geo:SpatialThing;
+  rdfs:lable <Musée%20Municipal>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <47.138661>;
+  geo:long <4.950405> .
+
+<21210> a geo:SpatialThing;
+  rdfs:lable <Musée%20Municipal%20François%20Pompon>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <47.279459>;
+  geo:long <4.229714> .
+
+<21140> a geo:SpatialThing;
+  rdfs:lable <Musée%20Municipal>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <47.490173>;
+  geo:long <4.336447> .
+
+<58120> a geo:SpatialThing;
+  rdfs:lable <Musée%20du%20Septennat>, <Musée%20du%20Costume>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <47.06721>, <47.066701>;
+  geo:long <3.934311>, <3.933691> .
+
+<58500> a geo:SpatialThing;
+  rdfs:lable <Musée%20d%27Art%20et%20d%27Histoire%20Romain%20Rolland>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <47.460717>;
+  geo:long <3.520761> .
+
+<58200> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20la%20Loire%20de%20Cosne%20sur%20Loire>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <47.410594>;
+  geo:long <2.922716> .
+
+<58400> a geo:SpatialThing;
+  rdfs:lable <Musée%20Municipal>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <47.178733>;
+  geo:long <3.015633> .
+
+<58260> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20la%20Mine>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <46.889225>;
+  geo:long <3.463514> .
+
+<58000> a geo:SpatialThing;
+  rdfs:lable <Musée%20Archéologique%20du%20Nivernais%20%28Porte%20du%20Croux%29>, <Musée%20de%20la%20Faïence%20Frédéric%20Blandin>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <46.98629>;
+  geo:long <3.155037> .
+
+<58150> a geo:SpatialThing;
+  rdfs:lable <Musée%20Ernest%20Guédon>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <47.285947>;
+  geo:long <2.949487> .
+
+<58310> a geo:SpatialThing;
+  rdfs:lable <Musée%20du%20Grès%20de%20Puisaye>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <47.536865>;
+  geo:long <3.067214> .
+
+<58210> a geo:SpatialThing;
+  rdfs:lable <Musée%20Auguste%20Grasset>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <47.359969>;
+  geo:long <3.388063> .
+
+<71400> a geo:SpatialThing;
+  rdfs:lable <Museum%20d%27Histoire%20Naturelle%20Jacques%20de%20La%20Comble>, <Musée%20Lapidaire%20Saint-Nicolas>,
+    <Musée%20Rolin>, <Musée%20Verger%20Tarin>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <46.947996>, <46.955532>, <46.961209>, <46.944133>;
+  geo:long <4.301812>, <4.300124>, <4.305784>, <4.299862> .
+
+<71450> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20la%20Mine>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <46.701488>;
+  geo:long <4.382962> .
+
+<71140> a geo:SpatialThing;
+  rdfs:lable <Musée%20Saint-Nazaire>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <46.624461>;
+  geo:long <3.770111> .
+
+<71100> a geo:SpatialThing;
+  rdfs:lable <Musée%20Nicéphore%20Niepce>, <Musée%20Denon>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <46.780045>, <46.78089>;
+  geo:long <4.855727>, <4.853022> .
+
+<71120> a geo:SpatialThing;
+  rdfs:lable <Musée%20du%20Prieuré%20de%20Charolles>, <Musée%20René%20Davoine>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <46.432494>, <46.4329>;
+  geo:long <4.279233>, <4.271817> .
+
+<71250> a geo:SpatialThing;
+  rdfs:lable <Musée%20d%27Art%20et%20d%27Archéologie>;
+  rdfs:SubClassOf wd:Q33506 .
+
+<71202> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20l%27Homme%20et%20de%20l%27Industrie%20-%20Ecomusée%20de%20la%20Communauté%20Le%20Creusot-Monceau-Les-Mines>;
+  rdfs:SubClassOf wd:Q33506 .
+
+<71500> a geo:SpatialThing;
+  rdfs:lable <L%27Atelier%20d%27un%20Journal%22%20de%20Louhans%20-%20Musée%20Municipal>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <46.630156>;
+  geo:long <5.224455> .
+
+<71000> a geo:SpatialThing;
+  rdfs:lable <Musée%20des%20Ursulines>, <Musée%20Lamartine>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <46.307159>, <46.305187>;
+  geo:long <4.832892>, <4.832539> .
+
+<71110> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20la%20Tour%20du%20Moulin>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <46.274545>;
+  geo:long <4.043191> .
+
+<71600> a geo:SpatialThing;
+  rdfs:lable <Musée%20Eucharistique%20du%20Hiéron>, <Musée%20Municipal>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <46.451822>, <46.450634>;
+  geo:long <4.123021>, <4.119775> .
+
+<71270> a geo:SpatialThing;
+  rdfs:lable <Ecomusée%20de%20la%20Bresse%20Bourguignonne>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <46.88301>;
+  geo:long <5.262064> .
+
+<71570> a geo:SpatialThing;
+  rdfs:lable <Musée%20Départemental%20du%20Compagnonnage>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <46.186127>;
+  geo:long <4.741798> .
+
+<71470> a geo:SpatialThing;
+  rdfs:lable <Musée%20du%20Terroir>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <46.501598>;
+  geo:long <5.06602> .
+
+<71960> a geo:SpatialThing;
+  rdfs:lable <Musée%20Départemental%20de%20Préhistoire%20de%20Solutré>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <46.294797>;
+  geo:long <4.736366> .
+
+<71700> a geo:SpatialThing;
+  rdfs:lable <Hôtel%20Dieu%20-%20Musée%20Greuze>, <Musée%20Bourguignon%20-%20%20Perrin%20de%20Puycousin>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <46.562137>, <46.566134>;
+  geo:long <4.910839>, <4.909274> .
+
+<71350> a geo:SpatialThing;
+  rdfs:lable <Maison%20du%20Blé%20et%20du%20Pain>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <46.899606>;
+  geo:long <5.021369> .
+
+<89000> a geo:SpatialThing;
+  rdfs:lable <Musée%20Leblanc-Duvernois>, <Muséum%20-%20Maison%20de%20l%27Eau>, <Musée%20d%27Art%20et%20d%27Histoire>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <47.795393>, <47.796936>, <47.800283>;
+  geo:long <3.566248>, <3.564362>, <3.571975> .
+
+<89206> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20l%27Avallonnais>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <47.486968>;
+  geo:long <3.906795> .
+
+<89310> a geo:SpatialThing;
+  rdfs:lable <Musée%20des%20Arts%20Naïfs%20et%20Populaires%20de%20Noyers%20sur%20Serein>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <47.72104>;
+  geo:long <3.966631> .
+
+<89170> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20l%27Aventure%20du%20Son>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <47.641201>;
+  geo:long <3.070611> .
+
+<89520> a geo:SpatialThing;
+  rdfs:lable <Musée%20Colette>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <47.617677>;
+  geo:long <3.199325> .
+
+<89100> a geo:SpatialThing;
+  rdfs:lable <Musée%20Muncipal>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.197826>;
+  geo:long <3.282682> .
+
+<89700> a geo:SpatialThing;
+  rdfs:lable <Musée%20Municipal%20de%20Tonnerre>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <47.855191>;
+  geo:long <3.97484> .
+
+<89450> a geo:SpatialThing;
+  rdfs:lable <Musée%20Zervos>;
+  rdfs:SubClassOf wd:Q33506 .
+
+<89500> a geo:SpatialThing;
+  rdfs:lable <Musée%20Villeneuvien>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.080297>;
+  geo:long <3.294088> .
+
+<89130> a geo:SpatialThing;
+  rdfs:lable <Musée%20d%27Art%20et%20d%27Histoire%20du%20Puisaye>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <47.780167>;
+  geo:long <3.207453> .
+
+<22100> a geo:SpatialThing;
+  rdfs:lable <Musée%20du%20Château%20de%20Dinan>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.450306>;
+  geo:long <-2.043857> .
+
+<22404> a geo:SpatialThing;
+  rdfs:lable <Musée%20Mathurin%20Meheut>;
+  rdfs:SubClassOf wd:Q33506 .
+
+<22000> a geo:SpatialThing;
+  rdfs:lable <Musée%20d%27Art%20et%20d%27Histoire>;
+  rdfs:SubClassOf wd:Q33506 .
+
+<29240> a geo:SpatialThing;
+  rdfs:lable <Musée%20National%20de%20la%20Marine>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.385372>;
+  geo:long <-4.488366> .
+
+<29200> a geo:SpatialThing;
+  rdfs:lable <Musée%20des%20Beaux-Arts%20de%20Brest>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.385326>;
+  geo:long <-4.490018> .
+
+<29450> a geo:SpatialThing;
+  rdfs:lable <Ecomusée%20des%20Monts%20d%27Arrée%20-%20Moulins%20de%20Kerouat>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.415821>;
+  geo:long <-4.006179> .
+
+<29900> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20la%20Pêche>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <47.872103>;
+  geo:long <-3.915485> .
+
+<29100> a geo:SpatialThing;
+  rdfs:lable <Le%20Port-Musée>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.092809>;
+  geo:long <-4.332891> .
+
+<29600> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20Morlaix>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.577109>;
+  geo:long <-3.825372> .
+
+<29242> a geo:SpatialThing;
+  rdfs:lable <Musée%20des%20Phares%20et%20Balises>, <Ecomusée%20de%20l%27Île%20d%27Ouessant%20-%20Maison%20du%20Niou%20Huella>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.454477>, <48.460406>;
+  geo:long <-5.087351>, <-5.110939> .
+
+<29930> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20Pont-Aven>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <47.855413>;
+  geo:long <-3.747175> .
+
+<29120> a geo:SpatialThing;
+  rdfs:lable <Musée%20Bigouden>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <47.862215>;
+  geo:long <-4.236762> .
+
+<29000> a geo:SpatialThing;
+  rdfs:lable <Musée%20des%20Beaux-Arts>, <Musée%20Départemental%20Breton>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <47.996206>, <47.995125>;
+  geo:long <-4.10238>, <-4.102602> .
+
+<29190> a geo:SpatialThing;
+  rdfs:lable <Ecomusée%20des%20Monts%20d%27Arrée%20-%20Maison%20Cornec>;
+  rdfs:SubClassOf wd:Q33506 .
+
+<29560> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20l%27Ecole%20Rurale%20en%20Bretagne>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.244346>;
+  geo:long <-4.225059> .
+
+<35160> a geo:SpatialThing;
+  rdfs:lable <Ecomusée%20du%20Pays%20de%20Montfort>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.137765>;
+  geo:long <-1.956378> .
+
+<35500> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20la%20Faucillonnaie>, <Musée%20des%20Rochers-Sévigné>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.154961>, <48.099994>;
+  geo:long <-1.238899>, <-1.191075> .
+
+<35200> a geo:SpatialThing;
+  rdfs:lable <Ecomusée%20du%20Pays%20de%20Rennes>;
+  rdfs:SubClassOf wd:Q33506 .
+
+<35100> a geo:SpatialThing;
+  rdfs:lable <Musée%20des%20Beaux-Arts>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.109834>;
+  geo:long <-1.675861> .
+
+<35011> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20Bretagne>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.105242>;
+  geo:long <-1.673896> .
+
+<35401> a geo:SpatialThing;
+  rdfs:lable <Musée%20d%27Histoire%20de%20la%20Ville%20de%20Saint-Malo>, <Musée%20International%20du%20Long-Cours%20Cap-Hornier>;
+  rdfs:SubClassOf wd:Q33506 .
+
+<35506> a geo:SpatialThing;
+  rdfs:lable <Musée%20Saint-Nicolas>, <Musée%20du%20Château>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.125622>, <48.12432>;
+  geo:long <-1.216099>, <-1.214152> .
+
+<56400> a geo:SpatialThing;
+  rdfs:lable <Ecomusée%20de%20Saint-Dégan>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <47.720736>;
+  geo:long <-2.989176> .
+
+<56340> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20Préhistoire%20J.%20Miln-%20Z.%20Le-Rouzic>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <47.584531>;
+  geo:long <-3.079164> .
+
+<56590> a geo:SpatialThing;
+  rdfs:lable <Ecomusée%20de%20l%27Île%20de%20Groix>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <47.63973>;
+  geo:long <-3.444863> .
+
+<56650> a geo:SpatialThing;
+  rdfs:lable <Ecomusée%20Industriel%20des%20Forges>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <47.824797>;
+  geo:long <-3.252319> .
+
+<56320> a geo:SpatialThing;
+  rdfs:lable <Musée%20du%20Faouët>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.031817>;
+  geo:long <-3.490833> .
+
+wd:Q33506 rdfs:SubClassOf wd:Q41176 .
+
+<56290> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20la%20Compagnie%20des%20Indes>, <Musée%20National%20de%20la%20Marine>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <47.706409>;
+  geo:long <-3.353649> .
+
+<56140> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20la%20Résistance%20Bretonne>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <47.80168>;
+  geo:long <-2.432061> .
+
+<56370> a geo:SpatialThing;
+  rdfs:lable <Musée%20du%20Château%20de%20Suscinio>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <47.48788>;
+  geo:long <-2.798596> .
+
+<56000> a geo:SpatialThing;
+  rdfs:lable <Musée%20d%27Histoire%20et%20d%27Archéologie%20de%20Vannes>, <La%20Cohue%2C%20Musée%20des%20Beaux-Arts%20de%20vannes>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <47.656705>, <47.657693>;
+  geo:long <-2.757726>, <-2.757556> .
+
+<18000> a geo:SpatialThing;
+  rdfs:lable <Musée%20des%20Meilleurs%20Ouvriers%20de%20France>, <Musée%20d%27Histoire%20Naturelle%20Gabriel%20Foucher>,
+    <Musée%20du%20Berry>, <Musée%20Estève>, <Musée%20des%20Arts%20Décoratifs>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <47.082181>, <47.069228>, <47.08537>, <47.085951>, <47.084605>;
+  geo:long <2.398248>, <2.412463>, <2.392969>, <2.396195>, <2.398378> .
+
+<18370> a geo:SpatialThing;
+  rdfs:lable <Musée%20Emile%20Chénon>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <46.561505>;
+  geo:long <2.196409> .
+
+<18500> a geo:SpatialThing;
+  rdfs:lable <Musée%20du%20Château%20Charles%20VII>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <47.143299>;
+  geo:long <2.216615> .
+
+<18200> a geo:SpatialThing;
+  rdfs:lable <Musée%20Saint-Vic>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <46.720866>;
+  geo:long <2.506685> .
+
+<18100> a geo:SpatialThing;
+  rdfs:lable <Musée%20Municipal%20-%20Fours%20Banaux>;
+  rdfs:SubClassOf wd:Q33506 .
+
+<28800> a geo:SpatialThing;
+  rdfs:lable <Musée%20Bonnevallais>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.183865>;
+  geo:long <1.390081> .
+
+<28000> a geo:SpatialThing;
+  rdfs:lable <Muséum%20des%20Sciences%20Naturelles%20et%20de%20Préhistoire>, <Musée%20des%20Beaux-Arts>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.441822>;
+  geo:long <1.490983> .
+
+<28300> a geo:SpatialThing;
+  rdfs:lable <Conservatoire%20du%20Machinisme%20et%20des%20Pratiques%20Agricoles>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.446888>;
+  geo:long <1.476576> .
+
+<28200> a geo:SpatialThing;
+  rdfs:lable <Musée%20des%20Beaux-Arts%20et%20d%27Histoire%20Naturelle>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.070792>;
+  geo:long <1.327905> .
+
+<28100> a geo:SpatialThing;
+  rdfs:lable <Musée%20d%27Art%20et%20d%27Histoire%20Marcel%20Dessal>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.733472>;
+  geo:long <1.368066> .
+
+<28120> a geo:SpatialThing;
+  rdfs:lable <Musée%20Marcel%20Proust>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.29985>;
+  geo:long <1.243452> .
+
+<28400> a geo:SpatialThing;
+  rdfs:lable <Musée%20du%20Château%20Saint-Jean>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.318117>;
+  geo:long <0.823574> .
+
+<28700> a geo:SpatialThing;
+  rdfs:lable <Musée%20Farcot>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.415949>;
+  geo:long <1.879013> .
+
+<36200> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20la%20Chemiserie%20et%20de%20l%27Elégance%20Masculine>, <Musée%20Archéologique%20d%27Argentomagus>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <46.588407>;
+  geo:long <1.518501> .
+
+<36290> a geo:SpatialThing;
+  rdfs:lable <Château%20Musée>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <46.851361>;
+  geo:long <1.069524> .
+
+<36000> a geo:SpatialThing;
+  rdfs:lable <Musées%20de%20Châteauroux%20-%20Hôtel%20Bertrand>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <46.813737>;
+  geo:long <1.694262> .
+
+<36100> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20l%27Hospice%20Saint-Roch>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <46.945388>;
+  geo:long <1.994497> .
+
+<36400> a geo:SpatialThing;
+  rdfs:lable <Musée%20George%20Sand%20et%20de%20la%20Vallée%20Noire>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <46.581939>;
+  geo:long <1.989964> .
+
+<36600> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20Géologie%20Régionale>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <47.064325>;
+  geo:long <1.485945> .
+
+<36300> a geo:SpatialThing;
+  rdfs:lable <Musée%20Ornithologique%20%28Ecomusée%20de%20la%20Brenne%29>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <46.629212>;
+  geo:long <1.061409> .
+
+<37400> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20la%20poste>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <47.411309>;
+  geo:long <0.984736> .
+
+<37402> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20l%27Hôtel%20de%20Ville>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <47.413209>;
+  geo:long <0.984493> .
+
+<37500> a geo:SpatialThing;
+  rdfs:lable <Musée%20du%20Vieux%20Chinon>, <Musée%20Rabelais>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <47.167125>, <47.140565>;
+  geo:long <0.23767>, <0.179408> .
+
+<37160> a geo:SpatialThing;
+  rdfs:lable <%22Maison%20Musée%22%20René%20Descartes>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <46.972623>;
+  geo:long <0.699988> .
+
+<37350> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20Préhistoire%20du%20Grand%20Pressigny>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <46.92224>;
+  geo:long <0.804273> .
+
+<37600> a geo:SpatialThing;
+  rdfs:lable <Musée%20Lansyer>, <Musée%20du%20Terroir>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <47.126829>, <47.126959>;
+  geo:long <0.997457>, <0.989963> .
+
+<37120> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20l%27Hôtel%20de%20Ville>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <47.012709>;
+  geo:long <0.324356> .
+
+<37190> a geo:SpatialThing;
+  rdfs:lable <Musée%20Balzac>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <47.245773>;
+  geo:long <0.54394> .
+
+<37800> a geo:SpatialThing;
+  rdfs:lable <Musée%20Municipal>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <47.1115>;
+  geo:long <0.619817> .
+
+<37340> a geo:SpatialThing;
+  rdfs:lable <Musée%20du%20Savignéen>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <47.44581>;
+  geo:long <0.319721> .
+
+<37420> a geo:SpatialThing;
+  rdfs:lable <Ecomusée%20du%20Véron>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <47.209697>;
+  geo:long <0.124427> .
+
+<37000> a geo:SpatialThing;
+  rdfs:lable <Muséum%20d%27Histoire%20Naturelle>, <Musée%20des%20Beaux-Arts>, <Musée%20des%20Vins%20de%20Touraine>,
+    <Musée%20du%20Compagnonnage>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <47.394637>, <47.394698>, <47.393831>, <47.396086>;
+  geo:long <0.68388>, <0.694004>, <0.687403>, <0.686726> .
+
+<37011> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20l%27Hôtel%20Goüin>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <47.395094>;
+  geo:long <0.684809> .
+
+<37290> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20Minerve>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <46.785891>;
+  geo:long <0.870036> .
+
+<41000> a geo:SpatialThing;
+  rdfs:lable <Maison%20de%20la%20Magie>, <Château%20Musées%20de%20Blois>, <Muséum%20d%27Histoire%20Naturelle>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <47.586104>, <47.586086>, <47.585156>;
+  geo:long <1.332126>, <1.332121>, <1.332989> .
+
+<41500> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20la%20Corbillière>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <47.696527>;
+  geo:long <1.514337> .
+
+<41100> a geo:SpatialThing;
+  rdfs:lable <Atelier%20Musée%20Louis%20Leygue>, <Musée%20de%20Vendôme>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <47.794146>;
+  geo:long <1.031198> .
+
+<41206> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20Sologne>;
+  rdfs:SubClassOf wd:Q33506 .
+
+<41140> a geo:SpatialThing;
+  rdfs:lable <Musée%20Archéologique>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <47.317703>;
+  geo:long <1.323178> .
+
+<45410> a geo:SpatialThing;
+  rdfs:lable <Musée%20Municipal%20Théâtre%20Forain%20et%20Archéologique>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.08201>;
+  geo:long <1.879598> .
+
+<45190> a geo:SpatialThing;
+  rdfs:lable <Musée%20Daniel%20Vannier>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <47.77814>;
+  geo:long <1.630916> .
+
+<45110> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20la%20Marine%20de%20Loire>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <47.865168>;
+  geo:long <2.21918> .
+
+<45230> a geo:SpatialThing;
+  rdfs:lable <Musée%20d%27Art%20et%20d%27Archéologie>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <47.820625>;
+  geo:long <2.844906> .
+
+<45503> a geo:SpatialThing;
+  rdfs:lable <Musée%20International%20de%20la%20Chasse>;
+  rdfs:SubClassOf wd:Q33506 .
+
+<45130> a geo:SpatialThing;
+  rdfs:lable <Musée%20Gaston%20Couté>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <47.825556>;
+  geo:long <1.694889> .
+
+<45200> a geo:SpatialThing;
+  rdfs:lable <Musée%20Girodet>, <Musée%20du%20Gatinais>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <47.997843>, <47.998314>;
+  geo:long <2.737468>, <2.729233> .
+
+<45000> a geo:SpatialThing;
+  rdfs:lable <Musée%20Historique%20et%20Archéologique>, <Muséum%20des%20Sciences%20Naturelles>,
+    <Musée%20des%20Beaux-Arts>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <47.90807>, <47.903147>;
+  geo:long <1.907907>, <1.909903> .
+
+<45307> a geo:SpatialThing;
+  rdfs:lable <Musée%20Municipal>;
+  rdfs:SubClassOf wd:Q33506 .
+
+<08140> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20la%20Maison%20de%20la%20Dernière%20Cartouche>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <49.681811>;
+  geo:long <4.975009> .
+
+<08000> a geo:SpatialThing;
+  rdfs:lable <Musée%20Arthur%20Rimbaud>, <Maison%20des%20Ailleurs%20-%20Arthur%20Rimbaud>,
+    <Musée%20de%20l%27Ardenne>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <49.776058>, <49.773621>;
+  geo:long <4.720484>, <4.721113> .
+
+<08600> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20Givet>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <50.136341>;
+  geo:long <4.8247> .
+
+<08210> a geo:SpatialThing;
+  rdfs:lable <Musée%20du%20Feutre>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <49.609209>;
+  geo:long <5.075187> .
+
+<08300> a geo:SpatialThing;
+  rdfs:lable <Musée%20du%20Rethelois%20et%20du%20Porcien>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <49.506881>;
+  geo:long <4.363521> .
+
+<08200> a geo:SpatialThing;
+  rdfs:lable <Musée%20du%20Château-Fort>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <49.69468>;
+  geo:long <4.920339> .
+
+<10202> a geo:SpatialThing;
+  rdfs:lable <Musée%20Municipal>;
+  rdfs:SubClassOf wd:Q33506 .
+
+<10500> a geo:SpatialThing;
+  rdfs:lable <Musée%20Napoléon%20Ier>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.388915>;
+  geo:long <4.528446> .
+
+<10250> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20la%20Résistance>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <47.977391>;
+  geo:long <4.498921> .
+
+<10401> a geo:SpatialThing;
+  rdfs:lable <Musée%20Paul%20Dubois%20-%20Alfred%20Boucher>;
+  rdfs:SubClassOf wd:Q33506 .
+
+<10000> a geo:SpatialThing;
+  rdfs:lable <Musée%20des%20Beaux-Arts>, <Musée%20Historique%20de%20Troyes%20et%20de%20la%20Champagne>,
+    <Pharmacie%20Musée%20de%20l%27Hôtel-Dieu>, <Maison%20de%20l%27Outil%20%20et%20de%20la%20Pensée%20Ouvrière>,
+    <Musée%20de%20la%20Bonneterie>, <Muséum%20d%27Histoire%20Naturelle>, <Musée%20d%27Art%20Moderne>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.300638>, <48.294239>, <48.300768>, <48.294907>, <48.300945>, <48.300722>,
+    <48.300046>;
+  geo:long <4.08003>, <4.071824>, <4.077528>, <4.07261>, <4.0797>, <4.07987>, <4.080194> .
+
+<52400> a geo:SpatialThing;
+  rdfs:lable <Musée%20Municipal>;
+  rdfs:SubClassOf wd:Q33506 .
+
+<52000> a geo:SpatialThing;
+  rdfs:lable <Musée%20des%20Beaux-Arts%20et%20d%27Archéologie>, <Musée%20de%20l%27Affiche%20-%20médiathèque>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.112453>, <48.110208>;
+  geo:long <5.137406>, <5.129477> .
+
+<52200> a geo:SpatialThing;
+  rdfs:lable <Maison%20des%20Lumière%20Denis%20Diderot%20%28ex%20Musée%20du%20Breuil%20de%20Saint-Germain%29>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <47.866417>;
+  geo:long <5.331753> .
+
+<52204> a geo:SpatialThing;
+  rdfs:lable <Musée%20d%27Art%20et%20d%27Histoire>;
+  rdfs:SubClassOf wd:Q33506 .
+
+<52800> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20la%20Coutellerie>;
+  rdfs:SubClassOf wd:Q33506 .
+
+<52100> a geo:SpatialThing;
+  rdfs:lable <Musée%20Municipal>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.637908>;
+  geo:long <4.9485> .
+
+<51000> a geo:SpatialThing;
+  rdfs:lable <Musée%20du%20Cloître%20de%20Notre-Dame-en-Vaux>, <Musée%20Garinet>, <Musée%20Municipal>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.958112>, <48.955828>, <48.956869>;
+  geo:long <4.362901>, <4.366495>, <4.363827> .
+
+<51200> a geo:SpatialThing;
+  rdfs:lable <Musée%20Municipal%20d%27Epernay>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <49.042901>;
+  geo:long <3.961379> .
+
+<51160> a geo:SpatialThing;
+  rdfs:lable <Ecomusée%20de%20la%20Montagne%20de%20Reims>;
+  rdfs:SubClassOf wd:Q33506 .
+
+<51100> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20l%27Ancien%20Collège%20des%20Jésuites>, <Musée%20Hôtel%20le%20Vergeur>,
+    <Musée%20Saint-Rémi>, <Musée%20des%20Beaux-Arts%20de%20Saint-Denis>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <49.253125>, <49.257013>, <49.243111>, <49.253442>;
+  geo:long <4.04484>, <4.034043>, <4.040351>, <4.030921> .
+
+<51800> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20l%27Argonne%20Viard-Morel>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <49.092431>;
+  geo:long <4.898023> .
+
+<20000> a geo:SpatialThing;
+  rdfs:lable <Musée%20Fesch>, <Musée%20de%20la%20Maison%20Bonaparte>, <Musée%20Napoléonien>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <41.922392>, <41.917772>, <41.918813>;
+  geo:long <8.738549>, <8.738068>, <8.738403> .
+
+<20170> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20l%27Alta%20Rocca>;
+  rdfs:SubClassOf wd:Q33506 .
+
+<20100> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20Préhistoire%20Corse>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <41.620393>;
+  geo:long <8.97461> .
+
+<20270> a geo:SpatialThing;
+  rdfs:lable <Musée%20Départemental%20d%27Archéologie%20d%27Aléria>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <42.103684>;
+  geo:long <9.511502> .
+
+<20410> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20Bastia>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <42.702212>;
+  geo:long <9.451447> .
+
+<20250> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20la%20Corse>;
+  rdfs:SubClassOf wd:Q33506 .
+
+<20290> a geo:SpatialThing;
+  rdfs:lable <Musée%20Archéologique%20de%20Mariana%20-%20Prince%20Rainier%20III%20de%20Monaco>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <42.542624>;
+  geo:long <9.497059> .
+
+<20218> a geo:SpatialThing;
+  rdfs:lable <Musée%20Départemental%20Pascal%20Paoli>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <42.437734>;
+  geo:long <9.308812> .
+
+<25000> a geo:SpatialThing;
+  rdfs:lable <Musée%20des%20Beaux-Arts%20et%20d%27Archéologie>, <Muséum%20de%20Besançon>,
+    <Musée%20de%20la%20résistance%20et%20de%20la%20Déportation>, <Musée%20Comtois>, <Musée%20du%20Temps>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <47.240051>, <47.232614>, <47.23602>;
+  geo:long <6.022927>, <6.032133>, <6.026659> .
+
+<25200> a geo:SpatialThing;
+  rdfs:lable <Musée%20Beurnier-Rossel>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <47.509957>;
+  geo:long <6.797684> .
+
+<25205> a geo:SpatialThing;
+  rdfs:lable <Musée%20du%20Château%20des%20Ducs%20de%20Wurtemberg>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.890388>;
+  geo:long <5.555086> .
+
+<25360> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20Plein%20Air%20des%20Maisons%20Comtoises>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <47.243044>;
+  geo:long <6.189533> .
+
+<25290> a geo:SpatialThing;
+  rdfs:lable <Musée-Maison%20Natale%20Gustave%20Courbet>;
+  rdfs:SubClassOf wd:Q33506 .
+
+<25300> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20Pontarlier>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <46.904221>;
+  geo:long <6.354581> .
+
+<70600> a geo:SpatialThing;
+  rdfs:lable <Musée%20Départemental%20Albert%20Demard>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <47.661612>;
+  geo:long <5.466123> .
+
+<70220> a geo:SpatialThing;
+  rdfs:lable <Ecomusée%20du%20Pays%20de%20la%20Cerise>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <47.907071>;
+  geo:long <6.401161> .
+
+<70100> a geo:SpatialThing;
+  rdfs:lable <Musée%20Baron%20Martin>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <47.446411>;
+  geo:long <5.592781> .
+
+<70440> a geo:SpatialThing;
+  rdfs:lable <Musée%20Départemental%20de%20la%20Montagne%20Albert%20Demard>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <47.845927>;
+  geo:long <6.746415> .
+
+<70300> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20la%20Tour%20des%20Echevins>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <47.816844>;
+  geo:long <6.38053> .
+
+<70000> a geo:SpatialThing;
+  rdfs:lable <Musée%20Georges%20Garret>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <47.623695>;
+  geo:long <6.155772> .
+
+<39600> a geo:SpatialThing;
+  rdfs:lable <Musée%20Sarret%20de%20Grozon>, <Musée%20de%20la%20Vigne%20et%20du%20Vin>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <46.903356>;
+  geo:long <5.773137> .
+
+<39300> a geo:SpatialThing;
+  rdfs:lable <Musée%20Municipal%20d%27Archéologie>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <46.74651>;
+  geo:long <5.907547> .
+
+<39100> a geo:SpatialThing;
+  rdfs:lable <Musée%20des%20Beaux-Arts>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <47.089059>;
+  geo:long <5.488205> .
+
+<39000> a geo:SpatialThing;
+  rdfs:lable <Musée%20d%27Archéologie>, <Musée%20des%20Beaux-Arts>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <46.674433>, <46.675825>;
+  geo:long <5.55523>, <5.553897> .
+
+<39260> a geo:SpatialThing;
+  rdfs:lable <Musée%20du%20Jouet>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <46.433004>;
+  geo:long <5.726307> .
+
+<39400> a geo:SpatialThing;
+  rdfs:lable <Viséum-Musée%20de%20la%20Lunette>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <46.529788>;
+  geo:long <6.020053> .
+
+<39800> a geo:SpatialThing;
+  rdfs:lable <Musée%20Municipal%20de%20Poligny>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <46.836426>;
+  geo:long <5.708802> .
+
+<39200> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20l%27Abbaye/Donations%20Guy%20Bardone%20-%20René%20Genis>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <46.386209>;
+  geo:long <5.865239> .
+
+<39110> a geo:SpatialThing;
+  rdfs:lable <Musée%20des%20Salines>, <Musée%20Max%20Claudet>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <46.939895>;
+  geo:long <5.877348> .
+
+<39210> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20l%27Artisanat%20Jurassien>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <46.707619>;
+  geo:long <5.64848> .
+
+<90500> a geo:SpatialThing;
+  rdfs:lable <Musée%20Frédéric%20Japy>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <47.485011>;
+  geo:long <6.922453> .
+
+<90020> a geo:SpatialThing;
+  rdfs:lable <Musée%20d%27Art%20et%20d%27Histoire>;
+  rdfs:SubClassOf wd:Q33506 .
+
+<90004> a geo:SpatialThing;
+  rdfs:lable <Donation%20Maurice%20Jardot>;
+  rdfs:SubClassOf wd:Q33506 .
+
+<90170> a geo:SpatialThing;
+  rdfs:lable <Forge-Musée>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <47.722575>;
+  geo:long <6.920842> .
+
+<97112> a geo:SpatialThing;
+  rdfs:lable <Ecomusée%20de%20Marie-Galante>;
+  rdfs:SubClassOf wd:Q33506 .
+
+<97160> a geo:SpatialThing;
+  rdfs:lable <Musée%20Précolombien%20Edgar%20Clerc>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <16.340101>;
+  geo:long <-61.382285> .
+
+<97110> a geo:SpatialThing;
+  rdfs:lable <Musée%20Municipal%20Saint-John%20Perse>, <Musée%20l%27Herminier>, <Musée%20Schoelcher>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <16.236416>, <16.237697>;
+  geo:long <-61.535945>, <-61.537737> .
+
+<97300> a geo:SpatialThing;
+  rdfs:lable <Musée%20des%20Cultures%20Guyanaises>, <Musée%20Départemental%20Alexandre%20Franconie>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <4.944611>, <4.938177>;
+  geo:long <-52.302857>, <-52.334359> .
+
+<97390> a geo:SpatialThing;
+  rdfs:lable <Ecomusée%20Municipal%20d%27Approuague-Kaw>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <16.333767>;
+  geo:long <-61.348355> .
+
+<91570> a geo:SpatialThing;
+  rdfs:lable <Musée%20Français%20de%20la%20Photographie>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.762826>;
+  geo:long <2.225102> .
+
+<91800> a geo:SpatialThing;
+  rdfs:lable <Musée%20Dunoyer%20de%20Segonzac>, <Musée%20Municipal%20Robert%20Dubois-Corneau>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.688925>, <48.700303>;
+  geo:long <2.530019>, <2.500266> .
+
+<91410> a geo:SpatialThing;
+  rdfs:lable <Musée%20du%20Château>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.529349>;
+  geo:long <2.01149> .
+
+<91152> a geo:SpatialThing;
+  rdfs:lable <Musée%20Intercommunal%20d%27Etampes>;
+  rdfs:SubClassOf wd:Q33506 .
+
+<92100> a geo:SpatialThing;
+  rdfs:lable <Musée%20Belmondo%20et%20de%20la%20Sculpture%20Figurative%20du%20XXè%20siècle>,
+    <Musée-Jardin%20Paul%20Landowski>, <Musée%20Départemental%20Albert-Kahn>, <Musée%20des%20Années%20Trente>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.847455>, <48.844261>, <48.841354>, <48.83591>;
+  geo:long <2.232701>, <2.246847>, <2.227488>, <2.239289> .
+
+<92140> a geo:SpatialThing;
+  rdfs:lable <Fondation%20Arp>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.803529>;
+  geo:long <2.244319> .
+
+<92700> a geo:SpatialThing;
+  rdfs:lable <Musée%20Municipal%20d%27Art%20et%20d%27Histoire>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.923321>;
+  geo:long <2.252039> .
+
+<92400> a geo:SpatialThing;
+  rdfs:lable <Musée%20Roybet%20Fould>, <Musée%20des%20Travaux%20Publics>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.900998>, <48.89371>;
+  geo:long <2.271279>, <2.258054> .
+
+<92130> a geo:SpatialThing;
+  rdfs:lable <Musée%20Français%20de%20la%20Carte%20à%20Jouer>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.822771>;
+  geo:long <2.273453> .
+
+<92190> a geo:SpatialThing;
+  rdfs:lable <Musée%20-%20Atelier%20Rodin>, <Musée%20d%27Art%20et%20d%27Histoire>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.813854>, <48.806412>;
+  geo:long <2.25249>, <2.234894> .
+
+<92200> a geo:SpatialThing;
+  rdfs:lable <Musée%20des%20Automates>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.879608>;
+  geo:long <2.252754> .
+
+<92500> a geo:SpatialThing;
+  rdfs:lable <Musée%20National%20des%20Châteaux%20de%20Malmaison%20et%20de%20Bois-Préau>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.872958>;
+  geo:long <2.169032> .
+
+<92501> a geo:SpatialThing;
+  rdfs:lable <Musée%20Franco-Suisse>, <Musée%20d%27Histoire%20Locale%20-%20Mémoire%20de%20la%20Ville>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.878122>;
+  geo:long <2.180317> .
+
+<92210> a geo:SpatialThing;
+  rdfs:lable <Musée%20Municipal%20de%20Saint-Cloud>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.842497>;
+  geo:long <2.208286> .
+
+<92330> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20l%27Île%20de%20France>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.778555>;
+  geo:long <2.288291> .
+
+<92310> a geo:SpatialThing;
+  rdfs:lable <Sèvres%20-%20Cité%20de%20la%20Céramique>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <46.575183>;
+  geo:long <0.305931> .
+
+<92150> a geo:SpatialThing;
+  rdfs:lable <MUS%20-%20Musée%20d%27Histoire%20Urbaine%20et%20Sociale>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.868319>;
+  geo:long <2.221999> .
+
+<75001> a geo:SpatialThing;
+  rdfs:lable <Musée%20National%20de%20L%27Orangerie%20des%20Tuileries>, <Musées%20Arts%20Décoratifs%20%20Mode%20et%20du%20Textile>,
+    <Musée%20du%20Louvre>, <Musées%20des%20Arts%20Décoratifs>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.862968>, <48.863218>, <48.858905>;
+  geo:long <2.323733>, <2.3333>, <2.340991> .
+
+<75003> a geo:SpatialThing;
+  rdfs:lable <Musée%20National%20Picasso>, <Musée%20Cognacq-Jay%2C%20Musée%20du%20XVIIIe%20siècle%20de%20la%20ville%20de%20Paris>,
+    <Musée%20Carnavalet-Histoire%20de%20Paris>, <Musée%20d%27Art%20et%20d%27Histoire%20du%20Judaïsme>,
+    <Musée%20de%20la%20Chasse%20et%20de%20la%20Nature>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.8597>, <48.858257>, <48.857573>, <48.86095>, <48.861337>;
+  geo:long <2.362644>, <2.361524>, <2.363359>, <2.355608>, <2.358433> .
+
+<75004> a geo:SpatialThing;
+  rdfs:lable <Maison%20de%20Victor%20Hugo>, <Crypte%20Archéologique%20du%20Parvis%20Notre-Dame>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.854821>, <49.11925>;
+  geo:long <2.366126>, <6.174731> .
+
+<75005> a geo:SpatialThing;
+  rdfs:lable <Musée%20National%20du%20Moyen%20Age-Thermes%20de%20Cluny>, <Galerie%20de%20Minéralogie%20et%20de%20Géologie%20%28Muséum%20d%27Histoire%20Naturelle%29>,
+    <Grande%20Galerie%20de%20l%27Evolution%20%28Muséum%20National%20d%27Histoire%20Naturelle%29>,
+    <Galerie%20de%20Botanique%20%28Muséum%20National%20National%20d%27Histoire%20Naturelle%29>,
+    <Galerie%20d’entomologie%20%28Muséum%20national%20d%27histoire%20naturelle%29>, <Musée%20de%20l%27Assistance%20Publique%20-%20Hôpitaux%20de%20Paris>,
+    <Galerie%20d%27Anatomie%20Comparée%20et%20de%20Paléontologie%20%28Muséum%20d%27Histoire%20Naturelle%29>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.850325>, <48.841491>, <48.844107>, <48.843835>, <48.838808>, <48.842137>;
+  geo:long <2.343921>, <2.355989>, <2.351541>, <2.355201>, <2.356014>, <2.359895> .
+
+<75008> a geo:SpatialThing;
+  rdfs:lable <Musée%20Nissim%20de%20Camondo%20%28Les%20Arts%20Décoratifs%29>, <Petit%20Palais%2C%20Musée%20des%20Beaux-Arts%20de%20la%20ville%20de%20Paris>,
+    <Musée%20Cernuschi%2C%20Musée%20des%20Arts%20de%20l%27Asie%20de%20la%20ville%20de%20Paris>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.878849>, <48.866084>, <48.879693>;
+  geo:long <2.312855>, <2.313813>, <2.312194> .
+
+<75007> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20l%27Armée>, <Etablissement%20Public%20du%20Musée%20d%27Orsay>,
+    <Musée%20National%20de%20la%20Légion%20d%27Honneur%20et%20des%20Ordres%20de%20Chevalerie>,
+    <Musée%20National%20Auguste%20Rodin>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.858219>, <48.859754>, <48.860433>, <48.855868>;
+  geo:long <2.312885>, <2.325917>, <2.324889>, <2.31598> .
+
+<75012> a geo:SpatialThing;
+  rdfs:lable <Établissement%20Public%20de%20la%20Porte%20Dorée%20-%20Musée%20de%20l’Histoire%20de%20l’Immigration>,
+    <Etablissement%20public%20de%20la%20Porte%20Dorée%20-%20Aquarium%20Tropical>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.834887>;
+  geo:long <2.408507> .
+
+<75116> a geo:SpatialThing;
+  rdfs:lable <Musée%20National%20de%20la%20Marine>, <Musée%20de%20l%27Homme%20%28Muséum%20National%20d%27Histoire%20Naturelle%29>,
+    <Musée%20d%27Art%20Moderne%20de%20la%20ville%20de%20Paris>, <Palais%20Galliéra%20-%20Musée%20de%20la%20Mode%20de%20la%20ville%20de%20Paris>,
+    <Musée%20d%27Ennery>, <Etablissement%20Public%20du%20Musée%20des%20Arts%20Asiatiques%20Guimet>,
+    <M.U.C.E.M.%20-%20Musée%20des%20ATP>, <Musée%20des%20Monuments%20Français>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.862492>, <48.862507>, <48.865846>, <48.871887>, <48.865008>, <48.877026>,
+    <48.862887>;
+  geo:long <2.287378>, <2.282278>, <2.296361>, <2.282381>, <2.293674>, <2.267791>, <2.287945> .
+
+<75010> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20la%20Publicité%20%28Les%20Arts%20Décoratifs%29>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.863218>;
+  geo:long <2.3333> .
+
+<75017> a geo:SpatialThing;
+  rdfs:lable <Musée%20Jean-Jacques%20Henner>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.883045>;
+  geo:long <2.307689> .
+
+<75018> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20Montmartre>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.887709>;
+  geo:long <2.340577> .
+
+<75006> a geo:SpatialThing;
+  rdfs:lable <Musée%20Zadkine>, <Musée%20Hébert>, <Musée%20National%20Eugène%20Delacroix>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.843177>, <48.847429>, <48.854437>;
+  geo:long <2.333969>, <2.322709>, <2.335771> .
+
+<75019> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20la%20Musique>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.889306>;
+  geo:long <2.393807> .
+
+<75009> a geo:SpatialThing;
+  rdfs:lable <Musée%20National%20Gustave%20Moreau>, <Musée%20de%20la%20Franc-Maçonnerie>,
+    <Musée%20de%20la%20Vie%20Romantique>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.877878>, <48.874952>, <48.880899>;
+  geo:long <2.334383>, <2.343057>, <2.333278> .
+
+<75013> a geo:SpatialThing;
+  rdfs:lable <Musée%20National%20du%20Sport>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.829117>;
+  geo:long <2.37785> .
+
+<75015> a geo:SpatialThing;
+  rdfs:lable <Musée%20du%20Général%20Leclerc%20de%20Hauteclocque%20et%20de%20la%20Libération%20de%20Paris%20-%20Musée%20Jean%20Moulin>,
+    <Musée%20Bourdelle>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.840251>, <48.843017>;
+  geo:long <2.319293>, <2.31883> .
+
+<75014> a geo:SpatialThing;
+  rdfs:lable <Les%20Catacombes>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.833784>;
+  geo:long <2.331927> .
+
+<75016> a geo:SpatialThing;
+  rdfs:lable <Maison%20de%20Balzac>, <Musée%20Bouchard>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.85538>, <48.853611>;
+  geo:long <2.280755>, <2.265988> .
+
+<75141> a geo:SpatialThing;
+  rdfs:lable <Musée%20National%20des%20Techniques%20%28Conservatoire%20National%20des%20Arts%20et%20Métiers%29>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.866961>;
+  geo:long <2.354634> .
+
+<75191> a geo:SpatialThing;
+  rdfs:lable <Musée%20National%20d%27Art%20Moderne%20%28Centre%20National%20d%27Art%20et%20de%20Culture%20Georges%20Pompidou%29>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.844444>;
+  geo:long <2.271958> .
+
+<75230> a geo:SpatialThing;
+  rdfs:lable <Musée%20du%20Service%20de%20Santé%20des%20Armées%20du%20Val-de-Grâce>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.840814>;
+  geo:long <2.341091> .
+
+<75236> a geo:SpatialThing;
+  rdfs:lable <Institut%20du%20Monde%20Arabe>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.849302>;
+  geo:long <2.356099> .
+
+<75270> a geo:SpatialThing;
+  rdfs:lable <Musée%20des%20Monnaies%20et%20des%20Médailles>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.857003>;
+  geo:long <2.338699> .
+
+<75343> a geo:SpatialThing;
+  rdfs:lable <Musée%20du%20Quai%20Branly>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.860136>;
+  geo:long <2.297256> .
+
+<75731> a geo:SpatialThing;
+  rdfs:lable <L%27Adresse%20Musée%20de%20la%20Poste>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.841347>;
+  geo:long <2.317414> .
+
+<77630> a geo:SpatialThing;
+  rdfs:lable <Musée%20Départemental%20de%20l%27Ecole%20de%20Barbizon%20-%20Auberge%20Ganne>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.446153>;
+  geo:long <2.602548> .
+
+<77500> a geo:SpatialThing;
+  rdfs:lable <Musée%20Municipal%20de%20Chelles%20Alfred%20Bonno>, <Musée%20des%20Transports%20Urbains%2C%20Interurbains%20et%20Ruraux>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.877886>, <48.87682>;
+  geo:long <2.59188>, <2.603374> .
+
+<77527> a geo:SpatialThing;
+  rdfs:lable <Musée%20Municipal%20des%20Capucins>;
+  rdfs:SubClassOf wd:Q33506 .
+
+<77700> a geo:SpatialThing;
+  rdfs:lable <Maison%20Natale%20de%20Louis%20Braille>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.894538>;
+  geo:long <2.791986> .
+
+<77580> a geo:SpatialThing;
+  rdfs:lable <Musée%20Municipal>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.858000>;
+  geo:long <2.907321> .
+
+<77300> a geo:SpatialThing;
+  rdfs:lable <Musée%20d%27Art%20et%20d%27Histoire%20Militaire>, <Musée%20du%20Château%20de%20Fontainebleau>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.406893>, <48.401648>;
+  geo:long <2.698781>, <2.700536> .
+
+wd:Q33506 rdfs:SubClassOf wd:Q41176 .
+
+<77405> a geo:SpatialThing;
+  rdfs:lable <Musée%20Gatien%20Bonnet>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.879644>;
+  geo:long <2.707767> .
+
+<77350> a geo:SpatialThing;
+  rdfs:lable <Musée%20Henri%20Chapu>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.534859>;
+  geo:long <2.635235> .
+
+<77100> a geo:SpatialThing;
+  rdfs:lable <Musée%20Bossuet>, <Musée%20de%20la%20Grande%20Guerre%20du%20Pays%20de%20Meaux>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.96087>;
+  geo:long <2.8784> .
+
+<77000> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20la%20Gendarmerie%20Nationale>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.546473>;
+  geo:long <2.651614> .
+
+<77008> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20Melun>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.536398>;
+  geo:long <2.658972> .
+
+<77250> a geo:SpatialThing;
+  rdfs:lable <Musée%20Municipal>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.373057>;
+  geo:long <2.813651> .
+
+<77140> a geo:SpatialThing;
+  rdfs:lable <Château-musée%20de%20Nemours>, <Musée%20Départemental%20de%20Préhistoire%20d%27Île%20de%20France>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.265557>, <48.260788>;
+  geo:long <2.696198>, <2.714709> .
+
+<77160> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20Provins%20et%20du%20Provinois>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.561624>;
+  geo:long <3.290374> .
+
+<77750> a geo:SpatialThing;
+  rdfs:lable <Musée%20des%20Pays%20de%20Seine-et-Marne>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.90803>;
+  geo:long <3.18169> .
+
+<77176> a geo:SpatialThing;
+  rdfs:lable <Ecomusée>;
+  rdfs:SubClassOf wd:Q33506 .
+
+<77870> a geo:SpatialThing;
+  rdfs:lable <Musée%20départemental%20Stéphane%20Mallarmé>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.430323>;
+  geo:long <2.746605> .
+
+<93352> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20l%27Air%20et%20de%20l%27Espace>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.943418>;
+  geo:long <2.427417> .
+
+<93190> a geo:SpatialThing;
+  rdfs:lable <Musée%20Municipal>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.917561>;
+  geo:long <2.534138> .
+
+<93100> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20l%27Histoire%20Vivante>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.866151>;
+  geo:long <2.469481> .
+
+<93200> a geo:SpatialThing;
+  rdfs:lable <Musée%20d%27Art%20et%20d%27Histoire>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.932336>;
+  geo:long <2.355796> .
+
+<93400> a geo:SpatialThing;
+  rdfs:lable <Musée%20Municipal>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.916536>;
+  geo:long <2.330208> .
+
+<95100> a geo:SpatialThing;
+  rdfs:lable <Musée%20du%20Vieil%20Argenteuil>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.94388>;
+  geo:long <2.256737> .
+
+<95440> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20la%20Renaissance%20-%20Château%20d%27Ecouen>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <49.015861>;
+  geo:long <2.378418> .
+
+<95450> a geo:SpatialThing;
+  rdfs:lable <Musée%20Archéologique%20du%20Val%20d%27Oise>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <49.107989>;
+  geo:long <1.848496> .
+
+<95290> a geo:SpatialThing;
+  rdfs:lable <Musée%20d%27Art%20et%20d%27Histoire%20Louis%20Senlecq>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <49.112091>;
+  geo:long <2.218832> .
+
+<95380> a geo:SpatialThing;
+  rdfs:lable <ARCHEA%20-%20Musée%20Intercommunal%20d%27Histoire%20et%20d%27Archéologie>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <49.041117>;
+  geo:long <2.50695> .
+
+<95160> a geo:SpatialThing;
+  rdfs:lable <Musée%20jean-Jacques%20Rousseau>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.986892>;
+  geo:long <2.320916> .
+
+<95300> a geo:SpatialThing;
+  rdfs:lable <Musée%20Tavet%20Delacour>, <Musée%20Camille%20Pissarro>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <49.05093>, <49.048398>;
+  geo:long <2.099776>, <2.099888> .
+
+<94360> a geo:SpatialThing;
+  rdfs:lable <Musée%20Adrien%20Mentienne>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.835224>;
+  geo:long <2.519827> .
+
+<94501> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20la%20Résistance%20Nationale>;
+  rdfs:SubClassOf wd:Q33506 .
+
+<94260> a geo:SpatialThing;
+  rdfs:lable <Ecomusée%20du%20Val%20de%20Bièvre>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.75525>;
+  geo:long <2.326389> .
+
+<94210> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20Saint-Maur%20-%20Villa%20Médicis>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.792802>;
+  geo:long <2.514062> .
+
+<94704> a geo:SpatialThing;
+  rdfs:lable <Musée%20Fragonard>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.814274>;
+  geo:long <2.421122> .
+
+<94130> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20Nogent-Sur-Marne>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.84026>;
+  geo:long <2.484292> .
+
+<94350> a geo:SpatialThing;
+  rdfs:lable <Musée%20Emile%20Jean>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.826701>;
+  geo:long <2.543144> .
+
+<94404> a geo:SpatialThing;
+  rdfs:lable <Musée%20d%27Art%20Contemporain%20du%20Val-de-Marne>;
+  rdfs:SubClassOf wd:Q33506 .
+
+<78700> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20la%20Batellerie>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.992445>;
+  geo:long <2.095621> .
+
+<78350> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20la%20Toile%20de%20Jouy>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.768986>;
+  geo:long <2.153216> .
+
+<78430> a geo:SpatialThing;
+  rdfs:lable <Musée-Promenade%20de%20Marly-Le%20Roi%20/Louveciennes>;
+  rdfs:SubClassOf wd:Q33506 .
+
+<78114> a geo:SpatialThing;
+  rdfs:lable <Musée%20National%20de%20Port%20Royal%20des%20Champs>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.748152>;
+  geo:long <2.015991> .
+
+<78200> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20l%27Hôtel-Dieu>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.990874>;
+  geo:long <1.719901> .
+
+<78580> a geo:SpatialThing;
+  rdfs:lable <Musée%20Victor%20Aubert>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.908957>;
+  geo:long <1.849122> .
+
+<78670> a geo:SpatialThing;
+  rdfs:lable <Musée%20Zola-Dreyfus>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.955066>;
+  geo:long <1.995741> .
+
+<78490> a geo:SpatialThing;
+  rdfs:lable <Musée-Maison%20Maurice%20Ravel>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.776114>;
+  geo:long <1.805347> .
+
+<78180> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20la%20Ville>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.782574>;
+  geo:long <2.042599> .
+
+<78300> a geo:SpatialThing;
+  rdfs:lable <Musée%20d%27Art%20et%20d%27Histoire>, <Musée%20du%20Jouet%20Pierre%20Pinel>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.930899>, <48.928536>;
+  geo:long <2.038803>, <2.03784> .
+
+<78120> a geo:SpatialThing;
+  rdfs:lable <Musée%20Rambolitrain>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.646025>;
+  geo:long <1.823892> .
+
+<78100> a geo:SpatialThing;
+  rdfs:lable <Musée%20Municipal%20-%20Collections%20Paul%20et%20André%20Véra>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.896357>;
+  geo:long <2.097575> .
+
+<78105> a geo:SpatialThing;
+  rdfs:lable <Musée%20d%27Archéologie%20Nationale%20%28des%20origines%20à%20l%27an%20mille%29%20-%20Château%20de%20st-Germain-en-Laye>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.897404>;
+  geo:long <2.094962> .
+
+<78102> a geo:SpatialThing;
+  rdfs:lable <Musée%20Départemental%20Maurice%20Denis>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.892496>;
+  geo:long <2.087541> .
+
+<78470> a geo:SpatialThing;
+  rdfs:lable <Collections%20de%20la%20Fondation%20de%20Coubertin>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.701169>;
+  geo:long <2.06008> .
+
+<78000> a geo:SpatialThing;
+  rdfs:lable <Musée%20Lambinet>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.808966>;
+  geo:long <2.130624> .
+
+<78008> a geo:SpatialThing;
+  rdfs:lable <Etablissement%20Public%20du%20Musée%20et%20du%20Domaine%20National%20de%20Versailles>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <50.27117>;
+  geo:long <1.666476> .
+
+<11150> a geo:SpatialThing;
+  rdfs:lable <Musée%20Municipal%20%22Eburomagus%20Musée%20Archéologique%22>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <43.243772>;
+  geo:long <2.116173> .
+
+<11000> a geo:SpatialThing;
+  rdfs:lable <Musée%20des%20Beaux-Arts>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <43.212595>;
+  geo:long <2.35536> .
+
+<11491> a geo:SpatialThing;
+  rdfs:lable <Musée%20Archéologique%20du%20Lauragais>;
+  rdfs:SubClassOf wd:Q33506 .
+
+<11600> a geo:SpatialThing;
+  rdfs:lable <Musée%20Municipal>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <43.329607>;
+  geo:long <2.381615> .
+
+<11304> a geo:SpatialThing;
+  rdfs:lable <Musée%20Petiet>;
+  rdfs:SubClassOf wd:Q33506 .
+
+<11108> a geo:SpatialThing;
+  rdfs:lable <Musée%20Archéologique>, <Musée%20d%27Art%20et%20d%27Histoire>;
+  rdfs:SubClassOf wd:Q33506 .
+
+<11590> a geo:SpatialThing;
+  rdfs:lable <Musée%20Archéologique>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <43.268326>;
+  geo:long <2.939055> .
+
+<11130> a geo:SpatialThing;
+  rdfs:lable <Musée%20des%20Corbières>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <43.028708>;
+  geo:long <2.979241> .
+
+<30100> a geo:SpatialThing;
+  rdfs:lable <Musée%20du%20Colombier>, <Musée-Bibliothèque%20Pierre-André%20Benoît>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <44.129374>;
+  geo:long <4.080928> .
+
+<30200> a geo:SpatialThing;
+  rdfs:lable <Musée%20Albert%20André>, <Musée%20Léon%20Alègre>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <44.162044>, <44.164783>;
+  geo:long <4.619756>, <4.621031> .
+
+<30300> a geo:SpatialThing;
+  rdfs:lable <Musée%20Municipal%20de%20la%20Vignasse>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <43.806612>;
+  geo:long <4.644317> .
+
+<30120> a geo:SpatialThing;
+  rdfs:lable <Musée%20Cévenol>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <43.988992>;
+  geo:long <3.606958> .
+
+<30000> a geo:SpatialThing;
+  rdfs:lable <Musée%20Archéologique>, <Musée%20des%20Cultures%20Taurines>, <Musée%20du%20Vieux%20Nîmes>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <43.837616>, <43.833806>, <43.838287>;
+  geo:long <4.362815>, <4.358623>, <4.359585> .
+
+<30031> a geo:SpatialThing;
+  rdfs:lable <Carré%20d%27Art%20Musée%20d%27Art%20Contemporain%20de%20Nîmes>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <43.838163>;
+  geo:long <4.356136> .
+
+<30033> a geo:SpatialThing;
+  rdfs:lable <Musée%20des%20Beaux-Arts>, <Musée%20d%27Histoire%20Naturelle%20et%20de%20Préhistoire>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <43.831958>, <43.837676>;
+  geo:long <4.360886>, <4.36298> .
+
+<30130> a geo:SpatialThing;
+  rdfs:lable <Musée%20Départemental%20d%27Art%20Sacré>, <Musée%20Paul%20Raymond>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <44.255204>, <44.255685>;
+  geo:long <4.650869>, <4.650898> .
+
+<30800> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20la%20Maison%20Romane>;
+  rdfs:SubClassOf wd:Q33506 .
+
+<30270> a geo:SpatialThing;
+  rdfs:lable <Musée%20des%20Vallées%20Cévenoles>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.890388>;
+  geo:long <5.555086> .
+
+<30701> a geo:SpatialThing;
+  rdfs:lable <Musée%20Municipal%20Georges%20Borias>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <44.016322>;
+  geo:long <4.41047> .
+
+<30400> a geo:SpatialThing;
+  rdfs:lable <Musée%20Pierre%20de%20Luxembourg>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <43.965435>;
+  geo:long <4.796389> .
+
+<34300> a geo:SpatialThing;
+  rdfs:lable <Musée%20Agathois>, <Musée%20de%20l%27Ephèbe>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <43.311837>;
+  geo:long <3.468587> .
+
+<34500> a geo:SpatialThing;
+  rdfs:lable <Musée%20des%20Beaux-Arts%20de%20Béziers>, <Musée%20du%20Biterrois>, <Muséum%20d%27Histoire%20Naturelle>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <43.341552>, <43.343241>;
+  geo:long <3.210676>, <3.211279> .
+
+<34140> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20l%27Etang%20de%20Thau>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <43.446763>;
+  geo:long <3.660714> .
+
+<34110> a geo:SpatialThing;
+  rdfs:lable <Musée%20Municipal>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <43.446743>;
+  geo:long <3.754546> .
+
+<34600> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20la%20Cloche%20et%20de%20la%20Sonnaille>;
+  rdfs:SubClassOf wd:Q33506 .
+
+<34970> a geo:SpatialThing;
+  rdfs:lable <Site%20Archéologique%20Lattara%20-%20Musée%20Henri%20Prades%20de%20Montpellier%20Agglomération>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <43.566729>;
+  geo:long <3.908384> .
+
+<34270> a geo:SpatialThing;
+  rdfs:lable <Musée%20Intercommunal%20du%20Pic%20Saint-Loup>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <43.725407>;
+  geo:long <3.80852> .
+
+<34700> a geo:SpatialThing;
+  rdfs:lable <Musée%20Fleury>;
+  rdfs:SubClassOf wd:Q33506 .
+
+<34210> a geo:SpatialThing;
+  rdfs:lable <Musée%20Archéologique>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <43.354336>;
+  geo:long <2.746215> .
+
+<34000> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20l%27Hôtel%20d%27Espeyran>, <Musée%20Fabre>, <Musée%20Languedocien>,
+    <Musée%20du%20Vieux%20Montpellier>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <43.611158>, <43.61122>, <43.609525>, <43.610763>;
+  geo:long <3.880156>, <3.880192>, <3.879151>, <3.878354> .
+
+<34394> a geo:SpatialThing;
+  rdfs:lable <Agropolis-Muséum>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <43.646297>;
+  geo:long <3.868582> .
+
+<34570> a geo:SpatialThing;
+  rdfs:lable <Musée%20Municipal>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <43.605501>;
+  geo:long <3.737131> .
+
+<34120> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20Vulliod%20Saint-Germain>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <43.461352>;
+  geo:long <3.422892> .
+
+<34220> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20Préhistoire%20Régionale%20et%20du%20Mégalithisme>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <43.488771>;
+  geo:long <2.758652> .
+
+<34200> a geo:SpatialThing;
+  rdfs:lable <Musée%20Paul%20Valéry>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <43.395512>;
+  geo:long <3.691204> .
+
+<48000> a geo:SpatialThing;
+  rdfs:lable <Musée%20Ignon%20Fabre>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <44.518396>;
+  geo:long <3.499291> .
+
+<48220> a geo:SpatialThing;
+  rdfs:lable <Ecomusée%20du%20Mont%20Lozère>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <44.36401>;
+  geo:long <3.746557> .
+
+<66403> a geo:SpatialThing;
+  rdfs:lable <Musée%20départemental%20d%27Art%20Moderne>;
+  rdfs:SubClassOf wd:Q33506 .
+
+<66190> a geo:SpatialThing;
+  rdfs:lable <Musée%20d%27Art%20Moderne%20-%20Fonds%20Peskè>;
+  rdfs:SubClassOf wd:Q33506 .
+
+<66000> a geo:SpatialThing;
+  rdfs:lable <Muséum%20d%27Histoire%20Naturelle>, <Musée%20Archéologique%20de%20Ruscino>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <42.697424>, <42.708796>;
+  geo:long <2.899718>, <2.946234> .
+
+<66931> a geo:SpatialThing;
+  rdfs:lable <Musée%20du%20Castillet%20Casa%20Pairal>, <Musée%20Joseph%20Puig>, <Musée%20Hyacinthe%20Rigaud>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <42.69945>, <42.69812>;
+  geo:long <2.883256>, <2.893588> .
+
+<66660> a geo:SpatialThing;
+  rdfs:lable <Musée%20d%27Archéologie%20Sous-Marine>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <42.522276>;
+  geo:long <3.104792> .
+
+<66800> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20Cerdagne>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <42.439388>;
+  geo:long <2.00239> .
+
+<66720> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20Tautavel>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <42.813782>;
+  geo:long <2.747999> .
+
+<19100> a geo:SpatialThing;
+  rdfs:lable <Musée%20Labenche%20d%27Art%20et%20d%27Histoire>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <45.158437>;
+  geo:long <1.535971> .
+
+<19800> a geo:SpatialThing;
+  rdfs:lable <Musée%20du%20Président%20Jacques%20Chirac>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <45.41758>;
+  geo:long <1.922718> .
+
+<19000> a geo:SpatialThing;
+  rdfs:lable <Musée%20du%20Cloître%20de%20Tulle%20André%20Mazeyrie>, <Musée%20de%20la%20Mémoire%20et%20des%20Industries%20Tullistes>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <45.260245>;
+  geo:long <1.751701> .
+
+<19208> a geo:SpatialThing;
+  rdfs:lable <Musée%20du%20Pays%20d%27Ussel>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.408029>;
+  geo:long <6.860172> .
+
+<23200> a geo:SpatialThing;
+  rdfs:lable <Musée%20Départemental%20de%20la%20Tapisserie>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <45.954471>;
+  geo:long <2.1694> .
+
+<23000> a geo:SpatialThing;
+  rdfs:lable <Musée%20d%27Art%20et%20d%27Archéologie>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <46.166077>;
+  geo:long <1.870637> .
+
+<87290> a geo:SpatialThing;
+  rdfs:lable <Musée%20René%20Baubérot>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <46.13125>;
+  geo:long <1.274322> .
+
+<87000> a geo:SpatialThing;
+  rdfs:lable <Musée%20Municipal%20des%20Beaux-Arts%20de%20Limoges%20-%20Palais%20de%20l%27Evêché>,
+    <Musée%20National%20Adrien%20Dubouché>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <45.828784>, <45.831405>;
+  geo:long <1.265445>, <1.254207> .
+
+<87600> a geo:SpatialThing;
+  rdfs:lable <Musée%20Départemental%20d%27Art%20Contemporain>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <45.821801>;
+  geo:long <0.819893> .
+
+<54120> a geo:SpatialThing;
+  rdfs:lable <Les%20Sources%20d%27Hercule>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.446385>;
+  geo:long <6.734719> .
+
+<54140> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20l%27Histoire%20du%20Fer>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.597477>;
+  geo:long <6.488578> .
+
+<54410> a geo:SpatialThing;
+  rdfs:lable <Musée%20du%20Château%20de%20Montaigu>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.665792>;
+  geo:long <6.215554> .
+
+<54400> a geo:SpatialThing;
+  rdfs:lable <Musée%20Municipal%20des%20Emaux%20et%20Faïences>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <49.522644>;
+  geo:long <5.763706> .
+
+<54300> a geo:SpatialThing;
+  rdfs:lable <Musée%20du%20Château%20de%20Lunéville>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.594721>;
+  geo:long <6.489897> .
+
+<54004> a geo:SpatialThing;
+  rdfs:lable <Musée%20des%20Beaux-Arts%20de%20Nancy>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.693507>;
+  geo:long <6.182435> .
+
+<54000> a geo:SpatialThing;
+  rdfs:lable <Musée%20Historique%20Lorrain>, <Musée%20de%20l%27Ecole%20de%20Nancy>,
+    <Musée%20de%20Zoologie%20-%20Aquarium%20Tropical>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.680494>, <48.695072>;
+  geo:long <6.166351>, <6.188467> .
+
+<54700> a geo:SpatialThing;
+  rdfs:lable <Musée%20%22au%20Fil%20du%20Papier%22>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.901615>;
+  geo:long <6.056259> .
+
+<54200> a geo:SpatialThing;
+  rdfs:lable <Musée%20d%27Art%20et%20d%27Histoire%20de%20Toul>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.678544>;
+  geo:long <5.89134> .
+
+<55000> a geo:SpatialThing;
+  rdfs:lable <Musée%20Barrois>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.771797>;
+  geo:long <5.156074> .
+
+<55200> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20la%20Céramique%20et%20de%20l%27Ivoire>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.763489>;
+  geo:long <5.589497> .
+
+<55600> a geo:SpatialThing;
+  rdfs:lable <Musée%20Jules%20Bastien-Lepage%20-%20Musée%20de%20la%20Fortification>;
+  rdfs:SubClassOf wd:Q33506 .
+
+<55300> a geo:SpatialThing;
+  rdfs:lable <Musée%20d%27Art%20Sacré%20de%20la%20Meuse>, <Musée%20Départemental%20Raymond%20Poincaré>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.888549>, <48.824129>;
+  geo:long <5.540884>, <5.510779> .
+
+<55700> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20la%20Bière%20et%20du%20Pays%20de%20Stenay>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <49.489009>;
+  geo:long <5.187268> .
+
+<55270> a geo:SpatialThing;
+  rdfs:lable <Musée%20d%27Argonne>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <49.226174>;
+  geo:long <5.0333> .
+
+<55140> a geo:SpatialThing;
+  rdfs:lable <Musée%20Jeanne%20d%27Arc>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.601979>;
+  geo:long <5.666467> .
+
+<55100> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20la%20Princerie>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <49.161059>;
+  geo:long <5.382439> .
+
+<57130> a geo:SpatialThing;
+  rdfs:lable <Musée%20Départemental%20de%20la%20Guerre%20de%2070>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <49.112222>;
+  geo:long <6.026282> .
+
+<57630> a geo:SpatialThing;
+  rdfs:lable <Musée%20Départemental%20du%20Sel>, <Musée%20Départemental%20Georges%20de%20la%20Tour>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.788526>;
+  geo:long <6.60656> .
+
+<57960> a geo:SpatialThing;
+  rdfs:lable <Maison%20du%20Verre%20et%20du%20Cristal>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.964887>;
+  geo:long <7.35253> .
+
+<57000> a geo:SpatialThing;
+  rdfs:lable <Musées%20de%20la%20Cour%20d%27Or>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <49.121051>;
+  geo:long <6.177978> .
+
+<57020> a geo:SpatialThing;
+  rdfs:lable <Centre%20Pompidou%20de%20Metz>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <43.550885>;
+  geo:long <-0.98388> .
+
+<57700> a geo:SpatialThing;
+  rdfs:lable <Musée%20des%20Mines%20de%20fer%20de%20Lorraine>;
+  rdfs:SubClassOf wd:Q33506 .
+
+<57540> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20la%20Mine%20-%20Carreau%20Wendel>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <49.21292>;
+  geo:long <6.872911> .
+
+<57370> a geo:SpatialThing;
+  rdfs:lable <Musée%20Militaire%20et%20Erckmann-Chatrian>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.767>;
+  geo:long <7.258837> .
+
+<57400> a geo:SpatialThing;
+  rdfs:lable <Musée%20du%20Pays%20de%20Sarrebourg>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.734998>;
+  geo:long <7.055235> .
+
+<57200> a geo:SpatialThing;
+  rdfs:lable <Jardin%20d%27Hiver%2C%20Musée%20de%20La%20Faïence>, <Moulin%20de%20la%20Blies%20-%20Musée%20des%20Techniques%20Faïencières>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <49.109069>, <49.1265>;
+  geo:long <7.070473>, <7.080124> .
+
+<57125> a geo:SpatialThing;
+  rdfs:lable <La%20Tour%20aux%20Puces%20-%20Musée%20du%20Pays%20Thionvillois>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.589574>;
+  geo:long <6.50558> .
+
+<88000> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20l%27Image>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.183628>;
+  geo:long <6.445992> .
+
+<88011> a geo:SpatialThing;
+  rdfs:lable <Musée%20Départemental%20d%27Art%20Ancien%20et%20Contemporain>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.17326>;
+  geo:long <6.446595> .
+
+<88507> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20la%20Lutherie>;
+  rdfs:SubClassOf wd:Q33506 .
+
+<88370> a geo:SpatialThing;
+  rdfs:lable <Musée%20Louis%20Français>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <47.964095>;
+  geo:long <6.458494> .
+
+<88200> a geo:SpatialThing;
+  rdfs:lable <Musée%20Charles%20de%20Bruyères>, <Musée%20Charles%20Friry>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.016142>, <48.015174>;
+  geo:long <6.593289>, <6.590031> .
+
+<88100> a geo:SpatialThing;
+  rdfs:lable <Musée%20Pierre%20Noël%20-%20Musée%20de%20la%20Vie%20dans%20les%20Hautes-Vosges>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.288282>;
+  geo:long <6.951464> .
+
+<97200> a geo:SpatialThing;
+  rdfs:lable <Musée%20Départemental%20d%27Archéologie%20Précolombienne%20et%20de%20Préhistoire%20de%20la%20Martinique>,
+    <Musée%20Régional%20d%27Histoire%20et%20d%27Ethnologie>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <14.603311>, <14.606869>;
+  geo:long <-61.068677>, <-61.06693> .
+
+<97254> a geo:SpatialThing;
+  rdfs:lable <Muséum%20d%27Histoire%20Naturelle>;
+  rdfs:SubClassOf wd:Q33506 .
+
+<97229> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20La%20Canne>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <14.533769>;
+  geo:long <-61.029966> .
+
+<97211> a geo:SpatialThing;
+  rdfs:lable <Ecomusée%20de%20la%20Martinique>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <14.466475>;
+  geo:long <-60.904035> .
+
+<97250> a geo:SpatialThing;
+  rdfs:lable <Musée%20Volcanologique%20Franck%20Arnold%20Perret>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <14.744214>;
+  geo:long <-61.176234> .
+
+<09000> a geo:SpatialThing;
+  rdfs:lable <Musée%20Départemental%20de%20l%27Ariège>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <42.965919>;
+  geo:long <1.605311> .
+
+<09300> a geo:SpatialThing;
+  rdfs:lable <Musée%20du%20Textile%20et%20du%20Peigne%20en%20Corne>, <Musée%20d%27Archéologie>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <42.929884>, <42.870856>;
+  geo:long <1.844322>, <1.832753> .
+
+<09290> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20la%20Préhistoire>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <43.079919>;
+  geo:long <1.36027> .
+
+<09330> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20la%20Forge>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <42.940991>;
+  geo:long <1.630394> .
+
+<09190> a geo:SpatialThing;
+  rdfs:lable <Musée%20du%20Palais%20des%20Evêques>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <43.001426>;
+  geo:long <1.144943> .
+
+<12300> a geo:SpatialThing;
+  rdfs:lable <Musée%20Régional%20de%20Géologie%20Pierre%20Vetter>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <44.555583>;
+  geo:long <2.266179> .
+
+<12500> a geo:SpatialThing;
+  rdfs:lable <Musée%20des%20Mœurs%20et%20Coutumes%2C%20Musée%20du%20Rouergue>, <Musée%20Joseph%20Vaylet>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <44.520844>, <44.520788>;
+  geo:long <2.760388>, <2.762169> .
+
+<12100> a geo:SpatialThing;
+  rdfs:lable <Musée%20Municipal%20de%20Millau>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <44.0978>;
+  geo:long <3.080769> .
+
+<12000> a geo:SpatialThing;
+  rdfs:lable <Musée%20des%20Beaux-Arts%20Denys%20Puech>, <Musée%20Fenaille>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <44.349215>, <44.349201>;
+  geo:long <2.57811>, <2.576408> .
+
+<12005> a geo:SpatialThing;
+  rdfs:lable <Musée%20Soulages>;
+  rdfs:SubClassOf wd:Q33506 .
+
+<12250> a geo:SpatialThing;
+  rdfs:lable <Musée%20Municipal%20d%27archéologie>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <43.975028>;
+  geo:long <2.99165> .
+
+<12330> a geo:SpatialThing;
+  rdfs:lable <Musée%20des%20Arts%20et%20Métiers>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <44.434095>;
+  geo:long <2.487917> .
+
+<12120> a geo:SpatialThing;
+  rdfs:lable <Musée%20du%20Charroi%20Rural%20et%20de%20l%27Artisanat%20Traditionnel>;
+  rdfs:SubClassOf wd:Q33506 .
+
+<12200> a geo:SpatialThing;
+  rdfs:lable <Musée%20Municipal%20Urbain%20Cabrol>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <44.351453>;
+  geo:long <2.03681> .
+
+<32000> a geo:SpatialThing;
+  rdfs:lable <Musée%20des%20Jacobins>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <43.647171>;
+  geo:long <0.587482> .
+
+<32100> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20l%27Armagnac>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <43.960712>;
+  geo:long <0.372842> .
+
+<32180> a geo:SpatialThing;
+  rdfs:lable <Musée%20Archéologique>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <43.861183>;
+  geo:long <0.101447> .
+
+<32600> a geo:SpatialThing;
+  rdfs:lable <Musée%20Campanaire>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <43.612994>;
+  geo:long <1.081929> .
+
+<32700> a geo:SpatialThing;
+  rdfs:lable <Musée%20d%27Archéologie>;
+  rdfs:SubClassOf wd:Q33506 .
+
+<32230> a geo:SpatialThing;
+  rdfs:lable <Musée%20Joseph%20Abeilhe>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <43.524344>;
+  geo:long <0.16097> .
+
+<32300> a geo:SpatialThing;
+  rdfs:lable <Musée%20des%20Beaux-Arts%20et%20des%20Arts%20Décoratifs>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <43.515315>;
+  geo:long <0.403452> .
+
+<31420> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20Préhistoire>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <43.216167>;
+  geo:long <0.88003> .
+
+<31110> a geo:SpatialThing;
+  rdfs:lable <Musée%20du%20Pays%20de%20Luchon>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <42.78928>;
+  geo:long <0.592262> .
+
+<31220> a geo:SpatialThing;
+  rdfs:lable <Musée%20Municipal>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <43.1989>;
+  geo:long <1.010796> .
+
+<31510> a geo:SpatialThing;
+  rdfs:lable <Musée%20Archéologique%20Départemental>;
+  rdfs:SubClassOf wd:Q33506 .
+
+<31800> a geo:SpatialThing;
+  rdfs:lable <Musée%20Municipal%20d%27Art%20et%20d%27Histoire>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <43.107637>;
+  geo:long <0.725625> .
+
+<31000> a geo:SpatialThing;
+  rdfs:lable <Musée%20des%20Augustins>, <Musée%20Saint-Raymond>, <Musée%20du%20Vieux%20Toulouse>,
+    <Musée%20Paul%20Dupuy>, <Muséum%20d%27Histoire%20Naturelle>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <43.600562>, <43.608498>, <43.602262>, <43.596898>, <43.594236>;
+  geo:long <1.445904>, <1.442139>, <1.443143>, <1.446935>, <1.449092> .
+
+<31400> a geo:SpatialThing;
+  rdfs:lable <Musée%20des%20Transports%20et%20des%20Communications>, <Musée%20Georges%20Labit>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <43.577035>, <43.589735>;
+  geo:long <1.450597>, <1.458081> .
+
+<31300> a geo:SpatialThing;
+  rdfs:lable <Les%20Abattoirs%2C%20Musée%20d%27Art%20Moderne%20et%20Contemporain>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <43.600678>;
+  geo:long <1.428998> .
+
+<65200> a geo:SpatialThing;
+  rdfs:lable <Musée%20Bigourdan%20du%20Vieux%20Moulin>, <Musée%20Salies>, <Muséum%20d%27Histoire%20Naturelle>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <43.065592>, <43.062205>, <43.062516>;
+  geo:long <0.15365>, <0.147936>, <0.146987> .
+
+<65100> a geo:SpatialThing;
+  rdfs:lable <Musée%20Pyrénéen>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <43.095693>;
+  geo:long <-0.048489> .
+
+<65120> a geo:SpatialThing;
+  rdfs:lable <Musée%20Municipal>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <42.865782>;
+  geo:long <0.001324> .
+
+<65130> a geo:SpatialThing;
+  rdfs:lable <Musée-château%20Gaston%20Phébus>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <43.116342>;
+  geo:long <0.278587> .
+
+<65000> a geo:SpatialThing;
+  rdfs:lable <Musée%20Massey>;
+  rdfs:SubClassOf wd:Q33506 .
+
+<46330> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20Préhistoire%20de%20Cabrerets>, <Musée%20Départemental%20de%20Cuzals>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <44.506456>;
+  geo:long <1.706642> .
+
+<46000> a geo:SpatialThing;
+  rdfs:lable <Musée%20Henri%20Martin>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <44.448506>;
+  geo:long <1.438286> .
+
+<46100> a geo:SpatialThing;
+  rdfs:lable <Musée%20d%27Histoire%20de%20Figeac>, <Musée%20Champollion%20-%20Les%20Ecriture%20du%20Monde>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <44.610842>, <44.609716>;
+  geo:long <2.035622>, <2.034747> .
+
+<46240> a geo:SpatialThing;
+  rdfs:lable <Musée%20Murat>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <44.648438>;
+  geo:long <1.568714> .
+
+<46140> a geo:SpatialThing;
+  rdfs:lable <Musée%20Archéologique%20%22Armand-Viré%22>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <44.479699>;
+  geo:long <1.285863> .
+
+<46600> a geo:SpatialThing;
+  rdfs:lable <Musée%20Gallo-Romain%20d%27Uxellodunum>;
+  rdfs:SubClassOf wd:Q33506 .
+
+<46500> a geo:SpatialThing;
+  rdfs:lable <Musée%20d%27Art%20Sacré>;
+  rdfs:SubClassOf wd:Q33506 .
+
+<46200> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20l%27Automate>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <44.894537>;
+  geo:long <1.468386> .
+
+<46110> a geo:SpatialThing;
+  rdfs:lable <Musée%20Municipal>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <44.942216>;
+  geo:long <1.708576> .
+
+<81003> a geo:SpatialThing;
+  rdfs:lable <Musée%20Toulouse%20Lautrec>;
+  rdfs:SubClassOf wd:Q33506 .
+
+<81140> a geo:SpatialThing;
+  rdfs:lable <Musée%20Eugénie%20et%20Maurice%20Guérin>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <44.009953>;
+  geo:long <1.899242> .
+
+<81100> a geo:SpatialThing;
+  rdfs:lable <Musée%20Jean%20Jaurès>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <43.607135>;
+  geo:long <2.240474> .
+
+<81108> a geo:SpatialThing;
+  rdfs:lable <Musée%20Goya>;
+  rdfs:SubClassOf wd:Q33506 .
+
+<81170> a geo:SpatialThing;
+  rdfs:lable <Musée%20Charles%20Portal%20-%20Histoire%20et%20Patrimoine>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <44.063752>;
+  geo:long <1.94934> .
+
+<81260> a geo:SpatialThing;
+  rdfs:lable <Musée%20du%20protestantisme%20en%20Haut-Languedoc>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <43.661945>;
+  geo:long <2.448171> .
+
+wd:Q33506 rdfs:SubClassOf wd:Q41176 .
+
+<81600> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20l%27Abbaye%20Saint-Michel>, <Muséum%20d%27histoire%20naturelle%20Philadelphe%20Thomas>,
+    <Musée%20des%20Beaux-Arts>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <43.897879>, <43.89944>, <43.894259>;
+  geo:long <1.895779>, <1.894093>, <1.90185> .
+
+<81270> a geo:SpatialThing;
+  rdfs:lable <Musée%20Départemental%20du%20Textile>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <43.476806>;
+  geo:long <2.638362> .
+
+<81500> a geo:SpatialThing;
+  rdfs:lable <Musée%20du%20Pays%20Vaurais>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <43.698317>;
+  geo:long <1.82076> .
+
+<81310> a geo:SpatialThing;
+  rdfs:lable <Musée%20Raymond%20Lafage>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <43.852891>;
+  geo:long <1.811372> .
+
+<81800> a geo:SpatialThing;
+  rdfs:lable <Musée%20du%20Pays%20Rabastinois>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <43.820412>;
+  geo:long <1.724788> .
+
+<82340> a geo:SpatialThing;
+  rdfs:lable <Musée%20du%20Vieil%20Auvillar>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <44.070483>;
+  geo:long <0.899587> .
+
+<82170> a geo:SpatialThing;
+  rdfs:lable <Musée%20Théodore%20Calbet>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <43.827651>;
+  geo:long <1.294738> .
+
+<82200> a geo:SpatialThing;
+  rdfs:lable <Musée%20des%20arts%20et%20traditions%20populaires>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <44.105697>;
+  geo:long <1.085296> .
+
+<82000> a geo:SpatialThing;
+  rdfs:lable <Musée%20d%27Histoire%20Naturelle%20Victor%20Brun>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <44.017099>;
+  geo:long <1.351385> .
+
+<82013> a geo:SpatialThing;
+  rdfs:lable <Musée%20Ingres>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.832951>;
+  geo:long <2.296328> .
+
+<82140> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20Préhistoire>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <44.150801>;
+  geo:long <1.755919> .
+
+<59410> a geo:SpatialThing;
+  rdfs:lable <Musée%20Théophile%20Jouglet>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <50.372495>;
+  geo:long <3.501834> .
+
+<59440> a geo:SpatialThing;
+  rdfs:lable <Musée%20d%27Histoire%20et%20d%27Archéologie>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <50.121812>;
+  geo:long <3.92658> .
+
+<59270> a geo:SpatialThing;
+  rdfs:lable <Musée%20Benoît%20de%20Puydt>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <50.740715>;
+  geo:long <2.734399> .
+
+<59570> a geo:SpatialThing;
+  rdfs:lable <Forum%20Antique%20de%20Bavay%2C%20Musée%20Archéologique%20du%20Département%20du%20Nord>;
+  rdfs:SubClassOf wd:Q33506 .
+
+<59380> a geo:SpatialThing;
+  rdfs:lable <Musée%20du%20Mont-de-Piété>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <50.969087>;
+  geo:long <2.430391> .
+
+<59111> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20l%27Ostrevant>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <50.284651>;
+  geo:long <3.311321> .
+
+<59400> a geo:SpatialThing;
+  rdfs:lable <Musée%20Municipal%20de%20Cambrai>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <50.17347>;
+  geo:long <3.229635> .
+
+<59403> a geo:SpatialThing;
+  rdfs:lable <Musée%20Diocésain%20d%27Art%20Sacré>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <50.17298>;
+  geo:long <3.231369> .
+
+<59670> a geo:SpatialThing;
+  rdfs:lable <Musée%20Départemental%20de%20Flandre>;
+  rdfs:SubClassOf wd:Q33506 .
+
+<59220> a geo:SpatialThing;
+  rdfs:lable <Musée%20d%27Archéologie%20et%20d%27Histoire%20Locale>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <50.327328>;
+  geo:long <3.400252> .
+
+<59500> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20la%20Chartreuse>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <50.374404>;
+  geo:long <3.07548> .
+
+<59140> a geo:SpatialThing;
+  rdfs:lable <Lieu%20d%27Art%20et%20Action%20Contemporaine%20de%20Dunkerque%20-%20LAAC>,
+    <Musée%20Portuaire>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <51.037914>;
+  geo:long <2.372174> .
+
+<59378> a geo:SpatialThing;
+  rdfs:lable <Musée%20des%20Beaux-Arts>;
+  rdfs:SubClassOf wd:Q33506 .
+
+<59124> a geo:SpatialThing;
+  rdfs:lable <Musée%20Municipal%20d%27Escaudain>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <50.327774>;
+  geo:long <3.34373> .
+
+<59612> a geo:SpatialThing;
+  rdfs:lable <Ecomusée%20de%20la%20Région>;
+  rdfs:SubClassOf wd:Q33506 .
+
+<59820> a geo:SpatialThing;
+  rdfs:lable <Musée%20du%20Dessin%20et%20de%20l%27Estampe%20Originale>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <50.988054>;
+  geo:long <2.128816> .
+
+<59190> a geo:SpatialThing;
+  rdfs:lable <Musée%20Municipal%20d%27Hazebrouck>;
+  rdfs:SubClassOf wd:Q33506 .
+
+<59360> a geo:SpatialThing;
+  rdfs:lable <Musée%20Départemental%20Matisse>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <50.103244>;
+  geo:long <3.537306> .
+
+<59287> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20la%20Mine%20-%20Centre%20Historique%20Minier>;
+  rdfs:SubClassOf wd:Q33506 .
+
+<59000> a geo:SpatialThing;
+  rdfs:lable <Musée%20d%27Histoire%20Naturelle%20et%20de%20Géologie>, <Palais%20des%20Beaux-Arts%20de%20Lille>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <50.626639>, <50.630545>;
+  geo:long <3.066546>, <3.064941> .
+
+<59800> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20l%27Hospice%20Comtesse>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <50.641054>;
+  geo:long <3.06294> .
+
+<59870> a geo:SpatialThing;
+  rdfs:lable <Musée%20d%27Histoire%20Locale%20de%20Marchiennes>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <50.407479>;
+  geo:long <3.281263> .
+
+<59607> a geo:SpatialThing;
+  rdfs:lable <Musée%20Henri%20Boez>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <50.623845>;
+  geo:long <3.071417> .
+
+<59100> a geo:SpatialThing;
+  rdfs:lable <La%20Piscine%20-%20Musée%20d%27Art%20et%20d%27Industrie%20André%20Diligent>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <50.692479>;
+  geo:long <3.166607> .
+
+<59230> a geo:SpatialThing;
+  rdfs:lable <Musée%20Municipal>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <50.448798>;
+  geo:long <3.427859> .
+
+<59216> a geo:SpatialThing;
+  rdfs:lable <Musée-Atelier%20du%20Verre>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <47.52711>;
+  geo:long <-2.769245> .
+
+<59200> a geo:SpatialThing;
+  rdfs:lable <MUba%20Eugène%20Leroy/Tourcoing>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <50.724554>;
+  geo:long <3.162819> .
+
+<59300> a geo:SpatialThing;
+  rdfs:lable <Musée%20des%20Beaux-Arts>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <50.35607>;
+  geo:long <3.530995> .
+
+<59650> a geo:SpatialThing;
+  rdfs:lable <LAM%20-%20Lille%20Métropole%20Musée%20d%27Art%20Moderne%20d%27Art%20Contemporain%20et%20d%27Art%20Brut>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <50.637497>;
+  geo:long <3.148587> .
+
+<62000> a geo:SpatialThing;
+  rdfs:lable <Musée%20des%20Beaux-Arts>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <50.291624>;
+  geo:long <2.77326> .
+
+<62600> a geo:SpatialThing;
+  rdfs:lable <Musée%20Communautaire%20Opale-Sud>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <50.405092>;
+  geo:long <1.567687> .
+
+<62400> a geo:SpatialThing;
+  rdfs:lable <Musée%20Régional%20d%27Ethnologie>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <50.536456>;
+  geo:long <2.648235> .
+
+<62200> a geo:SpatialThing;
+  rdfs:lable <Château-Musée%20de%20Boulogne-Sur-Mer>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <50.72557>;
+  geo:long <1.616458> .
+
+<62317> a geo:SpatialThing;
+  rdfs:lable <Muséum%20d%27Histoire%20Naturelle>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <50.723398>;
+  geo:long <1.615809> .
+
+<62100> a geo:SpatialThing;
+  rdfs:lable <Musée%20des%20Beaux-Arts%20et%20de%20la%20Dentelle>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <50.956724>;
+  geo:long <1.851871> .
+
+<62240> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20la%20Céramique>;
+  rdfs:SubClassOf wd:Q33506 .
+
+<62630> a geo:SpatialThing;
+  rdfs:lable <Musée%20Quentovic>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <50.513895>;
+  geo:long <1.637621> .
+
+<62440> a geo:SpatialThing;
+  rdfs:lable <Musée%20d%27Histoire%20et%20d%27Archéologie>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <50.447577>;
+  geo:long <2.91073> .
+
+<62520> a geo:SpatialThing;
+  rdfs:lable <Musée%20Municipal>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <50.506399>;
+  geo:long <1.602007> .
+
+<62301> a geo:SpatialThing;
+  rdfs:lable <Louvre-Lens>;
+  rdfs:SubClassOf wd:Q33506 .
+
+<62170> a geo:SpatialThing;
+  rdfs:lable <Musée%20d%27Art%20et%20d%27Histoire%20Roger%20Rodière>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <50.462757>;
+  geo:long <1.76407> .
+
+<62500> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20l%27Hôtel%20Sandelin>, <Musée%20Henri%20Dupuis>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <50.749007>, <50.748349>;
+  geo:long <2.254521>, <2.251197> .
+
+<62166> a geo:SpatialThing;
+  rdfs:lable <Musée%20Municipal%20Bruno%20Danvin>;
+  rdfs:SubClassOf wd:Q33506 .
+
+<62830> a geo:SpatialThing;
+  rdfs:lable <Musée%20Jean-Charles%20Cazin>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <50.63954>;
+  geo:long <1.745547> .
+
+<14117> a geo:SpatialThing;
+  rdfs:lable <Musée%20du%20Débarquement>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <49.340234>;
+  geo:long <-0.622108> .
+
+<14400> a geo:SpatialThing;
+  rdfs:lable <Musée%20d%27Art%20et%20d%27Histoire%20Baron%20Gérard>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <49.276158>;
+  geo:long <-0.703671> .
+
+<14950> a geo:SpatialThing;
+  rdfs:lable <Musée%20Langlois>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <49.278234>;
+  geo:long <0.110532> .
+
+<14000> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20la%20Poste%20et%20des%20Techniques%20de%20communication>,
+    <Musée%20de%20la%20Société%20des%20Antiquaires>, <Musée%20de%20Normandie>, <Musée%20des%20Beaux-Arts>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <49.183359>, <49.185369>, <49.16202>;
+  geo:long <-0.363538>, <-0.349611>, <-0.345097> .
+
+<14066> a geo:SpatialThing;
+  rdfs:lable <Mémorial%20de%20Caen>;
+  rdfs:SubClassOf wd:Q33506 .
+
+<14027> a geo:SpatialThing;
+  rdfs:lable <Musée%20d%27Initiation%20à%20la%20Nature>;
+  rdfs:SubClassOf wd:Q33506 .
+
+<14603> a geo:SpatialThing;
+  rdfs:lable <Musée%20d%27Ethnographie%20et%20d%27Arts%20Populaires%20et%20Musée%20de%20la%20Marine>;
+  rdfs:SubClassOf wd:Q33506 .
+
+<14602> a geo:SpatialThing;
+  rdfs:lable <Musée%20Eugène%20Boudin>;
+  rdfs:SubClassOf wd:Q33506 .
+
+<14330> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20la%20Mine>, <Musée%20de%20la%20Meunerie%20-%20Moulin%20de%20Marcy>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <49.24317>, <49.227596>;
+  geo:long <-0.87738>, <-0.9048> .
+
+<14100> a geo:SpatialThing;
+  rdfs:lable <Musée%20d%27Art%20et%20d%27Histoire%20de%20Lisieux>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <49.144562>;
+  geo:long <0.219323> .
+
+<14106> a geo:SpatialThing;
+  rdfs:lable <Château%20de%20Saint-Germain%20de%20Livet>;
+  rdfs:SubClassOf wd:Q33506 .
+
+<14290> a geo:SpatialThing;
+  rdfs:lable <Musée%20Municipal>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <49.022096>;
+  geo:long <0.406804> .
+
+<14110> a geo:SpatialThing;
+  rdfs:lable <Musée%20du%20Château>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.896917>;
+  geo:long <-0.588433> .
+
+<14170> a geo:SpatialThing;
+  rdfs:lable <Musée%20des%20Techniques%20Fromagères>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <49.019523>;
+  geo:long <-0.033256> .
+
+<14250> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20la%20Bataille%20de%20Tilly-Sur-Seulles%201944>;
+  rdfs:SubClassOf wd:Q33506 .
+
+<14360> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20Trouville%20-%20Villa%20Montebello>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <49.37135>;
+  geo:long <0.083538> .
+
+<14930> a geo:SpatialThing;
+  rdfs:lable <Musée%20et%20Sites%20archéologiques%20de%20Vieux-la-Romaine>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <49.105688>;
+  geo:long <-0.437702> .
+
+<14640> a geo:SpatialThing;
+  rdfs:lable <Paléospace>;
+  rdfs:SubClassOf wd:Q33506 .
+
+<14502> a geo:SpatialThing;
+  rdfs:lable <Musée%20Municipal>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.835996>;
+  geo:long <-0.888245> .
+
+<50300> a geo:SpatialThing;
+  rdfs:lable <Musée%20Municipal%20d%27Avranches>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.678874>;
+  geo:long <-1.350061> .
+
+<50720> a geo:SpatialThing;
+  rdfs:lable <Maison%20de%20la%20Pomme%20et%20de%20la%20Poire>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.587967>;
+  geo:long <-0.806027> .
+
+<50260> a geo:SpatialThing;
+  rdfs:lable <Musée%20du%20Vieux%20Château>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <49.470838>;
+  geo:long <-1.633678> .
+
+<50680> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20l%27Abbaye>;
+  rdfs:SubClassOf wd:Q33506 .
+
+<50100> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20la%20Guerre%20et%20de%20la%20Libération>, <Musée%20Thomas%20Henry>,
+    <Muséum%20Emmanuel%20Liais>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <49.629987>, <49.636993>;
+  geo:long <-1.61425>, <-1.622034> .
+
+<50200> a geo:SpatialThing;
+  rdfs:lable <Musée%20Quesnel-Morinière>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <49.047263>;
+  geo:long <-1.446668> .
+
+<50120> a geo:SpatialThing;
+  rdfs:lable <Musée%20Municipal>;
+  rdfs:SubClassOf wd:Q33506 .
+
+<50400> a geo:SpatialThing;
+  rdfs:lable <Musée%20du%20Vieux%20Granville>, <Musée%20Richard%20Anacréon>, <Musée%20Christian%20Dior>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.837248>, <48.835533>, <48.842113>;
+  geo:long <-1.602814>, <-1.584192>, <-1.592429> .
+
+<50000> a geo:SpatialThing;
+  rdfs:lable <Musée%20du%20Bocage%20Normand%2C%20ferme%20du%20bois%20Jugan>, <Musée%20des%20Beaux-Arts>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <49.104029>;
+  geo:long <-1.076496> .
+
+<50670> a geo:SpatialThing;
+  rdfs:lable <Musée%20du%20Granit>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.761142>;
+  geo:long <-1.029377> .
+
+<50390> a geo:SpatialThing;
+  rdfs:lable <Musée%20Barbey%20d%27Aurevilly>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <49.384496>;
+  geo:long <-1.533002> .
+
+<50550> a geo:SpatialThing;
+  rdfs:lable <Musée%20Maritime%20de%20l%27Ile%20de%20Tatihou>;
+  rdfs:SubClassOf wd:Q33506 .
+
+<50480> a geo:SpatialThing;
+  rdfs:lable <Ferme-Musée%20du%20Cotentin>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <49.416129>;
+  geo:long <-1.314998> .
+
+<50160> a geo:SpatialThing;
+  rdfs:lable <Musée%20du%20Château>;
+  rdfs:SubClassOf wd:Q33506 .
+
+<50700> a geo:SpatialThing;
+  rdfs:lable <Musée%20Régional%20du%20Cidre%20et%20du%20Calvados>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <49.505988>;
+  geo:long <-1.47042> .
+
+<50800> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20la%20Poeslerie>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.840754>;
+  geo:long <-1.221648> .
+
+<61000> a geo:SpatialThing;
+  rdfs:lable <Musée%20des%20Beaux-Arts%20et%20de%20la%20Dentelle>;
+  rdfs:SubClassOf wd:Q33506 .
+
+<61104> a geo:SpatialThing;
+  rdfs:lable <Musée%20du%20Château%20de%20Flers>;
+  rdfs:SubClassOf wd:Q33506 .
+
+<61300> a geo:SpatialThing;
+  rdfs:lable <Musée%20Municipal%20d%27Archéologie>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.764698>;
+  geo:long <0.629018> .
+
+<61600> a geo:SpatialThing;
+  rdfs:lable <Musée%20Municipal%20-%20Musée%20du%20Jouet>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.590293>;
+  geo:long <-0.359226> .
+
+<61400> a geo:SpatialThing;
+  rdfs:lable <Musée%20du%20Percheron>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.52186>;
+  geo:long <0.54697> .
+
+<61130> a geo:SpatialThing;
+  rdfs:lable <Musée%20Départemental%20des%20Arts%20et%20Traditions%20Populaires%20du%20Perche>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.324467>;
+  geo:long <0.65589> .
+
+<61500> a geo:SpatialThing;
+  rdfs:lable <Musée%20Départemental%20d%27Art%20Sacré>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.605419>;
+  geo:long <0.171871> .
+
+<27300> a geo:SpatialThing;
+  rdfs:lable <Musée%20Municipal>;
+  rdfs:SubClassOf wd:Q33506 .
+
+<27190> a geo:SpatialThing;
+  rdfs:lable <Musée%20du%20Verre%20et%20de%20la%20Pierre>;
+  rdfs:SubClassOf wd:Q33506 .
+
+<27001> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20l%27Ancien%20Evêché>;
+  rdfs:SubClassOf wd:Q33506 .
+
+<27750> a geo:SpatialThing;
+  rdfs:lable <Musée%20Artisanal%20et%20Industriel%20d%27Instruments%20à%20Vent>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.897628>;
+  geo:long <1.407809> .
+
+<27700> a geo:SpatialThing;
+  rdfs:lable <Musée%20Municipal%20Nicolas%20Poussin>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <49.245779>;
+  geo:long <1.420095> .
+
+<27400> a geo:SpatialThing;
+  rdfs:lable <Musée%20Municipal>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <49.214044>;
+  geo:long <1.169269> .
+
+<27500> a geo:SpatialThing;
+  rdfs:lable <Musée%20Alfred%20Canel>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <49.357088>;
+  geo:long <0.516022> .
+
+<27200> a geo:SpatialThing;
+  rdfs:lable <Musée%20Alphonse-Georges%20Poulain>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <49.094855>;
+  geo:long <1.484927> .
+
+<76360> a geo:SpatialThing;
+  rdfs:lable <Musée%20Municipal>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <49.545721>;
+  geo:long <0.952516> .
+
+<76380> a geo:SpatialThing;
+  rdfs:lable <Pavillon%20Flaubert>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <49.435017>;
+  geo:long <1.031203> .
+
+<76490> a geo:SpatialThing;
+  rdfs:lable <Maison%20des%20Templiers>, <Musée%20de%20la%20Marine%20de%20Seine>, <Musée%20Victor%20Hugo>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <49.52525>, <49.510304>;
+  geo:long <0.725969>, <0.672863> .
+
+<76200> a geo:SpatialThing;
+  rdfs:lable <Château-Musée%20de%20Dieppe>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <49.923949>;
+  geo:long <1.07162> .
+
+<76500> a geo:SpatialThing;
+  rdfs:lable <Musée%20d%27Elbeuf>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <49.28505>;
+  geo:long <1.006272> .
+
+<76260> a geo:SpatialThing;
+  rdfs:lable <Musée%20Louis-Philippe%20du%20Château%20d%27Eu>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <50.048831>;
+  geo:long <1.418363> .
+
+<76400> a geo:SpatialThing;
+  rdfs:lable <Musée%20des%20Arts%20%26%20de%20l%27Enfance>, <Musée%20des%20Pêcheries%2C%20Cité%20des%20Terre-Neuvas>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <49.756192>;
+  geo:long <0.377521> .
+
+<76700> a geo:SpatialThing;
+  rdfs:lable <Musée%20du%20Prieuré>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <49.919318>;
+  geo:long <1.075715> .
+
+<76600> a geo:SpatialThing;
+  rdfs:lable <Muséum%20d%27Histoire%20Naturelle>, <Musée%20du%20Prieuré%20de%20Graville>,
+    <La%20Maison%20de%20l%27Armateur>, <Musée%20d%27Art%20Moderne%20André%20Malraux%20-%20MuMa>,
+    <Musée%20de%20l%27Hôtel%20Dubocage%20de%20Bléville>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <49.487581>, <49.502468>, <49.486876>, <49.484796>, <49.488697>;
+  geo:long <0.108279>, <0.162885>, <0.112619>, <0.102188>, <0.114414> .
+
+<76650> a geo:SpatialThing;
+  rdfs:lable <Musée%20Départemental%20Pierre%20Corneille>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <49.389368>;
+  geo:long <1.0216> .
+
+<76170> a geo:SpatialThing;
+  rdfs:lable <Musée%20Municipal>;
+  rdfs:SubClassOf wd:Q33506 .
+
+<76116> a geo:SpatialThing;
+  rdfs:lable <Musée%20des%20Traditions%20et%20Arts%20Normands>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <49.460105>;
+  geo:long <1.297348> .
+
+<76710> a geo:SpatialThing;
+  rdfs:lable <Musée%20des%20Sapeurs-Pompiers%20de%20France>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <49.54688>;
+  geo:long <1.076136> .
+
+<76270> a geo:SpatialThing;
+  rdfs:lable <Musée%20Mathon-Durand>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <49.733325>;
+  geo:long <1.433587> .
+
+<76940> a geo:SpatialThing;
+  rdfs:lable <Ecomusée%20de%20la%20Basse-Seine>;
+  rdfs:SubClassOf wd:Q33506 .
+
+<76960> a geo:SpatialThing;
+  rdfs:lable <Musée%20Industriel%20de%20la%20Corderie%20Vallois>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <49.494507>;
+  geo:long <1.048567> .
+
+<76000> a geo:SpatialThing;
+  rdfs:lable <Musée%20National%20de%20l%27Education>, <Musée%20des%20Antiquités%20de%20la%20Seine-Maritime>,
+    <Musée%20Flaubert%20et%20d%27Histoire%20de%20la%20Médecine>, <Musée%20Le%20Secq%20des%20Tournelles>,
+    <Muséum%20d%27Histoire%20Naturelle>, <Musée%20de%20la%20Céramique>, <Musée%20des%20Beaux-Arts>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <49.448524>, <49.447268>, <49.445232>, <49.444259>, <49.445543>, <49.445222>;
+  geo:long <1.102602>, <1.098932>, <1.081736>, <1.094815>, <1.093846>, <1.094076> .
+
+<76043> a geo:SpatialThing;
+  rdfs:lable <Musée-Maison%20Natale%20Pierre%20Corneille>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <49.445148>;
+  geo:long <1.094521> .
+
+<76510> a geo:SpatialThing;
+  rdfs:lable <Association%20de%20l%27Horlogerie%20Aliermontaise>;
+  rdfs:SubClassOf wd:Q33506 .
+
+<76190> a geo:SpatialThing;
+  rdfs:lable <Musée%20Municipal%20des%20Ivoires>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <49.617332>;
+  geo:long <0.754906> .
+
+<44740> a geo:SpatialThing;
+  rdfs:lable <Musée%20des%20Marais%20Salant>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <47.278542>;
+  geo:long <-2.478054> .
+
+<44130> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20la%20Fève%2C%20Crèches%20et%20Traditions%20Populaires>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <47.475727>;
+  geo:long <-1.764575> .
+
+<44580> a geo:SpatialThing;
+  rdfs:lable <Musée%20du%20Pays%20de%20Retz>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <47.042318>;
+  geo:long <-1.952164> .
+
+<44146> a geo:SpatialThing;
+  rdfs:lable <Musée%20Municipal>;
+  rdfs:SubClassOf wd:Q33506 .
+
+<44351> a geo:SpatialThing;
+  rdfs:lable <Musée%20du%20Pays%20de%20Guérande%20et%20de%20la%20Porte%20Saint%20Michel>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <47.327509>;
+  geo:long <-2.428149> .
+
+<44330> a geo:SpatialThing;
+  rdfs:lable <Musée%20du%20Vignoble%20Nantais>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <47.134414>;
+  geo:long <-1.329883> .
+
+<44000> a geo:SpatialThing;
+  rdfs:lable <Musée%20des%20Beaux-Arts%20de%20Nantes>, <Muséum%20d%27Histoire%20Naturelle%20de%20Nantes>,
+    <Musée%20du%20Château%20des%20Ducs%20de%20Bretagne>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <47.219276>, <47.212387>, <47.216353>;
+  geo:long <-1.547096>, <-1.564651>, <-1.549389> .
+
+<44004> a geo:SpatialThing;
+  rdfs:lable <Musée%20%20Départemental%20Dobrée>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <47.211788>;
+  geo:long <-1.566123> .
+
+<44720> a geo:SpatialThing;
+  rdfs:lable <Musées%20du%20Parc%20Naturel%20Régional%20de%20Brière>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <47.376078>;
+  geo:long <-2.211119> .
+
+<44410> a geo:SpatialThing;
+  rdfs:lable <Musée%20du%20Chaume/Kerhinet%20-%20PNR%20Brière>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <47.363725>;
+  geo:long <-2.34928> .
+
+<44550> a geo:SpatialThing;
+  rdfs:lable <Maison%20de%20l%27Eclusier%20/Parc%20Naturel%20Régional%20de%20Brière>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <47.357542>;
+  geo:long <-2.184789> .
+
+<44613> a geo:SpatialThing;
+  rdfs:lable <Ecomusée%20de%20Saint-Nazaire>;
+  rdfs:SubClassOf wd:Q33506 .
+
+<49100> a geo:SpatialThing;
+  rdfs:lable <Musée%20Jean%20Lurcat%20et%20de%20la%20Tapisserie%20Contemporaine>, <Galerie%20David%20d%27Angers>,
+    <Musée%20des%20Beaux-Arts>, <Musée%20Pincé>, <Muséum%20des%20Sciences%20Naturelles>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <47.469132>, <47.471767>, <47.473475>;
+  geo:long <-0.554372>, <-0.551841>, <-0.546412> .
+
+<49150> a geo:SpatialThing;
+  rdfs:lable <Musée%20d%27Art%20et%20d%27Histoire>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <47.542018>;
+  geo:long <-0.104489> .
+
+<49250> a geo:SpatialThing;
+  rdfs:lable <Musée%20Joseph%20Denais>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <47.44022>;
+  geo:long <-0.217749> .
+
+<49300> a geo:SpatialThing;
+  rdfs:lable <Musée%20du%20Textile>, <Musée%20d%27Art%20et%20d%27Histoire>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <47.069587>, <47.058385>;
+  geo:long <-0.897687>, <-0.882284> .
+
+<49390> a geo:SpatialThing;
+  rdfs:lable <Musée%20Jules-Desbois>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <47.436645>;
+  geo:long <0.159784> .
+
+<49750> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20la%20Vigne%20et%20du%20Vin%20d%27Anjou>;
+  rdfs:SubClassOf wd:Q33506 .
+
+<49408> a geo:SpatialThing;
+  rdfs:lable <Château-Musée>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <47.260647>;
+  geo:long <-0.076544> .
+
+<49800> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20l%27Ardoise>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <47.450792>;
+  geo:long <-0.491518> .
+
+<53300> a geo:SpatialThing;
+  rdfs:lable <Musée%20des%20Tisserands%20Mayennais>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.403045>;
+  geo:long <-0.630604> .
+
+<53200> a geo:SpatialThing;
+  rdfs:lable <Musée%20d%27Art%20et%20d%27Archéologie%20Hôtel%20Fouquet>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <47.828879>;
+  geo:long <-0.705135> .
+
+<53230> a geo:SpatialThing;
+  rdfs:lable <Musée%20Communal%20Robert%20Tatin>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <47.936091>;
+  geo:long <-0.897018> .
+
+<53500> a geo:SpatialThing;
+  rdfs:lable <Musée%20Municipal>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.296721>;
+  geo:long <-0.93946> .
+
+<53160> a geo:SpatialThing;
+  rdfs:lable <Musée%20Archéologique%20Départemental%20de%20Jublains>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <45.724344>;
+  geo:long <3.340092> .
+
+<53000> a geo:SpatialThing;
+  rdfs:lable <Musée%20des%20Sciences%20-%20CCSTI>, <Musée%20du%20Vieux%20Château>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.065559>, <48.068827>;
+  geo:long <-0.77102>, <-0.772298> .
+
+<53100> a geo:SpatialThing;
+  rdfs:lable <Musée%20du%20Château>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.302373>;
+  geo:long <-0.620107> .
+
+<53800> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20l%27Ardoise%20et%20de%20la%20Géologie>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <47.79351>;
+  geo:long <-1.041392> .
+
+<72500> a geo:SpatialThing;
+  rdfs:lable <Musée%20Heurteloup-Chevalier>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <47.693176>;
+  geo:long <0.417263> .
+
+<72100> a geo:SpatialThing;
+  rdfs:lable <Musée%20Vert%20Véron-de-Forbonnais>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <47.986868>;
+  geo:long <0.208417> .
+
+<72000> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20la%20Reine%20Bérengère>, <Musée%20de%20Tessé>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <48.008972>, <48.009934>;
+  geo:long <0.197657>, <0.204194> .
+
+<72270> a geo:SpatialThing;
+  rdfs:lable <Musée%20Espace%20Faïence%20de%20Malicorne>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <50.723479>;
+  geo:long <1.604654> .
+
+<72120> a geo:SpatialThing;
+  rdfs:lable <Bibliothèque-musée>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <47.92073>;
+  geo:long <0.742885> .
+
+<85240> a geo:SpatialThing;
+  rdfs:lable <Centre%20Minier%20de%20Faymoreau>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <46.555399>;
+  geo:long <-0.630409> .
+
+<85200> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20Fontenay-le-Comte>;
+  rdfs:SubClassOf wd:Q33506 .
+
+<85550> a geo:SpatialThing;
+  rdfs:lable <Ecomusée%20du%20Marais%20Breton%20Vendéen>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <46.875564>;
+  geo:long <-2.101948> .
+
+<85680> a geo:SpatialThing;
+  rdfs:lable <Musée%20des%20Traditions>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <46.967659>;
+  geo:long <-2.233874> .
+
+<85000> a geo:SpatialThing;
+  rdfs:lable <Musée%20Municipal>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <46.66947>;
+  geo:long <-1.428914> .
+
+<85310> a geo:SpatialThing;
+  rdfs:lable <Musée%20ornithologique%20Charles-Payraudeau>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <46.671559>;
+  geo:long <-1.297313> .
+
+<85170> a geo:SpatialThing;
+  rdfs:lable <Historial%20et%20Mémorial%20de%20la%20Vendée>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <46.849748>;
+  geo:long <-1.48315> .
+
+<85100> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20l%27Abbaye%20de%20Sainte-Croix>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <46.497296>;
+  geo:long <-1.777296> .
+
+<85602> a geo:SpatialThing;
+  rdfs:lable <Musée%20du%20Nord%20de%20la%20Vendée>;
+  rdfs:SubClassOf wd:Q33506 .
+
+<85390> a geo:SpatialThing;
+  rdfs:lable <Musée%20Clemenceau%20et%20de%20Lattre-de-Tassigny>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <46.675283>;
+  geo:long <-0.849535> .
+
+<85330> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20la%20Construction%20Navale%20Artisanale>, <Musée%20du%20Château>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <46.999023>, <46.999717>;
+  geo:long <-2.24565>, <-2.243097> .
+
+<85270> a geo:SpatialThing;
+  rdfs:lable <Musée%20La%20Bourrine%20du%20Bois-Juquaud>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <46.755703>;
+  geo:long <-1.951773> .
+
+<85300> a geo:SpatialThing;
+  rdfs:lable <Musée%20Milcendeau%20Jean-Yole>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <46.778672>;
+  geo:long <-1.90656> .
+
+<02300> a geo:SpatialThing;
+  rdfs:lable <Musée%20Franco-Américain%20du%20Château%20de%20Blérancourt>, <Musée%20municipal%20de%20Chauny>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <49.502836>, <49.615394>;
+  geo:long <3.12906>, <3.216814> .
+
+<02400> a geo:SpatialThing;
+  rdfs:lable <Musée%20Jean%20de%20la%20Fontaine>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <49.047062>;
+  geo:long <3.400374> .
+
+<02120> a geo:SpatialThing;
+  rdfs:lable <Familistère%20de%20Guise>;
+  rdfs:SubClassOf wd:Q33506 .
+
+<02500> a geo:SpatialThing;
+  rdfs:lable <Musée%20-%20Centre%20de%20Documentation%20Alfred%20Desmasures>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <49.925734>;
+  geo:long <4.079378> .
+
+<02800> a geo:SpatialThing;
+  rdfs:lable <Musée%20Jeanne%20d%27Aboville>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <49.661963>;
+  geo:long <3.367721> .
+
+<02000> a geo:SpatialThing;
+  rdfs:lable <Musée%20Archéologique%20Municipal>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <49.563206>;
+  geo:long <3.626781> .
+
+<02550> a geo:SpatialThing;
+  rdfs:lable <Musée%20Monseigneur%20Pigneau%20de%20Behaine>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <49.89599>;
+  geo:long <4.022348> .
+
+<02830> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20la%20Vie%20Rurale%20et%20Forestière>;
+  rdfs:SubClassOf wd:Q33506 .
+
+<02100> a geo:SpatialThing;
+  rdfs:lable <Musée%20Entomologique>, <Musée%20Antoine%20Lecuyer>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <49.845971>, <49.849891>;
+  geo:long <3.288915>, <3.285398> .
+
+<02200> a geo:SpatialThing;
+  rdfs:lable <Musée%20Municipal%20de%20Soissons>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <49.38437>;
+  geo:long <3.327236> .
+
+<02700> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20la%20Résistance%20et%20de%20la%20Déportation>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <49.658461>;
+  geo:long <3.314801> .
+
+<02140> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20La%20Thiérache>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <49.834482>;
+  geo:long <3.906585> .
+
+<02600> a geo:SpatialThing;
+  rdfs:lable <Musée%20Alexandre%20Dumas>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <49.253009>;
+  geo:long <3.089691> .
+
+<60390> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20la%20Céramique%20Architecturale>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <49.371601>;
+  geo:long <1.991542> .
+
+<60024> a geo:SpatialThing;
+  rdfs:lable <Musée%20Départemental%20de%20l%27Oise>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <49.438331>;
+  geo:long <2.07676> .
+
+<60240> a geo:SpatialThing;
+  rdfs:lable <Musée%20Pillon>;
+  rdfs:SubClassOf wd:Q33506 .
+
+<60200> a geo:SpatialThing;
+  rdfs:lable <Musée%20Antoine%20Vivenel>, <Musée%20du%20Château%20de%20Compiègne>, <Musée%20national%20de%20la%20Voiture%20et%20du%20Tourisme%20%28Annexe%20du%20musée%20National%20du%20Château%20de%20Compiègne%29>,
+    <Musée%20de%20la%20Figurine%20Historique>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <49.417414>, <49.418363>, <49.417761>;
+  geo:long <2.821526>, <2.829197>, <2.826358> .
+
+<60100> a geo:SpatialThing;
+  rdfs:lable <Musée%20Gallé-Juillet>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <49.250515>;
+  geo:long <2.462918> .
+
+<60800> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20l%27Archerie%20et%20de%20l%27Art%20Sacré>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <49.236775>;
+  geo:long <2.883938> .
+
+<60110> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20la%20Nacre%20et%20de%20la%20Tabletterie>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <49.238287>;
+  geo:long <2.137907> .
+
+<60400> a geo:SpatialThing;
+  rdfs:lable <Musée%20Calvin>, <Musée%20du%20Noyonnais>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <49.581666>, <49.581852>;
+  geo:long <2.998444>, <2.999742> .
+
+<60300> a geo:SpatialThing;
+  rdfs:lable <Musée%20d%27Art%20et%20d%27Archéologie>;
+  a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <49.206455>, <49.207061>;
+  geo:long <2.585686>, <2.585529>;
+  rdfs:lable <Musée%20de%20la%20Vénerie> .
+
+wd:Q33506 rdfs:SubClassOf wd:Q41176 .
+
+<60120> a geo:SpatialThing;
+  rdfs:lable <Musée%20Archéologique%20de%20l%27Oise>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <49.627157>;
+  geo:long <2.316919> .
+
+<80100> a geo:SpatialThing;
+  rdfs:lable <Musée%20Boucher-de-Perthes>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <50.10712>;
+  geo:long <1.833193> .
+
+<80146> a geo:SpatialThing;
+  rdfs:lable <Musée%20Départemental%20de%20l%27Abbaye%20de%20Saint-Riquier>;
+  rdfs:SubClassOf wd:Q33506 .
+
+<80000> a geo:SpatialThing;
+  rdfs:lable <Muséum%20d%27histoire%20naturelle>, <Musée%20de%20l%27Hôtel%20de%20Berny>,
+    <Musée%20de%20Picardie>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <49.886416>, <49.892882>, <49.890625>;
+  geo:long <2.309886>, <2.302463>, <2.296238> .
+
+<80600> a geo:SpatialThing;
+  rdfs:lable <Musée%20Lombart>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <50.154818>;
+  geo:long <2.343242> .
+
+<80201> a geo:SpatialThing;
+  rdfs:lable <Musée%20Alfred%20Danicourt>, <Musée-Historial%20de%20la%20Grande%20Guerre>;
+  rdfs:SubClassOf wd:Q33506 .
+
+<16000> a geo:SpatialThing;
+  rdfs:lable <Musée%20Archéologique%20et%20Historique>, <Atelier%20-%20Musée%20du%20Papier>,
+    <Musée%20des%20Beaux-Arts>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <45.647813>, <45.653356>, <45.6493>;
+  geo:long <0.160838>, <0.149932>, <0.152569> .
+
+<16023> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20la%20Bande%20Dessinée%20-%20Centre%20National%20de%20la%20Bande%20Dessinée%20et%20de%20l%27Image>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <45.653155>;
+  geo:long <0.150537> .
+
+<16100> a geo:SpatialThing;
+  rdfs:lable <Musée%20des%20Arts%20du%20Cognac>, <Musée%20Municipal%20de%20Cognac>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <45.695308>, <45.695744>;
+  geo:long <-0.332648>, <-0.326186> .
+
+<17137> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20la%20Mytiliculture>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <46.249998>;
+  geo:long <-1.112028> .
+
+<17450> a geo:SpatialThing;
+  rdfs:lable <Musée%20Régional%20de%20Fouras>;
+  rdfs:SubClassOf wd:Q33506 .
+
+<17123> a geo:SpatialThing;
+  rdfs:lable <Musée%20Napoléonien%20et%20Africain>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <46.012163>;
+  geo:long <-1.17493> .
+
+<17000> a geo:SpatialThing;
+  rdfs:lable <Muséum%20d%27Histoire%20Naturelle>, <Musée%20Protestant>, <Musée%20d%27Orbigny-Bernon>,
+    <Musée%20du%20Nouveau%20Monde>, <Musée%20des%20Beaux-Arts>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <46.164822>, <46.159482>, <46.160696>, <46.161435>, <46.161969>;
+  geo:long <-1.151488>, <-1.150024>, <-1.155323>, <-1.151157>, <-1.151552> .
+
+<17230> a geo:SpatialThing;
+  rdfs:lable <Musée%20Cappon>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <46.309723>;
+  geo:long <-0.991941> .
+
+<17300> a geo:SpatialThing;
+  rdfs:lable <Musée%20National%20de%20la%20Marine>, <Hôtel%20Hèbre%20de%20Saint-Clément%20-%20Musée%20d%27Art%20et%20d%27Histoire>,
+    <Musée%20de%20la%20Maison%20de%20Pierre%20Loti>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <45.934947>, <45.935539>, <45.934155>;
+  geo:long <-0.958113>, <-0.961839>, <-0.962754> .
+
+<17400> a geo:SpatialThing;
+  rdfs:lable <Musée%20Municipal%20des%20Cordeliers>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <45.942596>;
+  geo:long <-0.523419> .
+
+<17410> a geo:SpatialThing;
+  rdfs:lable <Musée%20Ernest%20Cognacq>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <46.2055>;
+  geo:long <-1.365288> .
+
+<17100> a geo:SpatialThing;
+  rdfs:lable <Musée%20du%20Présidial>, <Musée%20Archéologique>, <Musée%20de%20l%27Echevinage>,
+    <Musée%20Dupuy-Mestreau>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <45.746251>, <49.16182>, <-20.901199>, <45.743294>;
+  geo:long <-0.632034>, <-0.361097>, <55.456407>, <-0.634076> .
+
+<17310> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20l%27Ile%20d%27Oléron>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <45.942781>;
+  geo:long <-1.307498> .
+
+<79800> a geo:SpatialThing;
+  rdfs:lable <Musée%20des%20Tumulus%20de%20Bougon>;
+  rdfs:SubClassOf wd:Q33506 .
+
+<79300> a geo:SpatialThing;
+  rdfs:lable <Musée%20Municipal>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <46.841761>;
+  geo:long <-0.493191> .
+
+<79000> a geo:SpatialThing;
+  rdfs:lable <Musée%20d%27Histoire%20Naturelle>, <Musée%20ethnographique%20et%20archéologique%20du%20Donjon>,
+    <Musée%20Bernard%20d’Agesci>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <46.321065>, <46.329114>;
+  geo:long <-0.454107>, <-0.509612> .
+
+<79200> a geo:SpatialThing;
+  rdfs:lable <Musée%20d%27Art%20et%20d%27Histoire%20Georges%20Turpin>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <46.652064>;
+  geo:long <-0.24942> .
+
+<79230> a geo:SpatialThing;
+  rdfs:lable <Musée%20-%20Conservatoire%20du%20Machinisme%20et%20des%20Pratiques%20Agricoles>;
+  rdfs:SubClassOf wd:Q33506 .
+
+<79103> a geo:SpatialThing;
+  rdfs:lable <Musée%20Henri%20Barré>;
+  rdfs:SubClassOf wd:Q33506 .
+
+<86100> a geo:SpatialThing;
+  rdfs:lable <Musée%20Municipal%20de%20l%27Hôtel%20de%20Sully>, <Musée%20de%20la%20Moto%2C%20de%20l%27Automobile%20et%20du%20Vélo>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <46.815984>, <46.81393>;
+  geo:long <0.542083>, <0.536238> .
+
+<86300> a geo:SpatialThing;
+  rdfs:lable <Musée%20des%20Traditions%20Populaires%20et%20d%27Archéologie>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <46.570457>;
+  geo:long <0.648858> .
+
+<86400> a geo:SpatialThing;
+  rdfs:lable <Musée%20Municipal%20de%20Civray>;
+  rdfs:SubClassOf wd:Q33506 .
+
+<86200> a geo:SpatialThing;
+  rdfs:lable <Musée%20Charbonneau-Lassay>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <47.010038>;
+  geo:long <0.075488> .
+
+<86320> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20Préhistoire%20Raymond%20Touchard>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <46.40347>;
+  geo:long <0.725699> .
+
+<86500> a geo:SpatialThing;
+  rdfs:lable <Musée%20Municipal%20de%20la%20Maison-Dieu>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <46.421876>;
+  geo:long <0.863517> .
+
+<86000> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20l%27hypogée%20des%20Dunes>, <Musée%20Rupert%20de%20Chièvres>,
+    <Musée%20Sainte-Croix>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <46.575749>, <46.580602>, <46.581133>;
+  geo:long <0.359509>, <0.337972>, <0.34448> .
+
+<86038> a geo:SpatialThing;
+  rdfs:lable <Collection%20d%27Histoire%20Naturelle>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <46.581791>;
+  geo:long <0.34942> .
+
+<86004> a geo:SpatialThing;
+  rdfs:lable <Musée%20du%20baptistère%20Saint-Jean>;
+  rdfs:SubClassOf wd:Q33506 .
+
+<04400> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20la%20vallée>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <44.387609>;
+  geo:long <6.655077> .
+
+<04000> a geo:SpatialThing;
+  rdfs:lable <Musée%20Gassendi>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <44.092825>;
+  geo:long <6.235477> .
+
+<04300> a geo:SpatialThing;
+  rdfs:lable <Musée%20Municipal>, <Musée%20de%20Salagon>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <43.959969>, <43.933685>;
+  geo:long <5.780363>, <5.760073> .
+
+<04360> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20la%20Faïence>;
+  rdfs:SubClassOf wd:Q33506 .
+
+<04500> a geo:SpatialThing;
+  rdfs:lable <Musée%20départemental%20de%20préhistoire>, <Musée%20Archéologique>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <43.709921>, <43.81739>;
+  geo:long <6.039802>, <6.093211> .
+
+<04200> a geo:SpatialThing;
+  rdfs:lable <Musée%20du%20vieux%20Sisteron>;
+  rdfs:SubClassOf wd:Q33506 .
+
+<04110> a geo:SpatialThing;
+  rdfs:lable <Musée%20archéologique>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <43.955752>;
+  geo:long <5.644228> .
+
+<06600> a geo:SpatialThing;
+  rdfs:lable <Musée%20d%27Histoire%20et%20d%27Archéologie>, <Musée%20Picasso>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <43.582877>;
+  geo:long <7.125853> .
+
+<06410> a geo:SpatialThing;
+  rdfs:lable <Musée%20d%27Histoire%20Locale>, <Musée%20Fernand%20Léger>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <43.627369>, <43.62084>;
+  geo:long <7.098469>, <7.112018> .
+
+<06800> a geo:SpatialThing;
+  rdfs:lable <Musée%20Renoir>, <Musée-Château%20de%20Cagnes>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <43.67428>, <43.666892>;
+  geo:long <7.154955>, <7.145213> .
+
+<06400> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20la%20Castre>, <Musée%20de%20la%20Mer>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <43.551506>, <43.5204>;
+  geo:long <7.010014>, <7.045113> .
+
+<06130> a geo:SpatialThing;
+  rdfs:lable <Villa-Musée%20Jean-Honoré%20Fragonard>, <Musée%20International%20de%20la%20Parfumerie>,
+    <Musée%20d%27Art%20et%20d%27Histoire%20de%20Provence>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <43.65674>, <43.658385>, <43.657615>;
+  geo:long <6.921089>, <6.922>, <6.922508> .
+
+<06110> a geo:SpatialThing;
+  rdfs:lable <Musée%20Bonnard>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <43.576273>;
+  geo:long <7.019853> .
+
+<06500> a geo:SpatialThing;
+  rdfs:lable <Musée%20des%20Beaux-Arts>, <Musée%20Jean%20Cocteau%20Collection%20Séverin%20Wunderman>,
+    <Musée%20de%20Préhistoire%20Régionale>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <43.766659>, <43.775097>, <43.77648>;
+  geo:long <7.4884>, <7.506512>, <7.503609> .
+
+<06300> a geo:SpatialThing;
+  rdfs:lable <Muséum%20d%27Histoire%20Naturelle>, <Musée%20d%27Art%20Moderne%20et%20d%27Art%20Contemporain>,
+    <Musée%20du%20Palais%20Lascaris>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <43.701924>, <43.697686>;
+  geo:long <7.279572>, <7.27733> .
+
+<06200> a geo:SpatialThing;
+  rdfs:lable <Musée%20Départemental%20des%20Arts%20Asiatiques>, <Musée%20d%27Art%20Naïf%20Anatole%20Jakovsky>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <43.69582>;
+  geo:long <7.215225> .
+
+<06000> a geo:SpatialThing;
+  rdfs:lable <Musée%20Matisse>, <Musée%20National%20Message%20Biblique%20Marc%20Chagall>,
+    <Musée%20du%20Vieux-Logis%20de%20Nice>, <Musée%20d%27Art%20et%20d%27Histoire>, <Musée%20des%20Beaux-Arts%20Jules%20Chéret>,
+    <Musée%20Archéologique%20-%20Site%20de%20%20Cimiez>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <43.720041>, <43.70931>, <43.720727>, <43.695672>, <43.694886>, <43.719221>;
+  geo:long <7.276769>, <7.268731>, <7.255101>, <7.259251>, <7.248937>, <7.275115> .
+
+<06364> a geo:SpatialThing;
+  rdfs:lable <Musée%20Archéologique%20-%20Site%20de%20Terra%20Amata>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <43.698046>;
+  geo:long <7.288686> .
+
+<06203> a geo:SpatialThing;
+  rdfs:lable <Musée%20National%20du%20Sport>;
+  rdfs:SubClassOf wd:Q33506 .
+
+<06260> a geo:SpatialThing;
+  rdfs:lable <Ecomusée%20du%20Pays%20de%20la%20Roudoule>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <43.973912>;
+  geo:long <6.918815> .
+
+<06430> a geo:SpatialThing;
+  rdfs:lable <Musée%20Départemental%20des%20Merveilles>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <44.088882>;
+  geo:long <7.593204> .
+
+<06220> a geo:SpatialThing;
+  rdfs:lable <Musée%20Magnelli%2C%20Musée%20de%20la%20Céramique>, <Musée%20Picasso%20la%20guerre%20et%20la%20paix%20à%20Vallauris>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <43.579881>;
+  geo:long <7.053064> .
+
+<06230> a geo:SpatialThing;
+  rdfs:lable <Musées%20de%20la%20Citadelle>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <43.701093>;
+  geo:long <7.311425> .
+
+<13100> a geo:SpatialThing;
+  rdfs:lable <Musée%20du%20Parlement%20de%20Provence%20et%20du%20Vieil%20Aix>, <Musée%20Granet>,
+    <Musée%20Paul%20Arbaud>, <Muséum%20d%27Histoire%20Naturelle>, <Musée%20du%20Pavillon%20de%20Vendôme>,
+    <Musée%20des%20Tapisseries>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <43.530857>, <43.49437>, <43.525307>, <43.528026>, <43.531176>;
+  geo:long <5.447432>, <5.411084>, <5.450165>, <5.448883>, <5.442093> .
+
+<13090> a geo:SpatialThing;
+  rdfs:lable <Musée-%20Atelier%20de%20Paul%20Cézanne>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <43.537816>;
+  geo:long <5.446601> .
+
+<13200> a geo:SpatialThing;
+  rdfs:lable <Muséon%20Arlaten>, <Musée%20Camarguais>, <Musée%20Réattu>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <43.676298>, <43.623694>, <43.679186>;
+  geo:long <4.627512>, <4.529959>, <4.627903> .
+
+<13635> a geo:SpatialThing;
+  rdfs:lable <Musée%20Départemental%20de%20l%27Arles%20Antique>;
+  rdfs:SubClassOf wd:Q33506 .
+
+<13784> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20la%20Légion%20Etrangère>;
+  rdfs:SubClassOf wd:Q33506 .
+
+<13260> a geo:SpatialThing;
+  rdfs:lable <Musée%20Municipal%20Méditerranéen%20de%20Cassis%20A.T.P.>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <43.214464>;
+  geo:long <5.540037> .
+
+<13390> a geo:SpatialThing;
+  rdfs:lable <Musée%20Alphonse%20Daudet>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <43.728918>;
+  geo:long <4.717172> .
+
+<13800> a geo:SpatialThing;
+  rdfs:lable <Musée%20Archéologique%20d%27Istres%20René%20Beaucaire>;
+  rdfs:SubClassOf wd:Q33506 .
+
+<13600> a geo:SpatialThing;
+  rdfs:lable <Musée%20Ciotaden>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <43.173755>;
+  geo:long <5.60973> .
+
+<13410> a geo:SpatialThing;
+  rdfs:lable <Musée%20Folklorique%20du%20Vieux%20Lambesc>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <43.651927>;
+  geo:long <5.261964> .
+
+<13520> a geo:SpatialThing;
+  rdfs:lable <Musée%20d%27Histoire%20et%20d%27Archéologie%20des%20Baux-de-Provence>,
+    <Fondation%20Louis%20Jou>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <43.744253>;
+  geo:long <4.79527> .
+
+<13910> a geo:SpatialThing;
+  rdfs:lable <Musée%20Frédéric%20Mistral>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <43.831079>;
+  geo:long <4.782653> .
+
+<13001> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20la%20Mode>, <Musée%20d%27Histoire%20de%20Marseille>, <Cabinet%20des%20Monnaies%20et%20Médailles%20de%20Marseille>,
+    <Musée%20Grobet-Labadié>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <43.295788>, <43.311254>, <43.303412>;
+  geo:long <5.375807>, <5.384295>, <5.392866> .
+
+<13002> a geo:SpatialThing;
+  rdfs:lable <Musée%20des%20Civilisations%20de%20l%27Europe%20et%20de%20la%20Méditerranée>,
+    <Musée%20des%20Docks%20Romains>, <Musée%20d%27Archéologie%20Méditerranéenne>, <Musée%20d%27Arts%20Africains%2C%20Océaniens%2C%20Amérindiens>,
+    <Musée%20du%20Vieux%20Marseille>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <43.296541>, <43.300162>, <43.296896>;
+  geo:long <5.367959>, <5.367615>, <5.369449> .
+
+<13008> a geo:SpatialThing;
+  rdfs:lable <Musée%20Borély>, <Musée%20de%20la%20Faïence>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <43.255924>, <43.242043>;
+  geo:long <5.382309>, <5.36918> .
+
+<13004> a geo:SpatialThing;
+  rdfs:lable <Musée%20des%20Beaux-Arts%20de%20Marseille>, <Muséum%20d%27Histoire%20Naturelle>;
+  rdfs:SubClassOf wd:Q33506 .
+
+<13000> a geo:SpatialThing;
+  rdfs:lable <Musée%20d%27Art%20Contemporain%20-%20Galeries%20Contemporaines>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <43.250373>;
+  geo:long <5.389337> .
+
+<13006> a geo:SpatialThing;
+  rdfs:lable <Musée%20Cantini>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <43.292383>;
+  geo:long <5.378137> .
+
+<13500> a geo:SpatialThing;
+  rdfs:lable <Musée%20Ziem>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <43.408557>;
+  geo:long <5.054904> .
+
+<13114> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20l%27Uniforme%20-%20Musée%20de%20la%20Légion%20Etrangère>;
+  rdfs:SubClassOf wd:Q33506 .
+
+<13760> a geo:SpatialThing;
+  rdfs:lable <Musée%20Suffren%20et%20du%20Vieux%20Saint-Cannat>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <43.621529>;
+  geo:long <5.295215> .
+
+<13250> a geo:SpatialThing;
+  rdfs:lable <Musée%20Municipal%20Paul%20Lafran>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <43.548914>;
+  geo:long <5.033602> .
+
+<13210> a geo:SpatialThing;
+  rdfs:lable <Musée%20Estrine>, <Musée%20des%20Alpilles>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <43.788801>, <43.784998>;
+  geo:long <4.832266>, <4.831984> .
+
+<13460> a geo:SpatialThing;
+  rdfs:lable <Musée%20Baroncelli>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <43.451204>;
+  geo:long <4.427786> .
+
+<13300> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20l%27Empéri%20de%20Salon%20et%20de%20la%20Crau>, <Musée%20de%20Salon%20et%20de%20la%20Crau>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <43.639268>;
+  geo:long <5.097878> .
+
+<05470> a geo:SpatialThing;
+  rdfs:lable <Musée%20du%20Vieux%20Queyras>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <44.768646>;
+  geo:long <6.875318> .
+
+<05000> a geo:SpatialThing;
+  rdfs:lable <Musée%20Départemental%20des%20Hautes-Alpes>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <44.562517>;
+  geo:long <6.085539> .
+
+<83630> a geo:SpatialThing;
+  rdfs:lable <Musée%20des%20tourneurs>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <43.775897>;
+  geo:long <6.243615> .
+
+<83230> a geo:SpatialThing;
+  rdfs:lable <Musée%20des%20Arts%20et%20d’Histoire>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <43.150789>;
+  geo:long <6.340603> .
+
+<83170> a geo:SpatialThing;
+  rdfs:lable <Musée%20du%20Pays%20Brignolais>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <43.407253>;
+  geo:long <6.058464> .
+
+<83300> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20la%20Société%20d’Etudes%20Scientifiques%20et%20Achéologiques>,
+    <Musée%20Municipal%20de%20Draguignan>, <Musée%20des%20A.T.P.%20de%20Moyenne%20Provence>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <43.536558>, <43.537982>, <43.538087>;
+  geo:long <6.461588>, <6.464818>, <6.466246> .
+
+<83007> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20l%27Artillerie>;
+  rdfs:SubClassOf wd:Q33506 .
+
+<83600> a geo:SpatialThing;
+  rdfs:lable <Musée%20Archéologique%20Municipal>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <43.433518>;
+  geo:long <6.736701> .
+
+<83608> a geo:SpatialThing;
+  rdfs:lable <Musée%20des%20Troupes%20de%20Marine>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <49.486759>;
+  geo:long <4.424344> .
+
+<83400> a geo:SpatialThing;
+  rdfs:lable <Musée%20et%20site%20d%27Olbia>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <43.080197>;
+  geo:long <6.123127> .
+
+<83130> a geo:SpatialThing;
+  rdfs:lable <Musée%20Jean%20Aicard>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <43.114675>;
+  geo:long <6.004393> .
+
+<83700> a geo:SpatialThing;
+  rdfs:lable <Musée%20Archéologique>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <43.425688>;
+  geo:long <6.769154> .
+
+<83990> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20l%27Annonciade>;
+  rdfs:SubClassOf wd:Q33506 .
+
+<83210> a geo:SpatialThing;
+  rdfs:lable <Musée%20du%20Vêtement%20Provençal%20%28Jean%20Aicard%29>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <43.181669>;
+  geo:long <6.039146> .
+
+<83000> a geo:SpatialThing;
+  rdfs:lable <Musée%20National%20de%20la%20Marine%20de%20Toulon>, <Musée%20d%27Art>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <43.125971>;
+  geo:long <5.927245> .
+
+<83200> a geo:SpatialThing;
+  rdfs:lable <Muséum%20d%27Histoire%20Naturelle%20de%20Toulon%20et%20du%20Var>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <43.143304>;
+  geo:long <5.91086> .
+
+<84400> a geo:SpatialThing;
+  rdfs:lable <Musée%20Municipal%20d%27Archéologie>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <43.875736>;
+  geo:long <5.397687> .
+
+<84000> a geo:SpatialThing;
+  rdfs:lable <Musée%20du%20Petit%20Palais>, <Musée%20Calvet%20%28et%20musée%20Lapidaire%29>,
+    <Muséum%20d%27Histoire%20Naturelle%20Esprit%20Requien>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <43.951051>, <43.946985>, <43.946695>;
+  geo:long <4.806367>, <4.803388>, <4.803397> .
+
+<84200> a geo:SpatialThing;
+  rdfs:lable <Musée%20Comtadin-Duplessis>, <Musée%20Sobirats>, <Musée%20Lapidaire%20et%20Archéologie>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <44.054305>, <44.054477>, <44.055921>;
+  geo:long <5.044975>, <5.046269>, <5.046746> .
+
+<84300> a geo:SpatialThing;
+  rdfs:lable <Musée%20Jouve>, <Musée%20de%20l%27Hôtel%20Dieu>, <Synagogue%20Musée%20Juif%20Comtadin>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <43.836961>, <43.860186>, <43.83691>;
+  geo:long <5.037899>, <5.008627>, <5.03856> .
+
+<84160> a geo:SpatialThing;
+  rdfs:lable <Musée%20Marc%20Deydier>, <Musée%20Philippe%20de%20Girard>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <43.773637>, <43.74147>;
+  geo:long <5.437547>, <5.365245> .
+
+<84800> a geo:SpatialThing;
+  rdfs:lable <Musée-Bibliothèque%20François%20Pétrarque>, <Musée%20Jean%20Garcin%2039-45%20%3A%20L%27appel%20de%20la%20Liberté>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <43.91753>, <46.569305>;
+  geo:long <5.056542>, <0.629669> .
+
+<84380> a geo:SpatialThing;
+  rdfs:lable <Musée%20Municipal%20Camille%20Pautet>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <44.056725>;
+  geo:long <5.127889> .
+
+<84100> a geo:SpatialThing;
+  rdfs:lable <Musée%20Municipal>;
+  rdfs:SubClassOf wd:Q33506 .
+
+<84390> a geo:SpatialThing;
+  rdfs:lable <Musée%20Municipal>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <44.032815>;
+  geo:long <5.45738> .
+
+<84110> a geo:SpatialThing;
+  rdfs:lable <Musée%20Archéologique%20Théo%20Desplans>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <44.241777>;
+  geo:long <5.075377> .
+
+<84600> a geo:SpatialThing;
+  rdfs:lable <Musée%20du%20Cartonnage%20et%20de%20l%27Imprimerie>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <44.382664>;
+  geo:long <4.987351> .
+
+<97424> a geo:SpatialThing;
+  rdfs:lable <Muséum%20Agricole%20et%20Industriel%20Stella%20Matutina>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <-21.202292>;
+  geo:long <55.295071> .
+
+<97400> a geo:SpatialThing;
+  rdfs:lable <Musée%20Départemental%20de%20la%20Réunion%20-%20Musée%20Léon%20Dierx>,
+    <Muséum%20d%27Histoire%20Naturelle>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <-20.883698>, <-20.887712>;
+  geo:long <55.450251>, <55.451452> .
+
+<97435> a geo:SpatialThing;
+  rdfs:lable <Musée%20Historique%20de%20Villèle>;
+  rdfs:SubClassOf wd:Q33506 .
+
+<97450> a geo:SpatialThing;
+  rdfs:lable <Musée%20des%20Arts%20Décoratifs%20de%20l’Océan%20indien%20%28MADOI%29>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <-21.264365>;
+  geo:long <55.412125> .
+
+<01000> a geo:SpatialThing;
+  rdfs:lable <Musée%20Départemental%20des%20Pays%20De%20l%27Ain>, <Musée%20du%20Brou>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <46.196543>, <46.19658>;
+  geo:long <5.219217>, <5.236495> .
+
+<01470> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20la%20Société%20d%27Histoire%20et%20d%27Archéologie>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <45.778307>;
+  geo:long <5.486674> .
+
+<01580> a geo:SpatialThing;
+  rdfs:lable <Musée%20Archéologique>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <46.219977>;
+  geo:long <5.555636> .
+
+<01260> a geo:SpatialThing;
+  rdfs:lable <Musée%20Départemental%20du%20Bugey-Valmorey>;
+  rdfs:SubClassOf wd:Q33506 .
+
+<01130> a geo:SpatialThing;
+  rdfs:lable <Musée%20d%27Histoire%20de%20la%20Résistance%20et%20de%20la%20Déportation%20de%20L%27Ain%20et%20du%20Haut%20Jura>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <46.152378>;
+  geo:long <5.608744> .
+
+<01100> a geo:SpatialThing;
+  rdfs:lable <Musée%20du%20Peigne%20et%20de%20la%20Plasturgie>;
+  rdfs:SubClassOf wd:Q33506 .
+
+<01800> a geo:SpatialThing;
+  rdfs:lable <Musée%20du%20Vieux%20Pérouges>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <45.903409>;
+  geo:long <5.179532> .
+
+<01190> a geo:SpatialThing;
+  rdfs:lable <Musée%20Chintreuil>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <46.430076>;
+  geo:long <4.938125> .
+
+<01380> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20la%20Bresse%20-%20Domaine%20les%20Planons>;
+  rdfs:SubClassOf wd:Q33506 .
+
+<01240> a geo:SpatialThing;
+  rdfs:lable <Musée%20Louis%20Jourdan>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <46.09868>;
+  geo:long <5.128995> .
+
+<01420> a geo:SpatialThing;
+  rdfs:lable <Musée%20du%20Bois>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <45.95902>;
+  geo:long <5.831513> .
+
+<01370> a geo:SpatialThing;
+  rdfs:lable <Musée%20Départemental%20du%20Revermont>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <46.310948>;
+  geo:long <5.349415> .
+
+<01330> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20la%20Dombe>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <46.000411>;
+  geo:long <5.027094> .
+
+<07400> a geo:SpatialThing;
+  rdfs:lable <MuséaAL%20-%20Musée%20Archéologique%20d%27Alba>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <44.563818>;
+  geo:long <4.593506> .
+
+<07100> a geo:SpatialThing;
+  rdfs:lable <Musée%20Vivarois%20César%20Filhol>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <45.240803>;
+  geo:long <4.668129> .
+
+<07140> a geo:SpatialThing;
+  rdfs:lable <Musée%20Régional>;
+  rdfs:SubClassOf wd:Q33506 .
+
+<07150> a geo:SpatialThing;
+  rdfs:lable <Musée%20Régional%20de%20Préhistoire>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <44.307021>;
+  geo:long <4.408291> .
+
+<07000> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20la%20terre%20ardéchoise>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <44.735836>;
+  geo:long <4.594922> .
+
+<07340> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20la%20Batellerie%20du%20Rhône>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <45.31795>;
+  geo:long <4.763273> .
+
+<07130> a geo:SpatialThing;
+  rdfs:lable <Musée%20et%20Site%20Archéologiques>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <44.887803>;
+  geo:long <4.850777> .
+
+<07300> a geo:SpatialThing;
+  rdfs:lable <Musée%20du%20Rhône>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <45.067885>;
+  geo:long <4.831823> .
+
+<26150> a geo:SpatialThing;
+  rdfs:lable <Musée%20d%27Histoire%20et%20d%27Archéologie>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <44.75504>;
+  geo:long <5.369785> .
+
+<26230> a geo:SpatialThing;
+  rdfs:lable <Château%20de%20Grignan>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <44.419252>;
+  geo:long <4.909247> .
+
+<26200> a geo:SpatialThing;
+  rdfs:lable <Musée%20du%20Château%20des%20Adhémars>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <44.557315>;
+  geo:long <4.749186> .
+
+<26540> a geo:SpatialThing;
+  rdfs:lable <Musée%20d%27Art%20Sacré>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <45.068744>;
+  geo:long <5.056328> .
+
+<26100> a geo:SpatialThing;
+  rdfs:lable <Musée%20International%20de%20la%20Chaussure>;
+  rdfs:SubClassOf wd:Q33506 .
+
+<26131> a geo:SpatialThing;
+  rdfs:lable <Musée%20d%27Archéologie%20Tricastine>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <47.394544>;
+  geo:long <0.712424> .
+
+<26021> a geo:SpatialThing;
+  rdfs:lable <Musée%20des%20Beaux-Arts>;
+  rdfs:SubClassOf wd:Q33506 .
+
+<26420> a geo:SpatialThing;
+  rdfs:lable <Musée%20du%20site%20Préhistorique>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <44.913986>;
+  geo:long <5.379117> .
+
+<74000> a geo:SpatialThing;
+  rdfs:lable <Musée-château%20d%27Annecy>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <45.897256>;
+  geo:long <6.124943> .
+
+<74400> a geo:SpatialThing;
+  rdfs:lable <Musée%20Alpin>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <45.923429>;
+  geo:long <6.871049> .
+
+<74330> a geo:SpatialThing;
+  rdfs:lable <Musée%20Léon%20Marès>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <45.898181>;
+  geo:long <6.040579> .
+
+<74150> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20Rumilly%20et%20de%20l%27Albanais>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <45.861568>;
+  geo:long <5.947618> .
+
+<74230> a geo:SpatialThing;
+  rdfs:lable <Musée%20des%20Vallées%20de%20Thônes>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <45.881618>;
+  geo:long <6.324161> .
+
+<74200> a geo:SpatialThing;
+  rdfs:lable <Musée%20du%20Chablais>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <46.373501>;
+  geo:long <6.478563> .
+
+<38114> a geo:SpatialThing;
+  rdfs:lable <Conservatoire%20-%20Musée%20des%20Industries%20Hydroélectriques>;
+  rdfs:SubClassOf wd:Q33506 .
+
+<38580> a geo:SpatialThing;
+  rdfs:lable <Musée%20Jadis%20Allevard>;
+  rdfs:SubClassOf wd:Q33506 .
+
+<38750> a geo:SpatialThing;
+  rdfs:lable <Musée%20d%27Huez%20et%20de%20l%27Oisans>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <45.09125>;
+  geo:long <6.064274> .
+
+<38490> a geo:SpatialThing;
+  rdfs:lable <Musée%20Gallo-Romain>;
+  rdfs:SubClassOf wd:Q33506 .
+
+<38300> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20Bourgoin-Jallieu>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <45.586588>;
+  geo:long <5.279159> .
+
+<38850> a geo:SpatialThing;
+  rdfs:lable <Musée%20-%20Parc%20Archéologique%20du%20Lac%20de%20Paladru>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <45.42854>;
+  geo:long <5.515787> .
+
+<38130> a geo:SpatialThing;
+  rdfs:lable <Musée%20Géo-Charles>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <45.149349>;
+  geo:long <5.699616> .
+
+<38000> a geo:SpatialThing;
+  rdfs:lable <Musée%20Archéologique%20Grenoble%20Saint-Laurent>, <Musée%20de%20la%20Résistance%20de%20la%20Déportation%20de%20l%27Isère>,
+    <Musée%20Stendhal>, <Musée%20de%20Grenoble>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <45.197841>, <45.190041>, <45.192869>, <45.194026>;
+  geo:long <5.731863>, <5.735245>, <5.726204>, <5.732094> .
+
+<38031> a geo:SpatialThing;
+  rdfs:lable <Musée%20Dauphinois>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <45.195383>;
+  geo:long <5.727094> .
+
+<38816> a geo:SpatialThing;
+  rdfs:lable <Muséum%20d%27Histoire%20Naturelle%20de%20Grenoble>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <45.188059>;
+  geo:long <5.735163> .
+
+<38118> a geo:SpatialThing;
+  rdfs:lable <Maison%20du%20Patrimoine%20de%20Hières-sur-Amby>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <45.797253>;
+  geo:long <5.294061> .
+
+<38350> a geo:SpatialThing;
+  rdfs:lable <Musée%20Matheysin>;
+  rdfs:SubClassOf wd:Q33506 .
+
+<38700> a geo:SpatialThing;
+  rdfs:lable <Musée%20Hébert>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <45.205577>;
+  geo:long <5.7513> .
+
+<38261> a geo:SpatialThing;
+  rdfs:lable <Musée%20Hector%20Berlioz>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <45.393386>;
+  geo:long <5.261189> .
+
+<38380> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20la%20Grande%20Chartreuse>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <45.350369>;
+  geo:long <5.791339> .
+
+<38200> a geo:SpatialThing;
+  rdfs:lable <Musée%20des%20Beaux-Arts%20et%20d%27Archéologie>, <Musée-Cloître%20Saint-André-Le-Bas>,
+    <Musée%20Lapidaire%20Saint-Pierre>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <43.369246>, <45.526917>, <45.523327>;
+  geo:long <1.415628>, <4.873476>, <4.870902> .
+
+<38220> a geo:SpatialThing;
+  rdfs:lable <Musée%20Départemental%20de%20la%20Révolution%20Française>;
+  rdfs:SubClassOf wd:Q33506 .
+
+<38507> a geo:SpatialThing;
+  rdfs:lable <Musée%20Lucien%20Mainssieux>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <45.356152>;
+  geo:long <5.579655> .
+
+<42820> a geo:SpatialThing;
+  rdfs:lable <Musée%20Alice%20Taverne>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <46.105295>;
+  geo:long <3.896343> .
+
+<42190> a geo:SpatialThing;
+  rdfs:lable <Musée%20Hospitalier>, <Musée%20de%20la%20Soierie>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <46.160588>;
+  geo:long <4.171147> .
+
+<42140> a geo:SpatialThing;
+  rdfs:lable <Atelier%20-%20Musée%20du%20Chapeau>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <45.638304>;
+  geo:long <4.394089> .
+
+<42380> a geo:SpatialThing;
+  rdfs:lable <Musée%20d%27Histoire%20du%20%2020ème%20Siècle%20-%20Résistance%20et%20Déportation>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <45.416139>;
+  geo:long <4.00978> .
+
+<42110> a geo:SpatialThing;
+  rdfs:lable <Musée%20d%27Archéologie>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <45.744232>;
+  geo:long <4.219876> .
+
+wd:Q33506 rdfs:SubClassOf wd:Q41176 .
+
+<42260> a geo:SpatialThing;
+  rdfs:lable <Musée%20Historial>, <Musée%20du%20Vieux%20Pommiers>, <Musée%20Municipal>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <45.863803>, <45.830255>;
+  geo:long <3.951671>, <4.010602> .
+
+<42600> a geo:SpatialThing;
+  rdfs:lable <Musée%20d%27Allard>, <Musée%20de%20la%20Diana>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <45.608241>, <45.605503>;
+  geo:long <4.06195>, <4.066793> .
+
+<42300> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20la%20Maille>, <Ecomusée%20du%20Roannais>, <Musée%20des%20Beaux-Arts%20et%20d%27Archéologie%20J.%20Dechelette>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <46.034805>, <46.034216>, <46.034953>;
+  geo:long <4.037461>, <4.056283>, <4.069842> .
+
+<42000> a geo:SpatialThing;
+  rdfs:lable <Musée%20d%27Art%20Moderne%20de%20St-Etienne%20Métropole>, <Musée%20de%20la%20Mine%20/%20Site%20Couriot>,
+    <Musée%20Folklorique%20du%20Vieux%20Saint-Etienne>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <45.465063>, <45.438944>, <45.434935>;
+  geo:long <4.376969>, <4.376487>, <4.388595> .
+
+<42026> a geo:SpatialThing;
+  rdfs:lable <Musée%20d%27Art%20et%20d%27Industrie>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <45.431538>;
+  geo:long <4.387485> .
+
+<42130> a geo:SpatialThing;
+  rdfs:lable <Château%20de%20la%20Bastie%20d%27Urfé>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <45.749273>;
+  geo:long <4.105263> .
+
+<42170> a geo:SpatialThing;
+  rdfs:lable <Musée%20des%20Civilisations>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <45.499124>;
+  geo:long <4.265111> .
+
+<42550> a geo:SpatialThing;
+  rdfs:lable <Musée%20Rural>;
+  rdfs:SubClassOf wd:Q33506 .
+
+<69550> a geo:SpatialThing;
+  rdfs:lable <Musée%20Barthélemy-Thimonnier>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <45.972623>;
+  geo:long <4.331458> .
+
+<69430> a geo:SpatialThing;
+  rdfs:lable <Musée%20Folklorique%20et%20Traditions%20Populaires%20Marius%20Audin>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <46.154579>;
+  geo:long <4.587283> .
+
+<69006> a geo:SpatialThing;
+  rdfs:lable <Musée%20d%27Art%20Contemporain%20de%20Lyon>, <Musée%20des%20Confluences>,
+    <Muséum%20-%20Musée%20des%20Confluences>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <45.784064>, <45.774092>;
+  geo:long <4.852585>, <4.847976> .
+
+<69003> a geo:SpatialThing;
+  rdfs:lable <Musée%20des%20Sapeurs-Pompiers%20de%20Lyon>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <45.762684>;
+  geo:long <4.844539> .
+
+<69007> a geo:SpatialThing;
+  rdfs:lable <Centre%20d%27Histoire%20de%20la%20Résistance%20et%20de%20la%20Déportation>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <45.747037>;
+  geo:long <4.835797> .
+
+<69005> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20la%20Civilisation%20Gallo-Romaine>, <Musées%20Gadagne>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <45.760529>, <45.763856>;
+  geo:long <4.82004>, <4.827749> .
+
+<69002> a geo:SpatialThing;
+  rdfs:lable <Musée%20des%20Hospices%20Civils%20de%20Lyon>, <Musée%20Historique%20des%20Tissus>,
+    <Musée%20des%20Arts%20Décoratifs>, <Musée%20de%20l%27Imprimerie>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <45.759326>, <45.753117>, <45.764219>;
+  geo:long <4.83587>, <4.831633>, <4.834752> .
+
+<69001> a geo:SpatialThing;
+  rdfs:lable <Musée%20des%20Beaux-Arts>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <45.767177>;
+  geo:long <4.833576> .
+
+<69270> a geo:SpatialThing;
+  rdfs:lable <Musée%20Henri%20Malartre>;
+  rdfs:SubClassOf wd:Q33506 .
+
+<69560> a geo:SpatialThing;
+  rdfs:lable <Musée%20Archéologique>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <45.532101>;
+  geo:long <4.867764> .
+
+<69240> a geo:SpatialThing;
+  rdfs:lable <Ecomusée%20du%20Haut%20Beaujolais>;
+  rdfs:SubClassOf wd:Q33506 .
+
+<69400> a geo:SpatialThing;
+  rdfs:lable <Musée%20Paul%20Dini>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <45.990936>;
+  geo:long <4.721527> .
+
+<73212> a geo:SpatialThing;
+  rdfs:lable <Musée%20archéologique%20et%20minéralogique%20Pierre%20Borrione>;
+  rdfs:SubClassOf wd:Q33506 .
+
+<73100> a geo:SpatialThing;
+  rdfs:lable <Musée%20Lapidaire>, <Musée%20du%20docteur%20Faure>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <45.688657>, <45.692157>;
+  geo:long <5.915597>, <5.915578> .
+
+<73200> a geo:SpatialThing;
+  rdfs:lable <Musée%20Municipal%20d%27Albertville-Conflans>;
+  rdfs:SubClassOf wd:Q33506 .
+
+<73700> a geo:SpatialThing;
+  rdfs:lable <Musée%20du%20Costume>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <45.594598>;
+  geo:long <6.759433> .
+
+<73000> a geo:SpatialThing;
+  rdfs:lable <Musée%20des%20Beaux-Arts>, <Musée%20des%20Charmettes>, <Musée%20Savoisien>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <45.568097>, <45.552732>;
+  geo:long <5.919108>, <5.93011> .
+
+<73007> a geo:SpatialThing;
+  rdfs:lable <Muséum%20d%27histoire%20naturelle>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <45.563911>;
+  geo:long <5.916266> .
+
+<73600> a geo:SpatialThing;
+  rdfs:lable <Musée%20de%20l%27Académie%20de%20La%20Val%20d%27Isère>;
+  rdfs:SubClassOf wd:Q33506;
+  geo:lat <45.483424>;
+  geo:long <6.532778> .
+
+<97500> a geo:SpatialThing;
+  rdfs:lable <Musée%20Municipal>;
+  rdfs:SubClassOf wd:Q33506 .

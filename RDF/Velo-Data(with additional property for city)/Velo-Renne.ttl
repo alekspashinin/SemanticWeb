@@ -1,0 +1,80 @@
+@base <http://example/base/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+
+<5510> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Musée%20Beaux-Arts>;
+  geo:lat <48.109601>;
+  geo:long <-1.67408>;
+  wd:Q515 wd:Q647 .
+
+wd:Q11442 rdfs:SubClassOf wd:Q7590 .
+
+<5516> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Champs%20Libres>;
+  geo:lat <48.105537>;
+  geo:long <-1.674328>;
+  wd:Q515 wd:Q647 .
+
+<5534> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Brest%20-%20Verdun>;
+  geo:lat <48.113009>;
+  geo:long <-1.693264>;
+  wd:Q515 wd:Q647 .
+
+<5538> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Marbeuf>;
+  geo:lat <48.111749>;
+  geo:long <-1.702077>;
+  wd:Q515 wd:Q647 .
+
+<5546> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Plaine%20de%20Baud>;
+  geo:lat <48.112461>;
+  geo:long <-1.643674>;
+  wd:Q515 wd:Q647 .
+
+<5578> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Gros-Chêne>;
+  geo:lat <48.126795>;
+  geo:long <-1.665101>;
+  wd:Q515 wd:Q647 .
+
+<5580> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Painlevé>;
+  geo:lat <48.122994>;
+  geo:long <-1.660547>;
+  wd:Q515 wd:Q647 .
+
+<5581> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Turmel>;
+  geo:lat <48.122147>;
+  geo:long <-1.650808>;
+  wd:Q515 wd:Q647 .
+
+<5582> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <La%20Poterie>;
+  geo:lat <48.087282>;
+  geo:long <-1.644121>;
+  wd:Q515 wd:Q647 .
+
+<5587> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Pont%20de%20Strasbourg>;
+  geo:lat <48.109859>;
+  geo:long <-1.656028>;
+  wd:Q515 wd:Q647 .

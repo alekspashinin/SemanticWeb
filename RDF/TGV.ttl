@@ -1,0 +1,1110 @@
+@base <http://example/base/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+
+<Aix-en-Provence%20TGV> a geo:SpatialThing;
+  rdfs:label <Aix-en-Provence%20TGV>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <46.097>;
+  geo:long <4.847> .
+
+wd:Q129337 rdfs:SubClassOf wd:Q870 .
+
+wd:Q870 rdfs:%20SubClassOf wd:Q7590 .
+
+<Bellegarde> a geo:SpatialThing;
+  rdfs:label <Bellegarde>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <46.114>;
+  geo:long <5.824> .
+
+<Bourg-en-Bresse> a geo:SpatialThing;
+  rdfs:label <Bourg-en-Bresse>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <46.196>;
+  geo:long <5.275> .
+
+<Cluses> a geo:SpatialThing;
+  rdfs:label <Cluses>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <46.171>;
+  geo:long <5.577> .
+
+<Nurieux> a geo:SpatialThing;
+  rdfs:label <Nurieux>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <46.181>;
+  geo:long <5.521> .
+
+<Antibes> a geo:SpatialThing;
+  rdfs:label <Antibes>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <43.584>;
+  geo:long <7.108> .
+
+<Cannes> a geo:SpatialThing;
+  rdfs:label <Cannes>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <43.653>;
+  geo:long <7.146> .
+
+<Menton> a geo:SpatialThing;
+  rdfs:label <Menton>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <43.774>;
+  geo:long <7.489> .
+
+<Nice-Ville> a geo:SpatialThing;
+  rdfs:label <Nice-Ville>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <43.697>;
+  geo:long <7.272> .
+
+<Charleville-M%EF%BF%BDzi%EF%BF%BDres> a geo:SpatialThing;
+  rdfs:label <Charleville-M%EF%BF%BDzi%EF%BF%BDres>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <49.771>;
+  geo:long <4.72> .
+
+<Rethel> a geo:SpatialThing;
+  rdfs:label <Rethel>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <49.5>;
+  geo:long <4.402> .
+
+<Sedan> a geo:SpatialThing;
+  rdfs:label <Sedan>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <49.705>;
+  geo:long <4.943> .
+
+<Dijon-Ville> a geo:SpatialThing;
+  rdfs:label <Dijon-Ville>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <48.119>;
+  geo:long <4.789> .
+
+<Carcassonne> a geo:SpatialThing;
+  rdfs:label <Carcassonne>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <43.179>;
+  geo:long <2.405> .
+
+<Narbonne> a geo:SpatialThing;
+  rdfs:label <Narbonne>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <43.182>;
+  geo:long <3.026> .
+
+<Arles> a geo:SpatialThing;
+  rdfs:label <Arles>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <43.641>;
+  geo:long <5.071> .
+
+<Avignon%20TGV> a geo:SpatialThing;
+  rdfs:label <Avignon%20TGV>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <43.657>;
+  geo:long <5.095> .
+
+<Marseille-Saint-Charles> a geo:SpatialThing;
+  rdfs:label <Marseille-Saint-Charles>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <43.255>;
+  geo:long <5.432> .
+
+<Miramas> a geo:SpatialThing;
+  rdfs:label <Miramas>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <43.643>;
+  geo:long <5.021> .
+
+<Angoul%EF%BF%BDme> a geo:SpatialThing;
+  rdfs:label <Angoul%EF%BF%BDme>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <45.655>;
+  geo:long <0.151> .
+
+<Champagne-Ardenne%20TGV> a geo:SpatialThing;
+  rdfs:label <Champagne-Ardenne%20TGV>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <45.62>;
+  geo:long <-0.222> .
+
+<La%20Rochelle-Ville> a geo:SpatialThing;
+  rdfs:label <La%20Rochelle-Ville>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <46.158>;
+  geo:long <-1.154> .
+
+<Rouen-Rive-Droite> a geo:SpatialThing;
+  rdfs:label <Rouen-Rive-Droite>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <46.318>;
+  geo:long <-0.973> .
+
+<Surg%EF%BF%BDres> a geo:SpatialThing;
+  rdfs:label <Surg%EF%BF%BDres>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <46.114>;
+  geo:long <-0.741> .
+
+<Beaune> a geo:SpatialThing;
+  rdfs:label <Beaune>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <47.104>;
+  geo:long <4.67> .
+
+<Montbard> a geo:SpatialThing;
+  rdfs:label <Montbard>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <47.837>;
+  geo:long <4.364> .
+
+<Guingamp> a geo:SpatialThing;
+  rdfs:label <Guingamp>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <48.563>;
+  geo:long <-3.155> .
+
+<Lamballe> a geo:SpatialThing;
+  rdfs:label <Lamballe>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <48.439>;
+  geo:long <-2.538> .
+
+<Lannion> a geo:SpatialThing;
+  rdfs:label <Lannion>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <48.744>;
+  geo:long <-3.472> .
+
+<M%EF%BF%BDcon-Ville> a geo:SpatialThing;
+  rdfs:label <M%EF%BF%BDcon-Ville>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <48.581>;
+  geo:long <-2.197> .
+
+<Saint-Brieuc> a geo:SpatialThing;
+  rdfs:label <Saint-Brieuc>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <48.503>;
+  geo:long <-2.763> .
+
+<Besan%EF%BF%BDon-Viotte> a geo:SpatialThing;
+  rdfs:label <Besan%EF%BF%BDon-Viotte>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <47.248>;
+  geo:long <6.026> .
+
+<Frasne> a geo:SpatialThing;
+  rdfs:label <Frasne>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <46.856>;
+  geo:long <6.149> .
+
+<Mont%EF%BF%BDlimar> a geo:SpatialThing;
+  rdfs:label <Mont%EF%BF%BDlimar>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <44.546>;
+  geo:long <4.744> .
+
+<Valence%20TGV> a geo:SpatialThing;
+  rdfs:label <Valence%20TGV>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <45.065>;
+  geo:long <4.891> .
+
+<Valence-Ville> a geo:SpatialThing;
+  rdfs:label <Valence-Ville>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <44.933>;
+  geo:long <4.891> .
+
+<Brest> a geo:SpatialThing;
+  rdfs:label <Brest>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <48.391>;
+  geo:long <-4.502> .
+
+<Landerneau> a geo:SpatialThing;
+  rdfs:label <Landerneau>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <48.45>;
+  geo:long <-4.253> .
+
+<Quimper> a geo:SpatialThing;
+  rdfs:label <Quimper>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <48.014>;
+  geo:long <-4.094> .
+
+<Quimperl%EF%BF%BD> a geo:SpatialThing;
+  rdfs:label <Quimperl%EF%BF%BD>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <47.884>;
+  geo:long <-3.548> .
+
+<Rosporden> a geo:SpatialThing;
+  rdfs:label <Rosporden>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <47.989>;
+  geo:long <-3.791> .
+
+<Morlaix> a geo:SpatialThing;
+  rdfs:label <Morlaix>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <48.579>;
+  geo:long <-3.833> .
+
+<N%EF%BF%BDmes> a geo:SpatialThing;
+  rdfs:label <N%EF%BF%BDmes>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <43.832>;
+  geo:long <4.386> .
+
+<N%EF%BF%BDmes-Pont-du-Gard> a geo:SpatialThing;
+  rdfs:label <N%EF%BF%BDmes-Pont-du-Gard>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <43.851>;
+  geo:long <4.37> .
+
+<Meuse%20TGV> a geo:SpatialThing;
+  rdfs:label <Meuse%20TGV>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <43.583>;
+  geo:long <1.484> .
+
+<Toulouse-Matabiau> a geo:SpatialThing;
+  rdfs:label <Toulouse-Matabiau>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <43.61>;
+  geo:long <1.447> .
+
+<Arcachon> a geo:SpatialThing;
+  rdfs:label <Arcachon>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <44.662>;
+  geo:long <-1.17> .
+
+<Bordeaux-Saint-Jean> a geo:SpatialThing;
+  rdfs:label <Bordeaux-Saint-Jean>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <44.838>;
+  geo:long <-0.57> .
+
+<Facture-Biganos> a geo:SpatialThing;
+  rdfs:label <Facture-Biganos>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <44.65>;
+  geo:long <-0.956> .
+
+<Libourne> a geo:SpatialThing;
+  rdfs:label <Libourne>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <44.896>;
+  geo:long <-0.24> .
+
+<La%20Teste> a geo:SpatialThing;
+  rdfs:label <La%20Teste>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <44.633>;
+  geo:long <-1.133> .
+
+<Agde> a geo:SpatialThing;
+  rdfs:label <Agde>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <43.318>;
+  geo:long <3.483> .
+
+<B%EF%BF%BDziers> a geo:SpatialThing;
+  rdfs:label <B%EF%BF%BDziers>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <43.42>;
+  geo:long <3.236> .
+
+<Montpellier-Saint-Roch> a geo:SpatialThing;
+  rdfs:label <Montpellier-Saint-Roch>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <43.603>;
+  geo:long <3.89> .
+
+<Montpellier-Sud-de-France> a geo:SpatialThing;
+  rdfs:label <Montpellier-Sud-de-France>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <43.595>;
+  geo:long <3.924> .
+
+<S%EF%BF%BDte> a geo:SpatialThing;
+  rdfs:label <S%EF%BF%BDte>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <43.409>;
+  geo:long <3.698> .
+
+<TGV%20Haute-Picardie> a geo:SpatialThing;
+  rdfs:label <TGV%20Haute-Picardie>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <43.394>;
+  geo:long <3.68> .
+
+<Dol-de-Bretagne> a geo:SpatialThing;
+  rdfs:label <Dol-de-Bretagne>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <48.551>;
+  geo:long <-1.738> .
+
+<Plouaret-Tr%EF%BF%BDgor> a geo:SpatialThing;
+  rdfs:label <Plouaret-Tr%EF%BF%BDgor>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <48.035>;
+  geo:long <-1.704> .
+
+<Redon> a geo:SpatialThing;
+  rdfs:label <Redon>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <47.652>;
+  geo:long <-2.083> .
+
+<Rennes> a geo:SpatialThing;
+  rdfs:label <Rennes>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <48.11>;
+  geo:long <-1.684> .
+
+<Saint-Malo> a geo:SpatialThing;
+  rdfs:label <Saint-Malo>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <48.657>;
+  geo:long <-1.974> .
+
+<Vitr%EF%BF%BD> a geo:SpatialThing;
+  rdfs:label <Vitr%EF%BF%BD>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <48.131>;
+  geo:long <-1.218> .
+
+<Lorraine%20TGV> a geo:SpatialThing;
+  rdfs:label <Lorraine%20TGV>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <47.381>;
+  geo:long <0.71> .
+
+<Saint-Pierre-des-Corps> a geo:SpatialThing;
+  rdfs:label <Saint-Pierre-des-Corps>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <47.386>;
+  geo:long <0.761> .
+
+<Tours> a geo:SpatialThing;
+  rdfs:label <Tours>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <47.402>;
+  geo:long <0.696> .
+
+<Grenoble> a geo:SpatialThing;
+  rdfs:label <Grenoble>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <45.177>;
+  geo:long <5.741> .
+
+<Mouchard> a geo:SpatialThing;
+  rdfs:label <Mouchard>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <46.978>;
+  geo:long <5.792> .
+
+<Dax> a geo:SpatialThing;
+  rdfs:label <Dax>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <43.709>;
+  geo:long <-1.068> .
+
+<Vend%EF%BF%BDme%20-%20Villiers-sur-Loir> a geo:SpatialThing;
+  rdfs:label <Vend%EF%BF%BDme%20-%20Villiers-sur-Loir>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <47.799>;
+  geo:long <1.036> .
+
+<Montauban-Ville-Bourbon> a geo:SpatialThing;
+  rdfs:label <Montauban-Ville-Bourbon>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <45.429>;
+  geo:long <4.36> .
+
+<Saint-%EF%BF%BDtienne-Ch%EF%BF%BDteaucreux> a geo:SpatialThing;
+  rdfs:label <Saint-%EF%BF%BDtienne-Ch%EF%BF%BDteaucreux>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <45.443>;
+  geo:long <4.4> .
+
+<Ancenis> a geo:SpatialThing;
+  rdfs:label <Ancenis>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <47.366>;
+  geo:long <-1.184> .
+
+<La%20Baule-Escoublac> a geo:SpatialThing;
+  rdfs:label <La%20Baule-Escoublac>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <47.285>;
+  geo:long <-2.371> .
+
+<Le%20Croisic> a geo:SpatialThing;
+  rdfs:label <Le%20Croisic>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <47.287>;
+  geo:long <-2.51> .
+
+<Nantes> a geo:SpatialThing;
+  rdfs:label <Nantes>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <47.259>;
+  geo:long <-1.529> .
+
+<Pornichet> a geo:SpatialThing;
+  rdfs:label <Pornichet>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <47.252>;
+  geo:long <-2.314> .
+
+<Le%20Pouliguen> a geo:SpatialThing;
+  rdfs:label <Le%20Pouliguen>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <47.277>;
+  geo:long <-2.439> .
+
+<Saint-Nazaire> a geo:SpatialThing;
+  rdfs:label <Saint-Nazaire>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <47.299>;
+  geo:long <-2.184> .
+
+<Agen> a geo:SpatialThing;
+  rdfs:label <Agen>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <44.206>;
+  geo:long <0.618> .
+
+<Angers-Saint-Laud> a geo:SpatialThing;
+  rdfs:label <Angers-Saint-Laud>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <47.473>;
+  geo:long <-0.552> .
+
+<Saumur> a geo:SpatialThing;
+  rdfs:label <Saumur>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <47.263>;
+  geo:long <-0.073> .
+
+<Ch%EF%BF%BDlons-en-Champagne> a geo:SpatialThing;
+  rdfs:label <Ch%EF%BF%BDlons-en-Champagne>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <48.956>;
+  geo:long <4.362> .
+
+<Reims> a geo:SpatialThing;
+  rdfs:label <Reims>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <49.245>;
+  geo:long <4.041> .
+
+<Vitry-le-Fran%EF%BF%BDois> a geo:SpatialThing;
+  rdfs:label <Vitry-le-Fran%EF%BF%BDois>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <48.73>;
+  geo:long <4.597> .
+
+<Laval> a geo:SpatialThing;
+  rdfs:label <Laval>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <48.077>;
+  geo:long <-0.76> .
+
+<Lun%EF%BF%BDville> a geo:SpatialThing;
+  rdfs:label <Lun%EF%BF%BDville>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <48.585>;
+  geo:long <6.483> .
+
+<Nancy-Ville> a geo:SpatialThing;
+  rdfs:label <Nancy-Ville>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <48.703>;
+  geo:long <6.224> .
+
+<Bar-le-Duc> a geo:SpatialThing;
+  rdfs:label <Bar-le-Duc>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <48.756>;
+  geo:long <5.194> .
+
+<Auray> a geo:SpatialThing;
+  rdfs:label <Auray>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <47.663>;
+  geo:long <-2.988> .
+
+<Lorient> a geo:SpatialThing;
+  rdfs:label <Lorient>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <47.759>;
+  geo:long <-3.384> .
+
+<Vannes> a geo:SpatialThing;
+  rdfs:label <Vannes>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <47.636>;
+  geo:long <-2.773> .
+
+<Forbach> a geo:SpatialThing;
+  rdfs:label <Forbach>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <49.18>;
+  geo:long <6.895> .
+
+<Metz-Ville> a geo:SpatialThing;
+  rdfs:label <Metz-Ville>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <49.101>;
+  geo:long <6.155> .
+
+<Sarrebourg> a geo:SpatialThing;
+  rdfs:label <Sarrebourg>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <48.735>;
+  geo:long <7.052> .
+
+<Thionville> a geo:SpatialThing;
+  rdfs:label <Thionville>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <49.362>;
+  geo:long <6.144> .
+
+<Croix%20-%20Wasquehal> a geo:SpatialThing;
+  rdfs:label <Croix%20-%20Wasquehal>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <50.678>;
+  geo:long <3.135> .
+
+<Douai> a geo:SpatialThing;
+  rdfs:label <Douai>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <50.39>;
+  geo:long <3.09> .
+
+<Dunkerque> a geo:SpatialThing;
+  rdfs:label <Dunkerque>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <51.046>;
+  geo:long <2.389> .
+
+<Hazebrouck> a geo:SpatialThing;
+  rdfs:label <Hazebrouck>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <50.738>;
+  geo:long <2.726> .
+
+<Lille-Europe> a geo:SpatialThing;
+  rdfs:label <Lille-Europe>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <50.641>;
+  geo:long <3.074> .
+
+<Lille-Flandres> a geo:SpatialThing;
+  rdfs:label <Lille-Flandres>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <50.628>;
+  geo:long <3.056> .
+
+<Roubaix> a geo:SpatialThing;
+  rdfs:label <Roubaix>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <50.701>;
+  geo:long <3.17> .
+
+<Tourcoing> a geo:SpatialThing;
+  rdfs:label <Tourcoing>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <50.718>;
+  geo:long <3.141> .
+
+<Valenciennes> a geo:SpatialThing;
+  rdfs:label <Valenciennes>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <50.342>;
+  geo:long <3.517> .
+
+<Boulogne-Ville> a geo:SpatialThing;
+  rdfs:label <Boulogne-Ville>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <49.607>;
+  geo:long <2.707> .
+
+<Arras> a geo:SpatialThing;
+  rdfs:label <Arras>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <50.29>;
+  geo:long <2.778> .
+
+<B%EF%BF%BDthune> a geo:SpatialThing;
+  rdfs:label <B%EF%BF%BDthune>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <50.517>;
+  geo:long <2.636> .
+
+<Calais%20-%20Fr%EF%BF%BDthun> a geo:SpatialThing;
+  rdfs:label <Calais%20-%20Fr%EF%BF%BDthun>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <50.935>;
+  geo:long <1.85> .
+
+<Calais-Ville> a geo:SpatialThing;
+  rdfs:label <Calais-Ville>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <50.43>;
+  geo:long <3.063> .
+
+<taples%20-%20Le%20Touquet> a geo:SpatialThing;
+  rdfs:label <taples%20-%20Le%20Touquet>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <50.525>;
+  geo:long <1.589> .
+
+<Lens> a geo:SpatialThing;
+  rdfs:label <Lens>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <50.419>;
+  geo:long <3.027> .
+
+<Rang-du-Fliers%20-%20Verton> a geo:SpatialThing;
+  rdfs:label <Rang-du-Fliers%20-%20Verton>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <50.414>;
+  geo:long <1.619> .
+
+<Bayonne> a geo:SpatialThing;
+  rdfs:label <Bayonne>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <43.503>;
+  geo:long <-1.443> .
+
+<Biarritz> a geo:SpatialThing;
+  rdfs:label <Biarritz>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <43.472>;
+  geo:long <-1.555> .
+
+<Hendaye> a geo:SpatialThing;
+  rdfs:label <Hendaye>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <43.355>;
+  geo:long <-1.774> .
+
+<Orthez> a geo:SpatialThing;
+  rdfs:label <Orthez>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <43.491>;
+  geo:long <-0.768> .
+
+<Pau> a geo:SpatialThing;
+  rdfs:label <Pau>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <43.295>;
+  geo:long <-0.35> .
+
+<Saint-Jean-de-Luz%20-%20Ciboure> a geo:SpatialThing;
+  rdfs:label <Saint-Jean-de-Luz%20-%20Ciboure>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <43.381>;
+  geo:long <-1.676> .
+
+<Lourdes> a geo:SpatialThing;
+  rdfs:label <Lourdes>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <43.095>;
+  geo:long <-0.049> .
+
+<Tarbes> a geo:SpatialThing;
+  rdfs:label <Tarbes>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <43.232>;
+  geo:long <0.071> .
+
+<Perpignan> a geo:SpatialThing;
+  rdfs:label <Perpignan>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <42.697>;
+  geo:long <2.888> .
+
+<Saverne> a geo:SpatialThing;
+  rdfs:label <Saverne>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <48.744>;
+  geo:long <7.359> .
+
+<S%EF%BF%BDlestat> a geo:SpatialThing;
+  rdfs:label <S%EF%BF%BDlestat>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <48.265>;
+  geo:long <7.441> .
+
+<Strasbourg-Ville> a geo:SpatialThing;
+  rdfs:label <Strasbourg-Ville>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <48.561>;
+  geo:long <7.76> .
+
+<Colmar> a geo:SpatialThing;
+  rdfs:label <Colmar>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <48.077>;
+  geo:long <7.361> .
+
+<Mulhouse-Ville> a geo:SpatialThing;
+  rdfs:label <Mulhouse-Ville>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <47.746>;
+  geo:long <7.34> .
+
+<Besan%EF%BF%BDon%20Franche-Comt%EF%BF%BD%20TGV> a geo:SpatialThing;
+  rdfs:label <Besan%EF%BF%BDon%20Franche-Comt%EF%BF%BD%20TGV>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <45.985>;
+  geo:long <4.706> .
+
+<Lyon-Part-Dieu> a geo:SpatialThing;
+  rdfs:label <Lyon-Part-Dieu>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <45.759>;
+  geo:long <4.841> .
+
+<Lyon-Perrache> a geo:SpatialThing;
+  rdfs:label <Lyon-Perrache>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <45.749>;
+  geo:long <4.828> .
+
+<Lyon-Saint-Exup%EF%BF%BDry%20TGV> a geo:SpatialThing;
+  rdfs:label <Lyon-Saint-Exup%EF%BF%BDry%20TGV>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <45.758>;
+  geo:long <4.828> .
+
+<Marne-la-Vall%EF%BF%BDe%20-%20Chessy> a geo:SpatialThing;
+  rdfs:label <Marne-la-Vall%EF%BF%BDe%20-%20Chessy>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <45.888>;
+  geo:long <4.621> .
+
+<Paris-Gare-de-Lyon> a geo:SpatialThing;
+  rdfs:label <Paris-Gare-de-Lyon>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <45.78>;
+  geo:long <4.804> .
+
+<Dole-Ville> a geo:SpatialThing;
+  rdfs:label <Dole-Ville>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <47.439>;
+  geo:long <5.589> .
+
+<Chalon-sur-Sa%EF%BF%BDne> a geo:SpatialThing;
+  rdfs:label <Chalon-sur-Sa%EF%BF%BDne>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <46.789>;
+  geo:long <4.841> .
+
+<Le%20Creusot%20-%20Montceau> a geo:SpatialThing;
+  rdfs:label <Le%20Creusot%20-%20Montceau>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <46.669>;
+  geo:long <4.377> .
+
+<M%EF%BF%BDcon-Loch%EF%BF%BD%20TGV> a geo:SpatialThing;
+  rdfs:label <M%EF%BF%BDcon-Loch%EF%BF%BD%20TGV>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <46.277>;
+  geo:long <4.784> .
+
+<Le%20Mans> a geo:SpatialThing;
+  rdfs:label <Le%20Mans>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <47.999>;
+  geo:long <0.192> .
+
+<Sabl%EF%BF%BD-sur-Sarthe> a geo:SpatialThing;
+  rdfs:label <Sabl%EF%BF%BD-sur-Sarthe>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <47.837>;
+  geo:long <-0.329> .
+
+<Aime-La%20Plagne> a geo:SpatialThing;
+  rdfs:label <Aime-La%20Plagne>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <45.573>;
+  geo:long <6.606> .
+
+<Aix-les-Bains-Le%20Revard> a geo:SpatialThing;
+  rdfs:label <Aix-les-Bains-Le%20Revard>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <45.69>;
+  geo:long <5.919> .
+
+<Albertville> a geo:SpatialThing;
+  rdfs:label <Albertville>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <45.659>;
+  geo:long <6.384> .
+
+<Bourg-Saint-Maurice> a geo:SpatialThing;
+  rdfs:label <Bourg-Saint-Maurice>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <45.573>;
+  geo:long <6.828> .
+
+<Chamb%EF%BF%BDry%20-%20Challes-les-Eaux> a geo:SpatialThing;
+  rdfs:label <Chamb%EF%BF%BDry%20-%20Challes-les-Eaux>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <45.559>;
+  geo:long <5.975> .
+
+<Landry> a geo:SpatialThing;
+  rdfs:label <Landry>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <45.576>;
+  geo:long <6.736> .
+
+<Modane> a geo:SpatialThing;
+  rdfs:label <Modane>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <45.201>;
+  geo:long <6.671> .
+
+<Mo%EF%BF%BDtiers%20-%20Salins%20> a geo:SpatialThing;
+  rdfs:label <Mo%EF%BF%BDtiers%20-%20Salins%20>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <45.452>;
+  geo:long <6.567> .
+
+<Saint-Avre%20-%20La%20Chambre> a geo:SpatialThing;
+  rdfs:label <Saint-Avre%20-%20La%20Chambre>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <45.356>;
+  geo:long <6.304> .
+
+<Saint-Jean-de-Maurienne> a geo:SpatialThing;
+  rdfs:label <Saint-Jean-de-Maurienne>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <45.272>;
+  geo:long <6.352> .
+
+<Annecy> a geo:SpatialThing;
+  rdfs:label <Annecy>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <45.898>;
+  geo:long <6.119> .
+
+<Annemasse> a geo:SpatialThing;
+  rdfs:label <Annemasse>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <46.185>;
+  geo:long <6.242> .
+
+<vian-les-Bain> a geo:SpatialThing;
+  rdfs:label <vian-les-Bain>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <46.398>;
+  geo:long <6.602> .
+
+<Saint-Gervais-les-Bains> a geo:SpatialThing;
+  rdfs:label <Saint-Gervais-les-Bains>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <45.868>;
+  geo:long <6.682> .
+
+<Sallanches%20-%20Combloux%20-%20> a geo:SpatialThing;
+  rdfs:label <Sallanches%20-%20Combloux%20-%20>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <45.901>;
+  geo:long <6.643> .
+
+<Thonon-les-Bains> a geo:SpatialThing;
+  rdfs:label <Thonon-les-Bains>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <46.374>;
+  geo:long <6.485> .
+
+<Paris-Est> a geo:SpatialThing;
+  rdfs:label <Paris-Est>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <48.871>;
+  geo:long <2.395> .
+
+<Paris-Montparnasse> a geo:SpatialThing;
+  rdfs:label <Paris-Montparnasse>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <48.838>;
+  geo:long <2.317> .
+
+<Paris-Nord> a geo:SpatialThing;
+  rdfs:label <Paris-Nord>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <48.881>;
+  geo:long <2.356> .
+
+<Le%20Havre> a geo:SpatialThing;
+  rdfs:label <Le%20Havre>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <49.505>;
+  geo:long <0.174> .
+
+<Charles-de-Gaulle> a geo:SpatialThing;
+  rdfs:label <Charles-de-Gaulle>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <49.006>;
+  geo:long <2.571> .
+
+<Mantes-la-Jolie> a geo:SpatialThing;
+  rdfs:label <Mantes-la-Jolie>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <48.994>;
+  geo:long <1.721> .
+
+<Versailles-Chantiers> a geo:SpatialThing;
+  rdfs:label <Versailles-Chantiers>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <48.797>;
+  geo:long <2.136> .
+
+<Niort> a geo:SpatialThing;
+  rdfs:label <Niort>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <46.319>;
+  geo:long <-0.458> .
+
+<Saint-Maixent%20%28Deux-S%EF%BF%BDvres%29> a geo:SpatialThing;
+  rdfs:label <Saint-Maixent%20%28Deux-S%EF%BF%BDvres%29>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <46.409>;
+  geo:long <-0.205> .
+
+<Amiens> a geo:SpatialThing;
+  rdfs:label <Amiens>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <49.9>;
+  geo:long <2.289> .
+
+<Les%20Arcs%20-%20Draguignan> a geo:SpatialThing;
+  rdfs:label <Les%20Arcs%20-%20Draguignan>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <43.504>;
+  geo:long <6.483> .
+
+<Hy%EF%BF%BDres> a geo:SpatialThing;
+  rdfs:label <Hy%EF%BF%BDres>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <43.09>;
+  geo:long <6.123> .
+
+<Saint-Rapha%EF%BF%BDl-Valescure> a geo:SpatialThing;
+  rdfs:label <Saint-Rapha%EF%BF%BDl-Valescure>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <43.441>;
+  geo:long <6.776> .
+
+<Toulon> a geo:SpatialThing;
+  rdfs:label <Toulon>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <43.133>;
+  geo:long <5.964> .
+
+<Avignon-Centre> a geo:SpatialThing;
+  rdfs:label <Avignon-Centre>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <44.046>;
+  geo:long <5.031> .
+
+<Orange> a geo:SpatialThing;
+  rdfs:label <Orange>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <44.14>;
+  geo:long <4.812> .
+
+<La%20Roche-sur-Yon> a geo:SpatialThing;
+  rdfs:label <La%20Roche-sur-Yon>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <46.67>;
+  geo:long <-1.432> .
+
+<Les%20Sables-d%27Olonne> a geo:SpatialThing;
+  rdfs:label <Les%20Sables-d%27Olonne>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <46.479>;
+  geo:long <-1.758> .
+
+<Ch%EF%BF%BDtellerault> a geo:SpatialThing;
+  rdfs:label <Ch%EF%BF%BDtellerault>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <46.796>;
+  geo:long <0.525> .
+
+<Futuroscope> a geo:SpatialThing;
+  rdfs:label <Futuroscope>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <46.659>;
+  geo:long <0.362> .
+
+<Poitiers> a geo:SpatialThing;
+  rdfs:label <Poitiers>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <46.579>;
+  geo:long <0.335> .
+
+<pinal> a geo:SpatialThing;
+  rdfs:label <pinal>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <48.175>;
+  geo:long <6.45> .
+
+<Remiremont> a geo:SpatialThing;
+  rdfs:label <Remiremont>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <48.006>;
+  geo:long <6.604> .
+
+<Saint-Di%EF%BF%BD-des-Vosges> a geo:SpatialThing;
+  rdfs:label <Saint-Di%EF%BF%BD-des-Vosges>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <48.293>;
+  geo:long <6.962> .
+
+<Saint-Michel%20-%20Valloire> a geo:SpatialThing;
+  rdfs:label <Saint-Michel%20-%20Valloire>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <48.157>;
+  geo:long <6.134> .
+
+<Belfort%20-%20Montb%EF%BF%BDliard%20TGV> a geo:SpatialThing;
+  rdfs:label <Belfort%20-%20Montb%EF%BF%BDliard%20TGV>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <47.637>;
+  geo:long <6.858> .
+
+<Massy%20-%20Palaiseau> a geo:SpatialThing;
+  rdfs:label <Massy%20-%20Palaiseau>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <48.731>;
+  geo:long <2.243> .
+
+<Massy%20TGV> a geo:SpatialThing;
+  rdfs:label <Massy%20TGV>;
+  rdfs:SubClassOf wd:Q129337;
+  geo:lat <48.736>;
+  geo:long <2.291> .

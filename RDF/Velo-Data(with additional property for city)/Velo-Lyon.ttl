@@ -1,0 +1,3009 @@
+@base <http://example/base/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+
+<10001> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <IUT%20-%20Feyssine>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7856324623545000>;
+  geo:long <4.8824104015349030> .
+
+wd:11442 rdfs:SubClassOf wd:Q7590 .
+
+<3043> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Place%20Rouget%20de%20L%27Isle>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7539631929670600>;
+  geo:long <4.8673532946259150> .
+
+<6001> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Gare%20des%20Brotteaux>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7669095802662650>;
+  geo:long <4.8589921673125620> .
+
+<20001> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Oullins%20-%20Gare>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7170299434914200>;
+  geo:long <4.8141359805783805> .
+
+<10114> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Bel%20Air%20/%20Les%20Brosses>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7579070732360900>;
+  geo:long <4.9108067086686680> .
+
+<10038> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Condorcet>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7790457737185800>;
+  geo:long <4.8667783280240920> .
+
+<10060> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Saint%20Exupéry>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7588589710478640>;
+  geo:long <4.8787495764625985> .
+
+<4005> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Place%20Bertone>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7776173765049850>;
+  geo:long <4.8345009421112760> .
+
+<2020> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Musée%20des%20Confluences>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7333083359277900>;
+  geo:long <4.8189203135366740> .
+
+<3015> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Servient%20/%20Garibaldi>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7607774131537200>;
+  geo:long <4.8526789906473330> .
+
+<7002> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Universités%20Lyon%20III%20/%20Lyon%20II>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7514132273513000>;
+  geo:long <4.8363931815987780> .
+
+<3006> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Villette%20/%20St-Antoine>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7628598508923400>;
+  geo:long <4.8622869000871980> .
+
+<10102> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Doua%20/%20Gaston%20Berger>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7809940664741300>;
+  geo:long <4.8712223213573510> .
+
+<6023> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Quai%20Sarrail>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7668296196242750>;
+  geo:long <4.8411393393513280> .
+
+<9013> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Quai%20Paul%20Sédaillan>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7875097567311800>;
+  geo:long <4.8144211278496750> .
+
+<10028> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Ecole%20de%20musique>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7675343020076260>;
+  geo:long <4.8739662098689820> .
+
+<6041> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Cité%20Internationale%20-%20Tête%20d%27Or%20Nord>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7846110498866350>;
+  geo:long <4.8596391471386800> .
+
+<7024> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Bancel%20/%20Chevreul>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7485202867305600>;
+  geo:long <4.8405245716725130> .
+
+<4004> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Hénon>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7797553671142550>;
+  geo:long <4.8276484010879560> .
+
+<6042> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Cité%20Internationale%20-%20Résidence%20hôtelière>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7848181552653900>;
+  geo:long <4.8565116142349005> .
+
+<8025> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Dumont%20/%20Jouvet>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7444461798116300>;
+  geo:long <4.8608871751443760> .
+
+<6024> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Tronchet%20/%20Anatole%20France>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7707371546228860>;
+  geo:long <4.8567521774675420> .
+
+<24001> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Ecully%20-%20Mairie>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7750890702448960>;
+  geo:long <4.7786729160837340> .
+
+<3005> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Saxe%20/%20Gambetta>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7537858652435600>;
+  geo:long <4.8480424261036825> .
+
+<10121> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Parc%20du%20Centre>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7719119252490800>;
+  geo:long <4.8790707067819020> .
+
+<8033> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Berthelot%20/%20Cazeneuve>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7373337133711400>;
+  geo:long <4.8654943125527870> .
+
+<10058> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Métro%20Flachet>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7670909450657100>;
+  geo:long <4.8924286413845515> .
+
+<2014> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Jacobins>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7607516950581540>;
+  geo:long <4.8343042285358890> .
+
+<7014> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Marseille%20/%20Félissent>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7529863435116100>;
+  geo:long <4.8414152874617790> .
+
+<16001> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Vénissieux%20-%20Place%20Romand>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7257547271142850>;
+  geo:long <4.8583509977388920> .
+
+<10091> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Château%20Gaillard%20/%20Fort>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7747495364239260>;
+  geo:long <4.8879713172874080> .
+
+<2021> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Bayard%20/%20Rambaud>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7459165775636100>;
+  geo:long <4.8171736085201430> .
+
+<4025> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Chazière>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7754224668984700>;
+  geo:long <4.8178899295525035> .
+
+<10113> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Gare%20de%20Villeurbanne>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7557642719574800>;
+  geo:long <4.8915301676718470> .
+
+<10111> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Charles%20Hernu>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7703105281291940>;
+  geo:long <4.8620024989211670> .
+
+<5040> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Place%20Crépu>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7578416796382400>;
+  geo:long <4.8261054516922880> .
+
+<8029> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Etats-Unis%20/%20Lévigne>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7322180106596860>;
+  geo:long <4.8651415367367150> .
+
+<8061> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Stade%20Vuillermet>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7254037172008000>;
+  geo:long <4.8812948922096580> .
+
+<1023> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Croix%20Rousse%20/%20Perfetti>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7722538415304900>;
+  geo:long <4.8194608620100040> .
+
+<8007> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Frères%20Lumière>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7450177556259450>;
+  geo:long <4.8664326009099320> .
+
+<2028> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Sainte-Blandine>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7444223014223040>;
+  geo:long <4.8221428704396105> .
+
+<2006> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Place%20de%20l%27Hippodrome>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7455815521804800>;
+  geo:long <4.8235326732363090> .
+
+<3021> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Place%20de%20la%20Ferrandière>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7594733965948140>;
+  geo:long <4.8693428966594270> .
+
+<8059> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Laënnec%20/%20Pinel>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7353725112499350>;
+  geo:long <4.8895389263694160> .
+
+<3036> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Félix%20Faure%20/%20Vivier%20Merle>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7538149056220500>;
+  geo:long <4.8598558941293660> .
+
+<9032> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Place%20du%20Port%20Mouton>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7738201179439200>;
+  geo:long <4.8095603029641690> .
+
+<2007> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Patinoire%20Charlemagne>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7426115005543960>;
+  geo:long <4.8204716703055040> .
+
+<3044> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Quai%20Augagneur>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7619651301154850>;
+  geo:long <4.8410534307662090> .
+
+<16005> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Vénissieux%20-%20Gare>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7085339720955660>;
+  geo:long <4.8870248117095900> .
+
+<10025> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Totem>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7636407030235000>;
+  geo:long <4.8731410878807795> .
+
+<12003> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Vaulx%20-%20Bibliothèque>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7570697600648660>;
+  geo:long <4.9273216112656590> .
+
+<5015> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Fulchiron>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7520011769432900>;
+  geo:long <4.8216617983516280> .
+
+<6004> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Foch>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7688513697593600>;
+  geo:long <4.8447649388425830> .
+
+<2013> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Célestins>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7599398325897200>;
+  geo:long <4.8320716113863760> .
+
+<3012> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Place%20du%20Château>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7495170788471200>;
+  geo:long <4.8872857232192940> .
+
+<4009> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Jacquart%20/%20Denfert-Rochereau>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7758995112138400>;
+  geo:long <4.8253789620711200> .
+
+<6032> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Préfecture%20/%20Sarrail>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7648582723532300>;
+  geo:long <4.8415654714910220> .
+
+<8055> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Saint-Romain%20/%20Berliet>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7422568774361760>;
+  geo:long <4.8603720894672350> .
+
+<7041> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Domer%20/%20Chevreul>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7466748285384950>;
+  geo:long <4.8444434656856060> .
+
+<3090> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Vinatier>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7419115491076800>;
+  geo:long <4.8939591141013690> .
+
+<8008> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Beauvisage%20/%20Préssensé>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7278718558835000>;
+  geo:long <4.8634420589052640> .
+
+<3086> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Feuillat%20/%20Lacassagne>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7495627067970800>;
+  geo:long <4.8759334029685050> .
+
+<10014> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Laurent%20Bonnevay%20/%20Astroballe>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7651240553553600>;
+  geo:long <4.9098182197044350> .
+
+<26001> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Saint%20Didier%20-%20Pasteur%20/%20Saint-Cyr>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7915736750577340>;
+  geo:long <4.8085346353439210> .
+
+<9010> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Piscine%20de%20Vaise>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7710182884515100>;
+  geo:long <4.7964503487575510> .
+
+<30002> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Rillieux%20-%20Loup%20Pendu>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.8159701108686600>;
+  geo:long <4.8870434508176660> .
+
+<3011> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Part-Dieu%20/%20Cuirassiers>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7598976512354200>;
+  geo:long <4.8575730314142140> .
+
+<8009> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Jean%20XXIII%20/%20Mermoz>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7364796056891400>;
+  geo:long <4.8698054320071750> .
+
+<9041> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Carret%20/%20Sédaillan>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7924777385859400>;
+  geo:long <4.8205782575315625> .
+
+<3089> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Trarieux%20/%20Lacassagne>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7453008083141900>;
+  geo:long <4.8890420355008900> .
+
+<10048> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Place%20Marengo>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7591435230511500>;
+  geo:long <4.8759935561091980> .
+
+<8037> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Cazeneuve>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7340200917966400>;
+  geo:long <4.8629023792941540> .
+
+<7018> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Lycée%20Louise%20Labé>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7402806526508460>;
+  geo:long <4.8320593704251730> .
+
+<2040> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Saint%20Antoine%20/%20Grenette>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7634225385927200>;
+  geo:long <4.8321008544256510> .
+
+<2023> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7445140498693900>;
+  geo:long <4.8267751858799750> .
+
+<2015> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <République%20/%20Stella>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7607097863131200>;
+  geo:long <4.8362889729420430> .
+
+<3082> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Saxe%20/%20Moncey>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7575642739996500>;
+  geo:long <4.8461181734350030> .
+
+<7046> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Place%20de%20l%27Ecole>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7300799170408600>;
+  geo:long <4.8278229564284700> .
+
+<5050> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Théâtre%20Romain>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7583623960292900>;
+  geo:long <4.8210866415482530> .
+
+<10024> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Maisons%20Neuves>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7559510292356100>;
+  geo:long <4.8773464298740200> .
+
+<1001> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Terreaux%20/%20Terme>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7677346863698560>;
+  geo:long <4.8321350621908300> .
+
+<7031> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Jaurès%20/%20Gerland>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7398132348896800>;
+  geo:long <4.8403073886228570> .
+
+<9050> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Allée%20de%20l%27Europe>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7836371650547900>;
+  geo:long <4.7945253084995630> .
+
+<10087> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Baratin>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7606037573681700>;
+  geo:long <4.9006969683209185> .
+
+<4026> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Birmingham>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7746311098016750>;
+  geo:long <4.8134162571603990> .
+
+<10041> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Kimmerling>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7529723995867800>;
+  geo:long <4.8988656628976360> .
+
+<10002> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <INSA>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7822165054530900>;
+  geo:long <4.8769550250054060> .
+
+<7016> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Place%20St%20Louis>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7490803589590100>;
+  geo:long <4.8477399426535540> .
+
+<28001> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Fontaines%20S/S%20-%20Quai%20JB%20Simon>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.8324657183306240>;
+  geo:long <4.8487792326838310> .
+
+<10075> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Gabriel%20Péri>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7722995938508100>;
+  geo:long <4.8656992684460585> .
+
+<5006> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Quai%20Romain%20Rolland>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7620370806926700>;
+  geo:long <4.8288896824580405> .
+
+<10004> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Tonkin>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7762210147081350>;
+  geo:long <4.8626475813297990> .
+
+<8006> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Place%20du%208%20mai%201945>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7297663546006700>;
+  geo:long <4.8681665813493630> .
+
+<9044> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Masset%20/%20Saint-Pierre%20de%20Vaise>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7704769200645740>;
+  geo:long <4.8009004832411430> .
+
+<3071> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <BioParc>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7404860034671760>;
+  geo:long <4.8880825075933510> .
+
+<6028> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Récamier%20/%20Tête%20d%27Or>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7643336975612060>;
+  geo:long <4.8534921297061950> .
+
+<10110> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Mémoire%20et%20Société>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7595776564178540>;
+  geo:long <4.8827081207421840> .
+
+<6021> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Garibaldi>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7706974838463400>;
+  geo:long <4.8499357293643790> .
+
+<2037> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Place%20des%20Archives>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7479691410901740>;
+  geo:long <4.8248617280093150> .
+
+<6033> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Créqui%20/%20Lafayette>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7637960125263300>;
+  geo:long <4.8470620002854570> .
+
+<10012> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Zola%20/%20France>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7680704202145800>;
+  geo:long <4.8871237200591935> .
+
+<10123> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Saint%20Jean%20/%20Epi%20de%20Blé>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7766422715883900>;
+  geo:long <4.9023610707870110> .
+
+<10072> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Jacques%20Brel>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7742255397182500>;
+  geo:long <4.8642860657508760> .
+
+<6020> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Musée%20Guimet>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7745048729892700>;
+  geo:long <4.8484771018513760> .
+
+<4001> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Conservatoire%20bis>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7703894302220250>;
+  geo:long <4.8142456674237000> .
+
+<10043> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Salengro%20/%20Feyssine>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7829835939928100>;
+  geo:long <4.8906345956727780> .
+
+<12005> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Place%20Boissier>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7862776558451700>;
+  geo:long <4.9268855599077890> .
+
+<5007> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Place%20de%20Trion>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7579063089064060>;
+  geo:long <4.8131349528107470> .
+
+<10120> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Salengro%20/%20Descartes>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7762463810845300>;
+  geo:long <4.8716371652356000> .
+
+<5016> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Point%20du%20Jour%20/%20Granges>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7561939286588800>;
+  geo:long <4.8027110791690140> .
+
+<23001> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Tassin%20-%20Tuileries>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7632560325953860>;
+  geo:long <4.7786100656705530> .
+
+<12002> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Vaulx%20-%20Poudrette%20/%20La%20Soie>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7644003130587800>;
+  geo:long <4.9192757859473670> .
+
+<10079> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Anatole%20France%20/%20Barbusse>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7681304002299300>;
+  geo:long <4.8791614891381100> .
+
+<7023> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Berthelot%20/%20Route%20de%20Vienne>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7425795049166550>;
+  geo:long <4.8505637556621760> .
+
+<11001> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Caluire%20-%20Gare%20de%20Cuire>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7857755308468400>;
+  geo:long <4.8337134215891260> .
+
+<8030> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Laënnec>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7413487229911060>;
+  geo:long <4.8797231637591720> .
+
+<5036> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <La%20Salette>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7496172707888960>;
+  geo:long <4.7955310931658570> .
+
+<8003> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Claude%20Bernard%20Lyon%20I>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7381400560294900>;
+  geo:long <4.8868803087115330> .
+
+<3100> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Sisley%20/%20%20Dauphiné>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7528275113150600>;
+  geo:long <4.8687687708041860> .
+
+<2030> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <République%20/%20Poulaillerie>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7640723503116150>;
+  geo:long <4.8355253578885975> .
+
+<8051> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Hôpital%20Saint-Jean%20de%20Dieu>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7241420539186200>;
+  geo:long <4.8541764434151110> .
+
+<17001> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Saint%20Fons%20-%20Arsenal>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7123448014944400>;
+  geo:long <4.8552741231339970> .
+
+<3066> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Kimmerling%20-%20Faure>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7543008100597300>;
+  geo:long <4.8634641019603990> .
+
+<2027> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Perrache%20Est>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7461030735744740>;
+  geo:long <4.8256053939445850> .
+
+<2004> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Perrache%20/%20Carnot>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7500996433260700>;
+  geo:long <4.8280515013551550> .
+
+<2026> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <République%20/%20Paufique>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7593809563465260>;
+  geo:long <4.8353992022816500> .
+
+<22001> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Sainte%20Foy%20-%20Place%20Saint-Luc>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7495654052048600>;
+  geo:long <4.8008960240920420> .
+
+<9003> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Place%20Valmy>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7756749996432200>;
+  geo:long <4.8053036651209080> .
+
+<7039> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Guillotière%20/%20Madeleine>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7510565465262100>;
+  geo:long <4.8480482303453220> .
+
+<2012> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Gailleton>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7534495026210240>;
+  geo:long <4.8333645518023690> .
+
+<1006> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Subsistances>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7678957694769400>;
+  geo:long <4.8198166574203690> .
+
+<10073> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Institut%20d%27Art%20contemporain>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7614496449619350>;
+  geo:long <4.8724655049634790> .
+
+<8001> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Université%20Lyon%20III>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7485395662598650>;
+  geo:long <4.8615417793642550> .
+
+<1031> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Place%20de%20la%20Paix>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7680236126546500>;
+  geo:long <4.8317412517184160> .
+
+<3037> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Paul%20Bert%20/%20Garibaldi>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7571028581681740>;
+  geo:long <4.8534807971166600> .
+
+<14001> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Bron%20-%20Centre%20Nautique>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7429248383540640>;
+  geo:long <4.9086213384119860> .
+
+<5053> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Saint-Just>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7559666422450850>;
+  geo:long <4.8189064482919700> .
+
+<3094> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Villette>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7577878804856440>;
+  geo:long <4.8614973648418860> .
+
+<5044> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Champvert>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7600785770139300>;
+  geo:long <4.7984076149535470> .
+
+<9011> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Conservatoire>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7697822121574100>;
+  geo:long <4.8126762195854050> .
+
+<6012> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Place%20Puvis%20de%20Chavannes>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7717570855734000>;
+  geo:long <4.8446036357483555> .
+
+<10092> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Montgolfier%20/%20Château%20Gaillard>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7715543267274200>;
+  geo:long <4.8903742138377730> .
+
+<1034> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Carmélites>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7700015740910800>;
+  geo:long <4.8292695053207500> .
+
+<3013> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Place%20Antoinette>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7536532555808650>;
+  geo:long <4.8892423184432870> .
+
+<10008> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Salengro%20/%20Vaillant>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7783682080048800>;
+  geo:long <4.8796732813004160> .
+
+<3083> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Les%20Halles>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7615909258196600>;
+  geo:long <4.8504811626495200> .
+
+<10055> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Condorcet%20/%20Galline>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7764535731413250>;
+  geo:long <4.8671149219928850> .
+
+<6025> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Place%20d%27Helvétie>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7731863072103200>;
+  geo:long <4.8419593354412900> .
+
+<19001> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Saint%20Genis%20Laval%20-%20Médiathèque>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.6978120018869000>;
+  geo:long <4.7947728497160735> .
+
+<6003> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Avenue%20Verguin>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7729113974482800>;
+  geo:long <4.8563267813588190> .
+
+<3035> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Philomène%20Magnin>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7526125818453550>;
+  geo:long <4.8587710033051470> .
+
+<9022> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Masaryk%20/%20Saint-Cyr>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7786288989070300>;
+  geo:long <4.8071200280976580> .
+
+<6037> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Cité%20Internationale%20/%20Interpol>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7823061128328350>;
+  geo:long <4.8493439808167290> .
+
+<10035> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Boiron%20Granger>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7631587956905860>;
+  geo:long <4.9004795303651320> .
+
+<4041> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Boussange%20/%20Austerlitz>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7755023590485800>;
+  geo:long <4.8350625452914060> .
+
+<6043> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Cité%20Internationale%20-%20Cinéma>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7847015036764200>;
+  geo:long <4.8519081064540370> .
+
+<8040> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Ambroise%20Paré>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7362995122816000>;
+  geo:long <4.8836816883227290> .
+
+<6016> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Viabert%20/%20Thiers>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7659879833823500>;
+  geo:long <4.8620922782007510> .
+
+<6008> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Place%20Jules%20Ferry>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7684122613764600>;
+  geo:long <4.8590705567383440> .
+
+<10118> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Voyant%20/%20Chambord>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7671533127280340>;
+  geo:long <4.9005991607433980> .
+
+<3031> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Corneille%20/%20Servient>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7599809590692000>;
+  geo:long <4.8444896754890480> .
+
+<9052> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Balmont>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7893151875845100>;
+  geo:long <4.7991603409726270> .
+
+<4008> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Clos%20Savaron>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7826362574796000>;
+  geo:long <4.8255591851847730> .
+
+<3069> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Dauphiné%20/%20Saint-Maximin>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7499462288418300>;
+  geo:long <4.8646503841216660> .
+
+<10006> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Charpennes>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7702267691493500>;
+  geo:long <4.8631327223602240> .
+
+<3138> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Vivier%20Merle%20/%20Paul%20Bert%20Ouest>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7575354402958750>;
+  geo:long <4.8584888396864370> .
+
+<17002> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Saint%20Fons%20-%204%20chemins>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7084437290321550>;
+  geo:long <4.8548610775585280> .
+
+wd:11442 rdfs:SubClassOf wd:Q7590 .
+
+<5002> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Place%20des%20Compagnons%20de%20la%20chanson>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7565273368784000>;
+  geo:long <4.7966121788894250> .
+
+<10084> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Doua%20/%20Avenue%20des%20Arts>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7835136793198600>;
+  geo:long <4.8712731104104920> .
+
+<9042> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Vaise%20Docks>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7865084443620300>;
+  geo:long <4.8114412174203720> .
+
+<2024> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <République%20/%20Maupin>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7587390821938500>;
+  geo:long <4.8340765154131455> .
+
+<1035> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Quai%20Lassagne>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7722014692572260>;
+  geo:long <4.8379117929264730> .
+
+<8010> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Place%20Mendès%20France>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7400516465032750>;
+  geo:long <4.8594164128821960> .
+
+<3067> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Hachette>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7529160218789240>;
+  geo:long <4.8638526893825510> .
+
+<7055> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Servant%20/%20Jaboulay>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7467662258473740>;
+  geo:long <4.8420506993495060> .
+
+<7013> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Halle%20Tony%20Garnier>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7308422388673200>;
+  geo:long <4.8237404067653960> .
+
+<14003> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Bron%20-%20Place%20Curial>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7366744242415300>;
+  geo:long <4.9171004856320100> .
+
+<3053> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Gambetta%20/%20Jusserand>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7511124102764400>;
+  geo:long <4.8555850883006510> .
+
+<7034> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Piscine%20du%20Rhône>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7536107053595200>;
+  geo:long <4.8382209724032040> .
+
+<8050> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Bataille%20/%20Krüger>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7362679934923260>;
+  geo:long <4.8797373771291825> .
+
+<4024> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Lyon%20Métropole>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7881700188236600>;
+  geo:long <4.8185602866725280> .
+
+<15001> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Saint%20Priest%20-%20Parc%20Technologique>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7144103841041840>;
+  geo:long <4.9310143156708940> .
+
+<8041> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Etats-Unis%20/%20Viviani>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7247031652649550>;
+  geo:long <4.8707659770891900> .
+
+<2008> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Place%20Antonin%20Poncet>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7567623213032200>;
+  geo:long <4.8339273966533850> .
+
+<10112> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Place%20de%20la%20Reconnaissance>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7544402430766440>;
+  geo:long <4.8853489189380230> .
+
+<10103> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Doua%20/%20Rue%20des%20sports>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7844851872384300>;
+  geo:long <4.8774042325766300> .
+
+<10080> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Vaillant%20/%20Perroncel>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7753988102813600>;
+  geo:long <4.8802630912578130> .
+
+<5032> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Ménival%20/%20Eisenhower>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7567552283432900>;
+  geo:long <4.7832459078446250> .
+
+<5055> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Buyer%20/%20Apollinaire>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7620132943614000>;
+  geo:long <4.8027598903443770> .
+
+<10115> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Place%20d%27Espagne%20/%20Stade%20Kruger>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7541767015908200>;
+  geo:long <4.9052991893735280> .
+
+<10063> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Perrin%20/%20Jean%20Jaurès>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7583918194315600>;
+  geo:long <4.8856094344245130> .
+
+<10045> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Anatole%20France%20/%20Alsace>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7669053920040840>;
+  geo:long <4.8701613960086180> .
+
+<10019> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <4%20Août%20/%20Racine>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7644829391731900>;
+  geo:long <4.8779206263003290> .
+
+<3085> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Sacré%20Coeur>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7578618343521100>;
+  geo:long <4.8683505318832685> .
+
+<3091> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Hôpital%20Neurologique>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7481832938431700>;
+  geo:long <4.8969570575460010> .
+
+<1024> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Rouville>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7696644422938000>;
+  geo:long <4.8246123488633990> .
+
+<1020> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Terreaux%20/%20Chenavard>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7667671045630000>;
+  geo:long <4.8329314879659680> .
+
+<3034> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Garibaldi%20/%20Pensionnat>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7547065642496240>;
+  geo:long <4.8534044474099280> .
+
+<8042> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Francis%20de%20Pressenssé>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7314272671117600>;
+  geo:long <4.8600379663129870> .
+
+<6017> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Lafayette%20/%20Inkermann>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7639360244316800>;
+  geo:long <4.8659132544557260> .
+
+<2036> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Place%20Antonin%20Gourju>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7594863490351000>;
+  geo:long <4.8301699554160630> .
+
+<6002> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Porte%20des%20Enfants%20du%20Rhône>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7774932959538900>;
+  geo:long <4.8448707260176660> .
+
+<10016> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Place%20de%20la%20paix>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7520997282193140>;
+  geo:long <4.9146430086846320> .
+
+<7033> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Saint-Luc%20/%20Saint-Joseph>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7494176952947240>;
+  geo:long <4.8347520047111060> .
+
+<7009> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Jean%20Jaurès>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7375180973509360>;
+  geo:long <4.8375089199170210> .
+
+<3103> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Place%20Danton>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7548124485154400>;
+  geo:long <4.8575743726010305> .
+
+<6031> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Lafayette%20/%20Corneille>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7637594783418750>;
+  geo:long <4.8437773405191870> .
+
+<10018> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Tolstoï%20/%20Florian>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7618051903302860>;
+  geo:long <4.8807224046277390> .
+
+<9049> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Sergent%20Berthet%20/%20Gorge%20de%20Loup>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7701340720176050>;
+  geo:long <4.8051580030149460> .
+
+<10089> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Colin%20/%20Perroncel>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7744984646734300>;
+  geo:long <4.8740523266943320> .
+
+<8011> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Place%20Lebret>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7356503881221000>;
+  geo:long <4.8530426544700740> .
+
+<8015> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Jean%20XXIII>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7403259296418700>;
+  geo:long <4.8741942706838780> .
+
+<3007> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Place%20d%27Arsonval>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7434156767836340>;
+  geo:long <4.8789206164428370> .
+
+<10064> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <4%20août%201789>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7647991690610000>;
+  geo:long <4.8842705328109050> .
+
+<7010> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Centre%20Berthelot>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7473561743230900>;
+  geo:long <4.8359996982041680> .
+
+<30001> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Rillieux%20-%20Canellas>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.8050913402650000>;
+  geo:long <4.8847438731991380> .
+
+<10101> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Einstein%20/%2011%20novembre%201918>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7794214867087300>;
+  geo:long <4.8740757995838860> .
+
+<3017> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Saxe%20/%20Dunoir>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7609213906398600>;
+  geo:long <4.8451935986950010> .
+
+<10021> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <GrandClément>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7597183207295700>;
+  geo:long <4.8899469363178760> .
+
+<6044> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Charmettes%20/%20Bellecombe>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7663703493176260>;
+  geo:long <4.8650841638710620> .
+
+<3008> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Institut%20Lumière>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7458332337286600>;
+  geo:long <4.8706387106502870> .
+
+<4006> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Philippe%20de%20Lassalle>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7734801071979400>;
+  geo:long <4.8213076459729780> .
+
+<7038> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Place%20Stalingard>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7495788810534300>;
+  geo:long <4.8529655050157780> .
+
+<2035> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Childebert%20/%20Rivière>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7598862786474200>;
+  geo:long <4.8357987999345910> .
+
+<3097> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Augagneur%20/%20Fosse%20aux%20Ours>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7571997023265400>;
+  geo:long <4.8404991375424880> .
+
+<4014> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Philippe%20de%20Lassalle%20/%20Pillement>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7774206479390600>;
+  geo:long <4.8205384707114510> .
+
+<7036> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Gryphe%20/%20Montesquieu>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7519114393107300>;
+  geo:long <4.8437864046911105> .
+
+<9029> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Saint%20Pierre%20de%20Vaise>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7730995725331500>;
+  geo:long <4.8078137222645940> .
+
+<3099> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Place%20Sainte%20Anne>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7570472666940200>;
+  geo:long <4.8653318030820705> .
+
+<7008> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Jean%20Jaurès%20/%20Guillotière>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7525809002148800>;
+  geo:long <4.8463206182240945> .
+
+<7035> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Marseille%20/%20Université>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7509549511840560>;
+  geo:long <4.8392671207183300> .
+
+<10011> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Gratte-Ciel>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7692274364669060>;
+  geo:long <4.8804622522382600> .
+
+<15002> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Saint%20Priest%20-%20Cité%20Berliet>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7059819724876400>;
+  geo:long <4.9009848506091010> .
+
+<10005> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <11%20novembre>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7797016132489400>;
+  geo:long <4.8599911609956870> .
+
+<4012> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Place%20Adrien%20Godien>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7787675773143300>;
+  geo:long <4.8410695622109970> .
+
+<11004> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Branly%20/%20Pasteur>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7915896614286200>;
+  geo:long <4.8433313161068385> .
+
+<16002> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Vénissieux%20-%20Levy%20-%20Vienne>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7193988058185000>;
+  geo:long <4.8548015762351050> .
+
+<3009> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Musée%20Africain>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7502533119060360>;
+  geo:long <4.8579250300630620> .
+
+<4023> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Pont%20Masaryk>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7782780129806140>;
+  geo:long <4.8106317576202680> .
+
+<7022> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Jaurès%20/%20Lagrange>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7439143269094760>;
+  geo:long <4.8414244448529230> .
+
+<2042> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Joffre%20/%20Vaubecour>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7518482427555360>;
+  geo:long <4.8247344893159925> .
+
+<11002> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Caluire%20-%20Saint-Clair>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7854707644412200>;
+  geo:long <4.8478421222935550> .
+
+<3003> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Part-Dieu%20/%20Deruelle>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7629790120815440>;
+  geo:long <4.8550066229888000> .
+
+<9002> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Mairie%20du%209e>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7742408280787800>;
+  geo:long <4.8056660114147770> .
+
+<10116> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Blum%20/%20Faÿs>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7605212388028900>;
+  geo:long <4.9059454396164750> .
+
+<10039> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Bouvier>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7794643121307400>;
+  geo:long <4.8915809514291190> .
+
+<6006> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Boulevard%20des%20Belges>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7733270382747500>;
+  geo:long <4.8519894989151780> .
+
+<4002> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Mairie%20du%204e>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7742004406999600>;
+  geo:long <4.8277652218641750> .
+
+<20003> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Oullins%20-%20Pont%20Blanc>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7201577769260500>;
+  geo:long <4.7983317319214030> .
+
+<3081> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Part-Dieu%20/%20Francfort>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7606085556441100>;
+  geo:long <4.8630862498286330> .
+
+<4007> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Place%20Flammarion>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7793264516606800>;
+  geo:long <4.8203031984414520> .
+
+<2017> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <République%20/%20Ferrandière>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7621739970214800>;
+  geo:long <4.8359706936868220> .
+
+<3051> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Place%20Henri>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7481869061751400>;
+  geo:long <4.8805939581712150> .
+
+<1003> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Place%20Sathonay>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7692658462512900>;
+  geo:long <4.8300797887695630> .
+
+<2011> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Sala%20/%20Rue%20du%20Plat>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7568084876169440>;
+  geo:long <4.8283743801395120> .
+
+<25001> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Saint%20Cyr>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7997914275755500>;
+  geo:long <4.8196018687552730> .
+
+<5041> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <L%27Homme%20de%20la%20Roche>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7665803442908100>;
+  geo:long <4.8202302422982600> .
+
+<5009> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Place%20Ennemond%20Fousseret>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7646815056712300>;
+  geo:long <4.8289833265225160> .
+
+<5047> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Albéric%20Pont>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7534443435600400>;
+  geo:long <4.8044009888454050> .
+
+<8053> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Lumière%20/%20Trouilhet>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7435678516368260>;
+  geo:long <4.8701017463457850> .
+
+<7006> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Gerland>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7275732848257200>;
+  geo:long <4.8311974821956260> .
+
+<8023> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Mermoz%20/%20Pinel>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7307139653714860>;
+  geo:long <4.8875387660493810> .
+
+<7007> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Farge%20/%20Ayasse>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7356738897812000>;
+  geo:long <4.8277191559612230> .
+
+<1013> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Martinière>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7682183165922000>;
+  geo:long <4.8276217044711550> .
+
+<10034> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Docteur%20Damidot>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7618201068858800>;
+  geo:long <4.8861338655236200> .
+
+<3058> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Place%20du%20Lac>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7588856223001300>;
+  geo:long <4.8537678938544730> .
+
+<6045> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Brotteaux%20/%20Vauban>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7663673112669600>;
+  geo:long <4.8570018759142295> .
+
+<11003> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Caluire%20/%20La%20Rochette>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7916701826039940>;
+  geo:long <4.8235970239637440> .
+
+<3039> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Place%20Bir-Hakeim>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7525921437139600>;
+  geo:long <4.8557101486887975> .
+
+<10023> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Jaurès%20/%20Saint%20Exupéry>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7576523213066860>;
+  geo:long <4.8834709512316210> .
+
+<9043> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Marietton%20Ouest>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7760850428762750>;
+  geo:long <4.7997376609700090> .
+
+<2019> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Sucrière>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7361815820860700>;
+  geo:long <4.8153350287499040> .
+
+<5004> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Saint-Jean>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7604837438977800>;
+  geo:long <4.8265650503972600> .
+
+<10030> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Greuze>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7738494367907200>;
+  geo:long <4.8938448095574300> .
+
+<8060> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Santy%20/%20Beauvisage>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7316833148739000>;
+  geo:long <4.8741275326105120> .
+
+<1022> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Place%20Tolozan>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7696005888254260>;
+  geo:long <4.8376084367310750> .
+
+<9008> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <L%27Ile%20Barbe>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7974121962714450>;
+  geo:long <4.8290463533634590> .
+
+<9046> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Mangini>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7904088071307300>;
+  geo:long <4.8163493917942380> .
+
+<4042> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Grégory%20Coupet>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7817001067679500>;
+  geo:long <4.8206000461275870> .
+
+<10053> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Rossellini%20/%2011%20Novembre>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7794083136080100>;
+  geo:long <4.8629021690287690> .
+
+<6039> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Garibaldi%20/%20Vauban>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7666921938824100>;
+  geo:long <4.8520859812468150> .
+
+<8058> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Longefer%20/%20Krüger>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7386714403411200>;
+  geo:long <4.8781174224582780> .
+
+<21001> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <La%20Mulatière%20-%20Aquarium>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7273693332767340>;
+  geo:long <4.8146354766198370> .
+
+<2009> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Confluence%20/%20Docks>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7396275873331000>;
+  geo:long <4.8150259306438120> .
+
+<10074> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Zola%20/%20Passage%20Rey>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7700978432658200>;
+  geo:long <4.8766904175328010> .
+
+<3024> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Rockfeller%20/%20Esquirol>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7413337186004100>;
+  geo:long <4.8855408242791200> .
+
+<2041> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Sala%20/%20Charité>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7544732763091350>;
+  geo:long <4.8330110846859420> .
+
+<10086> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Anatole%20France>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7698294895997860>;
+  geo:long <4.8896313501762110> .
+
+<7011> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Berthelot%20/%20Garibaldi>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7437118135706000>;
+  geo:long <4.8473688829598505> .
+
+<7052> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Parc%20Blandan>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7459637288850100>;
+  geo:long <4.8511961077823750> .
+
+<6036> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Musée%20d%27Art%20Contemporain>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7838816142830540>;
+  geo:long <4.8521404034163990> .
+
+<7005> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Debourg>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7317535548177500>;
+  geo:long <4.8339617941232040> .
+
+<8052> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Clinique%20Montplaisir>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7470826073157540>;
+  geo:long <4.8601908518953540> .
+
+<6011> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Mairie%20du%206e>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7684041683728250>;
+  geo:long <4.8494967237845850> .
+
+<7061> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Jaurès%20/%20Université>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7485374331787540>;
+  geo:long <4.8432493337468060> .
+
+<10013> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Cusset>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7650422669277150>;
+  geo:long <4.9011328928202980> .
+
+<2005> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Confluence%20Hôtel%20de%20Région>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7405383152039140>;
+  geo:long <4.8191795184368050> .
+
+<1032> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Pizay>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7672004172203160>;
+  geo:long <4.8363916853563290> .
+
+<4022> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Place%20de%20la%20Croix-Rousse>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7760751390863940>;
+  geo:long <4.8325539207543910> .
+
+<10047> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Lherminier%20/%20Pressensé>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7711232449440600>;
+  geo:long <4.8850235984658990> .
+
+<10049> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Pressensé>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7691684753850800>;
+  geo:long <4.8967695846255020> .
+
+<7021> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Challemel%20Lacour%20/%20Gerland>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7298058652087600>;
+  geo:long <4.8381384383404170> .
+
+<10027> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Mairie%20de%20Villeurbanne>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7668306064525150>;
+  geo:long <4.8798938672774600> .
+
+<1012> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Ampère%20/%20Bourse>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7658113822040560>;
+  geo:long <4.8368957414205630> .
+
+<10036> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Stalingrad>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7743568286995240>;
+  geo:long <4.8591545857608360> .
+
+<2018> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Hôtel%20Dieu%20/%20Pont%20de%20la%20Guillotière>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7574175254861500>;
+  geo:long <4.8370623720287080> .
+
+<7057> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Jaurès%20/%20Bollier>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7347254902347200>;
+  geo:long <4.8354967607642045> .
+
+<3004> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Bourse%20du%20travail>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7596453088344100>;
+  geo:long <4.8482665597083550> .
+
+<3016> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Liberté%20/%20Part-Dieu>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7593422663364460>;
+  geo:long <4.8422275870211210> .
+
+<2003> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Place%20Ampère>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7530445329675700>;
+  geo:long <4.8282455395393775> .
+
+<7017> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Beauvoir%20/%20Marot>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7367572482025800>;
+  geo:long <4.8341384445028766> .
+
+<7015> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Techsud>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7227999997408900>;
+  geo:long <4.8427060003576160> .
+
+<8024> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Mermoz%20/%20Michelet>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7332717801444000>;
+  geo:long <4.8786008569623750> .
+
+<8038> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Albert%20Thomas%20/%20Villon>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7467163314946900>;
+  geo:long <4.8674286445260060> .
+
+<7056> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Place%20Raspail>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7557687140506700>;
+  geo:long <4.8407327899664360> .
+
+<9014> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Quai%20du%20Commerce>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7834856612731400>;
+  geo:long <4.8114878428420670> .
+
+<3102> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Docteur%20Long%20/%20Aubépins>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7525394294912600>;
+  geo:long <4.8942674717120900> .
+
+<16004> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Vénissieux%20-%20Parilly>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7197119647566300>;
+  geo:long <4.8885353662634170> .
+
+<10088> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <4%20août%201789%20/%20Pressensé>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7660587436588950>;
+  geo:long <4.8987031427962370> .
+
+<7020> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Parc%20de%20Gerland>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7243483551230100>;
+  geo:long <4.8268214305884180> .
+
+<5054> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Champvert>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7638977674247500>;
+  geo:long <4.7927143081079860> .
+
+<4011> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Place%20Joannès%20Ambre>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7815755185206100>;
+  geo:long <4.8328577220510200> .
+
+<1002> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Opéra>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7676109468329100>;
+  geo:long <4.8366570054128440> .
+
+<3050> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Friche%20RVI>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7483207051236600>;
+  geo:long <4.8759239595508280> .
+
+<8020> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Moulin%20à%20Vent>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7296761340645800>;
+  geo:long <4.8541819412364090> .
+
+<5005> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Saint-Paul>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7662717372985600>;
+  geo:long <4.8274321226910390> .
+
+<2038> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Remparts%20d%27Ainay>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7530892095642200>;
+  geo:long <4.8298071448327240> .
+
+<8054> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Martinière%20/%20Monplaisir>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7408946957303000>;
+  geo:long <4.8683054018251575> .
+
+<10056> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <11%20novembre%20/%20Gaston%20Berger>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7790639863242460>;
+  geo:long <4.8714964631896150> .
+
+<3029> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Place%20Aristide%20Briand>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7530043530221000>;
+  geo:long <4.8502474272199690> .
+
+<10061> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <République>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7707838400683800>;
+  geo:long <4.8729593888672900> .
+
+<4003> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Place%20Commandant%20Arnaud>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7797251519675600>;
+  geo:long <4.8347072824510775> .
+
+<4017> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Place%20des%20tapis>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7760264913711400>;
+  geo:long <4.8296210962258830> .
+
+<3068> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Faure%20/%20Meynis>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7550605472608750>;
+  geo:long <4.8713973381549930> .
+
+wd:11442 rdfs:SubClassOf wd:Q7590 .
+
+<12004> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Vaulx%20-%20Hôtel%20de%20ville>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7781718162778500>;
+  geo:long <4.9205167112977890> .
+
+<10054> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Stalingrad%20/%20Meliès>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7767057578019500>;
+  geo:long <4.8595233537915790> .
+
+<1021> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Terreaux%20/%20Beaux%20Arts>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7670410048109700>;
+  geo:long <4.8342839059717140> .
+
+<33001> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Albigny%20-%20Gare>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.8749934925375340>;
+  geo:long <4.8330021360822780> .
+
+<3084> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Desaix>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7572612599251600>;
+  geo:long <4.8552008564228180> .
+
+<5026> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Rue%20de%20la%20Baleine>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7633837102434300>;
+  geo:long <4.8290114774217890> .
+
+<11005> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Caluire%20-%20Passerelle%20de%20la%20Paix>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7879516402910550>;
+  geo:long <4.8530543333992190> .
+
+<2025> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Mercière%20/%20Ferrandière>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7620553014781300>;
+  geo:long <4.8332059556379780> .
+
+<8035> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Sans%20Souci>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7472487338214600>;
+  geo:long <4.8652857830315160> .
+
+<13001> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Décines%20-%20Centre>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7718733296366760>;
+  geo:long <4.9557667876110880> .
+
+<6035> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Cité%20Internationale>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7854214249623800>;
+  geo:long <4.8541240727107640> .
+
+<1036> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Aveyron>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7743716157555500>;
+  geo:long <4.8328150087604630> .
+
+<6022> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Place%20Maréchal%20Lyautey>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7693730577565400>;
+  geo:long <4.8423179538871635> .
+
+<9020> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Bourbonnais>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7734645659819600>;
+  geo:long <4.8002879293936390> .
+
+<18001> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Pierre%20Bénite%20-%20Europe>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7032558571012300>;
+  geo:long <4.8212003761276780> .
+
+<10031> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Croix%20Luizet>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7806441632908400>;
+  geo:long <4.8834970167362710> .
+
+<8002> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Place%20Ambroise%20Courtois>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7452926164535000>;
+  geo:long <4.8716789632578010> .
+
+<10007> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Piaton%20/%20Condorcet>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7742151784181300>;
+  geo:long <4.8675042131350820> .
+
+<9033> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Gorge%20de%20Loup>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7673654785190900>;
+  geo:long <4.8056276995192775> .
+
+<5001> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Place%20Varillon%20%28funiculaire%20St-Just%29>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7573003219205000>;
+  geo:long <4.8150900113095240> .
+
+<3018> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Créqui%20/%20Voltaire>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7566983441751900>;
+  geo:long <4.8484034857557150> .
+
+<7064> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <CROUS>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7454305152808000>;
+  geo:long <4.8477802774631010> .
+
+<1037> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Chazette%20Lassagne>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7729266206145400>;
+  geo:long <4.8372695440684375> .
+
+<9051> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Andréi%20Sakharov>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7865247393491300>;
+  geo:long <4.7970709023310110> .
+
+<7012> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Place%20des%20Pavillons>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7295008043116340>;
+  geo:long <4.8297016085827410> .
+
+<7049> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Cité%20Scolaire%20Internationale>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7279188576411300>;
+  geo:long <4.8235600814059090> .
+
+<6005> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Place%20Edgar%20Quinet>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7657655924629200>;
+  geo:long <4.8447318928504440> .
+
+<8034> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Berthelot%20/%20Villon>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7383023357079350>;
+  geo:long <4.8627327832044810> .
+
+<7003> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Gambetta%20/%20Garibaldi>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7517901355474700>;
+  geo:long <4.8526079660087520> .
+
+<8056> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Delore%20/%20Audibert%20%26%20Lavirotte>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7357952320592900>;
+  geo:long <4.8568128186712000> .
+
+<10119> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Villeurbanne%20Saint-Jean>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7804458217109400>;
+  geo:long <4.9044888457892960> .
+
+<7053> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Jaurès%20/%20Thibaudière>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7503447975739450>;
+  geo:long <4.8450482534996375> .
+
+<7045> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Parc%20des%20Berges>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7377409586890200>;
+  geo:long <4.8244875157097110> .
+
+<3101> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Patinoire%20Baraban>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7620516689039150>;
+  geo:long <4.8685003507160690> .
+
+<4021> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Tabareau>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7740806705343900>;
+  geo:long <4.8251597121983645> .
+
+<3040> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Faure%20/%20Danton>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7535182868894700>;
+  geo:long <4.8577376181704960> .
+
+<9006> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Théâtre%20Nouvelle%20Génération>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7772955373720100>;
+  geo:long <4.8033117445656650> .
+
+<10032> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Primat%20/%20Decorps>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7571560146472440>;
+  geo:long <4.8999652194279450> .
+
+<8021> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Paul%20Santy>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7285181510160800>;
+  geo:long <4.8773059343942400> .
+
+<2001> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Bellecour%20/%20République>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7579850990088100>;
+  geo:long <4.8345938219838450> .
+
+<1016> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Pêcherie>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7659547300349500>;
+  geo:long <4.8311781246444845> .
+
+<10117> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <La%20Perralière>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7645636665294100>;
+  geo:long <4.8923336071821140> .
+
+<3088> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Place%20Guichard>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7588152050466300>;
+  geo:long <4.8464532259485145> .
+
+<10059> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Anatole%20France%20/%20Zola>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7688763179066740>;
+  geo:long <4.8842415132426110> .
+
+<9040> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Place%20de%20la%20Rhodiacéta>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7709906411448560>;
+  geo:long <4.8075804142518950> .
+
+<17003> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Saint%20Fons%20-%20Théatre>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7080855971723300>;
+  geo:long <4.8617756041383320> .
+
+<5030> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Charcot%20/%20Résidence%20universitaire>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7550310886452600>;
+  geo:long <4.8077850541519440> .
+
+<8039> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Pierre%20Delore>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7386358835747000>;
+  geo:long <4.8524001839789180> .
+
+<7062> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Garibaldi%20/%20Domer>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7477327368804800>;
+  geo:long <4.8516273700582800> .
+
+<7026> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Baldassini%20/%20Gerland>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7276967807767200>;
+  geo:long <4.8373820902736710> .
+
+<1005> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Meissonier>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7660850668592000>;
+  geo:long <4.8328335830568180> .
+
+<6040> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Les%20Halles>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7640576127189100>;
+  geo:long <4.8499305460757520> .
+
+<2022> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Place%20Carnot>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7512270521822700>;
+  geo:long <4.8268908354867040> .
+
+<12001> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Vaulx%20-%20La%20Soie>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7608131946829250>;
+  geo:long <4.9206039456886055> .
+
+<7001> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Place%20Gabriel%20Péri>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7548790164649200>;
+  geo:long <4.8436750818920180> .
+
+<2002> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Bellecour%20/%20Saint%20Exupéry>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7581569109321860>;
+  geo:long <4.8304346949094690> .
+
+<3087> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Part-Dieu%20/%20Garibaldi>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7627511569952000>;
+  geo:long <4.8524277723450730> .
+
+<9004> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Gare%20de%20Vaise>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7797819839255400>;
+  geo:long <4.8046653309593905> .
+
+<5008> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Sainte-Irénée>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7549458810740000>;
+  geo:long <4.8124212248457430> .
+
+<34002> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Neuville%20-%20Stade>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.8708762461699200>;
+  geo:long <4.8395985373186360> .
+
+<8004> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Mairie%20du%208e>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7351509957905000>;
+  geo:long <4.8728173875360470> .
+
+<2016> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Place%20Regaud>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7630769295670000>;
+  geo:long <4.8342866883470440> .
+
+<3080> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Part-Dieu%20/%20Villette>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7600550578148400>;
+  geo:long <4.8616738805899400> .
+
+<5029> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Place%20Gerson>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7670544551410640>;
+  geo:long <4.8270475070640995> .
+
+<14005> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Bron%20-%20Université>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7226607315060460>;
+  geo:long <4.9152084999909755> .
+
+<27001> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Collonges%20-%20Gare>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.8308663282951700>;
+  geo:long <4.8469785074774770> .
+
+<7051> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Guillotière%20/%20Veyron>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7478049999959200>;
+  geo:long <4.8564540006399150> .
+
+<32001> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Couzon%20-%20Centre>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.8459976867574600>;
+  geo:long <4.8324121337552800> .
+
+<7004> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Mairie%20du%207e>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7465601730305500>;
+  geo:long <4.8423412580916120> .
+
+<2039> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Charité%20/%20Récamier>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7492533954913900>;
+  geo:long <4.8298441257520310> .
+
+<7019> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Croix%20Barret%20/%20Artillerie>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7367908138388600>;
+  geo:long <4.8411520886055190> .
+
+<20002> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Oullins%20-%20Mairie>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7140014190252940>;
+  geo:long <4.8065443341113525> .
+
+<10046> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Charmettes%20/%20Zola>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7707410676207300>;
+  geo:long <4.8673338286937360> .
+
+<16003> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Vénissieux%20-%20Joliot%20Curie%20/%20Sembat>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7154529520501360>;
+  geo:long <4.8782350614798360> .
+
+<10122> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Verdun%20/%20Desgrand>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7840513436847400>;
+  geo:long <4.8970859241187770> .
+
+<14004> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Bron%20-%20Mairie>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7339455296300700>;
+  geo:long <4.9087206818679405> .
+
+<10015> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Poudrette%20/%20Musset>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7578829540715000>;
+  geo:long <4.9211417117922070> .
+
+<9015> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Saint-Cyr>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7828282303757100>;
+  geo:long <4.8072963588022790> .
+
+<34001> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Neuville%20-%20Quai%20Pasteur>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.8766089913122200>;
+  geo:long <4.8386237264875970> .
+
+<3079> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Place%20Louise>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7512052508819200>;
+  geo:long <4.8848204636500700> .
+
+<28002> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Fontaines%20S/S%20-%20Gambetta>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.8354059997715200>;
+  geo:long <4.8457000001885610> .
+
+<7025> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Lacour%20/%20Artillerie>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7294551265970500>;
+  geo:long <4.8441778720101850> .
+
+<5031> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Ménival%20/%20Joliot%20Curie>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7546405115265300>;
+  geo:long <4.7881488839855880> .
+
+<7030> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Quartier%20Général%20Frère>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7431645419377450>;
+  geo:long <4.8341688750746420> .
+
+<9009> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Berlioz%20/%20Chalinel>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.8011198081158200>;
+  geo:long <4.8252725616689830> .
+
+<10124> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Salengro%20/%20Courteline>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7768977023466300>;
+  geo:long <4.8764587904000850> .
+
+<8057> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Vienne%20/%20Montagny>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7324819782407700>;
+  geo:long <4.8534099750018610> .
+
+<6007> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Masséna>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7696601321996100>;
+  geo:long <4.8523727828559995> .
+
+<2010> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Confluence%20/%20Darse>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7434140947079900>;
+  geo:long <4.8158543610390250> .
+
+<5045> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Valdo%20/%20Rivet>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7504814834310240>;
+  geo:long <4.7887741211031210> .
+
+<10083> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Château%20Gaillard%20/%20Bienvenus>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7778649152535660>;
+  geo:long <4.8842442857728360> .
+
+<10071> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Lycée%20Marie%20Curie>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7615279698755500>;
+  geo:long <4.8956902199613600> .
+
+<3038> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Vivier%20Merle%20/%20Paul%20Bert%20Est>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7572314152350900>;
+  geo:long <4.8589083673700480> .
+
+<3070> a geo:SpatialThing;
+  rdfs:SubClassOf wd:Q11442;
+  rdfs:lable <Rebatel%20/%20Saint-Maximin>;
+  wd:Q515 wd:Q456;
+  geo:lat <45.7478194334711700>;
+  geo:long <4.8722698711079255> .
