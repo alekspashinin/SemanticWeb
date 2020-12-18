@@ -1,0 +1,352 @@
+@base <http://example/base/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+
+<099C> a geo:SpatialThing;
+  rdfs:lable <001%20Rue%20Jules%20Ferry%20-%20Gare%20Saint-Roch>;
+  rdfs:SubClassOf wd:Q11442;
+  geo:lat <43.605366>;
+  geo:long <3.881346> .
+
+wd:Q11442 rdfs:SubClassOf wd:Q7590 .
+
+<6292> a geo:SpatialThing;
+  rdfs:lable <002%20Com%EF%BF%BDdie>;
+  rdfs:SubClassOf wd:Q11442;
+  geo:lat <43.608148>;
+  geo:long <3.878778> .
+
+<1594> a geo:SpatialThing;
+  rdfs:lable <003%20Esplanade>;
+  rdfs:SubClassOf wd:Q11442;
+  geo:lat <43.609478>;
+  geo:long <3.881293> .
+
+<F031> a geo:SpatialThing;
+  rdfs:lable <004%20H%EF%BF%BDtel%20de%20Ville>;
+  rdfs:SubClassOf wd:Q11442;
+  geo:lat <43.599088>;
+  geo:long <3.894866> .
+
+<1F40> a geo:SpatialThing;
+  rdfs:lable <005%20Corum>;
+  rdfs:SubClassOf wd:Q11442;
+  geo:lat <43.613989>;
+  geo:long <3.8816> .
+
+<C3B3> a geo:SpatialThing;
+  rdfs:lable <006%20Place%20Albert%201er%20-%20St%20Charles>;
+  rdfs:SubClassOf wd:Q11442;
+  geo:lat <43.616768>;
+  geo:long <3.873375> .
+
+<7A22> a geo:SpatialThing;
+  rdfs:lable <007%20Foch>;
+  rdfs:SubClassOf wd:Q11442;
+  geo:lat <43.610989>;
+  geo:long <3.873345> .
+
+<0DFD> a geo:SpatialThing;
+  rdfs:lable <008%20Halles%20Castellane>;
+  rdfs:SubClassOf wd:Q11442;
+  geo:lat <43.609935>;
+  geo:long <3.877208> .
+
+<3750> a geo:SpatialThing;
+  rdfs:lable <009%20Observatoire>;
+  rdfs:SubClassOf wd:Q11442;
+  geo:lat <43.606081>;
+  geo:long <3.876931> .
+
+<2A86> a geo:SpatialThing;
+  rdfs:lable <010%20Rondelet>;
+  rdfs:SubClassOf wd:Q11442;
+  geo:lat <43.603038>;
+  geo:long <3.875796> .
+
+<9A01> a geo:SpatialThing;
+  rdfs:lable <011%20Plan%20Cabanes>;
+  rdfs:SubClassOf wd:Q11442;
+  geo:lat <43.608491>;
+  geo:long <3.868389> .
+
+<A47F> a geo:SpatialThing;
+  rdfs:lable <012%20Boutonnet>;
+  rdfs:SubClassOf wd:Q11442;
+  geo:lat <43.622629>;
+  geo:long <3.868375> .
+
+<4866> a geo:SpatialThing;
+  rdfs:lable <013%20Emile%20Combes>;
+  rdfs:SubClassOf wd:Q11442;
+  geo:lat <43.616742>;
+  geo:long <3.87998> .
+
+<E0FC> a geo:SpatialThing;
+  rdfs:lable <014%20Beaux-Arts>;
+  rdfs:SubClassOf wd:Q11442;
+  geo:lat <43.616698>;
+  geo:long <3.884981> .
+
+<63A7> a geo:SpatialThing;
+  rdfs:lable <015%20Les%20Aubes>;
+  rdfs:SubClassOf wd:Q11442;
+  geo:lat <43.618692>;
+  geo:long <3.893844> .
+
+<BD67> a geo:SpatialThing;
+  rdfs:lable <016%20Antigone%20centre>;
+  rdfs:SubClassOf wd:Q11442;
+  geo:lat <43.607942>;
+  geo:long <3.890634> .
+
+<017B> a geo:SpatialThing;
+  rdfs:lable <017%20M%EF%BF%BDdiath%EF%BF%BDque%20Emile%20Zola>;
+  rdfs:SubClassOf wd:Q11442;
+  geo:lat <43.608218>;
+  geo:long <3.89314> .
+
+<DC89> a geo:SpatialThing;
+  rdfs:lable <018%20Nombre%20d%27Or>;
+  rdfs:SubClassOf wd:Q11442;
+  geo:lat <43.607859>;
+  geo:long <3.886644> .
+
+<4459> a geo:SpatialThing;
+  rdfs:lable <019%20Louis%20Blanc>;
+  rdfs:SubClassOf wd:Q11442;
+  geo:lat <43.614642>;
+  geo:long <3.877648> .
+
+<6614> a geo:SpatialThing;
+  rdfs:lable <020%20Gambetta>;
+  rdfs:SubClassOf wd:Q11442;
+  geo:lat <43.607106>;
+  geo:long <3.870693> .
+
+<9855> a geo:SpatialThing;
+  rdfs:lable <021%20Port%20Marianne>;
+  rdfs:SubClassOf wd:Q11442;
+  geo:lat <43.60032>;
+  geo:long <3.89851> .
+
+<C311> a geo:SpatialThing;
+  rdfs:lable <022%20Clemenceau>;
+  rdfs:SubClassOf wd:Q11442;
+  geo:lat <43.603539>;
+  geo:long <3.872394> .
+
+<8629> a geo:SpatialThing;
+  rdfs:lable <023%20Les%20Arceaux>;
+  rdfs:SubClassOf wd:Q11442;
+  geo:lat <43.611991>;
+  geo:long <3.867157> .
+
+<1A33> a geo:SpatialThing;
+  rdfs:lable <024%20Cit%EF%BF%BD%20Mion>;
+  rdfs:SubClassOf wd:Q11442;
+  geo:lat <43.601143>;
+  geo:long <3.884373> .
+
+<2816> a geo:SpatialThing;
+  rdfs:lable <025%20Nouveau%20Saint-Roch>;
+  rdfs:SubClassOf wd:Q11442;
+  geo:lat <43.599817>;
+  geo:long <3.875757> .
+
+<A840> a geo:SpatialThing;
+  rdfs:lable <026%20Renouvier>;
+  rdfs:SubClassOf wd:Q11442;
+  geo:lat <43.603553>;
+  geo:long <3.867884> .
+
+<62F1> a geo:SpatialThing;
+  rdfs:lable <027%20Odysseum>;
+  rdfs:SubClassOf wd:Q11442;
+  geo:lat <43.603727>;
+  geo:long <3.918979> .
+
+<A717> a geo:SpatialThing;
+  rdfs:lable <028%20Saint-Denis>;
+  rdfs:SubClassOf wd:Q11442;
+  geo:lat <43.605021>;
+  geo:long <3.875065> .
+
+<81DB> a geo:SpatialThing;
+  rdfs:lable <029%20Richter>;
+  rdfs:SubClassOf wd:Q11442;
+  geo:lat <43.603424>;
+  geo:long <3.899263> .
+
+<321F> a geo:SpatialThing;
+  rdfs:lable <030%20Charles%20Flahault>;
+  rdfs:SubClassOf wd:Q11442;
+  geo:lat <43.618762>;
+  geo:long <3.865971> .
+
+<621A> a geo:SpatialThing;
+  rdfs:lable <031%20Voltaire>;
+  rdfs:SubClassOf wd:Q11442;
+  geo:lat <43.603767>;
+  geo:long <3.888659> .
+
+<34AC> a geo:SpatialThing;
+  rdfs:lable <032%20Pr%EF%BF%BDs%20d%27Ar%EF%BF%BDnes>;
+  rdfs:SubClassOf wd:Q11442;
+  geo:lat <43.59048>;
+  geo:long <3.884611> .
+
+<122B> a geo:SpatialThing;
+  rdfs:lable <033%20Garcia%20Lorca>;
+  rdfs:SubClassOf wd:Q11442;
+  geo:lat <43.590757>;
+  geo:long <3.890616> .
+
+<1756> a geo:SpatialThing;
+  rdfs:lable <034%20Vert%20Bois>;
+  rdfs:SubClassOf wd:Q11442;
+  geo:lat <43.63458>;
+  geo:long <3.86823> .
+
+<15B7> a geo:SpatialThing;
+  rdfs:lable <035%20Malbosc>;
+  rdfs:SubClassOf wd:Q11442;
+  geo:lat <43.633679>;
+  geo:long <3.832861> .
+
+<4A1C> a geo:SpatialThing;
+  rdfs:lable <036%20Occitanie>;
+  rdfs:SubClassOf wd:Q11442;
+  geo:lat <43.634242>;
+  geo:long <3.849128> .
+
+<9126> a geo:SpatialThing;
+  rdfs:lable <037%20FacdesSciences>;
+  rdfs:SubClassOf wd:Q11442;
+  geo:lat <43.631018>;
+  geo:long <3.860697> .
+
+<D91E> a geo:SpatialThing;
+  rdfs:lable <038%20Fac%20de%20Lettres>;
+  rdfs:SubClassOf wd:Q11442;
+  geo:lat <43.630665>;
+  geo:long <3.87023> .
+
+<E8DD> a geo:SpatialThing;
+  rdfs:lable <039%20Aiguelongue>;
+  rdfs:SubClassOf wd:Q11442;
+  geo:lat <43.626163>;
+  geo:long <3.882492> .
+
+<53AD> a geo:SpatialThing;
+  rdfs:lable <040%20Jeu%20de%20Mail%20des%20Abb%EF%BF%BDs>;
+  rdfs:SubClassOf wd:Q11442;
+  geo:lat <43.619701>;
+  geo:long <3.883831> .
+
+<C663> a geo:SpatialThing;
+  rdfs:lable <041%20Eurom%EF%BF%BDdecine>;
+  rdfs:SubClassOf wd:Q11442;
+  geo:lat <43.639119>;
+  geo:long <3.828199> .
+
+<E5E9> a geo:SpatialThing;
+  rdfs:lable <042%20Marie%20Caizergues>;
+  rdfs:SubClassOf wd:Q11442;
+  geo:lat <43.619871>;
+  geo:long <3.873812> .
+
+<B69D> a geo:SpatialThing;
+  rdfs:lable <043%20Sabines>;
+  rdfs:SubClassOf wd:Q11442;
+  geo:lat <43.584211>;
+  geo:long <3.860031> .
+
+<D2C1> a geo:SpatialThing;
+  rdfs:lable <044%20Celleneuve>;
+  rdfs:SubClassOf wd:Q11442;
+  geo:lat <43.61467>;
+  geo:long <3.832624> .
+
+<BAD1> a geo:SpatialThing;
+  rdfs:lable <045%20Jardin%20de%20la%20Lironde>;
+  rdfs:SubClassOf wd:Q11442;
+  geo:lat <43.60585>;
+  geo:long <3.911576> .
+
+<51A3> a geo:SpatialThing;
+  rdfs:lable <046%20P%EF%BF%BDre%20Soulas>;
+  rdfs:SubClassOf wd:Q11442;
+  geo:lat <43.621983>;
+  geo:long <3.855603> .
+
+<E50A> a geo:SpatialThing;
+  rdfs:lable <047%20Place%20Viala>;
+  rdfs:SubClassOf wd:Q11442;
+  geo:lat <43.616812>;
+  geo:long <3.855075> .
+
+<DEFB> a geo:SpatialThing;
+  rdfs:lable <048%20H%EF%BF%BDtel%20du%20D%EF%BF%BDpartement>;
+  rdfs:SubClassOf wd:Q11442;
+  geo:lat <43.621682>;
+  geo:long <3.83477> .
+
+<46F4> a geo:SpatialThing;
+  rdfs:lable <049%20Tonnelles>;
+  rdfs:SubClassOf wd:Q11442;
+  geo:lat <43.615155>;
+  geo:long <3.839466> .
+
+<0319> a geo:SpatialThing;
+  rdfs:lable <050%20Parvis%20Jules%20Ferry%20-%20Gare%20Saint-Roch>;
+  rdfs:SubClassOf wd:Q11442;
+  geo:lat <43.603889>;
+  geo:long <3.879362> .
+
+<5421> a geo:SpatialThing;
+  rdfs:lable <051%20Pont%20de%20Lattes%20-%20Gare%20Saint-Roch>;
+  rdfs:SubClassOf wd:Q11442;
+  geo:lat <43.606036>;
+  geo:long <3.882393> .
+
+<7C96> a geo:SpatialThing;
+  rdfs:lable <053%20Deux%20Ponts%20-%20Gare%20Saint-Roch>;
+  rdfs:SubClassOf wd:Q11442;
+  geo:lat <43.604319>;
+  geo:long <3.880916> .
+
+<80F7> a geo:SpatialThing;
+  rdfs:lable <054%20Providence%20-%20Ovalie>;
+  rdfs:SubClassOf wd:Q11442;
+  geo:lat <43.588239>;
+  geo:long <3.853421> .
+
+<656A> a geo:SpatialThing;
+  rdfs:lable <055%20P%EF%BF%BDrols%20Etang%20de%20l%27Or>;
+  rdfs:SubClassOf wd:Q11442;
+  geo:lat <43.558351>;
+  geo:long <3.963412> .
+
+<B084> a geo:SpatialThing;
+  rdfs:lable <056%20Albert%201er%20-%20Cath%EF%BF%BDdrale>;
+  rdfs:SubClassOf wd:Q11442;
+  geo:lat <43.614005>;
+  geo:long <3.873218> .
+
+<8842> a geo:SpatialThing;
+  rdfs:lable <057%20Saint-Guilhem%20-%20Courreau>;
+  rdfs:SubClassOf wd:Q11442;
+  geo:lat <43.608996>;
+  geo:long <3.872752> .
+
+<72D1> a geo:SpatialThing;
+  rdfs:lable <059%20Sud%20De%20France>;
+  rdfs:SubClassOf wd:Q11442;
+  geo:lat <43.59562>;
+  geo:long <3.9235> .

@@ -1,0 +1,136 @@
+@base <http://example/base/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+
+<4464> a geo:SpatialThing;
+  rdfs:lable <124%20Auberge%20de%20jeunesse>;
+  rdfs:SubClassOf wd:Q11442;
+  geo:lat <48.568644>;
+  geo:long <7.795621> .
+
+wd:Q11442 rdfs:SubClassOf wd:Q7590 .
+
+<7CA3> a geo:SpatialThing;
+  rdfs:lable <111%20Campus%20d%27Illkirch>;
+  rdfs:SubClassOf wd:Q11442;
+  geo:lat <48.529616>;
+  geo:long <7.734226> .
+
+<1913> a geo:SpatialThing;
+  rdfs:lable <101%20Centre>;
+  rdfs:SubClassOf wd:Q11442;
+  geo:lat <48.578462>;
+  geo:long <7.749776> .
+
+<06AD> a geo:SpatialThing;
+  rdfs:lable <102%20Centre%202>;
+  rdfs:SubClassOf wd:Q11442;
+  geo:lat <48.578462>;
+  geo:long <7.749776> .
+
+<5EEE> a geo:SpatialThing;
+  rdfs:lable <126%20Espace%20Europ%3Fen%20de%20l%27Entreprise>;
+  rdfs:SubClassOf wd:Q11442;
+  geo:lat <48.612597>;
+  geo:long <7.71163> .
+
+<FA00> a geo:SpatialThing;
+  rdfs:lable <103%20Gare%20de%20Strasbourg>;
+  rdfs:SubClassOf wd:Q11442;
+  geo:lat <48.585082>;
+  geo:long <7.735024> .
+
+<36E6> a geo:SpatialThing;
+  rdfs:lable <115%20Hoenheim%20Gare>;
+  rdfs:SubClassOf wd:Q11442;
+  geo:lat <48.628353>;
+  geo:long <7.760103> .
+
+<8CAD> a geo:SpatialThing;
+  rdfs:lable <112%20Hohwart>;
+  rdfs:SubClassOf wd:Q11442;
+  geo:lat <48.54919>;
+  geo:long <7.740754> .
+
+<4EB1> a geo:SpatialThing;
+  rdfs:lable <123%20Koenigshoffen>;
+  rdfs:SubClassOf wd:Q11442;
+  geo:lat <48.5791>;
+  geo:long <7.713481> .
+
+<2BC3> a geo:SpatialThing;
+  rdfs:lable <127%20Ostwald%20H%3Ftel%20de%20Ville>;
+  rdfs:SubClassOf wd:Q11442;
+  geo:lat <48.551032>;
+  geo:long <7.7112> .
+
+<BEA9> a geo:SpatialThing;
+  rdfs:lable <114%20Parking%20Austerlitz>;
+  rdfs:SubClassOf wd:Q11442;
+  geo:lat <48.578005>;
+  geo:long <7.751863> .
+
+<4F16> a geo:SpatialThing;
+  rdfs:lable <113%20Parking%20Broglie>;
+  rdfs:SubClassOf wd:Q11442;
+  geo:lat <48.585415>;
+  geo:long <7.749395> .
+
+<7421> a geo:SpatialThing;
+  rdfs:lable <109%20Place%20Arnold>;
+  rdfs:SubClassOf wd:Q11442;
+  geo:lat <48.584504>;
+  geo:long <7.768772> .
+
+<06E5> a geo:SpatialThing;
+  rdfs:lable <108%20Gare%20Nord>;
+  rdfs:SubClassOf wd:Q11442;
+  geo:lat <48.585678>;
+  geo:long <7.733542> .
+
+<ACE1> a geo:SpatialThing;
+  rdfs:lable <106%20Gare%20Sud>;
+  rdfs:SubClassOf wd:Q11442;
+  geo:lat <48.584209>;
+  geo:long <7.734519> .
+
+<5447> a geo:SpatialThing;
+  rdfs:lable <116%20Place%20Islande>;
+  rdfs:SubClassOf wd:Q11442;
+  geo:lat <48.580314>;
+  geo:long <7.776203> .
+
+<D48F> a geo:SpatialThing;
+  rdfs:lable <125%20Place%20du%20March%3F%20Neudorf>;
+  rdfs:SubClassOf wd:Q11442;
+  geo:lat <48.565864>;
+  geo:long <7.759242> .
+
+<7301> a geo:SpatialThing;
+  rdfs:lable <110%20Robertsau%20Boecklin>;
+  rdfs:SubClassOf wd:Q11442;
+  geo:lat <48.598096>;
+  geo:long <7.777902> .
+
+<24D8> a geo:SpatialThing;
+  rdfs:lable <105%20Rotonde>;
+  rdfs:SubClassOf wd:Q11442;
+  geo:lat <48.591639>;
+  geo:long <7.725089> .
+
+<EB62> a geo:SpatialThing;
+  rdfs:lable <122%20Schiltigheim%20Mairie>;
+  rdfs:SubClassOf wd:Q11442;
+  geo:lat <48.606759>;
+  geo:long <7.749183> .
+
+<C251> a geo:SpatialThing;
+  rdfs:lable <107%20Universit%3F>;
+  rdfs:SubClassOf wd:Q11442;
+  geo:lat <48.582023>;
+  geo:long <7.766771> .

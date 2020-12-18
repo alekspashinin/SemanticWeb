@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" type="image/png" href="/img/favicon.png">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta charset="UTF-8">
+  <title>Semantic Web City Data App</title>
+  <meta content='width=device-width, initial-scale=1.0, shrink-to-fit=no' name='viewport' />
+  <!--     FONTS OF CITY DATA APP     -->
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
+  <!--    CSS Files OF CITY DATA APP   -->
+  <script src="https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.js"></script>
+  <link href="https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.css" rel="stylesheet" />
+  <link href="/css/style.css" rel="stylesheet" />
+  <link href="/css/preloader.css" rel="stylesheet" />
+</head>
+
+<body class="">
+  <div class="wrapper ">
+    <div class="sidebar" data-color="orange" data-background-color="black" data-image="/img/sidebar.png">
+      <div class="logo-text logo">
+        <a href="http://localhost:8080/" class="simple-text logo-normal">
+          City Data App
+        </a></div>
+      <div class="sidebar-wrapper">
+        <div class="user">
+          <div class="supercenter photo">
+            <img src="/img/logo/avatar.png" />
+          </div>
+        </div>
+        <ul class="nav">
+          <li class="nav-item ">
+            <a class="nav-link" th:href="@{/home}">
+              <i class="material-icons">dashboard</i>
+              <p> Dashboard </p>
+            </a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" th:href="@{/trains}">
+              <i class="material-icons">train</i>
+              <p> Trains Data </p>
+            </a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" th:href="@{/bikes}">
+              <i class="material-icons">pedal_bike</i>
+              <p> Bikes Data </p>
+            </a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" th:href="@{/social}">
+              <i class="material-icons">location_city</i>
+              <p> Social Data </p>
+            </a>
+          </li>
+          <li class="nav-item active ">
+            <a class="nav-link" th:href="@{/meteo}">
+              <i class="material-icons">place</i>
+              <p> Meteo </p>
+            </a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" th:href="@{/history}">
+              <i class="material-icons">history</i>
+              <p> History </p>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="main-panel">
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-transparent navbar-absolute fixed-top ">
+        <div class="container-fluid">
+          <div class="navbar-wrapper">
+            <div class="navbar-minimize">
+              <button id="minimizeSidebar" class="btn btn-just-icon btn-white btn-fab btn-round">
+                <i class="material-icons text_align-center visible-on-sidebar-regular">more_vert</i>
+                <i class="material-icons design_bullet-list-67 visible-on-sidebar-mini">view_list</i>
+              </button>
+            </div>
+            <a class="navbar-brand" href="javascript:;">Meteo</a>
+          </div>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="navbar-toggler-icon icon-bar"></span>
+            <span class="navbar-toggler-icon icon-bar"></span>
+            <span class="navbar-toggler-icon icon-bar"></span>
+          </button>
+        </div>
+        <div class="container-fluid">
+            <a class="float-md-right">Semantic web</a>
+        </div>
+      </nav>
+      <!-- End Navbar -->
+      <div class="content">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="card ">
+                <div class="card-header card-header-success card-header-icon">
+                  <div class="card-icon">
+                    <i class="material-icons"></i>
+                  </div>
+                  <h4 class="card-title">Weather in French Cities</h4>
+                </div>
+                <div class="card-body ">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <div class="table-responsive table-sales">
+                        <br>
+                        <br>
+                        <table class="table">
+                          <tbody>
+                          <tr>
+                            <br>
+                            <td>City</td>
+                            <td class="text-right">
+                              <span id='name'></span>
+                            </td>
+                          </tr>
+                          <tr>
+                            <br>
+                            <td>Temperature</td>
+                            <td class="text-right">
+                              <span id='temp'></span>
+                            </td>
+                          </tr>
+                          <tr>
+                            <br>
+                            <td>Location</td>
+                            <td class="text-right">
+                              <span id='coord'></span>
+                            </td>
+                          </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card ">
+                        <div class="card-body ">
+                          <h4 class="card-title"></h4>
+                          <div id="satelliteMap">
+                            <div id="mapz"></div><!-- Map is centered on San Francisco at z15 -->
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer class="footer">
+        <div class="container-fluid">
+          <nav class="float-none">
+            <ul>
+              <li>
+                <a href="https://www.linkedin.com/in/ham3d-rahimi/">
+                  Hamed RAHIMI
+                </a>
+              </li>
+              <li>
+                Semantic Web, 2020
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/in/alekspashinin/">
+                  Aleksei PASHININ
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+  <!--  JS Files   -->
+  <script src="/js/jquery.min.js"></script>
+  <script src="/js/popper.min.js"></script>
+  <script src="/js/bootstrap-material-design.min.js"></script>
+  <script src="/js/bootstrap-selectpicker.js"></script>
+  <script src="/js/bootstrap-notify.js"></script>
+  <script>
+    $(document).ready(setTimeout(function(){
+      $("#semweb-preloader").hide();
+    },1000));
+
+  </script>
+  <script>
+    $(document).ready(function() {
+      // Javascript method's body can be found in assets/js/demos.js
+      md.initDashboardPageCharts();
+
+      md.initVectorMap();
+
+    });
+  </script>
+  <script>
+    mapboxgl.accessToken = 'pk.eyJ1IjoiY2hlYnVybmF0b3IiLCJhIjoiY2tpZndhNDF5MGl0eTMwcWttamUxYjJsOCJ9.fmyCs3GwyjSXDtojsX88tQ';
+    var mapz = new mapboxgl.Map({
+      container: 'mapz', // Specify the container ID
+      style: 'mapbox://styles/cheburnator/ckifxesvq51n719nzjwlzrlxe', // Specify which map style to use
+      center: [2.40206, 47.14103], // Specify the starting position [lng, lat]
+      zoom: 4.5 // Specify the starting zoom
+    });
+
+    // Target the relevant span tags in the quakeInfo div
+    var nameDisplay = document.getElementById('name');
+    var locDisplay = document.getElementById('coord');
+    var tempDisplay = document.getElementById('temp');
+
+    mapz.on('load', function() {
+      var url = 'https://raw.githubusercontent.com/SemWebProject/SemWebProject/main/remote/meteoCities.geojson';
+      mapz.addSource('cityTemperatures', { type: 'geojson', data: url});
+
+      mapz.addLayer({
+        'id': 'cityMeteo',
+        'type': 'circle',
+        'source': 'cityTemperatures',
+        'paint': {
+          // The feature-state dependent circle-radius expression will render
+          // the radius size according to its magnitude when
+          // a feature's hover state is set to true
+          'circle-radius': 5,
+          'circle-stroke-color': '#000',
+          'circle-stroke-width': 1,
+          'circle-color': '#fe5e41'
+        }
+      });
+    });
+
+
+    var quakeID = null;
+
+    mapz.on('mousemove', 'cityMeteo', (e) => {
+
+      mapz.getCanvas().style.cursor = 'pointer';
+      // Set variables equal to the current feature's magnitude, location, and time
+      var nameCity = e.features[0].properties.name;
+      var cityLocation = e.features[0].geometry.coordinates;
+      var cityTemperature = e.features[0].properties.temp;
+
+      // Check whether features exist
+      if (e.features.length > 0) {
+        // Display the magnitude, location, and time in the sidebar
+        nameDisplay.textContent = nameCity;
+        locDisplay.textContent = cityLocation;
+        tempDisplay.textContent = cityTemperature;
+
+        // If quakeID for the hovered feature is not null,
+        // use removeFeatureState to reset to the default behavior
+        if (quakeID) {
+          mapz.removeFeatureState({
+            source: "cityTemperatures",
+            id: quakeID
+          });
+        }
+
+        quakeID = e.features[0].id;
+
+        mapz.setFeatureState({
+          source: 'cityTemperatures',
+          id: quakeID,
+        }, {
+          hover: true
+        });
+
+      }
+    });
+
+    mapz.on("mouseleave", "cityMeteo", function() {
+
+      if (quakeID) {
+        mapz.setFeatureState({
+          source: 'cityTemperatures',
+          id: quakeID
+        }, {
+          hover: false
+        });
+      }
+      quakeID = null;
+      // Remove the information from the previously hovered feature from the sidebar
+      nameDisplay.textContent = '';
+      locDisplay.textContent = '';
+      tempDisplay.textContent = '';
+      // Reset the cursor style
+      mapz.getCanvas().style.cursor = '';
+    });
+  </script>
+</body>
+
+</html>
