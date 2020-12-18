@@ -1,7 +1,7 @@
 # Geo Position Recommender with Semantic Web
 In this Project, we have designed a recommender system that provides geo position of transport facilities such as Train, Bicycle, Bus and Tram in France. Besides, it contains social geo positions such Museums, Hospitals, Universities and Post Offices in France.
 ## Ontology
-![ontology](Images/example.png)
+![ontology](Images/ontology.bnp)
 ## Vocabulary 
 ```
 @base <http://example/base/> .
