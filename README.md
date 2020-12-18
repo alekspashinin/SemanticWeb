@@ -1,5 +1,7 @@
 # Geo Position Recommender with Semantic Web
 In this Project, we have designed a recommender system that provides geo position of transport facilities such as Train, Bicycle, Bus and Tram in France. Besides, it contains social geo positions such Museums, Hospitals, Universities and Post Offices in France.
+## Triplestore
+In this project, we use GraphDB running on Microsoft Azure Cloud. GraphDB is an enterprise ready Semantic Graph Database, compliant with W3C Standards. Semantic graph databases (also called RDF triplestores) provide the core infrastructure for solutions where modelling agility, data integration, relationship exploration and cross-enterprise data publishing and consumption are important is an enterprise ready Semantic Graph Database, compliant with W3C Standards. Semantic graph databases (also called RDF triplestores) provide the core infrastructure for solutions where modelling agility, data integration, relationship exploration and cross-enterprise data publishing and consumption are important.
 ## Ontology
 ![ontology](RDF%20DATA/Images/ontology.bmp)
 ## Vocabulary 
